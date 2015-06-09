@@ -83,21 +83,36 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="0x00_Overview">0x00 Overview</h1><p>   In a post published on Google Project Zero Blog, researchers explain that the<br>RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits<br>in adjacent rows. People worry about it because it need to update BIOS to fix this<br>problem, it<code>s hard to solve. However it need to run the customized asm code on
-target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.  
-   We have an idea that try to use script language to trigger RowHammer. If it
-works, RowHammer will be more dangerous. In order to verify our idea, we analyzed
-the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.   
-   Finally we didn</code>t find useful attack vector. Some of them don`t generate<br>instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due<br>to small amount and slow speed of the instruction generation, some of them need<br>environment modified to trigger so that we cannot use them to attack directly.   </p>
+        <h1 id="0x00_Overview">0x00 Overview</h1><p>In a post published on Google Project Zero Blog, researchers explain that the RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People worry about it because it need to update BIOS to fix this problem, it’s hard to solve. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.<br>We have an idea that try to use script language to trigger RowHammer. If it works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.<br>Finally we didn’t find useful attack vector. Some of them don’t generate instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due to small amount and slow speed of the instruction generation, some of them need environment modified to trigger so that we cannot use them to attack directly.   </p>
 <h1 id="0x01_RowHammer">0x01 RowHammer</h1><p>In this section, we briefly review the root cause of RowHammer, how to trigger it and the limitation we will face with when trying to use it to attack.   </p>
 <h2 id="1-1_What`s_RowHammer?">1.1 What`s RowHammer?</h2><p>RowHammer is a problem with some DDR3 in which repeatedly accessing a row of memory can cause bit flips in adjacent rows. As shown in Figure 1.1(a), DRAM comprises a two-dimensional array of DRAM cells. As shown in Figure 1.1(b), one cell consists of a capacitor and an access-transistor. The access-transistor connects to wordline and the capacitor stores the data. The data in a row can be accessible only if the wordline is in high voltage. The data in the row is transferred to row-buffer. When a wordline`s voltage toggle on and off repeatedly, some cells on nearby rows lose voltage. If it cannot retrain charge for even 64ms, this will lead to lose data.</p>
-<p>Figure 1.2 shows a 2GB rank, whose 256K rows are vertically partitioned into eight banks of 32K rows, where each row is 8KB (64Kb). Each bank has its own dedicated row-buffer. Notice that accessing the rows in different bank is not able to trigger the RowHammer.</p>
-<p>Figure 1.1</p>
-<p>Figure 1.2</p>
+<p>Figure 1.2 shows a 2GB rank, whose 256K rows are vertically partitioned into eight banks of 32K rows, where each row is 8KB (64Kb). Each bank has its own dedicated row-buffer. Notice that accessing the rows in different bank is not able to trigger the RowHammer.<br><img src="/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img1.png" alt="[Figure 1.1]" title="[Figure 1.1]"><br>                     Figure 1.1<br><img src="/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img2.png" alt="[Figure 1.2]" title="[Figure 1.2]"><br>                     Figure 1.2</p>
 <h2 id="1-2_Trigger_RowHammer">1.2 Trigger RowHammer</h2><p>Google Project Zero gives the snippet of code that can cause RowHammer. </p>
 <p>Address of X and Y is very important if you want to trigger RowHammer. X and Y must point to the same bank but different rows. Because each bank has its row-buffer and if we access the same row the wordline will not toggle on and off repeatedly. </p>
 <p>This snippet of the code is available to trigger the RowHammer. But it isn`t the only one we can use. Notice that any code that can toggle the wordline can be used to trigger the RowHammer.</p>
-<h2 id="1-3_Instruction_needed">1.3 Instruction needed</h2><p>In order to toggle the wordline on and off repeatedly, we have to deal with CPU Cache, if the address we want to access is already in Cache, the wordline will not be set to high voltage.<br>| Instruction |    Action                           |<br>| —————- |:————————————————:|<br>| CLFLUSH     | Flush the address form cache     |<br>| PREFETCH    | Prefetch the data into the cache |<br>| MOVNT*      | Non-temporal memory access       |</p>
+<h2 id="1-3_Instruction_needed">1.3 Instruction needed</h2><p>In order to toggle the wordline on and off repeatedly, we have to deal with CPU Cache, if the address we want to access is already in Cache, the wordline will not be set to high voltage. </p>
+<table>
+<thead>
+<tr>
+<th>Instruction</th>
+<th style="text-align:center">Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLFLUSH</td>
+<td style="text-align:center">Flush the address form cache</td>
+</tr>
+<tr>
+<td>PREFETCH</td>
+<td style="text-align:center">Prefetch the data into the cache</td>
+</tr>
+<tr>
+<td>MOVNT*</td>
+<td style="text-align:center">Non-temporal memory access</td>
+</tr>
+</tbody>
+</table>
 <p>The instructions above can be used to access some address and bypass the cache. So using these instructions we can toggle the wordline and trigger the RowHammer.  </p>
 <h1 id="0x02_Using_Script_to_trigger_RowHammer">0x02 Using Script to trigger RowHammer</h1><pre><code>The POC that Google Project Zero provides uses ASM code, <span class="keyword">it</span> can be used <span class="built_in">to</span> verify whether your devices are vulnerable. We know that most <span class="operator">of</span> <span class="operator">the</span> script languages have JIT compiler. If we can use <span class="operator">the</span> script <span class="built_in">to</span> control <span class="operator">the</span> JIT compiler trigger RowHammer, <span class="operator">the</span> things will <span class="built_in">get</span> worse. We research <span class="operator">the</span> Java Hotspot, Chrome V8, .Net CoreCLR <span class="operator">and</span> Firefox SpiderMonkey <span class="built_in">to</span> verify <span class="operator">the</span> feasibility <span class="operator">of</span> our idea. 
 </code></pre><h2 id="2-1_Java_Hotspot">2.1 Java Hotspot</h2><p>The Java Hotspot Virtual Machine is a core component of the Java SE platform. It implements the Java Virtual Machine Specification. As the Java bytecode execution engine, it also includes dynamic compilers that adaptively compile Java bytecodes into optimized machine instructions. Hotspot is the Stack based virtual machine. The bytecodes are stored in the class file. As the input to hotspot, it is user controllable. What we care about is whether we can customize class file to make the Java Hotspot trigger the RowHammer.<br>When Java Hotspot runs Java bytecode, it continually analyzes the program`s performance for ��hot spot�� which are frequently or repeatedly executed. The JIT compiler would be used to compile these codes.<br>The default interpreter that comes with the Hotspot is the so called ��Template Interpreter��. A second interpreter existed beside the template interpreter is a C++ interpreter its main interpreter loop is implemented in C++. The JIT compiler in Java Hotspot has three implementation, the client compiler (C1 Compiler), the server compiler (C2 Compiler) and the Shark Compiler ( LLVM based Compiler).</p>
@@ -155,7 +170,7 @@ the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/" data-id="ciaoqesa1000068r9yjvbudut" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/" data-id="ciaos7m8k0000ukr9g8oxs9h2" class="article-share-link">Share</a>
       
       
     </footer>
