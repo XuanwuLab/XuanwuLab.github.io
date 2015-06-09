@@ -5,12 +5,12 @@
   
   <title>Research report on using JIT to trigger RowHammer | XuanwuLab</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="0x00 Overview  In a post published on Google Project Zero Blog, researchers explain that theRowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People">
+  <meta name="description" content="0x00 Overview&amp;amp;emspIn a post published on Google Project Zero Blog, researchers explain that theRowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows.">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Research report on using JIT to trigger RowHammer">
 <meta property="og:url" content="http://yoursite.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/index.html">
 <meta property="og:site_name" content="XuanwuLab">
-<meta property="og:description" content="0x00 Overview  In a post published on Google Project Zero Blog, researchers explain that theRowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People">
+<meta property="og:description" content="0x00 Overview&amp;amp;emspIn a post published on Google Project Zero Blog, researchers explain that theRowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows.">
 <meta property="og:image" content="http://yoursite.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img1.png">
 <meta property="og:image" content="http://yoursite.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img2.png">
 <meta property="og:image" content="http://yoursite.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img3.png">
@@ -18,10 +18,10 @@
 <meta property="og:image" content="http://yoursite.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img5.png">
 <meta property="og:image" content="http://yoursite.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img6.png">
 <meta property="og:image" content="http://yoursite.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img7.png">
-<meta property="og:updated_time" content="2015-06-09T06:11:38.401Z">
+<meta property="og:updated_time" content="2015-06-09T06:24:50.146Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Research report on using JIT to trigger RowHammer">
-<meta name="twitter:description" content="0x00 Overview  In a post published on Google Project Zero Blog, researchers explain that theRowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People">
+<meta name="twitter:description" content="0x00 Overview&amp;amp;emspIn a post published on Google Project Zero Blog, researchers explain that theRowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows.">
   
     <link rel="alternative" href="/atom.xml" title="XuanwuLab" type="application/atom+xml">
   
@@ -89,7 +89,7 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <h1 id="0x00_Overview">0x00 Overview</h1><p>  In a post published on Google Project Zero Blog, researchers explain that the<br>RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People worry about it because it need to update BIOS to fix this problem, it’s hard to solve. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.<br>  We have an idea that try to use script language to trigger RowHammer. If it<br>works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.<br>  Finally we didn’t find useful attack vector. Some of them don’t generate<br>instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due to small amount and slow speed of the instruction generation, some of them need environment modified to trigger so that we cannot use them to attack directly.   </p>
+        <h1 id="0x00_Overview">0x00 Overview</h1><p>&amp;emspIn a post published on Google Project Zero Blog, researchers explain that the<br>RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People worry about it because it need to update BIOS to fix this problem, it’s hard to solve. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.<br>&amp;emspWe have an idea that try to use script language to trigger RowHammer. If it<br>works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.<br>&amp;emspFinally we didn’t find useful attack vector. Some of them don’t generate<br>instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due to small amount and slow speed of the instruction generation, some of them need environment modified to trigger so that we cannot use them to attack directly.   </p>
 <h1 id="0x01_RowHammer">0x01 RowHammer</h1><p>In this section, we briefly review the root cause of RowHammer, how to trigger it and the limitation we will face with when trying to use it to attack.   </p>
 <h2 id="1-1_What’s_RowHammer?">1.1 What’s RowHammer?</h2><p>RowHammer is a problem with some DDR3 in which repeatedly accessing a row of memory can cause bit flips in adjacent rows. As shown in Figure 1.1(a), DRAM comprises a two-dimensional array of DRAM cells. As shown in Figure 1.1(b), one cell consists of a capacitor and an access-transistor. The access-transistor connects to wordline and the capacitor stores the data. The data in a row can be accessible only if the wordline is in high voltage. The data in the row is transferred to row-buffer. When a wordline’s voltage toggle on and off repeatedly, some cells on nearby rows lose voltage. If it cannot retrain charge for even 64ms, this will lead to lose data.</p>
 <p>Figure 1.2 shows a 2GB rank, whose 256K rows are vertically partitioned into eight banks of 32K rows, where each row is 8KB (64Kb). Each bank has its own dedicated row-buffer. Notice that accessing the rows in different bank is not able to trigger the RowHammer.<br><img src="/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img1.png" alt="[Figure 1.1]" title="[Figure 1.1]"></p>
@@ -160,7 +160,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="http://yoursite.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/" data-id="ciaoxjp32000034r98049a5cu" class="article-share-link">Share</a>
+      <a data-url="http://yoursite.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/" data-id="ciaoy0huz0000l4r9b7an74pm" class="article-share-link">Share</a>
       
       
     </footer>
