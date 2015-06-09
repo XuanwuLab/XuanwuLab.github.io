@@ -3,18 +3,9 @@ date: 2015-06-09 10:42:07
 tags:
 ---
 # 0x00 Overview
-   In a post published on Google Project Zero Blog, researchers explain that the
-RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits
-in adjacent rows. People worry about it because it need to update BIOS to fix this
-problem, it`s hard to solve. However it need to run the customized asm code on
-target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.  
-   We have an idea that try to use script language to trigger RowHammer. If it
-works, RowHammer will be more dangerous. In order to verify our idea, we analyzed
-the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.   
-   Finally we didn`t find useful attack vector. Some of them don`t generate
-instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due
-to small amount and slow speed of the instruction generation, some of them need
-environment modified to trigger so that we cannot use them to attack directly.   
+In a post published on Google Project Zero Blog, researchers explain that the RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People worry about it because it need to update BIOS to fix this problem, it's hard to solve. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.  
+We have an idea that try to use script language to trigger RowHammer. If it works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.  
+Finally we didn't find useful attack vector. Some of them don't generate instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due to small amount and slow speed of the instruction generation, some of them need environment modified to trigger so that we cannot use them to attack directly.   
 
 # 0x01 RowHammer
 In this section, we briefly review the root cause of RowHammer, how to trigger it and the limitation we will face with when trying to use it to attack.   
@@ -24,11 +15,10 @@ In this section, we briefly review the root cause of RowHammer, how to trigger i
 RowHammer is a problem with some DDR3 in which repeatedly accessing a row of memory can cause bit flips in adjacent rows. As shown in Figure 1.1(a), DRAM comprises a two-dimensional array of DRAM cells. As shown in Figure 1.1(b), one cell consists of a capacitor and an access-transistor. The access-transistor connects to wordline and the capacitor stores the data. The data in a row can be accessible only if the wordline is in high voltage. The data in the row is transferred to row-buffer. When a wordline`s voltage toggle on and off repeatedly, some cells on nearby rows lose voltage. If it cannot retrain charge for even 64ms, this will lead to lose data.
 
 Figure 1.2 shows a 2GB rank, whose 256K rows are vertically partitioned into eight banks of 32K rows, where each row is 8KB (64Kb). Each bank has its own dedicated row-buffer. Notice that accessing the rows in different bank is not able to trigger the RowHammer.
- 
-Figure 1.1
-
- 
-Figure 1.2
+{% asset_img img1.png [Figure 1.1] %}
+                     Figure 1.1
+{% asset_img img2.png [Figure 1.2] %}
+                     Figure 1.2
 
 ## 1.2 Trigger RowHammer
 Google Project Zero gives the snippet of code that can cause RowHammer. 
@@ -39,6 +29,7 @@ This snippet of the code is available to trigger the RowHammer. But it isn`t the
 
 ## 1.3 Instruction needed
 In order to toggle the wordline on and off repeatedly, we have to deal with CPU Cache, if the address we want to access is already in Cache, the wordline will not be set to high voltage. 
+
 | Instruction |	Action                           |
 | ----------- |:--------------------------------:|
 | CLFLUSH     | Flush the address form cache     |
