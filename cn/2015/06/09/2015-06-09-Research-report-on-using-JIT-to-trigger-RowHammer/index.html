@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/cn/css/style.css" type="text/css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header_top">
+    <div id="tencent_logo">
+    </div>
+    <div id="header_version">
+        <ul id="language_nav">
+          <li class="language_li"><a class="version_a" href="/cn">中文</a></li>
+          <li class="sep"><a class="version_a"> |&nbsp;&nbsp;  </a></li>
+          <li class="language_li"><a class="version_a" href="/en"> English</a></li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="header_nav">
+    <div id="xuanwulab_logo"></div>
+    <div id="xuanwulab"><p>XuanwuLab</p></div>
+    <div id="main_nav">
+        <ul id="menu_ul">
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn">首页</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/events">事件</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/archives">归档</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/about/index.html">关于</a>
+        </li>
+        
+        </ul>
+    </div>
+  </div>
+
+  <div id="header_path">
+  </div>
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Research report on using JIT to trigger RowHammer
+    </h1>
+  
+
+
+      </header>
+       <div class="article-sum-time">
+            <p>作者： <span class="author">R3dF09</span> &nbsp; 
+            2015-06-09
+            </p>
+       </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+        <h1 id="0x00_Overview">0x00 Overview</h1><p>&emsp;&emsp;In a post published on Google Project Zero Blog, researchers explain that the RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People worry about it because it need to update BIOS to fix this problem, it’s hard to solve. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.<br>&emsp;&emsp;We have an idea that try to use script language to trigger RowHammer. If it works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.<br>&emsp;&emsp;Finally we didn’t find useful attack vector. Some of them don’t generate instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due to small amount and slow speed of the instruction generation, some of them need environment modified to trigger so that we cannot use them to attack directly.<br><a id="more"></a></p>
+<h1 id="0x01_RowHammer">0x01 RowHammer</h1><p>&emsp;&emsp;In this section, we briefly review the root cause of RowHammer, how to trigger it and the limitation we will face with when trying to use it to attack.   </p>
+<h2 id="1-1_What’s_RowHammer?">1.1 What’s RowHammer?</h2><p>&emsp;&emsp;RowHammer is a problem with some DDR3 in which repeatedly accessing a row of memory can cause bit flips in adjacent rows. As shown in Figure 1.1(a), DRAM comprises a two-dimensional array of DRAM cells. As shown in Figure 1.1(b), one cell consists of a capacitor and an access-transistor. The access-transistor connects to wordline and the capacitor stores the data. The data in a row can be accessible only if the wordline is in high voltage. The data in the row is transferred to row-buffer. When a wordline’s voltage toggle on and off repeatedly, some cells on nearby rows lose voltage. If it cannot retrain charge for even 64ms, this will lead to lose data.</p>
+<p>&emsp;&emsp;Figure 1.2 shows a 2GB rank, whose 256K rows are vertically partitioned into eight banks of 32K rows, where each row is 8KB (64Kb). Each bank has its own dedicated row-buffer. Notice that accessing the rows in different bank is not able to trigger the RowHammer.<br><img src="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/img1.png" alt="[Figure 1.1]" title="[Figure 1.1]"></p>
+<center>Figure 1.1</center><br><img src="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/img2.png" alt="[Figure 1.2]" title="[Figure 1.2]"><br><center>Figure 1.2</center>                    
+
+<h2 id="1-2_Trigger_RowHammer">1.2 Trigger RowHammer</h2><p>&emsp;&emsp;Google Project Zero gives the snippet of code that can cause RowHammer.<br><img src="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/img3.png" alt="img3.png" title=""><br>&emsp;&emsp;Address of X and Y is very important if you want to trigger RowHammer. X and Y must point to the same bank but different rows. Because each bank has its row-buffer and if we access the same row the wordline will not toggle on and off repeatedly. </p>
+<p>&emsp;&emsp;This snippet of the code is available to trigger the RowHammer. But it isn’t the only one we can use. Notice that any code that can toggle the wordline can be used to trigger the RowHammer.</p>
+<h2 id="1-3_Instruction_needed">1.3 Instruction needed</h2><p>&emsp;&emsp;In order to toggle the wordline on and off repeatedly, we have to deal with CPU Cache, if the address we want to access is already in Cache, the wordline will not be set to high voltage. </p>
+<table>
+<thead>
+<tr>
+<th>Instruction</th>
+<th style="text-align:center">Action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>CLFLUSH</td>
+<td style="text-align:center">Flush the address form cache</td>
+</tr>
+<tr>
+<td>PREFETCH</td>
+<td style="text-align:center">Prefetch the data into the cache</td>
+</tr>
+<tr>
+<td>MOVNT*</td>
+<td style="text-align:center">Non-temporal memory access</td>
+</tr>
+</tbody>
+</table>
+<p>&emsp;&emsp;The instructions above can be used to access some address and bypass the cache. So using these instructions we can toggle the wordline and trigger the RowHammer.  </p>
+<h1 id="0x02_Using_Script_to_trigger_RowHammer">0x02 Using Script to trigger RowHammer</h1><p>&emsp;&emsp;The POC that Google Project Zero provides uses ASM code, it can be used to verify whether your devices are vulnerable. We know that most of the script languages have JIT compiler. If we can use the script to control the JIT compiler trigger RowHammer, the things will get worse. We research the Java Hotspot, Chrome V8, .Net CoreCLR and Firefox SpiderMonkey to verify the feasibility of our idea. </p>
+<h2 id="2-1_Java_Hotspot">2.1 Java Hotspot</h2><p>&emsp;&emsp;The Java Hotspot Virtual Machine is a core component of the Java SE platform. It implements the Java Virtual Machine Specification. As the Java bytecode execution engine, it also includes dynamic compilers that adaptively compile Java bytecodes into optimized machine instructions. Hotspot is the Stack based virtual machine. The bytecodes are stored in the class file. As the input to hotspot, it is user controllable. What we care about is whether we can customize class file to make the Java Hotspot trigger the RowHammer.<br>&emsp;&emsp;When Java Hotspot runs Java bytecode, it continually analyzes the program’s performance for “hot spot” which are frequently or repeatedly executed. The JIT compiler would be used to compile these codes.<br>&emsp;&emsp;The default interpreter that comes with the Hotspot is the so called “Template Interpreter”. A second interpreter existed beside the template interpreter is a C++ interpreter its main interpreter loop is implemented in C++. The JIT compiler in Java Hotspot has three implementation, the client compiler (C1 Compiler), the server compiler (C2 Compiler) and the Shark Compiler ( LLVM based Compiler).<br><img src="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/img4.png" alt="img4.png" title=""><br><img src="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/img5.png" alt="img5.png" title="">  </p>
+<center>Figure 2.1</center>
+
+<h3 id="2-1-1_Interpreter_trigger_RowHammer?">2.1.1 Interpreter trigger RowHammer?</h3><h4 id="a)_The_working_mechanism_of_template_interpreter">a) The working mechanism of template interpreter</h4><p>&emsp;&emsp;The template interpreter is basically created at runtime from a kind of assembler templates which are translated into real machine code. It interprets a Java program by bytecode. When the interpreter gets a new bytecode, the corresponding native machine code would be called.<br>&emsp;&emsp;In order to interpret the Java program, Java Hotspot generates a lot of code stub when it starts such as StubRoutines::call_stub and StubRoutines::catch_exception. The command “java -XX:+PrintInterpterter” can be used to show the code stub that could be called in the interpret process.<br>&emsp;&emsp;Notice that the native machine code stub is a little big. For example, the code size of “invokevitual” is 352 bytes, and the code size of “putstatic” is 512 bytes. </p>
+<h4 id="b)_Whether_the_interpreter_can_trigger_RowHammer?">b) Whether the interpreter can trigger RowHammer?</h4><p>&emsp;&emsp;Whether we can customize the class file to make the Interpreter generate the machine code that we need to trigger the RowHammer. After analysis, we could not find the instructions such as prefetch, clflush and movnt* in the machine codes that generated in the interpreter. So we can’t use the template interpreter to trigger the RowHammer.   </p>
+<h3 id="2-1-2_JIT_Compiler_trigger_RowHammer?">2.1.2 JIT Compiler trigger RowHammer?</h3><h4 id="a)_The_working_mechanism_of_C1_Compiler">a) The working mechanism of C1 Compiler</h4><p>&emsp;&emsp;C1 Compiler is a fast, lightly optimizing bytecode compiler. It performs some value numbering, inlining, and class analysis. It uses a simple CFG-oriented SSA “high” IR, a machine-oriented “low” IR, a linear scan register allocation, and a template-style code generator.<br>&emsp;&emsp;The compiler is asynchronous, the “CompilerThread” thread in Hotspot compile the method that needed to be compiled. The command “-XX: +CompileThreshold” can be used to set the number of method invocations before compiling.<br><img src="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/img6.png" alt="img6.png" title=""></p>
+<center>Figure 2.2</center><br>&emsp;&emsp;In the source code of the hotspot,C1 Compiler has such phases:<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="keyword">enum</span> &#123;</span><br><span class="line">  _t_compile,</span><br><span class="line">  _t_setup,</span><br><span class="line">  _t_optimizeIR,</span><br><span class="line">  _t_buildIR,</span><br><span class="line">  _t_emit_lir,</span><br><span class="line">  _t_linearScan,</span><br><span class="line">  _t_lirGeneration,</span><br><span class="line">  _t_lir_schedule,</span><br><span class="line">  _t_codeemit,</span><br><span class="line">  _t_codeinstall,</span><br><span class="line">  max_phase_timers</span><br><span class="line">&#125; TimerName;</span><br></pre></td></tr></table></figure><br><br>C1 Compiler can be briefly described as Figure 2.2 shows:<br>#### 1) Build HIR<br>&emsp;&emsp;C1 Compiler iterates the Java bytecodes in the class file and translates it into CFG (Control Flow Graph). The basic block of the CFG uses SSA to represent the instructions. HIR is a “high” IR far from machine code.<br>#### 2) Emit LIR<br>&emsp;&emsp;Iterate the basic blocks in the CFG, and iterate the instructions in the basic block. Translate the HIR to LIR. LIR is a “low” IR which is close to machine code.<br>#### 3) Register allocation<br>&emsp;&emsp;LIR uses many virtual register, in this phase, the compiler need to allocate the real register. The C1 Compiler uses the linear scan to allocate the register.<br>#### 4) Machine code generate<br>&emsp;&emsp;This is the phase to emit code, to genrate the real code. It iterates the instructions in the LIR to generate the machine code. The compile uses the LIR_Assembler class to finish this job, just as blow:<br><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">LIR_Assembler lir_asm(<span class="keyword">this</span>);</span><br><span class="line">lir_asm.emit_code<span class="function"><span class="params">(hir()-&gt;code())</span>;</span></span><br></pre></td></tr></table></figure><br>&emsp;&emsp;The compiler iterates the LIR_list, invoke each instruction’s emit code. All instructions are the sub class of the LIR_Op. so they have “emit_code” method.<br><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">op-&gt;emit_code<span class="list">(<span class="keyword">this</span>)</span><span class="comment">;</span></span><br></pre></td></tr></table></figure><br>&emsp;&emsp;Let’s see LIR_Op1, its “emit_code” method is:<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> LIR_Op1::emit_code(LIR_Assembler* masm) &#123;    <span class="comment">//emit_code</span></span><br><span class="line">  masm-&gt;emit_op1(<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>&emsp;&emsp;If the Operand of the LIR_Op1 is “lir_prefetchr”<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">case</span> lir_prefetchr:</span><br><span class="line">  prefetchr(op-&gt;in_opr());</span><br><span class="line">  <span class="keyword">break</span>;</span><br></pre></td></tr></table></figure><br>&emsp;&emsp;Then it will invoke the prefetchr function, it is platform-dependent, in x86, the code is in assembler_x86.cpp<br><br><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">void Assembler<span class="value">::<span class="function">prefetchr</span>(Address src) &#123;</span><br><span class="line">  <span class="function">assert</span>(VM_Version::<span class="function">supports_3dnow_prefetch</span>(), <span class="string">"must support"</span>);</span></span><br><span class="line">  InstructionMark <span class="function">im</span>(this);</span><br><span class="line">  <span class="function">prefetch_prefix</span>(src);</span><br><span class="line">  <span class="function">emit_byte</span>(0x0D);</span><br><span class="line">  <span class="function">emit_operand</span>(rax, src); <span class="comment">// 0, src</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><br>&emsp;&emsp;At last the compiler will generate the real executable machine code.<br><br>#### b)    Whether the C1 Compiler can trigger RowHammer<br>&emsp;&emsp;Whether the C1 Compiler can trigger RowHammer or not? We actually find the prefetch instruction in X86, it means we have hope to trigger RowHammer.<br>&emsp;&emsp;From bottom to top, if we want to get prefetch instruction, we need the LIR_Op1, and its openrand is lir_prefetchr or lir_prefetchw in LIR. To achieve this, we need to invoke the GraphBuilder::append_unsafe_prefetch function in HIR. The function is called by GraphBuilder::try_inline_instrinsics function. As last we found if we invoke the prefetch<em> method in sun.misc.Unsafe, we can get it. So the Hotspot does support prefetch. It treats Unsafe.prefetchRead() and Unsafe.prefetchWrite() methods as intrinsics. The method would generate prefetch instruction in the machine code. But unfortunately, sun.misc.Unsafe in rt.jar dose not declare such methods. We have to modify rt.jar to trigger that. What a pity!<br><br>&emsp;&emsp;In Hotspot, we also find the CLFLUSH instruction, when hotspot starts, it will generate a code stub<br><br><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">__ bind<span class="list">(<span class="keyword">flush_line</span>)</span><span class="comment">;                         </span></span><br><span class="line">__ clflush<span class="list">(<span class="keyword">Address</span><span class="list">(<span class="keyword">addr</span>, <span class="number">0</span>)</span>)</span><span class="comment">;          //addr: address to flush </span></span><br><span class="line">__ addptr<span class="list">(<span class="keyword">addr</span>, ICache:<span class="keyword">:line_size</span>)</span><span class="comment">;                                         </span></span><br><span class="line">__ decrementl<span class="list">(<span class="keyword">lines</span>)</span><span class="comment">;                   //lines: range to flush</span></span><br><span class="line">__ jcc<span class="list">(<span class="keyword">Assembler</span>:<span class="keyword">:notZero</span>, flush_line)</span><span class="comment">;</span></span><br></pre></td></tr></table></figure><br>The code stub can be invoked in the last phase of C1 compiler.<br><figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// done</span></span><br><span class="line">masm<span class="comment">()</span>-&gt;flush<span class="comment">()</span>;             <span class="comment">//invoke ICache flush</span></span><br></pre></td></tr></table></figure><br>It try to flush the cache that instruction stored.<br><br><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">void AbstractAssembler<span class="value">::<span class="function">flush</span>() &#123;</span><br><span class="line">  <span class="function">sync</span>();</span></span><br><span class="line">  ICache<span class="value">::<span class="function">invalidate_range</span>(<span class="function">addr_at</span>(<span class="number">0</span>), <span class="function">offset</span>());</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>&emsp;&emsp;Use this we can flush a range of address, but the problem is the address is uncontrollable, we cannot flush the address we wanted. And the compiler will spend much time, we cannot get enough CLFLUSH in 64ms.<br><br>#### c) Other Compiler<br>&emsp;&emsp;C2 Compiler is different from C1 Compiler. C2 Compiler is highly optimizing bytecode compiler. Optimizations include global value numbering, conditional constant type propagation, constant folding, and global code motion and so on. We cannot generate prefetch, clflush, movnt</em> instruction directly.<br>&emsp;&emsp;Shark Compiler is based on LLVM, we ignore it because it`s not the default compiler.<br><br><h2> 2.2 Chrome V8</h2><br>&emsp;&emsp;The V8 JavaScript Engine is an open source JavaScript engine developed by Google Chrome web browser. V8 compiles JavaScript to native machine code before executing it. V8 does not have interpreter, it translates JavaScript to AST (Abstract Syntax Tree), then walks the AST to generate machine codes.<br>&emsp;&emsp;After research, we did not find clflush, movnt* instructions when V8 compile the JavaScript. We found prefetch instruction in a function.<br>&emsp;&emsp;The function that generate prefetch is:<br><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">MemMoveFunction <span class="function">CreateMemMoveFunction</span>() &#123;</span><br><span class="line"></span><br><span class="line">  __ <span class="function">prefetch</span>(<span class="function">Operand</span>(src, 0), 1);</span><br><span class="line">  __ <span class="function">cmp</span>(count, kSmallCopySize);    <span class="comment">//kSmallCopySize=8</span></span><br><span class="line">  __ <span class="function">j</span>(below_equal, &amp;small_size);  </span><br><span class="line">  __ <span class="function">cmp</span>(count, kMediumCopySize);   <span class="comment">//kMediumCopySize=63</span></span><br><span class="line">  __ <span class="function">j</span>(below_equal, &amp;medium_size);</span><br><span class="line">  __ <span class="function">cmp</span>(dst, src);</span><br><span class="line">  __ <span class="function">j</span>(above, &amp;backward);</span><br></pre></td></tr></table></figure><br><br>&emsp;&emsp;This function is used to move memory, when the instruction buffer is not big enough to store the compiled code. V8 has to enlarge the buffer, at this time the instruction can be generated one time. It cannot be used to trigger RowHammer.<br><br><h2> 2.3 .NET CoreCLIR</h2><br>&emsp;&emsp;CoreCLR is the .NET Core Runtime. It includes RyuJIT, the .NET GC and many other components. RyuJIT is the JIT compiler in .NET CoreCLR. RyuJIT only defines some common x86 instructions (Figure 2.3) that do not include the instruction needed to trigger RowHammer.<br>&emsp;&emsp;We found the prefetch instruction in .NET GC component, just as shown in Figure2.4 But unfortunately the prefetch is disable by default (Figure 2.5).<br><img src="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/img7.png" alt="img7.png" title=""><br><center>Figure 2.3</center><br><figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">void gc_heap<span class="number">::</span>relocate_survivor_helper (BYTE* plug, BYTE* plug_end)</span><br><span class="line">&#123;</span><br><span class="line">    BYTE*  x = plug<span class="comment">;</span></span><br><span class="line">    while (x &lt; plug_end)</span><br><span class="line">    &#123;</span><br><span class="line">        size_t s = size (x)<span class="comment">;</span></span><br><span class="line">        BYTE* next_obj = x + Align (s)<span class="comment">;</span></span><br><span class="line">        Prefetch (next_obj)<span class="comment">;</span></span><br><span class="line">        relocate_obj_helper (x, s)<span class="comment">;</span></span><br><span class="line">        assert (s &gt; 0)<span class="comment">;</span></span><br><span class="line">        x = next_obj<span class="comment">;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><center>Figure 2.4</center>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//#define PREFETCH</span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">ifdef</span> PREFETCH</span></span><br><span class="line">__declspec(naked) <span class="keyword">void</span> __<span class="function">fastcall <span class="title">Prefetch</span><span class="params">(<span class="keyword">void</span>* addr)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">   __asm &#123;</span><br><span class="line">       PREFETCHT0 [ECX]</span><br><span class="line">        ret</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br><span class="line"><span class="preprocessor">#<span class="keyword">else</span> <span class="comment">//PREFETCH</span></span></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">Prefetch</span> <span class="params">(<span class="keyword">void</span>* addr)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    UNREFERENCED_PARAMETER(addr);</span><br><span class="line">&#125;</span><br><span class="line"><span class="preprocessor">#<span class="keyword">endif</span> <span class="comment">//PREFETCH</span></span></span><br></pre></td></tr></table></figure>
+<center>Figure 2.5</center>
+
+<h2 id="2-4_Firfox_SpiderMonkey">2.4 Firfox SpiderMonkey</h2><p>&emsp;&emsp;SpiderMonkey provides JavaScript support for Mozilla Firefox, we didn’t find the instructions needed to trigger RowHammer in it.</p>
+<h1 id="0x03_Conclusion">0x03 Conclusion</h1><p>&emsp;&emsp;The purpose of our research is to trigger RowHammer through script languages. In order to improve the efficiency of the language, most of them has JIT compiler. We analyzed Hotspot, Chrome V8, .NET CoreCLR and SpiderMonkey to try to verify our idea. But finally we found it is hard to get what we want.</p>
+<p>1) Trigger RowHammer is not easy, we only have 64ms. It means the number of irrelevant instructions must be very few. Otherwise the number of the wordline toggle on and off is not enough to trigger RowHammer. </p>
+<p>2) The instruction we need is uncommon. The compiler does not generate these instructions directly.</p>
+<p>3) In the view of JIT compiler developers, in order to cross-platform, JIT usually abstracts the instruction, and implements it on different platforms. So the abstracted instruction is as few as possible. Because more instructions means much more codes. In the source code we analyzed, only hotspot abstracts the prefetch instruction. JIT compiler always try to avoid a lot of instruction definitions. (There are some special cases where script languages use third-party JIT engine such as AsmJIT, the engine usually supports all instructions. But for now, most languages always build JIT dependently).</p>
+<p>4) In our research, we found the instruction we need always generated to assistance JIT compile process. For example, using prefetch to increase the speed of data move, using clflush to flash cache to assure the execution of the code generated. Instructions are not translated from script directly, the RowHammer problem cannot be triggered due to the small amount and slow speed of the instruction generation.</p>
+<h1 id="Resources">Resources</h1><ol>
+<li>Google Project Zero<br><a href="http://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html" target="_blank" rel="external">http://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html</a></li>
+<li>Paper: Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors  <a href="http://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf" target="_blank" rel="external">http://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf</a></li>
+<li>Source code</li>
+</ol>
+
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://xlab.tencent.com/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/" data-id="cihh1b0i60007opun0pu7c1r9" class="article-share-link"></a>
+      
+      
+  <span class="tags">标签:&nbsp;&nbsp;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/JIT/">JIT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/Javascript/">Javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/RowHammer/">RowHammer</a></li></ul>
+
+
+    </footer>
+  </div>
+</article>
+
+
+</section>
+        <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <hr>
+    <div class="widget tagcloud">
+      <a href="/cn/tags/JIT/" style="font-size: 10px;">JIT</a> <a href="/cn/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/cn/tags/RowHammer/" style="font-size: 10px;">RowHammer</a> <a href="/cn/tags/Sandbox/" style="font-size: 10px;">Sandbox</a> <a href="/cn/tags/Vulnerability/" style="font-size: 10px;">Vulnerability</a>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <hr>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/08/">2015-08</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/06/">2015-06</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最近更新</h3>
+    <hr>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/cn/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/">Research report on using JIT to trigger RowHammer</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+
+      </div>
+      <footer id="footer">
+  <div id="outer">
+    <div id="footer-infoi" >
+        <div id="logo"></div>
+        <div id="description"><p>腾讯玄武实验室<p></div>
+        <div id="copyright"><p>Copyright &copy; 2015 Tencent's XuanwuLab.All Rights Reserved.<p></div>
+        <div id="us">
+            <ul id="us_ul">
+            
+                <li id="follow_us" class="us_li"><p>关注我们: </p></li>
+                
+                <li class="us_li">
+                <a class="social_icon_twitter" href="https://twitter.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_twitter" src="/cn/css/images/twitter_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_weibo" href="http://weibo.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_weibo" src="/cn/css/images/weibo_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_rss" href="/cn/atom.xml" target="_blank">
+                <img class="social_icon_img_rss" src="/cn/css/images/rss_chose.png" />
+                </a>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="contact">
+            <p id="contact">联系方式: xlab@tencent.com</p>
+        </div>
+
+    </div>
+    <div id="todo">
+    </div>
+  </>
+</footer>
+
+    </div>
+    <!--<nav id="mobile-nav">
+  
+    <a href="/cn" class="mobile-nav-link">首页</a>
+  
+    <a href="/cn/events" class="mobile-nav-link">事件</a>
+  
+    <a href="/cn/archives" class="mobile-nav-link">归档</a>
+  
+    <a href="/cn/about/index.html" class="mobile-nav-link">关于</a>
+  
+</nav>-->
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/cn/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/cn/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/cn/js/script.js" type="text/javascript"></script>
+ -->
+  </div>
+</body>
+</html>
