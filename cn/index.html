@@ -61,7 +61,7 @@
         <article-sum id="post-2015-08-27-Poking-a-Hole-in-the-Patch-sum" class="article-sum" >
   <div class="article-sum-inner">
        <div class="article-sum-title">
-            <a class="article-sum-title-a" href="/cn/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch</a>
+            <a class="article-sum-title-a" href="/cn/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">在补丁上戳个洞——利用已经被修复的漏洞实现IE沙箱逃逸</a>
        </div>
        <div class="article-sum-time">
             <p>作者： <span class="author">FlowerCode</span>  
@@ -69,14 +69,13 @@
             </p>
        </div>
        <div class="article-sum-entry">
-          <p id="sum-detail">Escaping from IE Sandbox with a Poorly Patched Vulnerability0x00 The ProblemThere was a privilege escalation vulnerability in Windows Audio Service, reported by James Forshaw in November 2014. 
-Windows Audio Service, which manage audio sessions of all the processes running in the system, store audio session configurations under registry key HKCU\Software\Microsoft\Internet Explorer\LowRegistry\Audio\PolicyConfig.
-For this configuration to be modifiable even by low privileged processes, it recursively set the sub key ACLs to give write access to Low IL processes. ...</p>
+          <p id="sum-detail">0x00 The ProblemJames Forshaw在2014年11月曾向微软报告过一个Windows Audio Service的本地权限提升漏洞。Windows Audio Service负责管理系统中所有进程的音频会话。这个服务会把会话参数存储到HKCU\Software\Microsoft\Internet Explorer\LowRegistry\Audio\PolicyConfig。
+为了使低权限进程也可修改音频会话的参数，服务在存储时会递归设置所有子键的ACL为Low IL可控。若在这个注册表键下设置一个符号链接指向高权限注册表键，就可能导致高权限注册表键变为Low IL可控。 ...</p>
        </div>
        <div class="article-sum-tag">
           
   <span class="tags">标签:&nbsp;&nbsp;</span>
-  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/Sandbox/">Sandbox</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/Vulnerability/">Vulnerability</a></li></ul>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/沙箱逃逸/">沙箱逃逸</a></li></ul>
 
 
        </div>
@@ -88,7 +87,7 @@ For this configuration to be modifiable even by low privileged processes, it rec
         <article-sum id="post-2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer-sum" class="article-sum" >
   <div class="article-sum-inner">
        <div class="article-sum-title">
-            <a class="article-sum-title-a" href="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/">Research report on using JIT to trigger RowHammer</a>
+            <a class="article-sum-title-a" href="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/">JIT引擎触发RowHammer可行性研究</a>
        </div>
        <div class="article-sum-time">
             <p>作者： <span class="author">R3dF09</span>  
@@ -96,7 +95,7 @@ For this configuration to be modifiable even by low privileged processes, it rec
             </p>
        </div>
        <div class="article-sum-entry">
-          <p id="sum-detail">0x00 Overview&emsp;&emsp;In a post published on Google Project Zero Blog, researchers explain that the RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People worry about it because it need to update BIOS to fix this problem, it’s hard to solve. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.&emsp;&emsp;We have an idea that try to use script language to trigger RowHammer. If it works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.&emsp;&emsp;Finally we didn’t find useful attack vector. Some of them don’t generate instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due to small amount and slow speed of the instruction generation, some of them need environment modified to trigger so that we cannot use them to attack directly. ...</p>
+          <p id="sum-detail">0x00 前言&emsp;&emsp;2015年3月Google Project Zero发表文章Exploiting the DRAM rowhammer bug to gain kernel privileges。由于文中提到的缺陷比较难以修复，需要更新BIOS来提高内存刷新的速度，引起了人们的担忧。然而由于RowHammer的运行需要在目标主机上运行特定的汇编代码，实施攻击存在很大的难度。&emsp;&emsp;本文旨在研究能否通过Javascript等脚本语言的动态执行触发RowHammer，如果能够成功将极大增加RowHammer的攻击性。为了验证该思路，本文分析了Java Hotspot、Chrome V8、.NET CoreCLR以及Firefox SpiderMonkey的实现机制并给出了可行性分析。&emsp;&emsp;遗憾的是我们在这几个程序中，没有找到最优的利用方式。要么不存在相关的指令，要么指令无法达到RowHammer要求，要么需要有额外的操作更改执行环境才能触发，缺乏实际的攻击意义。 ...</p>
        </div>
        <div class="article-sum-tag">
           
@@ -123,7 +122,7 @@ For this configuration to be modifiable even by low privileged processes, it rec
     <h3 class="widget-title">标签云</h3>
     <hr>
     <div class="widget tagcloud">
-      <a href="/cn/tags/JIT/" style="font-size: 10px;">JIT</a> <a href="/cn/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/cn/tags/RowHammer/" style="font-size: 10px;">RowHammer</a> <a href="/cn/tags/Sandbox/" style="font-size: 10px;">Sandbox</a> <a href="/cn/tags/Vulnerability/" style="font-size: 10px;">Vulnerability</a>
+      <a href="/cn/tags/JIT/" style="font-size: 10px;">JIT</a> <a href="/cn/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/cn/tags/RowHammer/" style="font-size: 10px;">RowHammer</a> <a href="/cn/tags/沙箱逃逸/" style="font-size: 10px;">沙箱逃逸</a>
     </div>
   </div>
 
@@ -148,11 +147,11 @@ For this configuration to be modifiable even by low privileged processes, it rec
       <ul>
         
           <li>
-            <a href="/cn/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch</a>
+            <a href="/cn/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">在补丁上戳个洞——利用已经被修复的漏洞实现IE沙箱逃逸</a>
           </li>
         
           <li>
-            <a href="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/">Research report on using JIT to trigger RowHammer</a>
+            <a href="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/">JIT引擎触发RowHammer可行性研究</a>
           </li>
         
       </ul>
