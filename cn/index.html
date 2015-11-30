@@ -69,8 +69,7 @@
             </p>
        </div>
        <div class="article-sum-entry">
-          <p id="sum-detail">0x00 The ProblemJames Forshaw在2014年11月曾向微软报告过一个Windows Audio Service的本地权限提升漏洞。Windows Audio Service负责管理系统中所有进程的音频会话。这个服务会把会话参数存储到HKCU\Software\Microsoft\Internet Explorer\LowRegistry\Audio\PolicyConfig。
-为了使低权限进程也可修改音频会话的参数，服务在存储时会递归设置所有子键的ACL为Low IL可控。若在这个注册表键下设置一个符号链接指向高权限注册表键，就可能导致高权限注册表键变为Low IL可控。 ...</p>
+          <p id="sum-detail">James Forshaw在2014年11月曾向微软报告过一个Windows Audio Service的本地权限提升漏洞。我们通过分析发现，微软提供的补丁并没有完全解决问题。通过一些技巧的组合，我们可以绕过补丁，继续利用该漏洞。 ...</p>
        </div>
        <div class="article-sum-tag">
           
@@ -95,7 +94,7 @@
             </p>
        </div>
        <div class="article-sum-entry">
-          <p id="sum-detail">0x00 前言&emsp;&emsp;2015年3月Google Project Zero发表文章Exploiting the DRAM rowhammer bug to gain kernel privileges。由于文中提到的缺陷比较难以修复，需要更新BIOS来提高内存刷新的速度，引起了人们的担忧。然而由于RowHammer的运行需要在目标主机上运行特定的汇编代码，实施攻击存在很大的难度。&emsp;&emsp;本文旨在研究能否通过Javascript等脚本语言的动态执行触发RowHammer，如果能够成功将极大增加RowHammer的攻击性。为了验证该思路，本文分析了Java Hotspot、Chrome V8、.NET CoreCLR以及Firefox SpiderMonkey的实现机制并给出了可行性分析。&emsp;&emsp;遗憾的是我们在这几个程序中，没有找到最优的利用方式。要么不存在相关的指令，要么指令无法达到RowHammer要求，要么需要有额外的操作更改执行环境才能触发，缺乏实际的攻击意义。 ...</p>
+          <p id="sum-detail">RowHammer漏洞是DDR3内存中存在的问题，通过频繁的访问内存中的一行数据，会导致临近行的数据发生反转。然而由于其运行需要在目标主机上大量运行特定的代码，实施攻击存在很大的难度。本文旨在研究能否通过Javascript等脚本语言的动态执行触发RowHammer，如果能够成功将极大增加RowHammer的攻击性。为了验证该思路，本文分析了Java Hotspot、Chrome V8、.NET CoreCLR以及Firefox SpiderMonkey的实现机制并给出了可行性分析。 ...</p>
        </div>
        <div class="article-sum-tag">
           

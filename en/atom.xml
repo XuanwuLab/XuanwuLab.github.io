@@ -4,7 +4,7 @@
   
   <link href="/en/atom.xml" rel="self"/>
   <link href="http://xlab.tencent.com/"/>
-  <updated>2015-11-25T06:05:44.000Z</updated>
+  <updated>2015-11-30T05:40:06.000Z</updated>
   <id>http://xlab.tencent.com/</id>
   
   <author>
@@ -15,15 +15,15 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title><![CDATA[Poking a Hole in the Patch]]></title>
+    <title><![CDATA[Poking a Hole in the Patch--Escaping from IE Sandbox with a Poorly Patched Vulnerability]]></title>
     <link href="http://xlab.tencent.com/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/"/>
     <id>http://xlab.tencent.com/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/</id>
     <published>2015-08-27T11:17:24.000Z</published>
-    <updated>2015-11-25T06:05:44.000Z</updated>
-    <content type="html"><![CDATA[<h2 id="Escaping_from_IE_Sandbox_with_a_Poorly_Patched_Vulnerability">Escaping from IE Sandbox with a Poorly Patched Vulnerability</h2><h2 id="0x00_The_Problem">0x00 The Problem</h2><p>There was a privilege escalation vulnerability in Windows Audio Service, reported by James Forshaw in November 2014. </p>
+    <updated>2015-11-30T05:40:06.000Z</updated>
+    <content type="html"><![CDATA[<p>James Forshaw reported a vulnerability to Microsoft regarding Windows Audio Service in November 2014. In our analysis, we discovered that the patch Microsoft release later did not completely solve the problem. With a combination of techniques, we successfully bypassed the patch and can exploit the vulnerability on patched system.<br><a id="more"></a></p>
+<h2 id="0x00_The_Problem">0x00 The Problem</h2><p>There was a privilege escalation vulnerability in Windows Audio Service, reported by James Forshaw in November 2014. </p>
 <p>Windows Audio Service, which manage audio sessions of all the processes running in the system, store audio session configurations under registry key HKCU\Software\Microsoft\Internet Explorer\LowRegistry\Audio\PolicyConfig.</p>
 <p>For this configuration to be modifiable even by low privileged processes, it recursively set the sub key ACLs to give write access to Low IL processes.</p>
-<a id="more"></a>
 <p>If an attacker sets a symbolic link under this key, and points the symbolic link to a higher-privileged location, Windows Audio Service would make that location controllable by Low IL.</p>
 <h2 id="0x01_The_Patch">0x01 The Patch</h2><p>Microsoft released a security bulletin MS14-071, followed by a patch KB3005607, in order to fix this vulnerability.<br>This patch added two functions, SafeRegCreateKeyEx and DetectRegistryLink.</p>
 <p>The following is reconstructed DetectRegistryLink function:</p>
@@ -58,9 +58,7 @@
 </ol>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h2 id="Escaping_from_IE_Sandbox_with_a_Poorly_Patched_Vulnerability">Escaping from IE Sandbox with a Poorly Patched Vulnerability</h2><h2 id="0x00_The_Problem">0x00 The Problem</h2><p>There was a privilege escalation vulnerability in Windows Audio Service, reported by James Forshaw in November 2014. </p>
-<p>Windows Audio Service, which manage audio sessions of all the processes running in the system, store audio session configurations under registry key HKCU\Software\Microsoft\Internet Explorer\LowRegistry\Audio\PolicyConfig.</p>
-<p>For this configuration to be modifiable even by low privileged processes, it recursively set the sub key ACLs to give write access to Low IL processes.</p>]]>
+    <![CDATA[<p>James Forshaw reported a vulnerability to Microsoft regarding Windows Audio Service in November 2014. In our analysis, we discovered that the patch Microsoft release later did not completely solve the problem. With a combination of techniques, we successfully bypassed the patch and can exploit the vulnerability on patched system.<br>]]>
     
     </summary>
     
@@ -75,8 +73,9 @@
     <link href="http://xlab.tencent.com/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/"/>
     <id>http://xlab.tencent.com/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/</id>
     <published>2015-06-09T02:42:07.000Z</published>
-    <updated>2015-11-26T07:22:57.000Z</updated>
-    <content type="html"><![CDATA[<h1 id="0x00_Overview">0x00 Overview</h1><p>&emsp;&emsp;In a post published on Google Project Zero Blog, researchers explain that the RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People worry about it because it need to update BIOS to fix this problem, it’s hard to solve. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.<br>&emsp;&emsp;We have an idea that try to use script language to trigger RowHammer. If it works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.<br>&emsp;&emsp;Finally we didn’t find useful attack vector. Some of them don’t generate instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due to small amount and slow speed of the instruction generation, some of them need environment modified to trigger so that we cannot use them to attack directly.<br><a id="more"></a></p>
+    <updated>2015-11-30T05:39:07.000Z</updated>
+    <content type="html"><![CDATA[<p>RowHammer is a problem with some DDR3 in which repeatedly accessing a row of memory can cause bit flips in adjacent rows. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack. We have an idea that try to use script language to trigger RowHammer. If it works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.<br><a id="more"></a></p>
+<h1 id="0x00_Overview">0x00 Overview</h1><p>&emsp;&emsp;In a post published on Google Project Zero Blog, researchers explain that the RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People worry about it because it need to update BIOS to fix this problem, it’s hard to solve. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.<br>&emsp;&emsp;We have an idea that try to use script language to trigger RowHammer. If it works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.<br>&emsp;&emsp;Finally we didn’t find useful attack vector. Some of them don’t generate instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due to small amount and slow speed of the instruction generation, some of them need environment modified to trigger so that we cannot use them to attack directly.   </p>
 <h1 id="0x01_RowHammer">0x01 RowHammer</h1><p>&emsp;&emsp;In this section, we briefly review the root cause of RowHammer, how to trigger it and the limitation we will face with when trying to use it to attack.   </p>
 <h2 id="1-1_What’s_RowHammer?">1.1 What’s RowHammer?</h2><p>&emsp;&emsp;RowHammer is a problem with some DDR3 in which repeatedly accessing a row of memory can cause bit flips in adjacent rows. As shown in Figure 1.1(a), DRAM comprises a two-dimensional array of DRAM cells. As shown in Figure 1.1(b), one cell consists of a capacitor and an access-transistor. The access-transistor connects to wordline and the capacitor stores the data. The data in a row can be accessible only if the wordline is in high voltage. The data in the row is transferred to row-buffer. When a wordline’s voltage toggle on and off repeatedly, some cells on nearby rows lose voltage. If it cannot retrain charge for even 64ms, this will lead to lose data.</p>
 <p>&emsp;&emsp;Figure 1.2 shows a 2GB rank, whose 256K rows are vertically partitioned into eight banks of 32K rows, where each row is 8KB (64Kb). Each bank has its own dedicated row-buffer. Notice that accessing the rows in different bank is not able to trigger the RowHammer.<br><img src="/en/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/img1.png" alt="[Figure 1.1]" title="[Figure 1.1]"></p>
@@ -133,7 +132,7 @@
 </ol>
 ]]></content>
     <summary type="html">
-    <![CDATA[<h1 id="0x00_Overview">0x00 Overview</h1><p>&emsp;&emsp;In a post published on Google Project Zero Blog, researchers explain that the RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People worry about it because it need to update BIOS to fix this problem, it’s hard to solve. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.<br>&emsp;&emsp;We have an idea that try to use script language to trigger RowHammer. If it works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.<br>&emsp;&emsp;Finally we didn’t find useful attack vector. Some of them don’t generate instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due to small amount and slow speed of the instruction generation, some of them need environment modified to trigger so that we cannot use them to attack directly.<br>]]>
+    <![CDATA[<p>RowHammer is a problem with some DDR3 in which repeatedly accessing a row of memory can cause bit flips in adjacent rows. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack. We have an idea that try to use script language to trigger RowHammer. If it works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.<br>]]>
     
     </summary>
     

@@ -36,7 +36,7 @@
         </li>
         
         <li id="menu_item">
-            <a class="navi" href="/en/events">Events</a>
+            <a class="navi" href="/en/advisories">Advisories</a>
         </li>
         
         <li id="menu_item">
@@ -64,7 +64,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Poking a Hole in the Patch
+      Poking a Hole in the Patch--Escaping from IE Sandbox with a Poorly Patched Vulnerability
     </h1>
   
 
@@ -77,10 +77,10 @@
        </div>
     
     <div class="article-entry" itemprop="articleBody">
-        <h2 id="Escaping_from_IE_Sandbox_with_a_Poorly_Patched_Vulnerability">Escaping from IE Sandbox with a Poorly Patched Vulnerability</h2><h2 id="0x00_The_Problem">0x00 The Problem</h2><p>There was a privilege escalation vulnerability in Windows Audio Service, reported by James Forshaw in November 2014. </p>
+        <p>James Forshaw reported a vulnerability to Microsoft regarding Windows Audio Service in November 2014. In our analysis, we discovered that the patch Microsoft release later did not completely solve the problem. With a combination of techniques, we successfully bypassed the patch and can exploit the vulnerability on patched system.<br><a id="more"></a></p>
+<h2 id="0x00_The_Problem">0x00 The Problem</h2><p>There was a privilege escalation vulnerability in Windows Audio Service, reported by James Forshaw in November 2014. </p>
 <p>Windows Audio Service, which manage audio sessions of all the processes running in the system, store audio session configurations under registry key HKCU\Software\Microsoft\Internet Explorer\LowRegistry\Audio\PolicyConfig.</p>
 <p>For this configuration to be modifiable even by low privileged processes, it recursively set the sub key ACLs to give write access to Low IL processes.</p>
-<a id="more"></a>
 <p>If an attacker sets a symbolic link under this key, and points the symbolic link to a higher-privileged location, Windows Audio Service would make that location controllable by Low IL.</p>
 <h2 id="0x01_The_Patch">0x01 The Patch</h2><p>Microsoft released a security bulletin MS14-071, followed by a patch KB3005607, in order to fix this vulnerability.<br>This patch added two functions, SafeRegCreateKeyEx and DetectRegistryLink.</p>
 <p>The following is reconstructed DetectRegistryLink function:</p>
@@ -116,7 +116,7 @@
 
     </div>
     <footer class="article-footer">
-      <a data-url="http://xlab.tencent.com/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/" data-id="cihh761uw00022kunznety2c8" class="article-share-link"></a>
+      <a data-url="http://xlab.tencent.com/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/" data-id="cihlk3u2l00012zunb1usz0se" class="article-share-link"></a>
       
       
   <span class="tags">Tags:&nbsp;&nbsp;</span>
@@ -130,6 +130,9 @@
 
 </section>
         <aside id="sidebar">
+  
+    
+
   
     
   <div class="widget-wrap">
@@ -161,7 +164,7 @@
       <ul>
         
           <li>
-            <a href="/en/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch</a>
+            <a href="/en/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch--Escaping from IE Sandbox with a Poorly Patched Vulnerability</a>
           </li>
         
           <li>
@@ -223,7 +226,7 @@
   
     <a href="/en" class="mobile-nav-link">Home</a>
   
-    <a href="/en/events" class="mobile-nav-link">Events</a>
+    <a href="/en/advisories" class="mobile-nav-link">Advisories</a>
   
     <a href="/en/archives" class="mobile-nav-link">Archives</a>
   

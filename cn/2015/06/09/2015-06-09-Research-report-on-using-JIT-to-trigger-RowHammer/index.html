@@ -77,7 +77,8 @@
        </div>
     
     <div class="article-entry" itemprop="articleBody">
-        <h1 id="0x00_前言">0x00 前言</h1><p>&emsp;&emsp;2015年3月Google Project Zero发表文章Exploiting the DRAM rowhammer bug to gain kernel privileges。由于文中提到的缺陷比较难以修复，需要更新BIOS来提高内存刷新的速度，引起了人们的担忧。然而由于RowHammer的运行需要在目标主机上运行特定的汇编代码，实施攻击存在很大的难度。<br>&emsp;&emsp;本文旨在研究能否通过Javascript等脚本语言的动态执行触发RowHammer，如果能够成功将极大增加RowHammer的攻击性。为了验证该思路，本文分析了Java Hotspot、Chrome V8、.NET CoreCLR以及Firefox SpiderMonkey的实现机制并给出了可行性分析。<br>&emsp;&emsp;遗憾的是我们在这几个程序中，没有找到最优的利用方式。要么不存在相关的指令，要么指令无法达到RowHammer要求，要么需要有额外的操作更改执行环境才能触发，缺乏实际的攻击意义。<br><a id="more"></a></p>
+        <p>RowHammer漏洞是DDR3内存中存在的问题，通过频繁的访问内存中的一行数据，会导致临近行的数据发生反转。然而由于其运行需要在目标主机上大量运行特定的代码，实施攻击存在很大的难度。本文旨在研究能否通过Javascript等脚本语言的动态执行触发RowHammer，如果能够成功将极大增加RowHammer的攻击性。为了验证该思路，本文分析了Java Hotspot、Chrome V8、.NET CoreCLR以及Firefox SpiderMonkey的实现机制并给出了可行性分析。<br><a id="more"></a></p>
+<h1 id="0x00_前言">0x00 前言</h1><p>&emsp;&emsp;2015年3月Google Project Zero发表文章Exploiting the DRAM rowhammer bug to gain kernel privileges。由于文中提到的缺陷比较难以修复，需要更新BIOS来提高内存刷新的速度，引起了人们的担忧。然而由于RowHammer的运行需要在目标主机上运行特定的汇编代码，实施攻击存在很大的难度。<br>&emsp;&emsp;本文旨在研究能否通过Javascript等脚本语言的动态执行触发RowHammer，如果能够成功将极大增加RowHammer的攻击性。为了验证该思路，本文分析了Java Hotspot、Chrome V8、.NET CoreCLR以及Firefox SpiderMonkey的实现机制并给出了可行性分析。<br>&emsp;&emsp;遗憾的是我们在这几个程序中，没有找到最优的利用方式。要么不存在相关的指令，要么指令无法达到RowHammer要求，要么需要有额外的操作更改执行环境才能触发，缺乏实际的攻击意义。</p>
 <h1 id="0x01_RowHammer">0x01 RowHammer</h1><p>&emsp;&emsp;本节将简要回顾RowHammer存在的原理，其触发的机制，已经在利用时将面临到的一些挑战。</p>
 <h2 id="1-1_What’s_RowHammer?">1.1 What’s RowHammer?</h2><p>&emsp;&emsp;RowHammer是DDR3内存中存在的问题，通过频繁的访问内存中的一行(row)数据，会导致临近行(row)的数据发生位反转。如图1.1(a)所示，内存是由一系列内存单元构成的二维数组。如图1.1(b)所示每一个内存单元由一个晶体管和一个电容组成，晶体管与wordline相连，电容负责存储数据。DRAM的每一行(row)有自己的wordline，wordline需要置高电压，特定行(row)的数据才能够访问。当某一行的wordline置高电压时，该行的数据就会进入row-buffer。当wordline频繁的充放电时，就可能会导致附近row的存储单元中的电容放电，如果在其被刷新之前，损失过多的电压就会导致内存中的数据发生变化。</p>
 <p>&emsp;&emsp;图1.2所示是一块内存，其中一个row为64kb(8KB)大小, 32k个row组成一个Bank, 8个Bank组成一个Rank, 该Rank为2G。此处需要注意不同的Bank有专用的row-buffer，访问不同Bank中的row不会导致wordline的充放电。<br>内存中的电压是不能长期保存的，需要不停的对其进行刷新，刷新的速度为64ms，所以必须在64ms内完成RowHammer操作。<br><img src="/cn/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/img1.png" alt="[图1.1]" title="[图1.1]"></p>
@@ -115,7 +116,7 @@
 
     </div>
     <footer class="article-footer">
-      <a data-url="http://xlab.tencent.com/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/" data-id="cihhcj5yg0005blun1qllvng8" class="article-share-link"></a>
+      <a data-url="http://xlab.tencent.com/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/" data-id="cihlj9tyc0005zzundx2x2baj" class="article-share-link"></a>
       
       
   <span class="tags">标签:&nbsp;&nbsp;</span>

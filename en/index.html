@@ -36,7 +36,7 @@
         </li>
         
         <li id="menu_item">
-            <a class="navi" href="/en/events">Events</a>
+            <a class="navi" href="/en/advisories">Advisories</a>
         </li>
         
         <li id="menu_item">
@@ -61,7 +61,7 @@
         <article-sum id="post-2015-08-27-Poking-a-Hole-in-the-Patch-sum" class="article-sum" >
   <div class="article-sum-inner">
        <div class="article-sum-title">
-            <a class="article-sum-title-a" href="/en/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch</a>
+            <a class="article-sum-title-a" href="/en/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch--Escaping from IE Sandbox with a Poorly Patched Vulnerability</a>
        </div>
        <div class="article-sum-time">
             <p>By <span class="author">FlowerCode</span> on 
@@ -69,9 +69,7 @@
             </p>
        </div>
        <div class="article-sum-entry">
-          <p id="sum-detail">Escaping from IE Sandbox with a Poorly Patched Vulnerability0x00 The ProblemThere was a privilege escalation vulnerability in Windows Audio Service, reported by James Forshaw in November 2014. 
-Windows Audio Service, which manage audio sessions of all the processes running in the system, store audio session configurations under registry key HKCU\Software\Microsoft\Internet Explorer\LowRegistry\Audio\PolicyConfig.
-For this configuration to be modifiable even by low privileged processes, it recursively set the sub key ACLs to give write access to Low IL processes. ...</p>
+          <p id="sum-detail">James Forshaw reported a vulnerability to Microsoft regarding Windows Audio Service in November 2014. In our analysis, we discovered that the patch Microsoft release later did not completely solve the problem. With a combination of techniques, we successfully bypassed the patch and can exploit the vulnerability on patched system. ...</p>
        </div>
        <div class="article-sum-tag">
           
@@ -96,7 +94,7 @@ For this configuration to be modifiable even by low privileged processes, it rec
             </p>
        </div>
        <div class="article-sum-entry">
-          <p id="sum-detail">0x00 Overview&emsp;&emsp;In a post published on Google Project Zero Blog, researchers explain that the RowHammer technique works by repeatedly accessing memory rows in DRAM to flip bits in adjacent rows. People worry about it because it need to update BIOS to fix this problem, it’s hard to solve. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack.&emsp;&emsp;We have an idea that try to use script language to trigger RowHammer. If it works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey.&emsp;&emsp;Finally we didn’t find useful attack vector. Some of them don’t generate instructions needed to trigger RowHammer, some of them cannot trigger RowHammer due to small amount and slow speed of the instruction generation, some of them need environment modified to trigger so that we cannot use them to attack directly. ...</p>
+          <p id="sum-detail">RowHammer is a problem with some DDR3 in which repeatedly accessing a row of memory can cause bit flips in adjacent rows. However it need to run the customized asm code on target machine to trigger RowHammer, so RowHammer is not easy to be used to attack. We have an idea that try to use script language to trigger RowHammer. If it works, RowHammer will be more dangerous. In order to verify our idea, we analyzed the Java Hotspot, Chrome V8, .NET CoreCLR and Firefox SpiderMonfey. ...</p>
        </div>
        <div class="article-sum-tag">
           
@@ -117,6 +115,9 @@ For this configuration to be modifiable even by low privileged processes, it rec
 
 </section>
         <aside id="sidebar">
+  
+    
+
   
     
   <div class="widget-wrap">
@@ -148,7 +149,7 @@ For this configuration to be modifiable even by low privileged processes, it rec
       <ul>
         
           <li>
-            <a href="/en/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch</a>
+            <a href="/en/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch--Escaping from IE Sandbox with a Poorly Patched Vulnerability</a>
           </li>
         
           <li>
@@ -210,7 +211,7 @@ For this configuration to be modifiable even by low privileged processes, it rec
   
     <a href="/en" class="mobile-nav-link">Home</a>
   
-    <a href="/en/events" class="mobile-nav-link">Events</a>
+    <a href="/en/advisories" class="mobile-nav-link">Advisories</a>
   
     <a href="/en/archives" class="mobile-nav-link">Archives</a>
   
