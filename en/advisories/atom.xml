@@ -4,7 +4,7 @@
   
   <link href="/en/advisories/atom.xml" rel="self"/>
   <link href="http://xlab.tencent.com/"/>
-  <updated>2015-11-30T07:30:47.000Z</updated>
+  <updated>2015-12-01T08:59:07.000Z</updated>
   <id>http://xlab.tencent.com/</id>
   
   <author>
@@ -19,14 +19,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-6073/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-6073/</id>
     <published>2015-11-30T07:29:13.000Z</published>
-    <updated>2015-11-30T07:30:47.000Z</updated>
-    <content type="html"><![CDATA[<p>The vulnerability relates to how Internet Explorer processes the CDispContainer objects. By manipulating a document’s elements an attacker can force a CDispContainer object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-6073</p>
-<p>Disclosure Timeline<br>2015/07/28  Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2015/07/29  Microsoft responded that they had opend case 30734 for the issue<br>2015/08/04  Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix<br>2015/09/04  Micorsoft responded that they had been working on a fix<br>2015/11/25  Queried Microsoft about investigation on the issue<br>2015/11/26  Micorsoft responded that the issue had already been fixed with MS15-113 on November 10, and they had assigned CVE-2015-6073<br>            to the issue</p>
-<p>Credit<br>This vulnerability was discovered by: Kai Kang</p>
+    <updated>2015-12-01T08:59:07.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-013 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-6073 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>The vulnerability relates to how Internet Explorer processes the CDispContainer objects. By manipulating a document’s elements an attacker can force a CDispContainer object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p>Disclosure Timeline:<br>2015/07/28 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2015/07/29 &nbsp;&nbsp;&nbsp;&nbsp; Microsoft responded that they had opend case 30734 for the issue<br>2015/08/04 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix<br>2015/09/04 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had been working on a fix<br>2015/11/25 &nbsp;&nbsp;&nbsp;&nbsp; Queried Microsoft about investigation on the issue<br>2015/11/26 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that the issue had already been fixed with MS15-113 on November 10, and they had assigned CVE-2015-6073to the issue</p>
+<p>Credit:<br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>The vulnerability relates to how Internet Explorer processes the CDispContainer objects. By manipulating a document’s elements an attacker can force a CDispContainer object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.<br>]]>
+    <![CDATA[<p>XLAB-15-013 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-6073 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -37,14 +39,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-6072/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-6072/</id>
     <published>2015-11-30T07:27:33.000Z</published>
-    <updated>2015-11-30T07:28:51.000Z</updated>
-    <content type="html"><![CDATA[<p>The vulnerability relates to how Internet Explorer processes the TreeNode objects. By manipulating a document’s elements an attacker can force a TreeNode object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-6072</p>
-<p>Disclosure Timeline<br>2015/07/28  Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2015/07/29  Microsoft responded that they had opend case 30726 for the issue<br>2015/08/05  Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix<br>2015/09/04  Micorsoft responded that they had been working on a fix<br>2015/11/03  Microsoft asked how would you like to be acknowledged<br>2015/11/11  The issue was fiexed with MS15-112</p>
-<p>Credit<br>This vulnerability was discovered by: Kai Kang</p>
+    <updated>2015-12-01T08:56:42.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-012 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-6072 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>The vulnerability relates to how Internet Explorer processes the TreeNode objects. By manipulating a document’s elements an attacker can force a TreeNode object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p>Disclosure Timeline:<br>2015/07/28 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2015/07/29 &nbsp;&nbsp;&nbsp;&nbsp; Microsoft responded that they had opend case 30726 for the issue<br>2015/08/05 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix<br>2015/09/04 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had been working on a fix<br>2015/11/03 &nbsp;&nbsp;&nbsp;&nbsp; Microsoft asked how would you like to be acknowledged<br>2015/11/11 &nbsp;&nbsp;&nbsp;&nbsp; The issue was fiexed with MS15-112</p>
+<p>Credit:<br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>The vulnerability relates to how Internet Explorer processes the TreeNode objects. By manipulating a document’s elements an attacker can force a TreeNode object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.<br>]]>
+    <![CDATA[<p>XLAB-15-012 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-6072 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -55,14 +59,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-6045/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-6045/</id>
     <published>2015-11-30T07:24:58.000Z</published>
-    <updated>2015-11-30T07:27:09.000Z</updated>
-    <content type="html"><![CDATA[<p>The vulnerability relates to how Internet Explorer processes the ElementNode objects. By manipulating a document’s elements an attacker can force a ElementNode object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-6045</p>
-<p>Disclosure Timeline<br>2015/07/09  Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2015/07/13  Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix<br>            The case number for the issue was 30619<br>            2015/09/04  Micorsoft responded that they had been working on a fix<br>            2015/09/18  Microsoft asked how would you like to be acknowledged<br>            2015/10/14  The issue was fiexed with MS15-106</p>
-<p>Credit<br>This vulnerability was discovered by: Kai Kang</p>
+    <updated>2015-12-01T08:54:23.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-011 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-6045 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a> </p>
+<p>Vulnerability Details:<br>The vulnerability relates to how Internet Explorer processes the ElementNode objects. By manipulating a document’s elements an attacker can force a ElementNode object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p>Disclosure Timeline:<br>2015/07/09 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2015/07/13 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix.The case number for the issue was 30619<br>2015/09/04 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had been working on a fix<br>2015/09/18 &nbsp;&nbsp;&nbsp;&nbsp; Microsoft asked how would you like to be acknowledged<br>2015/10/14 &nbsp;&nbsp;&nbsp;&nbsp; The issue was fiexed with MS15-106</p>
+<p>Credit:<br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>The vulnerability relates to how Internet Explorer processes the ElementNode objects. By manipulating a document’s elements an attacker can force a ElementNode object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.<br>]]>
+    <![CDATA[<p>XLAB-15-011 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-6045 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -73,14 +79,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-2494-1/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-2494-1/</id>
     <published>2015-11-30T07:14:57.000Z</published>
-    <updated>2015-11-30T07:24:39.000Z</updated>
-    <content type="html"><![CDATA[<p>The vulnerability relates to how Internet Explorer processes the DOM objects. By manipulating a document’s elements an attacker can force an out-of-bounds memory access ocurring. An attacker can leverage this vulnerability to execute code under the context of the current process.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-2494</p>
-<p>Disclosure Timeline<br>2015/07/03  Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2015/07/04  Microsoft responded that they had opend case 30590 for the issue<br>2015/07/21  Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix<br>2015/08/18  Microsoft asked how would you like to be acknowledged<br>2015/09/09  The issue was fiexed with MS15-094</p>
-<p>Credit<br>This vulnerability was discovered by: Kai Kang</p>
+    <updated>2015-12-01T08:49:42.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-010 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-2494 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>The vulnerability relates to how Internet Explorer processes the DOM objects. By manipulating a document’s elements an attacker can force an out-of-bounds memory access ocurring. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p>Disclosure Timeline:<br>2015/07/03 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2015/07/04 &nbsp;&nbsp;&nbsp;&nbsp; Microsoft responded that they had opend case 30590 for the issue<br>2015/07/21 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix<br>2015/08/18 &nbsp;&nbsp;&nbsp;&nbsp; Microsoft asked how would you like to be acknowledged<br>2015/09/09 &nbsp;&nbsp;&nbsp;&nbsp; The issue was fiexed with MS15-094</p>
+<p>Credit:<br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>The vulnerability relates to how Internet Explorer processes the DOM objects. By manipulating a document’s elements an attacker can force an out-of-bounds memory access ocurring. An attacker can leverage this vulnerability to execute code under the context of the current process.<br>]]>
+    <![CDATA[<p>XLAB-15-010 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-2494 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -91,14 +99,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-4429/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-4429/</id>
     <published>2015-11-30T07:13:03.000Z</published>
-    <updated>2015-11-30T07:14:30.000Z</updated>
-    <content type="html"><![CDATA[<p>The specific flaw exists within the usage of TextField objects. By maniuplating TextField’s  properties attacker can force memory corruption occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current process.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-4429</p>
-<p>Disclosure Timeline<br>2015/05/27  Provide vulnerability detail to Adobe via psirt@adobe.com<br>2015/05/28  Adobe responded that they had opened case PSIRT-3670 for the issuse<br>2015/07/03  Adobe responded that they had assigned CVE-2015-4429 to the issue</p>
-<p>Credit<br>This vulnerability was discovered by: Kai Kang</p>
+    <updated>2015-12-01T08:47:01.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-009 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-4429 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>The specific flaw exists within the usage of TextField objects. By maniuplating TextField’s  properties attacker can force memory corruption occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p>Disclosure Timeline:<br>2015/05/27 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to Adobe via psirt@adobe.com<br>2015/05/28 &nbsp;&nbsp;&nbsp;&nbsp; Adobe responded that they had opened case PSIRT-3670 for the issuse<br>2015/07/03 &nbsp;&nbsp;&nbsp;&nbsp; Adobe responded that they had assigned CVE-2015-4429 to the issue</p>
+<p>Credit:<br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>The specific flaw exists within the usage of TextField objects. By maniuplating TextField’s  properties attacker can force memory corruption occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current process.<br>]]>
+    <![CDATA[<p>XLAB-15-009 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-4429 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -109,14 +119,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-5124/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-5124/</id>
     <published>2015-11-30T07:09:57.000Z</published>
-    <updated>2015-11-30T07:12:37.000Z</updated>
-    <content type="html"><![CDATA[<p>The specific flaw exists within the handling of display list. By maniuplating DisplayObject’s properties attacker can force buffer overflow occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current<br>process.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-5124</p>
-<p>Disclosure Timeline<br>2015/05/12  Provide vulnerability detail to Adobe via psirt@adobe.com<br>2015/05/13  Adobe responded that they had opened case PSIRT-3670 for the issuse<br>2015/07/18  Adobe responded that they had assigned CVE-2015-5124 to the issue</p>
-<p>Credit<br>This vulnerability was discovered by: Kai Kang</p>
+    <updated>2015-12-01T08:42:51.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-008 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-5124 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>The specific flaw exists within the handling of display list. By maniuplating DisplayObject’s properties attacker can force buffer overflow occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p>Disclosure Timeline<br>2015/05/12 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to Adobe via psirt@adobe.com<br>2015/05/13 &nbsp;&nbsp;&nbsp;&nbsp; Adobe responded that they had opened case PSIRT-3670 for the issuse<br>2015/07/18 &nbsp;&nbsp;&nbsp;&nbsp; Adobe responded that they had assigned CVE-2015-5124 to the issue</p>
+<p>Credit<br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>The specific flaw exists within the handling of display list. By maniuplating DisplayObject’s properties attacker can force buffer overflow occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current<br>process.<br>]]>
+    <![CDATA[<p>XLAB-15-008 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-5124 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -127,14 +139,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-7627/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-7627/</id>
     <published>2015-11-30T07:07:45.000Z</published>
-    <updated>2015-11-30T07:09:37.000Z</updated>
-    <content type="html"><![CDATA[<p>The specific flaw exists within the handling of display list. By maniuplating DisplayObject’s properties attacker can force memory corruption occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current process.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-7627</p>
-<p>Disclosure Timeline<br>2015/05/07  Provide vulnerability detail to Adobe via psirt@adobe.com<br>2015/05/09  Adobe responded that they had opened case PSIRT-3665 for the issuse<br>2015/09/18  Adobe responded that they had assigned CVE-2015-5581 to the issue</p>
-<p>Credit<br>This vulnerability was discovered by: Kai Kang</p>
+    <updated>2015-12-01T08:40:24.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-007 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-7627 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>The specific flaw exists within the handling of display list. By maniuplating DisplayObject’s properties attacker can force memory corruption occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p>Disclosure Timeline:<br>2015/05/07 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to Adobe via psirt@adobe.com<br>2015/05/09 &nbsp;&nbsp;&nbsp;&nbsp; Adobe responded that they had opened case PSIRT-3665 for the issuse<br>2015/09/18 &nbsp;&nbsp;&nbsp;&nbsp; Adobe responded that they had assigned CVE-2015-5581 to the issue</p>
+<p>Credit:<br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>The specific flaw exists within the handling of display list. By maniuplating DisplayObject’s properties attacker can force memory corruption occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current process.<br>]]>
+    <![CDATA[<p>XLAB-15-007 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-7627 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -145,14 +159,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-5581/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-5581/</id>
     <published>2015-11-30T06:52:14.000Z</published>
-    <updated>2015-11-30T06:53:59.000Z</updated>
-    <content type="html"><![CDATA[<p>The specific flaw exists within the DisplayObject’s mask property. By maniuplating display list attacker can force a dangling pointer to be reuesed after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-5581</p>
-<p>Disclosure Timeline<br>2015/05/07  Provide vulnerability detail to Adobe via psirt@adobe.com<br>2015/05/09  Adobe responded that they had opened case PSIRT-3665 for the issuse<br>2015/09/18  Adobe responded that they had assigned CVE-2015-5581 to the issue</p>
-<p>Credit<br>This vulnerability was discovered by: Kai Kang</p>
+    <updated>2015-12-01T08:38:15.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-006 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-5581 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>The specific flaw exists within the DisplayObject’s mask property. By maniuplating display list attacker can force a dangling pointer to be reuesed after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p>Disclosure Timeline:<br>2015/05/07 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to Adobe via psirt@adobe.com<br>2015/05/09 &nbsp;&nbsp;&nbsp;&nbsp; Adobe responded that they had opened case PSIRT-3665 for the issuse<br>2015/09/18 &nbsp;&nbsp;&nbsp;&nbsp; Adobe responded that they had assigned CVE-2015-5581 to the issue</p>
+<p>Credit:<br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>The specific flaw exists within the DisplayObject’s mask property. By maniuplating display list attacker can force a dangling pointer to be reuesed after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.<br>]]>
+    <![CDATA[<p>XLAB-15-006 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-5581 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -163,14 +179,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-1720/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-1720/</id>
     <published>2015-11-30T06:47:42.000Z</published>
-    <updated>2015-11-30T06:50:48.000Z</updated>
-    <content type="html"><![CDATA[<p>The specific flaw exists within the function NtUserTrackPopupMenu. The issue lies in the failure to propery handle reference counting<br>of the MENU objects. An attacker can leverage this vulnerability to raise privileges and execute code under the context of SYSTEM.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-1720</p>
-<p>Disclosure Timeline<br>2015/03/18  Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2015/03/19  Micorsoft responded that they had opened case 21767 for the issuse<br>2015/04/16  Micorsoft responded that they had successfully reproduced the issue, and asked for the source code of PoC<br>2015/04/16  Rejected Micorsoft’s request with the consideration of respecting intellectual property<br>2015/04/28  Micorsoft responded that they had been working closer to the fix<br>2015/06/09  Microsoft responded that they had assigned CVE-2015-1720 to the issue</p>
-<p>Credit<br>This vulnerability was discovered by: Kai Kang</p>
+    <updated>2015-12-01T08:35:32.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-005 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-1720 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>The specific flaw exists within the function NtUserTrackPopupMenu. The issue lies in the failure to propery handle reference counting of the MENU objects. An attacker can leverage this vulnerability to raise privileges and execute code under the context of SYSTEM.</p>
+<p>Disclosure Timeline:<br>2015/03/18 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2015/03/19 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had opened case 21767 for the issuse<br>2015/04/16 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had successfully reproduced the issue, and asked for the source code of PoC<br>2015/04/16 &nbsp;&nbsp;&nbsp;&nbsp; Rejected Micorsoft’s request with the consideration of respecting intellectual property<br>2015/04/28 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had been working closer to the fix<br>2015/06/09 &nbsp;&nbsp;&nbsp;&nbsp; Microsoft responded that they had assigned CVE-2015-1720 to the issue</p>
+<p>Credit:<br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>The specific flaw exists within the function NtUserTrackPopupMenu. The issue lies in the failure to propery handle reference counting<br>of the MENU objects. An attacker can leverage this vulnerability to raise privileges and execute code under the context of SYSTEM.<br>]]>
+    <![CDATA[<p>XLAB-15-005 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-1720 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -181,14 +199,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-0095/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-0095/</id>
     <published>2015-11-30T06:42:10.000Z</published>
-    <updated>2015-11-30T06:51:28.000Z</updated>
-    <content type="html"><![CDATA[<p>The specific flaw exists within the function NtUserSetParent. The issue lies in the failure to properly validate parameters passed in<br>leadingto kernel information disclosure. An attacker can leverage this vulnerability to bypass KASLR.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-0095</p>
-<p>Disclosure Timeline<br>2014/11/17  Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2014/11/19  Micorsoft responded that they had opened case 21058 for the issuse<br>2014/12/11  Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix.<br>2015/01/17  Micorsoft responded that they had been working on a fix<br>2015/02/07  Microsoft responded that they had assigned CVE-2015-0095 to the issue<br>2015/03/11  The issue was fiexed with MS15-023</p>
-<p>Credit<br>This vulnerability was discovered by: Kai Kang</p>
+    <updated>2015-12-01T08:33:04.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-004 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-0095 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>The specific flaw exists within the function NtUserSetParent. The issue lies in the failure to properly validate parameters passed in leadingto kernel information disclosure. An attacker can leverage this vulnerability to bypass KASLR.</p>
+<p>Disclosure Timeline<br>2014/11/17 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to Micorsoft via secure@micorsoft.com<br>2014/11/19 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had opened case 21058 for the issuse<br>2014/12/11 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix.<br>2015/01/17 &nbsp;&nbsp;&nbsp;&nbsp; Micorsoft responded that they had been working on a fix<br>2015/02/07 &nbsp;&nbsp;&nbsp;&nbsp; Microsoft responded that they had assigned CVE-2015-0095 to the issue<br>2015/03/11 &nbsp;&nbsp;&nbsp;&nbsp; The issue was fiexed with MS15-023</p>
+<p>Credit<br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>The specific flaw exists within the function NtUserSetParent. The issue lies in the failure to properly validate parameters passed in<br>leadingto kernel information disclosure. An attacker can leverage this vulnerability to bypass KASLR.<br>]]>
+    <![CDATA[<p>XLAB-15-004 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-0095 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -199,14 +219,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-2494/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-2494/</id>
     <published>2015-11-30T06:38:22.000Z</published>
-    <updated>2015-11-30T06:41:18.000Z</updated>
-    <content type="html"><![CDATA[<p>This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer and Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.The vulnerability relates to SecurityContext objects. By manipulating a document’s elements an attacker can force a SecurityContext object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-2494</p>
-<p>Disclosure Timeline<br>2015/06/09 provide vulnerability detail to Microsoft Security Response Center via secure@microsoft.com<br>2015/06/10 Microsoft Security Response Center automatic reply<br>2015/06/23 Microsoft Security Response Center responded that they are verifying the proof of concept code<br>2015/09/08 Microsoft Security Response Center assigned CVE-ID CVE-2015-2494</p>
-<p>Credit<br>This vulnerability was discovered by: exp-sky</p>
+    <updated>2015-12-01T08:30:07.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-003 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-2494 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer and Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.The vulnerability relates to SecurityContext objects. By manipulating a document’s elements an attacker can force a SecurityContext object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p>Disclosure Timeline:<br>2015/06/09 &nbsp;&nbsp;&nbsp;&nbsp; provide vulnerability detail to Microsoft Security Response Center via secure@microsoft.com<br>2015/06/10 &nbsp;&nbsp;&nbsp;&nbsp; Microsoft Security Response Center automatic reply<br>2015/06/23 &nbsp;&nbsp;&nbsp;&nbsp; Microsoft Security Response Center responded that they are verifying the proof of concept code<br>2015/09/08 &nbsp;&nbsp;&nbsp;&nbsp; Microsoft Security Response Center assigned CVE-ID CVE-2015-2494</p>
+<p>Credit:<br>This vulnerability was discovered by: &nbsp;&nbsp;exp-sky</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>This vulnerability allows remote attackers to execute arbitrary code on vulnerable installations of Microsoft Internet Explorer and Microsoft Edge. User interaction is required to exploit this vulnerability in that the target must visit a malicious page or open a malicious file.The vulnerability relates to SecurityContext objects. By manipulating a document’s elements an attacker can force a SecurityContext object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.<br>]]>
+    <![CDATA[<p>XLAB-15-003 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-2494 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -217,14 +239,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-5875/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-5875/</id>
     <published>2015-11-30T06:29:26.000Z</published>
-    <updated>2015-11-30T06:35:35.000Z</updated>
-    <content type="html"><![CDATA[<p>When Notes synchronous ICloud data, is not properly filtered data lead to XSS vulnerabilities.A local user may be able to leak sensitive user information.<br><a id="more"></a></p>
-<p>CVE ID: CVE-2015-5875</p>
-<p>Disclosure Timeline<br>2015/3/28   Provide vulnerability detail to APPLE via product-security@apple.com<br>2015/3/28   APPLE automatic reply<br>2015/3/29       APPLE responded that they are verifying the proof of concept code<br>2015/9/30   APPLE advisory disclosed，CVE-2015-5875</p>
-<p>Credit<br>This vulnerability was discovered by: xisigr</p>
+    <updated>2015-12-01T08:26:31.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-002 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-5875 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>When Notes synchronous ICloud data, is not properly filtered data lead to XSS vulnerabilities.A local user may be able to leak sensitive user information.</p>
+<p>Disclosure Timeline:<br>2015/3/28 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to APPLE via product-security@apple.com<br>2015/3/28 &nbsp;&nbsp;&nbsp;&nbsp; APPLE automatic reply<br>2015/3/29 &nbsp;&nbsp;&nbsp;&nbsp; APPLE responded that they are verifying the proof of concept code<br>2015/9/30 &nbsp;&nbsp;&nbsp;&nbsp; APPLE advisory disclosed，CVE-2015-5875</p>
+<p>Credit:<br>This vulnerability was discovered by: &nbsp;&nbsp; xisigr</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>When Notes synchronous ICloud data, is not properly filtered data lead to XSS vulnerabilities.A local user may be able to leak sensitive user information.<br>]]>
+    <![CDATA[<p>XLAB-15-002 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID: CVE-2015-5875 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
@@ -235,14 +259,16 @@
     <link href="http://xlab.tencent.com/2015/11/30/CVE-2015-3755/"/>
     <id>http://xlab.tencent.com/2015/11/30/CVE-2015-3755/</id>
     <published>2015-11-30T05:58:54.000Z</published>
-    <updated>2015-11-30T06:04:15.000Z</updated>
-    <content type="html"><![CDATA[<p>A domain with a port number in the Safari browser, if the colon (:) behind is the non digital, displayed  the colon (:) before the domain name in the address bar , the default page rendering can be blank and be changed arbitrarily. The attacker can carefully construct a malicious phishing page, forged any domain  in the address bar, and change the content of the page. In Iphone/Ipad, JavaScript create alerts and warnings of the source is forged, and the HTTPS in the address bar will be with a small lock icon, which makes users believe that the current domain is more credible.<br><a id="more"></a></p>
-<p>CVE ID：CVE-2015-3755</p>
-<p>Disclosure Timeline:<br>2015/5/8    Provide vulnerability detail to APPLE via product-security@apple.com<br>2015/5/8    APPLE automatic reply<br>2015/5/9    APPLE responded that they are verifying the proof of concept code<br>2015/8/11   APPLE advisory disclosed，CVE-2015-3755</p>
-<p>Credit<br>This vulnerability was discovered by: xisigr</p>
+    <updated>2015-12-01T08:23:58.000Z</updated>
+    <content type="html"><![CDATA[<p>XLAB-15-001 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID：CVE-2015-3755   &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br><a id="more"></a></p>
+<p>Vulnerability Details:<br>A domain with a port number in the Safari browser, if the colon (:) behind is the non digital, displayed  the colon (:) before the domain name in the address bar , the default page rendering can be blank and be changed arbitrarily. The attacker can carefully construct a malicious phishing page, forged any domain  in the address bar, and change the content of the page. In Iphone/Ipad, JavaScript create alerts and warnings of the source is forged, and the HTTPS in the address bar will be with a small lock icon, which makes users believe that the current domain is more credible.</p>
+<p>Disclosure Timeline:<br>2015/5/8 &nbsp;&nbsp;&nbsp;&nbsp; Provide vulnerability detail to APPLE via product-security@apple.com<br>2015/5/8 &nbsp;&nbsp;&nbsp;&nbsp; APPLE automatic reply<br>2015/5/9 &nbsp;&nbsp;&nbsp;&nbsp; APPLE responded that they are verifying the proof of concept code<br>2015/8/11 &nbsp;&nbsp;&nbsp;APPLE advisory disclosed，CVE-2015-3755</p>
+<p>Credit:<br>This vulnerability was discovered by: &nbsp;&nbsp;xisigr</p>
 ]]></content>
     <summary type="html">
-    <![CDATA[<p>A domain with a port number in the Safari browser, if the colon (:) behind is the non digital, displayed  the colon (:) before the domain name in the address bar , the default page rendering can be blank and be changed arbitrarily. The attacker can carefully construct a malicious phishing page, forged any domain  in the address bar, and change the content of the page. In Iphone/Ipad, JavaScript create alerts and warnings of the source is forged, and the HTTPS in the address bar will be with a small lock icon, which makes users believe that the current domain is more credible.<br>]]>
+    <![CDATA[<p>XLAB-15-001 &nbsp;&nbsp;&nbsp;&nbsp; CVE ID：CVE-2015-3755   &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p>Patch Status: Fixed<br>]]>
     
     </summary>
     
