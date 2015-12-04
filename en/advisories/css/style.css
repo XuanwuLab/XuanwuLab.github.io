@@ -480,8 +480,7 @@ a.article-title:hover {
 .article-entry:after {
   clear: both;
 }
-.article-entry p,
-.article-entry table {
+.article-entry p {
   line-height: 1.6em;
   margin: 1.6em 0;
 }
@@ -531,13 +530,14 @@ a.article-title:hover {
   border-spacing: 0;
 }
 .article-entry th {
-  font-weight: bold;
-  border-bottom: 3px solid #ddd;
-  padding-bottom: 0.5em;
+  padding: 0 30px 0 0;
+  line-height: 1.5em;
+  vertical-align: top;
 }
 .article-entry td {
-  border-bottom: 1px solid #ddd;
-  padding: 10px 0;
+  vertical-align: top;
+  line-height: 1.5em;
+  padding: 0 30px 0 0;
 }
 .article-entry blockquote {
   font-family: Georgia, "Times New Roman", serif;

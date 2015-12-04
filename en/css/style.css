@@ -979,9 +979,6 @@ a.article-title:hover {
   color: #ddd;
 }
 #footer {
-  position: relative;
-  bottom: 0;
-  left: 0;
   margin: 0px;
   padding: 30px 0px 0px 0px;
   height: 100px;
