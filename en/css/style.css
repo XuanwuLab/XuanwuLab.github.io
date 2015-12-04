@@ -129,7 +129,7 @@ body {
 }
 .outer {
   max-width: 1220px;
-  margin: 50px;
+  margin: 50px auto;
   padding: 0;
 }
 .outer:before,
@@ -977,13 +977,13 @@ a.article-title:hover {
 #footer {
   margin: 0px;
   padding: 30px 0px 54px 0px;
-  height: 200px;
+  height: 100px;
   background-color: #fefefe;
 }
 #footer-infoi {
   position: relative;
   left: 50px;
-  height: 250px;
+  height: 100px;
   width: 50%;
   float: left;
 }
