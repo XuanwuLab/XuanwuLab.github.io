@@ -129,7 +129,7 @@ body {
 }
 .outer {
   max-width: 1220px;
-  margin: 50px;
+  margin: 50px auto;
   padding: 0;
 }
 .outer:before,
@@ -229,7 +229,7 @@ body {
 }
 .article-entry hr,
 .widget hr {
-  border: 2px dashed #ddd;
+  border: 1px solid #ddd;
 }
 .article-entry strong,
 .widget strong {
@@ -353,16 +353,20 @@ body {
   position: relative;
   height: 72px;
   width: 100%;
-  background-color: #008fc5;
+  background-color: #fff;
 }
 #xuanwulab_logo {
   position: relative;
   height: 72px;
-  width: 60px;
-  top: 8px;
+  width: 300px;
+  top: 0;
   left: 50px;
-  background-image: url("images/xuanwulab_logo.png");
+  background-image: url("images/logo.png");
+  -webkit-background-size: 230px 72px;
+  -moz-background-size: 230px 72px;
+  background-size: 230px 72px;
   background-repeat: no-repeat;
+  margin-right: 50px;
   overflow: hidden;
   float: left;
 }
@@ -400,7 +404,7 @@ body {
   float: left;
 }
 #menu_item:hover {
-  background-color: #0084b6;
+  background-color: #f0f0f0;
   font-weight: bold;
 }
 .navi {
@@ -408,7 +412,7 @@ body {
   top: 40%;
   display: block;
   font-size: 18px;
-  color: #fff;
+  color: #000;
   text-decoration: none;
   text-align: center;
 }
@@ -977,21 +981,14 @@ a.article-title:hover {
 #footer {
   margin: 0px;
   padding: 30px 0px 54px 0px;
-  height: 200px;
+  height: 50px;
   background-color: #fefefe;
 }
 #footer-infoi {
   position: relative;
   left: 50px;
-  height: 250px;
-  width: 50%;
-  float: left;
-}
-#logo {
-  height: 72px;
-  width: 60px;
-  background-image: url("images/xuanwulab_bottom.png");
-  background-repeat: no-repeat;
+  height: 100px;
+  width: 100%;
   float: left;
 }
 #description {
@@ -1044,19 +1041,6 @@ a.article-title:hover {
 }
 #social_icon_img_twitter:hover {
   content: url("images/twitter_chose.png");
-}
-#contact {
-  padding: 0px;
-  clear: left;
-  font-size: 18px;
-  color: #999;
-}
-#todo {
-  position: relative;
-  left: 50%;
-  float: left;
-  width: 40%;
-  height: 100%;
 }
 .article-entry pre,
 .article-entry .highlight {
