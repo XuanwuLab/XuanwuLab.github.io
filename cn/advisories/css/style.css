@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #f4f4f4;
-  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 16px "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -183,6 +183,7 @@ body {
   #main {
     float: left;
     width: 70%;
+    margin: 0 25px;
   }
 }
 .article-date,
@@ -204,7 +205,7 @@ body {
 }
 .article-entry h1,
 .widget h1 {
-  font-size: 2em;
+  font-size: 1.8em;
 }
 .article-entry h2,
 .widget h2 {
@@ -482,7 +483,7 @@ a.article-title:hover {
 }
 .article-entry p {
   line-height: 1.6em;
-  margin: 1.6em 0;
+  margin: 0.8em 0;
 }
 .article-entry h1,
 .article-entry h2,
@@ -530,14 +531,15 @@ a.article-title:hover {
   border-spacing: 0;
 }
 .article-entry th {
-  padding: 0 30px 0 0;
   line-height: 1.5em;
   vertical-align: top;
+  min-width: 40px;
+  padding: 3px;
 }
 .article-entry td {
-  padding: 0 30px 0 0;
   line-height: 1.5em;
   vertical-align: top;
+  padding: 3px;
 }
 .article-entry blockquote {
   font-family: Georgia, "Times New Roman", serif;
@@ -548,7 +550,7 @@ a.article-title:hover {
 .article-entry blockquote footer {
   font-size: 16px;
   margin: 1.6em 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -753,7 +755,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 14px "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -1143,7 +1145,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #fefefe;
   color: #999;
-  font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 0.85em "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
