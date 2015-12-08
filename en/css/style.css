@@ -183,6 +183,7 @@ body {
   #main {
     float: left;
     width: 70%;
+    margin: 0 25px;
   }
 }
 .article-date,

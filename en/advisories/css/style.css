@@ -183,6 +183,7 @@ body {
   #main {
     float: left;
     width: 70%;
+    margin: 0 25px;
   }
 }
 .article-date,
@@ -482,7 +483,7 @@ a.article-title:hover {
 }
 .article-entry p {
   line-height: 1.6em;
-  margin: 1.6em 0;
+  margin: 0.8em 0;
 }
 .article-entry h1,
 .article-entry h2,
@@ -530,14 +531,15 @@ a.article-title:hover {
   border-spacing: 0;
 }
 .article-entry th {
-  padding: 0 30px 0 0;
   line-height: 1.5em;
   vertical-align: top;
+  padding_right: 10px;
+  min-width: 80px;
 }
 .article-entry td {
   vertical-align: top;
+  padding_right: 10px;
   line-height: 1.5em;
-  padding: 0 30px 0 0;
 }
 .article-entry blockquote {
   font-family: Georgia, "Times New Roman", serif;

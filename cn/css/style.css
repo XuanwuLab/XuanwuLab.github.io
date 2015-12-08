@@ -124,7 +124,7 @@ body,
 }
 body {
   background: #f4f4f4;
-  font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif, "Microsoft YaHei", "微软雅黑";
+  font: 16px "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
   -webkit-text-size-adjust: 100%;
 }
 .outer {
@@ -549,7 +549,7 @@ a.article-title:hover {
 .article-entry blockquote footer {
   font-size: 16px;
   margin: 1.6em 0;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif, "Microsoft YaHei", "微软雅黑";
+  font-family: "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 .article-entry blockquote footer cite:before {
   content: "—";
@@ -754,7 +754,7 @@ a.article-title:hover {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
-  font: 14px "Helvetica Neue", Helvetica, Arial, sans-serif, "Microsoft YaHei", "微软雅黑";
+  font: 14px "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
   padding: 0 15px;
   color: #555;
   outline: none;
@@ -1144,7 +1144,7 @@ a.article-title:hover {
 .article-entry .gist .gist-file .gist-meta {
   background: #fefefe;
   color: #999;
-  font: 0.85em "Helvetica Neue", Helvetica, Arial, sans-serif, "Microsoft YaHei", "微软雅黑";
+  font: 0.85em "Microsoft YaHei", "微软雅黑", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-shadow: 0 0;
   padding: 0;
   margin-top: 1em;
