@@ -350,6 +350,10 @@ body {
   font-size: 15px;
   color: #fff;
 }
+.version_a:hover {
+  color: #198ac3;
+  font-weight: bold;
+}
 #header_nav {
   position: relative;
   height: 72px;
