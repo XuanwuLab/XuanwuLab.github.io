@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/cn/css/style.css" type="text/css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header_top">
+    <div id="tencent_logo">
+    </div>
+    <div id="header_version">
+        <ul id="language_nav">
+          <li class="language_li"><a class="version_a" href="/cn">中文</a></li>
+          <li class="sep"><a class="version_a"> |&nbsp;&nbsp;  </a></li>
+          <li class="language_li"><a class="version_a" href="/en"> English</a></li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="header_nav">
+    <div id="xuanwulab_logo"></div>
+    <div id="main_nav">
+        <ul id="menu_ul">
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn">首页</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/advisories">安全公告</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/policy">披露原则</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/archives">归档</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/about">关于</a>
+        </li>
+        
+        </ul>
+    </div>
+  </div>
+
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-pc-wormhole" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      一个PC上的“WormHole”漏洞
+    </h1>
+  
+
+
+      </header>
+       <div class="article-sum-time">
+            <p>作者： <span class="author">Danny_Wei</span> &nbsp; 
+            2015-11-05
+            </p>
+       </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+        <p>最近安全界关注的焦点WormHole是一类不安全的开发习惯所导致的，在PC上类似问题也毫不罕见，只不过很多风险被微软默认自带的防火墙缓解了。希望本文和众多关于WormHole的讨论能获多或少地提高一些开发人员的安全意识。</p>
+<a id="more"></a>
+<p>下面要介绍的问题可导致的后果和WormHole非常类似：影响上亿用户、访问一个端口发送一条指令就可以让目标系统下载一个程序并执行。</p>
+<p>该问题已于2015年9月29日被修复。在修复前，存在于所有使用预装Windows系统的ThinkPad、ThinkCentre、ThinkStation以及Lenovo V/B/K/E系列电脑。</p>
+<h2 id="0x01_背景">0x01 背景</h2><p>联想ThinkVantage System Update软件用于帮助用户从联想的服务器中直接下载并安装软件、驱动、BIOS的更新，极大的简化了用户更新系统的难度和工作量。其被默认预装在联想的多款产品中。</p>
+<p>Lenovo System Update可根据不同的网络环境及配置通过多种方式下载软件及更新，其中一种方式为通过文件共享下载，而UNCServer.exe则是完成此功能的主程序，UNCServer.exe随System Update主程序启动，并建立本地服务端等待主程序连接。在早期版本中，甚至System Update主程序退出后，UNCServer.exe也仍然保持运行状态。</p>
+<h2 id="0x02_问题描述">0x02 问题描述</h2><p>在System Update的5.6.0.34版本中，UNCServer.exe通过.NET的Remoting机制，通过TCP服务器提供多种功能。</p>
+<p>.NET Remoting发展自DCOM，是一项比较老的.NET分布式处理技术。它序列化服务端的对象和数据并导出，客户端通过HTTP、TCP、IPC信道跨越进程边界实现对服务端对象的引用。然而Remoting的序列化机制会隐式导出对象所有的方法和属性，客户端一旦获得服务端导出的对象引用，即可调用服务端对象提供的所有方法。因此Remoting机制容易引入安全漏洞，且不建议将Remoting服务终端导出给不受信任的客户端。</p>
+<p>UNCServer导出的Connector对象提供Connect、DownloadBean、IsFileExist、IsFolderExist、GetFilesInFolder、GetSubFolder、QueryFile、LaunchIE功能。客户端可以连接并获取其引出对象，进行文件下载、应用程序执行等操作。</p>
+<p>其中LaunchIE并未对参数进行任何验证，可以用来启动任意进程，其实现代码如下：</p>
+<figure class="highlight cs"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">case</span> UNCAction.LaunchIE:</span><br><span class="line">        <span class="keyword">string</span> fileName = (<span class="keyword">string</span>) eventObj;</span><br><span class="line">        <span class="keyword">try</span>&#123;</span><br><span class="line">            Process.Start(fileName);</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">catch</span>&#123;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">this</span>.connector.Current = (<span class="keyword">object</span>) <span class="keyword">true</span>;</span><br><span class="line">    <span class="keyword">break</span>;</span><br></pre></td></tr></table></figure>
+<p>同时，虽然System Update在防火墙策略中只添加了UNCServer的出站规则，但由于UNCServer缺少必要的配置，使其绑定在0.0.0.0:20050上。因此在缺乏防火墙保护的情况下，任何机器都可与其建立连接，最终使用其提供的DownloadBean和LaunchIE功能实现远程下载程序并执行。</p>
+<p>UNCServer建立服务端信道并导出对象的代码如下：</p>
+<figure class="highlight scala"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">IDictionary</span> properties = (<span class="type">IDictionary</span>) <span class="keyword">new</span> <span class="type">Hashtable</span>();</span><br><span class="line">properties[(<span class="class"><span class="keyword">object</span>) "<span class="title">name</span>"] =</span> (<span class="class"><span class="keyword">object</span>) "<span class="title">tvsuuncchannel</span>";</span></span><br><span class="line">properties[(<span class="class"><span class="keyword">object</span>) "<span class="title">priority</span>"] =</span> (<span class="class"><span class="keyword">object</span>) 2;</span></span><br><span class="line">properties[(<span class="class"><span class="keyword">object</span>) "<span class="title">port</span>"] =</span> (<span class="class"><span class="keyword">object</span>) 20050;</span></span><br><span class="line"><span class="keyword">this</span>.channel = <span class="keyword">new</span> <span class="type">TcpServerChannel</span>(properties, (<span class="type">IServerChannelSinkProvider</span>) <span class="keyword">new</span> <span class="type">BinaryServerFormatterSinkProvider</span>());</span><br><span class="line"><span class="type">ChannelServices</span>.<span class="type">RegisterChannel</span>((<span class="type">IChannel</span>) <span class="keyword">this</span>.channel, <span class="literal">false</span>);</span><br><span class="line"><span class="keyword">this</span>.status = <span class="keyword">new</span> <span class="class"><span class="keyword">object</span>(</span>);</span><br><span class="line"><span class="keyword">this</span>.connector = <span class="keyword">new</span> <span class="type">Connector</span>();</span><br><span class="line"><span class="type">RemotingServices</span>.<span class="type">Marshal</span>((<span class="type">MarshalByRefObject</span>) <span class="keyword">this</span>.connector, <span class="string">"Connector"</span>);</span><br><span class="line"><span class="keyword">this</span>.connector.<span class="type">UNCEvent</span> += <span class="keyword">new</span> <span class="type">Connector</span>.<span class="type">UNCEventHandler</span>(<span class="keyword">this</span>.connector_UNCEvent);</span><br></pre></td></tr></table></figure>
+<h2 id="0x03_修复">0x03 修复</h2><p>联想在2015/9/29日放出的System Update 5.7.0.13修复了包括此问题在内的多个漏洞。其重新实现了LaunchIE、LaunchHelp功能，对其创建进程的参数进行了验证。并加强了服务端的配置，使其绑定在127.0.0.1:20050，阻止了远程请求。修复后的部分代码如下：</p>
+<figure class="highlight nimrod"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">case</span> <span class="type">UNCAction</span>.<span class="type">LaunchIE</span>:</span><br><span class="line">        <span class="keyword">try</span>&#123;</span><br><span class="line">            tring str = (<span class="type">string</span>) eventObj;</span><br><span class="line">            <span class="type">Uri</span> <span class="literal">result</span>;</span><br><span class="line">            <span class="keyword">if</span> (<span class="type">Uri</span>.<span class="type">TryCreate</span>(str, <span class="type">UriKind</span>.<span class="type">Absolute</span>, <span class="keyword">out</span> <span class="literal">result</span>) &amp;&amp; (<span class="literal">result</span>.<span class="type">Scheme</span> == <span class="type">Uri</span>.<span class="type">UriSchemeHttp</span> || <span class="literal">result</span>.<span class="type">Scheme</span> == <span class="type">Uri</span>.<span class="type">UriSchemeHttps</span>))</span><br><span class="line">                <span class="type">Process</span>.<span class="type">Start</span>(str);</span><br><span class="line">        &#125;</span><br><span class="line">        catch&#123;</span><br><span class="line">        &#125;</span><br><span class="line">        this.connector.<span class="type">Current</span> = (<span class="keyword">object</span>) <span class="literal">true</span>;</span><br><span class="line">    <span class="keyword">break</span>;    </span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="type">IDictionary</span> properties = (<span class="type">IDictionary</span>) new <span class="type">Hashtable</span>();</span><br><span class="line">properties[(<span class="keyword">object</span>) <span class="string">"name"</span>] = (<span class="keyword">object</span>) <span class="string">"tvsuuncchannel"</span>;</span><br><span class="line">properties[(<span class="keyword">object</span>) <span class="string">"priority"</span>] = (<span class="keyword">object</span>) <span class="number">2</span>;</span><br><span class="line">properties[(<span class="keyword">object</span>) <span class="string">"port"</span>] = (<span class="keyword">object</span>) <span class="number">20050</span>;</span><br><span class="line">properties[(<span class="keyword">object</span>) <span class="string">"rejectRemoteRequests"</span>] = (<span class="keyword">object</span>) <span class="literal">true</span>;</span><br><span class="line">properties[(<span class="keyword">object</span>) <span class="string">"bindTo"</span>] = (<span class="keyword">object</span>) <span class="string">"127.0.0.1"</span>;</span><br><span class="line">this.channel = new <span class="type">TcpServerChannel</span>(properties, (<span class="type">IServerChannelSinkProvider</span>) new <span class="type">BinaryServerFormatterSinkProvider</span>());</span><br><span class="line"><span class="type">ChannelServices</span>.<span class="type">RegisterChannel</span>((<span class="type">IChannel</span>) this.channel, <span class="literal">false</span>);</span><br><span class="line">this.status = new <span class="keyword">object</span>();</span><br><span class="line">this.connector = new <span class="type">Connector</span>();</span><br><span class="line"><span class="type">RemotingServices</span>.<span class="type">Marshal</span>((<span class="type">MarshalByRefObject</span>) this.connector, <span class="string">"Connector"</span>);</span><br><span class="line">this.connector.<span class="type">UNCEvent</span> += new <span class="type">Connector</span>.<span class="type">UNCEventHandler</span>(this.connector_UNCEvent);</span><br></pre></td></tr></table></figure>
+<h2 id="0x04_小结">0x04 小结</h2><p>Remoting作为上一代的.NET分布式处理技术，由于设计时的安全缺陷早已被微软的WCF技术取代。如果应用程序仍在使用Remoting技术进行分布式处理或通信，应意识到其潜在的安全问题，稍有不当则可能引入安全漏洞。</p>
+
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://xlab.tencent.com/2015/11/05/pc-wormhole/" data-id="cihyjp9630002vounkmb48441" class="article-share-link"></a>
+      
+      
+
+    </footer>
+  </div>
+</article>
+
+
+</section>
+        <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <hr>
+    <div class="widget tagcloud">
+      <a href="/cn/tags/CFG/" style="font-size: 10px;">CFG</a> <a href="/cn/tags/Chakra/" style="font-size: 10px;">Chakra</a> <a href="/cn/tags/DEP/" style="font-size: 10px;">DEP</a> <a href="/cn/tags/JIT/" style="font-size: 20px;">JIT</a> <a href="/cn/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/cn/tags/RowHammer/" style="font-size: 10px;">RowHammer</a> <a href="/cn/tags/沙箱逃逸/" style="font-size: 10px;">沙箱逃逸</a>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <hr>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/12/">2015-12</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/11/">2015-11</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/08/">2015-08</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/06/">2015-06</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最近更新</h3>
+    <hr>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/cn/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/">利用Chakra JIT绕过DEP和CFG</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/11/05/pc-wormhole/">一个PC上的“WormHole”漏洞</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/08/27/Poking-a-Hole-in-the-Patch/">在补丁上戳个洞——利用已经被修复的漏洞实现IE沙箱逃逸</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/">JIT引擎触发RowHammer可行性研究</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+
+      </div>
+      <footer id="footer">
+  <div id="outer">
+    <div id="footer-infoi" >
+        <div id="us">
+            <ul id="us_ul">
+            
+                <li id="follow_us" class="us_li"><p>关注我们: </p></li>
+                
+                <li class="us_li">
+                <a class="social_icon_twitter" href="https://twitter.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_twitter" src="/cn/css/images/twitter_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_weibo" href="http://weibo.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_weibo" src="/cn/css/images/weibo_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_rss" href="/cn/atom.xml" target="_blank">
+                <img class="social_icon_img_rss" src="/cn/css/images/rss_chose.png" />
+                </a>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="copyright"><p>Copyright &copy; 2015 Tencent's XuanwuLab.All Rights Reserved.<p></div>
+  </>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/cn" class="mobile-nav-link">首页</a>
+  
+    <a href="/cn/advisories" class="mobile-nav-link">安全公告</a>
+  
+    <a href="/cn/policy" class="mobile-nav-link">披露原则</a>
+  
+    <a href="/cn/archives" class="mobile-nav-link">归档</a>
+  
+    <a href="/cn/about" class="mobile-nav-link">关于</a>
+  
+</nav>
+
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/cn/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/cn/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/cn/js/script.js" type="text/javascript"></script>
+ -->
+  </div>
+</body>
+</html>
