@@ -186,6 +186,11 @@ body {
     margin: 0 25px;
   }
 }
+@media screen and (max-width: 479px) {
+  #main {
+    margin: 0 auto;
+  }
+}
 .article-date,
 .article-category-link,
 .archive-year,
@@ -1224,7 +1229,7 @@ pre .javascript .function {
     left: 0;
     width: 280px;
     height: 100%;
-    background: #191919;
+    background: #fff;
     border-right: 1px solid #fff;
   }
 }

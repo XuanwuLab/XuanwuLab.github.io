@@ -4,7 +4,7 @@
   
   <link href="/en/advisories/atom.xml" rel="self"/>
   <link href="http://xlab.tencent.com/"/>
-  <updated>2015-12-07T09:25:15.000Z</updated>
+  <updated>2015-12-09T07:56:46.000Z</updated>
   <id>http://xlab.tencent.com/</id>
   
   <author>
@@ -13,6 +13,54 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Apple Safari Dialog Origin Spoofing Vulnerability]]></title>
+    <link href="http://xlab.tencent.com/2015/12/09/xlab-15-022/"/>
+    <id>http://xlab.tencent.com/2015/12/09/xlab-15-022/</id>
+    <published>2015-12-09T07:54:03.000Z</published>
+    <updated>2015-12-09T07:56:46.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-022 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-7093 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong><br>Apple Safari is prone to a dialog box origin spoofing vulnerability. This issue may allow a remote attacker to carry out phishing style attacks. The vulnerability presents itself as dialog boxes from inactive windows may appear in other active windows. An attacker can exploit this issue by creating a malicious Web site and enticing a user to follow a link to the site. If the user follows the link, the attacker can then trigger this issue by somehow enticing a user to follow another link to a trusted site in a new window. The attacker can then display a spoofed dialog box to the user that seemingly originates from the trusted site. Typically this dialog box would mimic the legitimate site. An attacker may exploit this vulnerability to spoof an interface of a trusted web site. This vulnerability may aid in phishing style attacks.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/8/25</th>
+<th style="text-align:left">Provide vulnerability detail to APPLE via product-security@apple.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/8/25</td>
+<td style="text-align:left">APPLE automatic reply</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/8/26</td>
+<td style="text-align:left">APPLE responded that they are verifying the proof of concept code</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/17</td>
+<td style="text-align:left">APPLE asked how would you like to be acknowledged</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/12/9</td>
+<td style="text-align:left">APPLE advisory disclosed，the issue was fiexed in IOS9.2. CVE-2015-7093</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;xisigr</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-022 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-7093 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[BitDenfeder Vulnerability]]></title>
@@ -924,50 +972,6 @@
     <summary type="html">
     <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-003 &nbsp;&nbsp;&nbsp;&nbsp; </p>
 <p><strong>CVE ID:</strong> CVE-2015-2494 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>Patch Status:</strong> Fixed<br>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Apple Mac OS X Notes Cross Site Scripting Vulnerabilities]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-002/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-002/</id>
-    <published>2015-11-30T06:29:26.000Z</published>
-    <updated>2015-12-07T09:08:24.000Z</updated>
-    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-002 &nbsp;&nbsp;&nbsp;&nbsp; </p>
-<p><strong>CVE ID:</strong> CVE-2015-5875 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
-<p><strong>Vulnerability Details:</strong><br>When Notes synchronous ICloud data, is not properly filtered data lead to XSS vulnerabilities.A local user may be able to leak sensitive user information.</p>
-<p><strong>Disclosure Timeline:</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">2015/3/28</th>
-<th style="text-align:left">Provide vulnerability detail to APPLE via product-security@apple.com</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">2015/3/28</td>
-<td style="text-align:left">APPLE automatic reply</td>
-</tr>
-<tr>
-<td style="text-align:left">2015/3/29</td>
-<td style="text-align:left">APPLE responded that they are verifying the proof of concept code</td>
-</tr>
-<tr>
-<td style="text-align:left">2015/9/30</td>
-<td style="text-align:left">APPLE advisory disclosed，CVE-2015-5875</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp; xisigr</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-002 &nbsp;&nbsp;&nbsp;&nbsp; </p>
-<p><strong>CVE ID:</strong> CVE-2015-5875 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> Fixed<br>]]>
     
     </summary>

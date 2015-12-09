@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/cn/css/style.css" type="text/css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header_top">
+    <div id="tencent_logo">
+    </div>
+    <div id="header_version">
+        <ul id="language_nav">
+          <li class="language_li"><a class="version_a" href="/cn">中文</a></li>
+          <li class="sep"><a class="version_a"> |&nbsp;&nbsp;  </a></li>
+          <li class="language_li"><a class="version_a" href="/en"> English</a></li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="header_nav">
+    <div id="xuanwulab_logo"></div>
+    <div id="main_nav">
+        <ul id="menu_ul">
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn">首页</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/advisories">安全公告</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/policy">披露原则</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/archives">归档</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/about">关于</a>
+        </li>
+        
+        </ul>
+    </div>
+  </div>
+
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-Research-report-on-using-JIT-to-trigger-RowHammer" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      JIT引擎触发RowHammer可行性研究
+    </h1>
+  
+
+
+      </header>
+       <div class="article-sum-time">
+            <p>作者： <span class="author">R3dF09</span> &nbsp; 
+            2015-06-09
+            </p>
+       </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+        <p>RowHammer漏洞是DDR3内存中存在的问题，通过频繁的访问内存中的一行数据，会导致临近行的数据发生反转。然而由于其运行需要在目标主机上大量运行特定的代码，实施攻击存在很大的难度。本文旨在研究能否通过Javascript等脚本语言的动态执行触发RowHammer，如果能够成功将极大增加RowHammer的攻击性。为了验证该思路，本文分析了Java Hotspot、Chrome V8、.NET CoreCLR以及Firefox SpiderMonkey的实现机制并给出了可行性分析。<br><a id="more"></a></p>
+<h1 id="0x00_前言">0x00 前言</h1><p>&emsp;&emsp;2015年3月Google Project Zero发表文章Exploiting the DRAM rowhammer bug to gain kernel privileges。由于文中提到的缺陷比较难以修复，需要更新BIOS来提高内存刷新的速度，引起了人们的担忧。然而由于RowHammer的运行需要在目标主机上运行特定的汇编代码，实施攻击存在很大的难度。<br>&emsp;&emsp;本文旨在研究能否通过Javascript等脚本语言的动态执行触发RowHammer，如果能够成功将极大增加RowHammer的攻击性。为了验证该思路，本文分析了Java Hotspot、Chrome V8、.NET CoreCLR以及Firefox SpiderMonkey的实现机制并给出了可行性分析。<br>&emsp;&emsp;遗憾的是我们在这几个程序中，没有找到最优的利用方式。要么不存在相关的指令，要么指令无法达到RowHammer要求，要么需要有额外的操作更改执行环境才能触发，缺乏实际的攻击意义。</p>
+<h1 id="0x01_RowHammer">0x01 RowHammer</h1><p>&emsp;&emsp;本节将简要回顾RowHammer存在的原理，其触发的机制，已经在利用时将面临到的一些挑战。</p>
+<h2 id="1-1_What’s_RowHammer?">1.1 What’s RowHammer?</h2><p>&emsp;&emsp;RowHammer是DDR3内存中存在的问题，通过频繁的访问内存中的一行(row)数据，会导致临近行(row)的数据发生位反转。如图1.1(a)所示，内存是由一系列内存单元构成的二维数组。如图1.1(b)所示每一个内存单元由一个晶体管和一个电容组成，晶体管与wordline相连，电容负责存储数据。DRAM的每一行(row)有自己的wordline，wordline需要置高电压，特定行(row)的数据才能够访问。当某一行的wordline置高电压时，该行的数据就会进入row-buffer。当wordline频繁的充放电时，就可能会导致附近row的存储单元中的电容放电，如果在其被刷新之前，损失过多的电压就会导致内存中的数据发生变化。</p>
+<p>&emsp;&emsp;图1.2所示是一块内存，其中一个row为64kb(8KB)大小, 32k个row组成一个Bank, 8个Bank组成一个Rank, 该Rank为2G。此处需要注意不同的Bank有专用的row-buffer，访问不同Bank中的row不会导致wordline的充放电。<br>内存中的电压是不能长期保存的，需要不停的对其进行刷新，刷新的速度为64ms，所以必须在64ms内完成RowHammer操作。<br><img src="/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img1.png" alt="[图1.1]" title="[图1.1]"></p>
+<center>图1.1</center><br><img src="/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img2.png" alt="[图1.2]" title="[图1.2]"><br><center>图1.2</center>                    
+
+<h2 id="1-2_RowHammer触发的方法">1.2 RowHammer触发的方法</h2><p>&emsp;&emsp;表1.1所示为Google Project Zero所给出的可以触发RowHammer的代码段。<br><img src="/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img3.png" alt="img3.png" title=""><br>&emsp;&emsp;其中x, y地址的选择非常重要，x, y必须要在同一个Bank，不同的row中。因为不同的Bank有专用的row-buffer。如果x, y 在同一个row中就不会对wordline进行频繁的充放电，也就不会触发RowHammer。</p>
+<p>&emsp;&emsp;上述代码只是一种有效的测试方法，但并不是惟一的，归根到底我们所需要的就是在64ms内让一个wordline频繁的充放电。</p>
+<h2 id="1-3_触发RowHammer指令">1.3 触发RowHammer指令</h2><p>&emsp;&emsp;为了频繁的使wordline充放电，必须考虑CPU的Cache, 如果当前地址在Cache里面就不会访问内存，也就不会导致wordline的充放电情况。<br>          表1.2<br>| 指令        |    作用                             |<br>| ———– |:——————————–:|<br>| CLFLUSH     | 将数据从Cache中擦除              |<br>| PREFETCH    | 从内存中读取数据并存放在Cache中  |<br>| MOVNT*      | 不经过Cache直接操作数据          |</p>
+<p>&emsp;&emsp;表1.2中的指令都可以用来频繁的访问一个内存地址，并使相应的wordline充放电，如果要触发RowHammer， 需要上述指令的配合才能完成。<br>（注: 这些指令并不是惟一的触发方法，比如通过分析物理地址和L3 Cache的映射关系算法(不同的CPU架构实现可能不同)，找到映射到同一个Cache set的一系列地址，通过重复访问这一系列的地址即可触发RowHammer。）</p>
+<h1 id="0x02_脚本层面触发RowHammer">0x02 脚本层面触发RowHammer</h1><p>&emsp;&emsp;Google Project Zero给出的POC是直接以汇编的方式来运行，可以用来验证内存是否存在安全问题。当前脚本语言大都存在JIT引擎，如果能够通过脚本控制JIT引擎直接<br>触发RowHammer，将会具有更大的攻击意义。为了分析其可行性，本节研究了Java Hotspot、Chrome V8等执行引擎的运行机制。</p>
+<h2 id="2-1_Java_Hotspot">2.1 Java Hotspot</h2><p>&emsp;&emsp;Hotspot是Oracle JDK官方的默认虚拟机，主要用来解释执行Java字节码，其源码位于Openjdk下hotspot目录，可以独立编译。Java字节码是堆栈式指令集，指令数量少，共有256条指令，完成了数据传送、类型转换、程序控制、对象操作、运算和函数调用等功能。Java字节码存储在class文件中，作为Hotspot虚拟机的输入，其在一定程序上是用户可控的。那么能否通过构造class文件，使得Hotspot在执行时完成RowHammer呢? </p>
+<p>&emsp;&emsp;Java Hotspot默认对字节码进行解释执行，当某方法被频繁调用，并且达到一定的阈值，即会调用内置的JIT编译器对其进行编译，在下次执行时直接调用编译生成的代码。<br>&emsp;&emsp;Java字节码解释器有两个实现，分别为模版解释器和C++解释器，Hotspot默认使用模版解释器。Java的JIT编译器有三个实现，分别为客户端编译器（C1编译器）、服务器端编译器（C2 编译器）以及Shark编译器（基于LLVM）的编译器。<br>图2.1所示为Java在不同平台下使用的虚拟机。<br><img src="/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img4.png" alt="img4.png" title=""><br><img src="/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img5.png" alt="img5.png" title="">  </p>
+<center>图2.1</center>
+
+<h3 id="2-1-1_模版解释器触发RowHammer?">2.1.1 模版解释器触发RowHammer?</h3><h4 id="a)_模版解释器工作原理">a) 模版解释器工作原理</h4><p>&emsp;&emsp;模版解释器是一种比较靠近底层的解释器实现，每一个字节码对应一个模版，所有的模版组合在一起构成一个模板表。每一个模版实质上都是一段汇编代码，在虚拟机创建阶段进行初始化。在执行class文件的时候，遍历字节码，每检测到一个字节码就调用相应的汇编代码块进行执行，从而完成对于字节码的解释执行。<br>&emsp;&emsp;为了完成对于字节码的解释执行，Hotspot在初始化时还会生成多种汇编代码块，用来辅助字节码的解释，比如函数入口代码块，异常处理代码块等。查看Hotspot中生成的代码块和模版可以采用命令 java –XX:+PrintInterpreter 指令来完成。<br>&emsp;&emsp;针对各个字节码的模版中汇编代码比较庞大，比如字节码invokevirtual对应的代码块共有352 bytes，字节码putstatic有512 bytes。</p>
+<h4 id="b)_解释器能否触发RowHammer?">b) 解释器能否触发RowHammer?</h4><p>&emsp;&emsp;字节码在解释执行的时候会产生汇编代码，那么是否可以通过class文件让解释器生成RowHammer需要的指令呢？<br>通过分析，字节码对应的模版和辅助代码块的指令中没有prefetch, clflush以及movnt*系列指令，所以直接通过构造字节码，然后使用模版解释器来触发RowHammer是不可行的。</p>
+<h3 id="2-1-2_JIT编译器触发RowHammer?">2.1.2 JIT编译器触发RowHammer?</h3><h4 id="a)_C1编译器工作原理">a) C1编译器工作原理</h4><p>&emsp;&emsp;JIT编译器也是一种编译器，只不过其是在程序动态运行过程中在需要的时候对代码进行编译。其编译流程与一般编译器基本相同。<br>&emsp;&emsp;C1编译器是客户端使用的JIT编译器实现，其主要追求编译的速度，对于代码的优化等要相对保守。<br>&emsp;&emsp;Hotspot编译器默认是异步编译，有线程CompilerThread负责对特定的方法进行调用，当方法调用次数达到一定阈值时将会调用JIT编译器对方法进行编译，该阈值默认为10000次，可以通过 –XX:+CompileThreshold 参数来设置阈值。<br><img src="/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img6.png" alt="img6.png" title=""></p>
+<center>图2.2</center><br>&emsp;&emsp;1编译器共包含如下几个步骤<br><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">typedef</span> <span class="keyword">enum</span> &#123;</span><br><span class="line">  _t_compile,</span><br><span class="line">  _t_setup,</span><br><span class="line">  _t_optimizeIR,</span><br><span class="line">  _t_buildIR,</span><br><span class="line">  _t_emit_lir,</span><br><span class="line">  _t_linearScan,</span><br><span class="line">  _t_lirGeneration,</span><br><span class="line">  _t_lir_schedule,</span><br><span class="line">  _t_codeemit,</span><br><span class="line">  _t_codeinstall,</span><br><span class="line">  max_phase_timers</span><br><span class="line">&#125; TimerName;</span><br></pre></td></tr></table></figure><br><br>C1编译器执行流程大致如图2.2所示:<br>1) 生成HIR (build_hir)<br>&emsp;&emsp;C1编译器首先分析JVM字节码流，并将其转换成控制流图的形式，控制流图的基本块使用SSA的形式来表示。HIR是一个层级比较高的中间语言表示形式，离机器相关的代码还有一定的距离。<br>2) 生成LIR (emit_lir)<br>&emsp;&emsp;遍历控制流图的各个基本块，以及基本块中个各个语句，生成相应的LIR形式，LIR是一个比较接近机器语言的表现形式，但是还不是机器可以理解的代码。<br>3) 寄存器分配<br>&emsp;&emsp;LIR中使用的是虚拟寄存器，在该阶段必须为其分配真实可用的寄存器。C1为了保证编译的速度采用了基于线性扫描的寄存器分配算法<br>4) 生成目标代码<br>&emsp;&emsp;真正生成平台相关的机器代码的过程，在该阶段遍历LIR中的所有指令，并生成指令相关的汇编代码。主要是使用了LIR_Assembler类。<br><figure class="highlight livescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">LIR_Assembler lir_asm(<span class="keyword">this</span>);</span><br><span class="line">lir_asm.emit_code<span class="function"><span class="params">(hir()-&gt;code())</span>;</span></span><br></pre></td></tr></table></figure><br>&emsp;&emsp;通过遍历LIR_List依次调用，依次调用各个指令相关的emit_code（如表2-3），LIR中的指令都是继承自LIR_Op<br><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">op-&gt;emit_code<span class="list">(<span class="keyword">this</span>)</span><span class="comment">;</span></span><br></pre></td></tr></table></figure><br>&emsp;&emsp;以LIR_Op1为例，其emit_code方法为<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">void</span> LIR_Op1::emit_code(LIR_Assembler* masm) &#123;    <span class="comment">//emit_code</span></span><br><span class="line">  masm-&gt;emit_op1(<span class="keyword">this</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>&emsp;&emsp;以LIR_Op1为例，其emit_code方法为<br><figure class="highlight aspectj"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">case</span> lir_prefetchr:</span><br><span class="line">  prefetchr(op-&gt;in_opr());</span><br><span class="line">  <span class="keyword">break</span>;</span><br></pre></td></tr></table></figure><br>&emsp;&emsp;最终会调用 prefetchr函数，该函数为平台相关的，不同的平台下实现不同，以x86平台为例，其实现位于assembler_x86.cpp<br><br><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">void Assembler<span class="value">::<span class="function">prefetchr</span>(Address src) &#123;</span><br><span class="line">  <span class="function">assert</span>(VM_Version::<span class="function">supports_3dnow_prefetch</span>(), <span class="string">"must support"</span>);</span></span><br><span class="line">  InstructionMark <span class="function">im</span>(this);</span><br><span class="line">  <span class="function">prefetch_prefix</span>(src);</span><br><span class="line">  <span class="function">emit_byte</span>(0x0D);</span><br><span class="line">  <span class="function">emit_operand</span>(rax, src); <span class="comment">// 0, src</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><br>&emsp;&emsp;最终将会生成相应的机器码。<br><br>#### b) 能否触发RowHammer<br>&emsp;&emsp;C1编译器是否能够触发RowHammer? 经过分析发现，在x86平台下封装了prefetch相关的指令，确实是有希望控制产生prefetch指令。<br>&emsp;&emsp;从底层向上分析，如果要生成prefetch指令，在LIR层需要出现LIR_op1操作，且操作码需要为lir_prefetchr或者lir_prefetchw，进一步向上层分析，要在LIR层出现这样的指令，在从字节码到HIR的过程中必须能够调用到GraphBuilder::append_unsafe_prefetch函数。该方法在GraphBuilder::try_inline_instrinsics函数中调用，进一步分析只需调用sun.misc.unsafe的prefetch操作即可触发。通过深入分析，Hotspot确实是支持prefetch操作，然而在Java的运行库rt.jar中，sun.misc.unsafe并没有声明prefetch操作，导致无法直接调用，需要更改rt.jar才能触发成功。这样就失去了攻击的意义。<br><br>&emsp;&emsp;在Hotspot中还存在clflush这种指令，在hotspot的初始化阶段，其会生成一个代码块。如下所示：<br><br><figure class="highlight lisp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">__ bind<span class="list">(<span class="keyword">flush_line</span>)</span><span class="comment">;                         </span></span><br><span class="line">__ clflush<span class="list">(<span class="keyword">Address</span><span class="list">(<span class="keyword">addr</span>, <span class="number">0</span>)</span>)</span><span class="comment">;          //addr: address to flush </span></span><br><span class="line">__ addptr<span class="list">(<span class="keyword">addr</span>, ICache:<span class="keyword">:line_size</span>)</span><span class="comment">;                                         </span></span><br><span class="line">__ decrementl<span class="list">(<span class="keyword">lines</span>)</span><span class="comment">;                   //lines: range to flush</span></span><br><span class="line">__ jcc<span class="list">(<span class="keyword">Assembler</span>:<span class="keyword">:notZero</span>, flush_line)</span><span class="comment">;</span></span><br></pre></td></tr></table></figure><br>该部分代码在C1编译器编译完成之后有调用<br><figure class="highlight gcode"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// done</span></span><br><span class="line">masm<span class="comment">()</span>-&gt;flush<span class="comment">()</span>;             <span class="comment">//invoke ICache flush</span></span><br></pre></td></tr></table></figure><br>对当前代码存储的区域进行cache flush<br><br><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">void AbstractAssembler<span class="value">::<span class="function">flush</span>() &#123;</span><br><span class="line">  <span class="function">sync</span>();</span></span><br><span class="line">  ICache<span class="value">::<span class="function">invalidate_range</span>(<span class="function">addr_at</span>(<span class="number">0</span>), <span class="function">offset</span>());</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br>&emsp;&emsp;这种方法可以对内存做cache flush, 主要问题在于代码存储的区域在堆中是随机分配的，无法直接指定cache flush的区域，而且由于涉及到编译的操作，无法在短时间内大量产生clflush指令。<br><br>#### c) 其它编译器实现<br>&emsp;&emsp;C2编译器与C1编译器有一定的相似性又有很大的不同，由于主要在服务器端使用所以C2编译器更加注重编译后代码的执行效率，所有在编译过程中相对C1编译器做了大量的优化操作，但是在生成汇编代码的时候两者使用的是同一个抽象汇编，所以C2编译器与C1编译器应该大体相同，能够生成prefetch指令，但是在默认的情形下无法直接使用。<br>&emsp;&emsp;Shark编译器是基于LLVM实现的，一般都不会开启，没有对该编译器进行进一步的分析。<br><br><h2> 2.2 Chrome V8</h2><br>&emsp;&emsp;V8是Google开源的Javascript引擎，采用C++编写，可独立运行。V8会直接将JavaScript代码编译成本地机器码，没有中间代码，没有解释器。其执行机制是将Javascript代码转换成抽象语法树，然后直接walk抽象语法树，生成相应的机器码。<br>&emsp;&emsp;在V8生成机器码的过程中无法生成prefetch, clflush, movnt*系列指令。但是在V8执行的过程中可能会引入prefetch指令。<br>&emsp;&emsp;产生prefetch的函数为<br><figure class="highlight scss"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">MemMoveFunction <span class="function">CreateMemMoveFunction</span>() &#123;</span><br><span class="line"></span><br><span class="line">  __ <span class="function">prefetch</span>(<span class="function">Operand</span>(src, 0), 1);</span><br><span class="line">  __ <span class="function">cmp</span>(count, kSmallCopySize);    <span class="comment">//kSmallCopySize=8</span></span><br><span class="line">  __ <span class="function">j</span>(below_equal, &amp;small_size);  </span><br><span class="line">  __ <span class="function">cmp</span>(count, kMediumCopySize);   <span class="comment">//kMediumCopySize=63</span></span><br><span class="line">  __ <span class="function">j</span>(below_equal, &amp;medium_size);</span><br><span class="line">  __ <span class="function">cmp</span>(dst, src);</span><br><span class="line">  __ <span class="function">j</span>(above, &amp;backward);</span><br></pre></td></tr></table></figure><br><br>&emsp;&emsp;该函数的主要作用是当缓冲区无法满足指令的存储时，需要将缓冲区扩大一倍，在该过程中会调用一次prefetch指令，但是调用的此处远远不足RowHammer触发的条件。<br><br><br><h2> 2.3 .NET CoreCLIR</h2><br>&emsp;&emsp;CoreCLR是.NET的执行引擎，RyuJIT是.NET的JIT实现，目前已经开源。作为Java的竞争对手，.NET大量参考了Java的实现机制，从字节码的设计，到编译器的实现等，都与Java有几分相似。在RyuJIT的指令集定义中只定义了一些常见的指令(图2.3)，但是没有RowHammer需要的指令，所以无法直接触发。但是在CoreCLR的gc中存在prefetch操作(表2.12)，然而该指令默认是被置为无效的(表2.13)。<br><br><br><img src="/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/img7.png" alt="img7.png" title=""><br><center>图2.3</center><br><figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line">void gc_heap<span class="number">::</span>relocate_survivor_helper (BYTE* plug, BYTE* plug_end)</span><br><span class="line">&#123;</span><br><span class="line">    BYTE*  x = plug<span class="comment">;</span></span><br><span class="line">    while (x &lt; plug_end)</span><br><span class="line">    &#123;</span><br><span class="line">        size_t s = size (x)<span class="comment">;</span></span><br><span class="line">        BYTE* next_obj = x + Align (s)<span class="comment">;</span></span><br><span class="line">        Prefetch (next_obj)<span class="comment">;</span></span><br><span class="line">        relocate_obj_helper (x, s)<span class="comment">;</span></span><br><span class="line">        assert (s &gt; 0)<span class="comment">;</span></span><br><span class="line">        x = next_obj<span class="comment">;</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><br><center>图2.4</center>
+
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//#define PREFETCH</span></span><br><span class="line"><span class="preprocessor">#<span class="keyword">ifdef</span> PREFETCH</span></span><br><span class="line">__declspec(naked) <span class="keyword">void</span> __<span class="function">fastcall <span class="title">Prefetch</span><span class="params">(<span class="keyword">void</span>* addr)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">   __asm &#123;</span><br><span class="line">       PREFETCHT0 [ECX]</span><br><span class="line">        ret</span><br><span class="line">    &#125;;</span><br><span class="line">&#125;</span><br><span class="line"><span class="preprocessor">#<span class="keyword">else</span> <span class="comment">//PREFETCH</span></span></span><br><span class="line"><span class="function"><span class="keyword">inline</span> <span class="keyword">void</span> <span class="title">Prefetch</span> <span class="params">(<span class="keyword">void</span>* addr)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">    UNREFERENCED_PARAMETER(addr);</span><br><span class="line">&#125;</span><br><span class="line"><span class="preprocessor">#<span class="keyword">endif</span> <span class="comment">//PREFETCH</span></span></span><br></pre></td></tr></table></figure>
+<center>图2.5</center>
+
+<h2 id="2-4_Firfox_SpiderMonkey">2.4 Firfox SpiderMonkey</h2><p>&emsp;&emsp;SpiderMonkey是Firfox默认使用的带有JIT的Javascript引擎，在SpiderMonkey中没有RowHammer所需要的指令出现。</p>
+<h1 id="0x03_总结">0x03 总结</h1><p>&emsp;&emsp;本文研究的主要目的是希望通过JIT引擎来触发RowHammer的执行，为了提高脚本语言的执行效率，当前绝大多数脚本引擎都带有JIT编译器以提高运行的效率。本文研究了Hotspot、V8、RyuJIT和SpiderMonkey，其中并没有找到比较好的触发RowHammer的方法，当然依旧有一些JIT还没被研究，不过通过以上研究证明JIT触发的方式非常困难，原因主要有以下几点:</p>
+<p>1) RowHammer的触发条件比较苛刻，64ms内触发成功也就意味着无关指令的数目必须很少，否者在64ms内wordline无法充放电足够的次数。</p>
+<p>2) Cache相关的指令并不常用，RowHammer运行需要使用CLFLUSH, PREFETCH, MOVNT*系列指令，这些指令在实际的使用过程中并不常见，在用户态进行Cache相关操作的情形比较少见。</p>
+<p>3) 站在JIT开发人员的角度考虑，为了实现跨平台，一般会对指令进行抽象，然后在各个平台上具体实现。抽象的指令一般都尽可能少，因为每抽象一个指令就需要再添加大量的代码。在分析的JIT引擎中只有hotspot抽象了prefetch指令，引擎都尽可能少的去抽象编译器要用到的指令，想通过脚本直接生成需要的汇编指令很困难。（特例是如果采用了第三方引擎(比如AsmJit)，引擎会抽象所有的汇编指令，则有更大的可能性触发，然而当前主流语言的JIT部分大都是独立开发，而第三方引擎则多是从这些代码中提取并逐步完善的）。</p>
+<p>4) 在整个分析过程中发现指令出现的原因主要是辅助JIT编译，比如使用prefetch提高某些数据存取的速度，使用CLFLUSH刷新指令缓冲区等。指令出现的次数与频率，远远达不到RowHammer的要求。</p>
+<h1 id="参考资料">参考资料</h1><ol>
+<li>Google Project Zero<br><a href="http://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html" target="_blank" rel="external">http://googleprojectzero.blogspot.com/2015/03/exploiting-dram-rowhammer-bug-to-gain.html</a></li>
+<li>Paper: Flipping Bits in Memory Without Accessing Them: An Experimental Study of DRAM Disturbance Errors  <a href="http://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf" target="_blank" rel="external">http://users.ece.cmu.edu/~yoonguk/papers/kim-isca14.pdf</a></li>
+<li>高级语言虚拟机群组 <a href="http://hllvm.group.iteye.com/" target="_blank" rel="external">http://hllvm.group.iteye.com/</a></li>
+<li>各语言开放的源代码</li>
+</ol>
+
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://xlab.tencent.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/" data-id="cihyj4mfo000etsunl8zfgyz0" class="article-share-link"></a>
+      
+      
+  <span class="tags">标签:&nbsp;&nbsp;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/JIT/">JIT</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/Javascript/">Javascript</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/RowHammer/">RowHammer</a></li></ul>
+
+
+    </footer>
+  </div>
+</article>
+
+
+</section>
+        <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <hr>
+    <div class="widget tagcloud">
+      <a href="/cn/tags/CFG/" style="font-size: 10px;">CFG</a> <a href="/cn/tags/Chakra/" style="font-size: 10px;">Chakra</a> <a href="/cn/tags/DEP/" style="font-size: 10px;">DEP</a> <a href="/cn/tags/JIT/" style="font-size: 20px;">JIT</a> <a href="/cn/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/cn/tags/RowHammer/" style="font-size: 10px;">RowHammer</a> <a href="/cn/tags/沙箱逃逸/" style="font-size: 10px;">沙箱逃逸</a>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <hr>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/12/">2015-12</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/08/">2015-08</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/06/">2015-06</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最近更新</h3>
+    <hr>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/cn/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/">利用Chakra JIT绕过DEP和CFG</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/08/27/Poking-a-Hole-in-the-Patch/">在补丁上戳个洞——利用已经被修复的漏洞实现IE沙箱逃逸</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/">JIT引擎触发RowHammer可行性研究</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+
+      </div>
+      <footer id="footer">
+  <div id="outer">
+    <div id="footer-infoi" >
+        <div id="us">
+            <ul id="us_ul">
+            
+                <li id="follow_us" class="us_li"><p>关注我们: </p></li>
+                
+                <li class="us_li">
+                <a class="social_icon_twitter" href="https://twitter.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_twitter" src="/cn/css/images/twitter_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_weibo" href="http://weibo.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_weibo" src="/cn/css/images/weibo_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_rss" href="/cn/atom.xml" target="_blank">
+                <img class="social_icon_img_rss" src="/cn/css/images/rss_chose.png" />
+                </a>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="copyright"><p>Copyright &copy; 2015 Tencent's XuanwuLab.All Rights Reserved.<p></div>
+  </>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/cn" class="mobile-nav-link">首页</a>
+  
+    <a href="/cn/advisories" class="mobile-nav-link">安全公告</a>
+  
+    <a href="/cn/policy" class="mobile-nav-link">披露原则</a>
+  
+    <a href="/cn/archives" class="mobile-nav-link">归档</a>
+  
+    <a href="/cn/about" class="mobile-nav-link">关于</a>
+  
+</nav>
+
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/cn/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/cn/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/cn/js/script.js" type="text/javascript"></script>
+ -->
+  </div>
+</body>
+</html>

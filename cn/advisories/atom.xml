@@ -4,7 +4,7 @@
   
   <link href="/cn/advisories/atom.xml" rel="self"/>
   <link href="http://xlab.tencent.com/"/>
-  <updated>2015-12-07T08:16:36.000Z</updated>
+  <updated>2015-12-09T07:50:29.000Z</updated>
   <id>http://xlab.tencent.com/</id>
   
   <author>
@@ -13,6 +13,53 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[苹果Safari浏览器对话框域来源欺骗漏洞]]></title>
+    <link href="http://xlab.tencent.com/2015/12/09/xlab-15-022/"/>
+    <id>http://xlab.tencent.com/2015/12/09/xlab-15-022/</id>
+    <published>2015-12-09T07:42:34.000Z</published>
+    <updated>2015-12-09T07:50:29.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-022 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-7093 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> 已修复<br><a id="more"></a><br><strong>Vulnerability Details:</strong><br>在苹果IOS版本的Safari浏览器中，存在一个对话框域来源欺骗漏洞。该漏洞可以使对话框被渲染到任意的一个域页面，并且对话框上的域名是和当前域相同的。这个漏洞可以让远程攻击者实施网络钓鱼攻击。攻击者可以利用此漏洞诱使受害者点击一个恶意链接，当链接被导航到一个可信站点（如Gmail），此时对话框会在这个可信站点弹出，用户在对话框输入信息后，此信息内容即可被攻击者获取到。</p>
+<p><strong>Discloure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/8/25</th>
+<th style="text-align:left">向苹果公司 (product-security@apple.com) 提供漏洞细节</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/8/25</td>
+<td style="text-align:left">苹果公司邮件系统自动回复</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/8/26</td>
+<td style="text-align:left">苹果公司邮件回复正在验证漏洞细节</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/17</td>
+<td style="text-align:left">苹果公司询问致谢方式</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/12/9</td>
+<td style="text-align:left">苹果公司官方发布安全公告，在IOS9.2正式版中修复了此漏洞，CVE-2015-7093</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>漏洞发现者: &nbsp;&nbsp; xisigr </p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-022 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-7093 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> 已修复<br>]]>
+    
+    </summary>
+    
+  </entry>
   
   <entry>
     <title><![CDATA[BitDenfeder 安全漏洞]]></title>
@@ -924,50 +971,6 @@
     <summary type="html">
     <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-003 &nbsp;&nbsp;&nbsp;&nbsp; </p>
 <p><strong>CVE ID:</strong> CVE-2015-2494 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>Patch Status:</strong> 已修复<br>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[苹果MAC操作系统备忘录存储型跨站漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-002/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-002/</id>
-    <published>2015-11-30T06:22:16.000Z</published>
-    <updated>2015-12-07T08:02:31.000Z</updated>
-    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-002 &nbsp;&nbsp;&nbsp;&nbsp; </p>
-<p><strong>CVE ID:</strong> CVE-2015-5875 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>Patch Status:</strong> 已修复<br><a id="more"></a></p>
-<p><strong>Vulnerability Details:</strong><br>MAC Notes 在同步ICloud中的数据时，没有严格过滤数据内容造成存在XSS漏洞。此安全问题可能会导致本地用户泄漏敏感的用户信息。</p>
-<p><strong>Disclosure Timeline:</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">2015/3/28</th>
-<th style="text-align:left">向苹果公司 (product-security@apple.com) 提供漏洞细节</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">2015/3/28</td>
-<td style="text-align:left">苹果公司邮件系统自动回复</td>
-</tr>
-<tr>
-<td style="text-align:left">2015/3/29</td>
-<td style="text-align:left">苹果公司邮件回复正在验证漏洞细节</td>
-</tr>
-<tr>
-<td style="text-align:left">2015/9/30</td>
-<td style="text-align:left">苹果公司官方发布安全公告，CVE-2015-5875</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Credit:</strong><br>漏洞发现者: &nbsp;&nbsp;xisigr</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-002 &nbsp;&nbsp;&nbsp;&nbsp; </p>
-<p><strong>CVE ID:</strong> CVE-2015-5875 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 已修复<br>]]>
     
     </summary>

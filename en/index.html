@@ -28,6 +28,7 @@
   <div id="header_nav">
     <div id="xuanwulab_logo"></div>
     <div id="main_nav">
+        <a class="nav-icon" id="main-nav-toggle"></a>
         <ul id="menu_ul">
         
         <li id="menu_item">
@@ -59,10 +60,35 @@
       <div class="outer">
         <section id="main">
   
-        <article-sum id="post-2015-08-27-Poking-a-Hole-in-the-Patch-sum" class="article-sum" >
+        <article-sum id="post-bypass-dep-and-cfg-using-jit-compiler-in-charkra-engine-sum" class="article-sum" >
   <div class="article-sum-inner">
        <div class="article-sum-title">
-            <a class="article-sum-title-a" href="/en/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch--Escaping from IE Sandbox with a Poorly Patched Vulnerability</a>
+            <a class="article-sum-title-a" href="/en/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-charkra-engine/">Bypass DEP and CFG using JIT compiler in Chakra engine</a>
+       </div>
+       <div class="article-sum-time">
+            <p>By <span class="author">tombkeeper</span> on 
+            9 Dec 2015
+            </p>
+       </div>
+       <div class="article-sum-entry">
+          <p id="sum-detail">JIT Spray is a popular exploitation technique first appeared in 2010. It embeds shellcode as immediate value into the executable code the JIT compiler generates. Currently, all major JIT engine, including Chakra, already have many mitigations in place against this technique, such as random NOP instruction insertion, constant blinding, etc.This article points out two weaknesses in Chakra’s JIT Spray mitigation (in Windows 8.1 and older operating systems, and Windows 10, respectively), allowing attackers to use JIT Spray to execute shellcode, bypassing DEP. I will also discuss a method to bypass CFG using Chakra’s JIT compiler. ...</p>
+       </div>
+       <div class="article-sum-tag">
+          
+  <span class="tags">Tags:&nbsp;&nbsp;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/en/tags/CFG/">CFG</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/en/tags/Chakra/">Chakra</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/en/tags/DEP/">DEP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/en/tags/JIT/">JIT</a></li></ul>
+
+
+       </div>
+  </div>
+</article-sum>
+
+
+  
+        <article-sum id="post-Poking-a-Hole-in-the-Patch-sum" class="article-sum" >
+  <div class="article-sum-inner">
+       <div class="article-sum-title">
+            <a class="article-sum-title-a" href="/en/2015/08/27/Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch--Escaping from IE Sandbox with a Poorly Patched Vulnerability</a>
        </div>
        <div class="article-sum-time">
             <p>By <span class="author">FlowerCode</span> on 
@@ -84,10 +110,10 @@
 
 
   
-        <article-sum id="post-2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer-sum" class="article-sum" >
+        <article-sum id="post-Research-report-on-using-JIT-to-trigger-RowHammer-sum" class="article-sum" >
   <div class="article-sum-inner">
        <div class="article-sum-title">
-            <a class="article-sum-title-a" href="/en/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/">Research report on using JIT to trigger RowHammer</a>
+            <a class="article-sum-title-a" href="/en/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/">Research report on using JIT to trigger RowHammer</a>
        </div>
        <div class="article-sum-time">
             <p>By <span class="author">R3dF09</span> on 
@@ -125,7 +151,7 @@
     <h3 class="widget-title">Tag Cloud</h3>
     <hr>
     <div class="widget tagcloud">
-      <a href="/en/tags/JIT/" style="font-size: 10px;">JIT</a> <a href="/en/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/en/tags/RowHammer/" style="font-size: 10px;">RowHammer</a> <a href="/en/tags/Sandbox/" style="font-size: 10px;">Sandbox</a> <a href="/en/tags/Vulnerability/" style="font-size: 10px;">Vulnerability</a>
+      <a href="/en/tags/CFG/" style="font-size: 10px;">CFG</a> <a href="/en/tags/Chakra/" style="font-size: 10px;">Chakra</a> <a href="/en/tags/DEP/" style="font-size: 10px;">DEP</a> <a href="/en/tags/JIT/" style="font-size: 20px;">JIT</a> <a href="/en/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/en/tags/RowHammer/" style="font-size: 10px;">RowHammer</a> <a href="/en/tags/Sandbox/" style="font-size: 10px;">Sandbox</a> <a href="/en/tags/Vulnerability/" style="font-size: 10px;">Vulnerability</a>
     </div>
   </div>
 
@@ -136,7 +162,7 @@
     <h3 class="widget-title">Archives</h3>
     <hr>
     <div class="widget">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2015/06/">June 2015</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2015/12/">December 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2015/06/">June 2015</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -150,11 +176,15 @@
       <ul>
         
           <li>
-            <a href="/en/2015/08/27/2015-08-27-Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch--Escaping from IE Sandbox with a Poorly Patched Vulnerability</a>
+            <a href="/en/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-charkra-engine/">Bypass DEP and CFG using JIT compiler in Chakra engine</a>
           </li>
         
           <li>
-            <a href="/en/2015/06/09/2015-06-09-Research-report-on-using-JIT-to-trigger-RowHammer/">Research report on using JIT to trigger RowHammer</a>
+            <a href="/en/2015/08/27/Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch--Escaping from IE Sandbox with a Poorly Patched Vulnerability</a>
+          </li>
+        
+          <li>
+            <a href="/en/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/">Research report on using JIT to trigger RowHammer</a>
           </li>
         
       </ul>
@@ -212,7 +242,7 @@
     <a href="/en/about/index.html" class="mobile-nav-link">About</a>
   
 </nav>
-    <!-- 
+    
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
@@ -222,7 +252,7 @@
 
 
 <script src="/en/js/script.js" type="text/javascript"></script>
- -->
+ 
   </div>
 </body>
 </html>

