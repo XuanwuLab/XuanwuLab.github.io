@@ -4,7 +4,7 @@
   
   <link href="/en/atom.xml" rel="self"/>
   <link href="http://xlab.tencent.com/"/>
-  <updated>2015-12-09T09:26:23.000Z</updated>
+  <updated>2015-12-09T09:40:41.000Z</updated>
   <id>http://xlab.tencent.com/</id>
   
   <author>
@@ -19,7 +19,7 @@
     <link href="http://xlab.tencent.com/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-charkra-engine/"/>
     <id>http://xlab.tencent.com/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-charkra-engine/</id>
     <published>2015-12-09T05:19:49.000Z</published>
-    <updated>2015-12-09T09:26:23.000Z</updated>
+    <updated>2015-12-09T09:40:41.000Z</updated>
     <content type="html"><![CDATA[<p>JIT Spray is a popular exploitation technique first appeared in 2010. It embeds shellcode as immediate value into the executable code the JIT compiler generates. Currently, all major JIT engine, including Chakra, already have many mitigations in place against this technique, such as random NOP instruction insertion, constant blinding, etc.</p>
 <p>This article points out two weaknesses in Chakra’s JIT Spray mitigation (in Windows 8.1 and older operating systems, and Windows 10, respectively), allowing attackers to use JIT Spray to execute shellcode, bypassing DEP. I will also discuss a method to bypass CFG using Chakra’s JIT compiler.<br><a id="more"></a></p>
 <h2 id="0x01_Constant_Blinding">0x01 Constant Blinding</h2><p>Constant Blinding is the most important mitigation strategy against JIT Spray. Chakra engine use a randomly generated key to XOR every user inputted immediate value that is not 0x0000 or 0xFFFF, and decrypts it on the fly. For example, the following JavaScript:</p>
@@ -59,7 +59,7 @@
 <li>Read in compiled code to determine if there is any NOP instruction inserted.</li>
 <li>If any, destroy the script tag and repeat this procedure.</li>
 </ol>
-<p>Testing environments are Windows 8.1 with all updates till May 2015 and Windows 10 TP 9926.<br>Microsoft informed me that it has being fixed in September 2015.</p>
+<p>Testing environments are Windows 8.1 with all updates till May 2015 and Windows 10 TP 9926.<br>Microsoft informed me that it has been fixed in September 2015.</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p>JIT Spray is a popular exploitation technique first appeared in 2010. It embeds shellcode as immediate value into the executable code the JIT compiler generates. Currently, all major JIT engine, including Chakra, already have many mitigations in place against this technique, such as random NOP instruction insertion, constant blinding, etc.</p>
