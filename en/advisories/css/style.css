@@ -186,6 +186,13 @@ body {
     margin: 0 25px;
   }
 }
+@media screen and (max-width: 479px) {
+  #main {
+    float: left;
+    width: 100%;
+    margin: 0 10px;
+  }
+}
 .article-date,
 .article-category-link,
 .archive-year,
@@ -317,13 +324,23 @@ body {
   overflow: hidden;
   float: left;
 }
+@media screen and (max-width: 479px) {
+  #tencent_logo {
+    left: 10px;
+  }
+}
 #header_version {
   position: absolute;
   top: 0;
   height: 40px;
-  width: 15%;
-  right: 10%;
+  width: 130;
+  right: 50px;
   float: right;
+}
+@media screen and (max-width: 479px) {
+  #header_version {
+    right: 10px;
+  }
 }
 #language_ul {
   list-style: none;
@@ -363,7 +380,7 @@ body {
 #xuanwulab_logo {
   position: relative;
   height: 72px;
-  width: 300px;
+  width: 230px;
   top: 0;
   left: 50px;
   background-image: url("images/logo.png");
@@ -374,6 +391,12 @@ body {
   margin-right: 50px;
   overflow: hidden;
   float: left;
+}
+@media screen and (max-width: 479px) {
+  #xuanwulab_logo {
+    left: 10px;
+    margin-right: 10px;
+  }
 }
 #xuanwulab {
   position: relative;
@@ -390,6 +413,53 @@ body {
 }
 #xuanwulab .name_cn {
   font-size: 20px;
+}
+#main-nav-toggle {
+  display: none;
+}
+#main-nav-toggle:before {
+  content: "Menu";
+}
+@media screen and (max-width: 479px) {
+  #main-nav-toggle {
+    display: block;
+  }
+}
+.nav-icon,
+.main-nav-link {
+  float: left;
+  color: #000;
+  text-decoration: none;
+  text-shadow: 0 1px rgba(0,0,0,0.2);
+  -webkit-transition: opacity 0.2s;
+  -moz-transition: opacity 0.2s;
+  -ms-transition: opacity 0.2s;
+  transition: opacity 0.2s;
+  display: block;
+  padding: 20px 15px;
+}
+.nav-icon:hover,
+.main-nav-link:hover {
+  opacity: 1;
+}
+.nav-icon {
+  font-family: FontAwesome;
+  text-align: center;
+  font-size: 16px;
+  width: 16px;
+  height: 16px;
+  padding: 20px 15px;
+  position: relative;
+  cursor: pointer;
+}
+.main-nav-link {
+  font-weight: 300;
+  letter-spacing: 1px;
+}
+@media screen and (max-width: 479px) {
+  .main-nav-link {
+    display: none;
+  }
 }
 #main_nav {
   position: relative;
@@ -411,6 +481,11 @@ body {
 #menu_item:hover {
   background-color: #f0f0f0;
   font-weight: bold;
+}
+@media screen and (max-width: 479px) {
+  #menu_item {
+    display: none;
+  }
 }
 .navi {
   position: relative;
@@ -1225,14 +1300,14 @@ pre .javascript .function {
     left: 0;
     width: 280px;
     height: 100%;
-    background: #191919;
+    background: #fff;
     border-right: 1px solid #fff;
   }
 }
 @media screen and (max-width: 479px) {
   .mobile-nav-link {
     display: block;
-    color: #999;
+    color: #000;
     text-decoration: none;
     padding: 15px 20px;
     font-weight: bold;
@@ -1286,41 +1361,58 @@ pre .javascript .function {
 .article-sum-tag a:hover {
   color: #258fb8;
 }
-#sidebar {
-  position: relative;
-  width: 300px;
-  right: 5px;
-  float: right;
+@media screen and (max-width: 479px) {
+  .widget-wrap {
+    margin: 50px 0px;
+  }
+  .widget-title {
+    color: #000;
+    letter-spacing: 1px;
+    margin-bottom: 1em;
+  }
+  .widget {
+    color: #000;
+    line-height: 1.5em;
+    padding: 5px;
+  }
 }
-.widget-wrap {
-  margin: 0 0 17px 0;
-  background-color: #fff;
-  padding: 20px;
-}
-.widget {
-  color: #777;
-  background-color: #f8f8f8;
-}
-.widget a {
-  color: #666;
-  font-size: 16px;
-  text-decoration: none;
-}
-.widget a:hover {
-  text-decoration: underline;
-  color: #258fb8;
-}
-.widget ul ul,
-.widget ol ul,
-.widget dl ul,
-.widget ul ol,
-.widget ol ol,
-.widget dl ol,
-.widget ul dl,
-.widget ol dl,
-.widget dl dl {
-  margin-left: 15px;
-  list-style: disc;
+@media screen and (min-width: 768px) {
+  #sidebar {
+    position: relative;
+    width: 300px;
+    right: 5px;
+    float: right;
+  }
+  .widget-wrap {
+    margin: 0 0 17px 0;
+    background-color: #fff;
+    padding: 20px;
+  }
+  .widget {
+    color: #777;
+    background-color: #f8f8f8;
+  }
+  .widget a {
+    color: #666;
+    font-size: 16px;
+    text-decoration: none;
+  }
+  .widget a:hover {
+    text-decoration: underline;
+    color: #258fb8;
+  }
+  .widget ul ul,
+  .widget ol ul,
+  .widget dl ul,
+  .widget ul ol,
+  .widget ol ol,
+  .widget dl ol,
+  .widget ul dl,
+  .widget ol dl,
+  .widget dl dl {
+    margin-left: 15px;
+    list-style: disc;
+  }
 }
 .widget {
   line-height: 1.6em;
@@ -1360,4 +1452,12 @@ pre .javascript .function {
 .tag-list-count:after,
 .archive-list-count:after {
   content: ")";
+}
+@media screen and (max-width: 479px) and (min-width: 768px) {
+  .widget-wrap {
+    display: inline;
+    float: left;
+    width: 23.333333333333332%;
+    margin: 0 0.833333333333333%;
+  }
 }
