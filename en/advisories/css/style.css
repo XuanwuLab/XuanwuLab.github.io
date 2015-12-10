@@ -1072,6 +1072,11 @@ a.article-title:hover {
   width: 100%;
   float: left;
 }
+@media screen and (max-width: 479px) {
+  #footer-infoi {
+    left: 10px;
+  }
+}
 #description {
   color: #999;
   position: relative;
