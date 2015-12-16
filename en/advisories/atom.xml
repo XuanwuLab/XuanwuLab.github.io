@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title><![CDATA[XuanwuLab]]></title>
+  
+  <link href="/en/advisories/atom.xml" rel="self"/>
+  <link href="http://xlab.tencent.com/"/>
+  <updated>2015-12-09T07:56:46.000Z</updated>
+  <id>http://xlab.tencent.com/</id>
+  
+  <author>
+    <name><![CDATA[freener]]></name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title><![CDATA[Apple Safari Dialog Origin Spoofing Vulnerability]]></title>
+    <link href="http://xlab.tencent.com/2015/12/09/xlab-15-022/"/>
+    <id>http://xlab.tencent.com/2015/12/09/xlab-15-022/</id>
+    <published>2015-12-09T07:54:03.000Z</published>
+    <updated>2015-12-09T07:56:46.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-022 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-7093 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong><br>Apple Safari is prone to a dialog box origin spoofing vulnerability. This issue may allow a remote attacker to carry out phishing style attacks. The vulnerability presents itself as dialog boxes from inactive windows may appear in other active windows. An attacker can exploit this issue by creating a malicious Web site and enticing a user to follow a link to the site. If the user follows the link, the attacker can then trigger this issue by somehow enticing a user to follow another link to a trusted site in a new window. The attacker can then display a spoofed dialog box to the user that seemingly originates from the trusted site. Typically this dialog box would mimic the legitimate site. An attacker may exploit this vulnerability to spoof an interface of a trusted web site. This vulnerability may aid in phishing style attacks.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/8/25</th>
+<th style="text-align:left">Provide vulnerability detail to APPLE via product-security@apple.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/8/25</td>
+<td style="text-align:left">APPLE automatic reply</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/8/26</td>
+<td style="text-align:left">APPLE responded that they are verifying the proof of concept code</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/17</td>
+<td style="text-align:left">APPLE asked how would you like to be acknowledged</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/12/9</td>
+<td style="text-align:left">APPLE advisory disclosed，the issue was fiexed in IOS9.2. CVE-2015-7093</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;xisigr</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-022 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-7093 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[BitDenfeder Vulnerability]]></title>
+    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-021/"/>
+    <id>http://xlab.tencent.com/2015/12/02/xlab-15-021/</id>
+    <published>2015-12-02T13:51:15.000Z</published>
+    <updated>2015-12-07T09:25:15.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-021 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong></p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/10/09</th>
+<th style="text-align:left">Ask for an vulnerability report contact address from BitDefender via bdsupport at bitdefender.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/10/09</td>
+<td style="text-align:left">BitDefender technical support replied with template emails</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/12</td>
+<td style="text-align:left">Stressed the seriousness of the vulnerability to BitDenfeder technical support</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/19</td>
+<td style="text-align:left">BitDefender requests vulnerability detail</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/19</td>
+<td style="text-align:left">Provide vulnerability detail to BitDefender</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/19</td>
+<td style="text-align:left">BitDefender replied with apology for delay and a 1-year license key</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/23</td>
+<td style="text-align:left">Report vulnerability to MITRE</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp; wwq</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-021 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Total Defense Vulnerability]]></title>
+    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-020/"/>
+    <id>http://xlab.tencent.com/2015/12/02/xlab-15-020/</id>
+    <published>2015-12-02T13:49:50.000Z</published>
+    <updated>2015-12-07T09:48:07.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-020 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong></p>
+<p><strong>Disclosure Timeline:</strong> </p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/09/28</th>
+<th style="text-align:left">Ask for an vulnerability report contact address from Total Defense<br> via tdicustomerservice at totaldefense.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/09/29</td>
+<td style="text-align:left">Total Defense requests vulnerability detail</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/09/29</td>
+<td style="text-align:left">Provide vulnerability detail to Total Defense</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/08</td>
+<td style="text-align:left">Ask if Total Defense has received the vulnerability detail</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/08</td>
+<td style="text-align:left">Total Defense responded that they are planning a solution</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/23</td>
+<td style="text-align:left">Report vulnerability to MITRE</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp; wwq</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-020 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Panda Security Vulnerability]]></title>
+    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-019/"/>
+    <id>http://xlab.tencent.com/2015/12/02/xlab-15-019/</id>
+    <published>2015-12-02T13:48:39.000Z</published>
+    <updated>2015-12-07T09:23:52.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-019 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong></p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/09/28</th>
+<th style="text-align:left">Provide vulnerability detail to Panda Security via secure at pandasecurity.com (No Response)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/11/23</td>
+<td style="text-align:left">Report vulnerability to MITRE</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp; wwq</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-019 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Kaspersky Vulnerability]]></title>
+    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-018/"/>
+    <id>http://xlab.tencent.com/2015/12/02/xlab-15-018/</id>
+    <published>2015-12-02T13:47:51.000Z</published>
+    <updated>2015-12-07T09:23:07.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-018 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong></p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/11/20</th>
+<th style="text-align:left">Ask for an vulnerability report contact address via info at kaspersky.com (No Response)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/11/23</td>
+<td style="text-align:left">Provide vulnerability detail to MITRE</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp; wwq</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-018 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Trend Micro Vulnerability]]></title>
+    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-023/"/>
+    <id>http://xlab.tencent.com/2015/12/02/xlab-15-023/</id>
+    <published>2015-12-02T13:46:41.000Z</published>
+    <updated>2015-12-10T01:24:17.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-023 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-8302 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong></p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/10/30</th>
+<th style="text-align:left">Provide vulnerability detail to Trend Micro via security at trendmicro.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/10/31</td>
+<td style="text-align:left">Trend Micro automatic reply</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/31</td>
+<td style="text-align:left">Trend Micro responded that they are verifying the proof of concept code</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/20</td>
+<td style="text-align:left">Report vulnerability to MITRE</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/21</td>
+<td style="text-align:left">MITRE assigned CVE-ID CVE-2015-8302</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/25</td>
+<td style="text-align:left">Provide CVE-IDs to Trend Micro, asking fix progress</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/12/02</td>
+<td style="text-align:left">Trend Micro responded that they are developing a fix, but no timeline is available</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/12/09</td>
+<td style="text-align:left">Trend Micro responded that they have fixed the vulnerabilities, provided a hotfix for verification</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp; wwq</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-023 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-8302 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Trend Micro Vulnerability]]></title>
+    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-017/"/>
+    <id>http://xlab.tencent.com/2015/12/02/xlab-15-017/</id>
+    <published>2015-12-02T13:46:40.000Z</published>
+    <updated>2015-12-10T01:21:07.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-017 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8301 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong></p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/10/30</th>
+<th style="text-align:left">Provide vulnerability detail to Trend Micro via security at trendmicro.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/10/31</td>
+<td style="text-align:left">Trend Micro automatic reply</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/31</td>
+<td style="text-align:left">Trend Micro responded that they are verifying the proof of concept code</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/20</td>
+<td style="text-align:left">Report vulnerability to MITRE</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/21</td>
+<td style="text-align:left">MITRE assigned CVE-ID CVE-2015-8301</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/25</td>
+<td style="text-align:left">Provide CVE-IDs to Trend Micro, asking fix progress</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/12/02</td>
+<td style="text-align:left">Trend Micro responded that they are developing a fix, but no timeline is available</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/12/09</td>
+<td style="text-align:left">Trend Micro responded that they have fixed the vulnerbilities, provided a hotfix for verification</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp; wwq</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-017 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8301 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[HP Vulnerability]]></title>
+    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-016/"/>
+    <id>http://xlab.tencent.com/2015/12/02/xlab-15-016/</id>
+    <published>2015-12-02T13:45:44.000Z</published>
+    <updated>2015-12-07T09:49:16.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-016 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong></p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/10/19</th>
+<th style="text-align:left">Ask for an vulnerability report contact address from HP Enterprise <br>via <a href="https://h41268.www4.hp.com/live/index_e.aspx?qid=11503" target="_blank" rel="external">https://h41268.www4.hp.com/live/index_e.aspx?qid=11503</a></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/10/20</td>
+<td style="text-align:left">HP requests vulnerability detail</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/21</td>
+<td style="text-align:left">Provide vulnerability detail to HP</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/22</td>
+<td style="text-align:left">HPE PSRT forwarded the vulnerability detail to HPI PSRT</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/17</td>
+<td style="text-align:left">HP responded that they are testing the patch</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp; Danny_Wei</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-016 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Avast Vulnerability]]></title>
+    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-015/"/>
+    <id>http://xlab.tencent.com/2015/12/02/xlab-15-015/</id>
+    <published>2015-12-02T13:44:30.000Z</published>
+    <updated>2015-12-07T09:50:41.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-015 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong></p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/09/28</th>
+<th style="text-align:left">Provide vulnerability detail to Avast via bugs at avast.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/09/29</td>
+<td style="text-align:left">Avast responded that they have dispatched this issue to development team (via support center)</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/06</td>
+<td style="text-align:left">Avast responded that they are planning to fix in the next major release,<br> requests vulnerability detail (via support center)</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/07</td>
+<td style="text-align:left">Provide vulnerability detail to Avast</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/13</td>
+<td style="text-align:left">Avast support center removed, ask if they are willing to provide CVE-IDs via email</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/14</td>
+<td style="text-align:left">Avast responded that they do not provide CVE-IDs</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/30</td>
+<td style="text-align:left">Report vulnerability to CERT/CC</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/02</td>
+<td style="text-align:left">CERT/CC requests vulnerability detail</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/03</td>
+<td style="text-align:left">Provide vulnerability detail to CERT/CC</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/23</td>
+<td style="text-align:left">CERT/CC responded that they do not provide CVE-IDs to avoid duplication,<br> recommends request CVE-IDs through MITRE</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/27</td>
+<td style="text-align:left">Report vulnerability to MITRE</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp; wwq</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-015 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Comodo Vulnerability]]></title>
+    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-014/"/>
+    <id>http://xlab.tencent.com/2015/12/02/xlab-15-014/</id>
+    <published>2015-12-02T13:21:16.000Z</published>
+    <updated>2015-12-07T09:18:48.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-014 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong></p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/09/27</th>
+<th style="text-align:left">Ask for an vulnerability report contact address from Comodo via sales at comodo.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/09/30</td>
+<td style="text-align:left">Comodo requests vulnerability detail</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/09/30</td>
+<td style="text-align:left">Provide vulnerability detail to Comodo</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/09/30</td>
+<td style="text-align:left">Comodo responded that the fix is in progress</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/09/30</td>
+<td style="text-align:left">Comodo requests vulnerability detail</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/02</td>
+<td style="text-align:left">Provide vulnerability detail to Comodo</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/19</td>
+<td style="text-align:left">Ask if Comodo has assigned a CVE-ID (No Response)</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/23</td>
+<td style="text-align:left">Report vulnerability to MITRE</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp; wwq</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-014 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> Pending &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Unfixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Internet Explorer  CDispContainer Object Use-After-Free]]></title>
+    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-013/"/>
+    <id>http://xlab.tencent.com/2015/11/30/xlab-15-013/</id>
+    <published>2015-11-30T07:29:13.000Z</published>
+    <updated>2015-12-07T09:47:00.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-013 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-6073 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong><br>The vulnerability relates to how Internet Explorer processes the CDispContainer objects. By manipulating a document’s elements an attacker can force a CDispContainer object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/07/28</th>
+<th style="text-align:left">Provide vulnerability detail to Micorsoft via secure@micorsoft.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/07/29</td>
+<td style="text-align:left">Microsoft responded that they had opend case 30734 for the issue</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/08/04</td>
+<td style="text-align:left">Micorsoft responded that they had successfully reproduced the issue,<br> and had been working on a fix</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/09/04</td>
+<td style="text-align:left">Micorsoft responded that they had been working on a fix</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/25</td>
+<td style="text-align:left">Queried Microsoft about investigation on the issue</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/26</td>
+<td style="text-align:left">Micorsoft responded that the issue had already been fixed with<br> MS15-113 on November 10, and they had assigned CVE-2015-6073to the issue</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-013 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-6073 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Internet Explorer TreeNode Object Use-After-Free]]></title>
+    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-012/"/>
+    <id>http://xlab.tencent.com/2015/11/30/xlab-15-012/</id>
+    <published>2015-11-30T07:27:33.000Z</published>
+    <updated>2015-12-07T09:17:04.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-012 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-6072 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong><br>The vulnerability relates to how Internet Explorer processes the TreeNode objects. By manipulating a document’s elements an attacker can force a TreeNode object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/07/28</th>
+<th style="text-align:left">Provide vulnerability detail to Micorsoft via secure@micorsoft.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/07/29</td>
+<td style="text-align:left">Microsoft responded that they had opend case 30726 for the issue</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/08/05</td>
+<td style="text-align:left">Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/09/04</td>
+<td style="text-align:left">Micorsoft responded that they had been working on a fix</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/03</td>
+<td style="text-align:left">Microsoft asked how would you like to be acknowledged</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/11/11</td>
+<td style="text-align:left">The issue was fiexed with MS15-112</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-012 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-6072 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Internet Explorer ElementNode Object Use-After-Free]]></title>
+    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-011/"/>
+    <id>http://xlab.tencent.com/2015/11/30/xlab-15-011/</id>
+    <published>2015-11-30T07:24:58.000Z</published>
+    <updated>2015-12-07T09:51:28.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-011 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-6045 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a> </p>
+<p><strong>Vulnerability Details:</strong><br>The vulnerability relates to how Internet Explorer processes the ElementNode objects. By manipulating a document’s elements an attacker can force a ElementNode object in memory to be reused after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/07/09</th>
+<th style="text-align:left">Provide vulnerability detail to Micorsoft via secure@micorsoft.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/07/13</td>
+<td style="text-align:left">Micorsoft responded that they had successfully reproduced the issue,<br> and had been working on a fix.The case number for the issue was 30619</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/09/04</td>
+<td style="text-align:left">Micorsoft responded that they had been working on a fix</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/09/18</td>
+<td style="text-align:left">Microsoft asked how would you like to be acknowledged</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/10/14</td>
+<td style="text-align:left">The issue was fiexed with MS15-106</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-011 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-6045 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Internet Explorer Out-Of-Bound Access]]></title>
+    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-010/"/>
+    <id>http://xlab.tencent.com/2015/11/30/xlab-15-010/</id>
+    <published>2015-11-30T07:14:57.000Z</published>
+    <updated>2015-12-07T09:15:33.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-010 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-2494 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong><br>The vulnerability relates to how Internet Explorer processes the DOM objects. By manipulating a document’s elements an attacker can force an out-of-bounds memory access ocurring. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/07/03</th>
+<th style="text-align:left">Provide vulnerability detail to Micorsoft via secure@micorsoft.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/07/04</td>
+<td style="text-align:left">Microsoft responded that they had opend case 30590 for the issue</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/07/21</td>
+<td style="text-align:left">Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/08/18</td>
+<td style="text-align:left">Microsoft asked how would you like to be acknowledged</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/09/09</td>
+<td style="text-align:left">The issue was fiexed with MS15-094</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-010 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-2494 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Flash Player Memory Corruption in TextField Object Handling]]></title>
+    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-009/"/>
+    <id>http://xlab.tencent.com/2015/11/30/xlab-15-009/</id>
+    <published>2015-11-30T07:13:03.000Z</published>
+    <updated>2015-12-07T09:14:39.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-009 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-4429 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong><br>The specific flaw exists within the usage of TextField objects. By maniuplating TextField’s  properties attacker can force memory corruption occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/05/27</th>
+<th style="text-align:left">Provide vulnerability detail to Adobe via psirt@adobe.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/05/28</td>
+<td style="text-align:left">Adobe responded that they had opened case PSIRT-3670 for the issuse</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/07/03</td>
+<td style="text-align:left">Adobe responded that they had assigned CVE-2015-4429 to the issue</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-009 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-4429 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Flash Player Buffer Overflow in Display List Handling]]></title>
+    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-008/"/>
+    <id>http://xlab.tencent.com/2015/11/30/xlab-15-008/</id>
+    <published>2015-11-30T07:09:57.000Z</published>
+    <updated>2015-12-07T09:13:54.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-008 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-5124 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong><br>The specific flaw exists within the handling of display list. By maniuplating DisplayObject’s properties attacker can force buffer overflow occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/05/12</th>
+<th style="text-align:left">Provide vulnerability detail to Adobe via psirt@adobe.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/05/13</td>
+<td style="text-align:left">Adobe responded that they had opened case PSIRT-3670 for the issuse</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/07/18</td>
+<td style="text-align:left">Adobe responded that they had assigned CVE-2015-5124 to the issue</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-008 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-5124 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Flash Player Memory Courruption in Display List Handling]]></title>
+    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-007/"/>
+    <id>http://xlab.tencent.com/2015/11/30/xlab-15-007/</id>
+    <published>2015-11-30T07:07:45.000Z</published>
+    <updated>2015-12-07T09:13:04.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-007 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-7627 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong><br>The specific flaw exists within the handling of display list. By maniuplating DisplayObject’s properties attacker can force memory corruption occuring in flash player. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/05/07</th>
+<th style="text-align:left">Provide vulnerability detail to Adobe via psirt@adobe.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/05/09</td>
+<td style="text-align:left">Adobe responded that they had opened case PSIRT-3665 for the issuse</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/09/18</td>
+<td style="text-align:left">Adobe responded that they had assigned CVE-2015-5581 to the issue</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-007 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-7627 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Flash Player Use-After-Free in Display List Handling]]></title>
+    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-006/"/>
+    <id>http://xlab.tencent.com/2015/11/30/xlab-15-006/</id>
+    <published>2015-11-30T06:52:14.000Z</published>
+    <updated>2015-12-07T09:12:12.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-006 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-5581 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong><br>The specific flaw exists within the DisplayObject’s mask property. By maniuplating display list attacker can force a dangling pointer to be reuesed after it has been freed. An attacker can leverage this vulnerability to execute code under the context of the current process.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/05/07</th>
+<th style="text-align:left">Provide vulnerability detail to Adobe via psirt@adobe.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/05/09</td>
+<td style="text-align:left">Adobe responded that they had opened case PSIRT-3665 for the issuse</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/09/18</td>
+<td style="text-align:left">Adobe responded that they had assigned CVE-2015-5581 to the issue</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-006 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-5581 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Win32k.sys Kernel Object Use-After-Free]]></title>
+    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-005/"/>
+    <id>http://xlab.tencent.com/2015/11/30/xlab-15-005/</id>
+    <published>2015-11-30T06:47:42.000Z</published>
+    <updated>2015-12-07T09:52:32.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-005 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-1720 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong><br>The specific flaw exists within the function NtUserTrackPopupMenu. The issue lies in the failure to propery handle reference counting of the MENU objects. An attacker can leverage this vulnerability to raise privileges and execute code under the context of SYSTEM.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/03/18</th>
+<th style="text-align:left">Provide vulnerability detail to Micorsoft via secure@micorsoft.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/03/19</td>
+<td style="text-align:left">Micorsoft responded that they had opened case 21767 for the issuse</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/04/16</td>
+<td style="text-align:left">Micorsoft responded that they had successfully reproduced the issue,<br> and asked for the source code of PoC</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/04/16</td>
+<td style="text-align:left">Rejected Micorsoft’s request with the consideration of respecting intellectual property</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/04/28</td>
+<td style="text-align:left">Micorsoft responded that they had been working closer to the fix</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/06/09</td>
+<td style="text-align:left">Microsoft responded that they had assigned CVE-2015-1720 to the issue</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-005 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-1720 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Win32k.sys Kernel Information Disclosure]]></title>
+    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-004/"/>
+    <id>http://xlab.tencent.com/2015/11/30/xlab-15-004/</id>
+    <published>2015-11-30T06:42:10.000Z</published>
+    <updated>2015-12-07T09:45:04.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-004 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-0095 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br><a id="more"></a></p>
+<p><strong>Vulnerability Details:</strong><br>The specific flaw exists within the function NtUserSetParent. The issue lies in the failure to properly validate parameters passed in leadingto kernel information disclosure. An attacker can leverage this vulnerability to bypass KASLR.</p>
+<p><strong>Disclosure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2014/11/17</th>
+<th style="text-align:left">Provide vulnerability detail to Micorsoft via secure@micorsoft.com</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2014/11/19</td>
+<td style="text-align:left">Micorsoft responded that they had opened case 21058 for the issuse</td>
+</tr>
+<tr>
+<td style="text-align:left">2014/12/11</td>
+<td style="text-align:left">Micorsoft responded that they had successfully reproduced the issue, and had been working on a fix.</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/01/17</td>
+<td style="text-align:left">Micorsoft responded that they had been working on a fix</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/02/07</td>
+<td style="text-align:left">Microsoft responded that they had assigned CVE-2015-0095 to the issue</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/03/11</td>
+<td style="text-align:left">The issue was fiexed with MS15-023</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>This vulnerability was discovered by: &nbsp;&nbsp;Kai Kang</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-004 &nbsp;&nbsp;&nbsp;&nbsp; </p>
+<p><strong>CVE ID:</strong> CVE-2015-0095 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> Fixed<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+</feed>
