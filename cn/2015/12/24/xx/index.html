@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <link rel="icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/cn/css/style.css" type="text/css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header_top">
+    <div id="tencent_logo">
+    </div>
+    <div id="header_version">
+        <ul id="language_nav">
+          <li class="language_li"><a class="version_a" href="/cn">中文</a></li>
+          <li class="sep"><a class="version_a"> |&nbsp;&nbsp;  </a></li>
+          <li class="language_li"><a class="version_a" href="/en"> English</a></li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="header_nav">
+    <div id="xuanwulab_logo"></div>
+    <div id="main_nav">
+        <a class="nav-icon" id="main-nav-toggle"></a> 
+        <ul id="menu_ul">
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn">首页</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/advisories">安全公告</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/policy">披露原则</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/archives">归档</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/cn/about">关于</a>
+        </li>
+        
+        </ul>
+    </div>
+  </div>
+
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-xx" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      再利用Chakra引擎绕过CFG
+    </h1>
+  
+
+
+      </header>
+       <div class="article-sum-time">
+            <p>作者： <span class="author">exp-sky</span> &nbsp; 
+            2015-12-24
+            </p>
+       </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+        <p>本文源自一次与<a href="http://weibo.com/101174?from=feed&amp;loc=at&amp;nick=tombkeeper&amp;is_all=1" target="_blank" rel="external">TK</a>闲聊，期间得知成功绕过CFG的经过与细节(参考：<a href="http://xlab.tencent.com/cn/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/">利用Chakra JIT绕过DEP和CFG</a>)。随即出于对技术的兴趣，也抽出一些时间看了相关的东西，结果发现了另一处绕过CFG的位置。所以这篇文章中提到的思路与技术归根结底是来自<a href="http://weibo.com/101174?from=feed&amp;loc=at&amp;nick=tombkeeper&amp;is_all=1" target="_blank" rel="external">TK</a>提示的，在此特别感谢。</p>
+<p>关于CFG的分析文章已经有很多了，想要了解的话可以参考我之前在HitCon 2015上的演讲(<a href="https://github.com/exp-sky/HitCon-2015-spartan-0day-exploit/blob/master/Spartan%200day%20%26%20Exploit-m.pdf" target="_blank" rel="external">spartan 0day &amp; exploit</a>)。要说明的是，本文的内容即为我演讲中马赛克的部分，至此通过一次内存写实现edge的任意代码执行方法就全部公开了。<br><a id="more"></a></p>
+<h2 id="0x01_Chakra调用函数的逻辑">0x01 Chakra调用函数的逻辑</h2><p>chakra引擎在函数调用时，会根据所调用函数状态的不同进行不同的处理。比如第一次调用的函数、多次调用的函数、DOM接口函数及经过jit编译后的函数。不同的函数类型会有不同的处理流程，而这些不同的处理都会通过Js::InterpreterStackFrame::OP_CallCommon<js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0> &gt; &gt; &gt; 函数调用 Js::JavascriptFunction::CallFunction<1> 函数来实现。</1></js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0></p>
+<h4 id="0x01_函数的首次调用与多次调用">0x01 函数的首次调用与多次调用</h4><p>当调用如下脚本时，Js::JavascriptFunction::CallFunction<1>函数会被Js::InterpreterStackFrame::OP_CallCommon<js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0> &gt; &gt; &gt;函数调用。</js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0></1></p>
+<figure class="highlight delphi"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span><span class="params">()</span><span class="comment">&#123;&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="title">test</span><span class="params">()</span>;</span></span><br></pre></td></tr></table></figure>
+<p>如果函数是第一次被调用，则执行流程如下。</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:OP_CallCommon&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutDynamicProfile&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutT_CallI&lt;Js</span><span class="symbol">:</span><span class="symbol">:LayoutSizePolicy&lt;</span><span class="number">0</span>&gt; &gt; &gt; &gt;</span><br><span class="line">	|-chakra!<span class="constant">Js:</span><span class="symbol">:JavascriptFunction</span><span class="symbol">:</span><span class="symbol">:CallFunction&lt;</span><span class="number">1</span>&gt;</span><br><span class="line">		|-chakra!<span class="constant">Js:</span><span class="symbol">:JavascriptFunction</span><span class="symbol">:</span><span class="symbol">:DeferredParsingThunk</span></span><br><span class="line">			|-chakra!<span class="constant">Js:</span><span class="symbol">:JavascriptFunction</span><span class="symbol">:</span><span class="symbol">:DeferredParse</span></span><br><span class="line">			|-chakra!<span class="constant">NativeCodeGenerator:</span><span class="symbol">:CheckCodeGenThunk</span></span><br><span class="line">				|-chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:DelayDynamicInterpreterThunk</span></span><br><span class="line">					|-jmp_code</span><br><span class="line">						|-chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:InterpreterThunk</span></span><br></pre></td></tr></table></figure>
+<p>如果再次调用这个函数的话，调用流程如下。</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:OP_CallCommon&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutDynamicProfile&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutT_CallI&lt;Js</span><span class="symbol">:</span><span class="symbol">:LayoutSizePolicy&lt;</span><span class="number">0</span>&gt; &gt; &gt; &gt;</span><br><span class="line">	|-chakra!<span class="constant">Js:</span><span class="symbol">:JavascriptFunction</span><span class="symbol">:</span><span class="symbol">:CallFunction&lt;</span><span class="number">1</span>&gt;</span><br><span class="line">		|-chakra!<span class="constant">NativeCodeGenerator:</span><span class="symbol">:CheckCodeGenThunk</span></span><br><span class="line">			|-chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:DelayDynamicInterpreterThunk</span></span><br><span class="line">				|-jmp_code</span><br><span class="line">					|-chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:InterpreterThunk</span></span><br></pre></td></tr></table></figure>
+<p>两次的调用流程大致是相同的，其中主要不同是因为，函数在第一次调用时候需要通过DeferredParsingThunk函数对其进行解析。其实函数只有在第一次调用时才进行进一步的初始化解析操作，这样设计主要是为了效率。而后续调用再直接解释执行。</p>
+<p>分析发现，Js::JavascriptFunction::CallFunction<1>函数调用的子函数是通过Js::ScriptFunction对象中的数据获得的。后续调用的函数Js::JavascriptFunction::DeferredParsingThunk和NativeCodeGenerator::CheckCodeGenThunk都存在于Js::ScriptFunction对象中。两次调用中Js::ScriptFunction对象的变化。</1></p>
+<p>第一次调用时的Js::ScriptFunction对象。</p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">0:010&gt; u poi(06eaf050 )</span><br><span class="line">chakra!Js<span class="number">::</span>ScriptFunction<span class="number">::</span>`vftable':</span><br><span class="line"></span><br><span class="line">0:010&gt; dd 06eaf050 </span><br><span class="line">06eaf050  <span class="number">5f695580</span> 06eaf<span class="number">080 00000</span><span class="number">000 00000</span>000</span><br><span class="line"></span><br><span class="line">0:010&gt; dd poi(06eaf050+4) </span><br><span class="line">06eaf080  <span class="number">00000012 00</span><span class="number">000000 06</span>e<span class="number">26c00 06e1</span>fea0</span><br><span class="line">06eaf090  5f8db<span class="number">3f0 00000</span>000 5fb<span class="number">0b454 00</span>000101</span><br><span class="line"></span><br><span class="line">0:010&gt; u poi(poi(06eaf050+4)+0x10)</span><br><span class="line">chakra!Js<span class="number">::</span>JavascriptFunction<span class="number">::Defe</span>rredParsingThunk:</span><br></pre></td></tr></table></figure>
+<p>第二次调用时的Js::ScriptFunction对象。</p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">0:010&gt; u poi(06eaf050 )</span><br><span class="line">chakra!Js<span class="number">::</span>ScriptFunction<span class="number">::</span>`vftable':</span><br><span class="line"></span><br><span class="line">0:010&gt; dd 06eaf050 </span><br><span class="line">06eaf050  <span class="number">5f695580</span> 1ce<span class="number">1a0c0 00</span><span class="number">000000 00</span>000000</span><br><span class="line"></span><br><span class="line">0:010&gt; dd poi(06eaf050+4)</span><br><span class="line">1ce1a0c0  <span class="number">00000012 00</span><span class="number">000000 06</span>e<span class="number">26c00 06e1</span>fea0</span><br><span class="line">1ce1a0d0  5f8db<span class="number">9e0 00000</span>000 5fb<span class="number">0b454 00</span>000101</span><br><span class="line"></span><br><span class="line">0:010&gt; u poi(poi(06eaf050+4)+0x10)</span><br><span class="line">chakra!NativeCodeGenerator<span class="number">::C</span>heckCodeGenThunk:</span><br></pre></td></tr></table></figure>
+<p>所以函数在第一次调用与后续调用的不同，是通过修改Js::ScriptFunction对象中的函数指针来实现的。</p>
+<h4 id="0x02_函数的jit">0x02 函数的jit</h4><p>接下来我们看一下函数的jit。测试脚本代码如下，多次调用test1函数触发其jit。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">function <span class="title">test1</span><span class="params">(num)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> num + <span class="number">1</span> + <span class="number">2</span> + <span class="number">3</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//触发jit</span></span><br><span class="line"></span><br><span class="line">test1(<span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+<p>经过jit的Js::ScriptFunction对象。</p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br></pre></td><td class="code"><pre><span class="line">//新的调试，对象内存地址会不同</span><br><span class="line"></span><br><span class="line">0:010&gt; u poi(<span class="number">07103050</span> )</span><br><span class="line">chakra!Js<span class="number">::</span>ScriptFunction<span class="number">::</span>`vftable':</span><br><span class="line"></span><br><span class="line">0:010&gt; dd <span class="number">07103050</span> </span><br><span class="line"><span class="number">07103050</span>  <span class="number">5f695580</span> <span class="number">1d7280c0</span> <span class="number">00000000 00</span>000000</span><br><span class="line"></span><br><span class="line">0:010&gt; dd poi(<span class="number">07103050+4</span>)</span><br><span class="line"><span class="number">1d7280c0</span>  <span class="number">00000012 00</span><span class="number">000000 07</span><span class="number">076c00 07</span>1080a0</span><br><span class="line"><span class="number">1d7280d0</span>  <span class="number">0a510600</span> <span class="number">00000000 5</span>fb<span class="number">0b454 00</span>000101</span><br><span class="line"></span><br><span class="line">0:010&gt; u poi(poi(<span class="number">07103050+4</span>)+0x10)			    //jit code</span><br><span class="line"><span class="number">0a510600</span> 55              push    ebp</span><br><span class="line"><span class="number">0a510601</span> 8bec            mov     ebp,esp</span><br><span class="line"><span class="number">0a510603</span> 81fc5cc9d005    cmp     esp,5D0C95Ch</span><br><span class="line"><span class="number">0a510609</span> 7f21            jg      <span class="number">0a51062</span>c</span><br><span class="line"><span class="number">0a51060</span>b 6a00            push    0</span><br><span class="line"><span class="number">0a51060</span>d 6a00            push    0</span><br><span class="line"><span class="number">0a51060</span>f <span class="number">68d0121b04</span>      push    41B12D0h</span><br><span class="line"><span class="number">0a510614</span> <span class="number">685c09000</span>0      push    95Ch</span><br><span class="line"><span class="number">0a510619</span> e<span class="number">802955b55</span>      call    chakra!ThreadContext<span class="number">::</span>ProbeCurrentStack2 (5fac9b20)</span><br><span class="line"><span class="number">0a51061</span>e <span class="number">0f1f4000</span>        nop     dword ptr [eax]</span><br><span class="line"><span class="number">0a510622</span> <span class="number">0f1f4000</span>        nop     dword ptr [eax]</span><br><span class="line"><span class="number">0a510626</span> <span class="number">0f1f4000</span>        nop     dword ptr [eax]</span><br><span class="line"><span class="number">0a51062</span>a 6690            xchg    ax,ax</span><br><span class="line"><span class="number">0a51062</span>c 6a00            push    0</span><br><span class="line"><span class="number">0a51062</span>e 8d6424ec        lea     esp,[esp-14h]</span><br><span class="line"><span class="number">0a510632</span> 56              push    esi</span><br><span class="line"><span class="number">0a510633</span> 53              push    ebx</span><br><span class="line"><span class="number">0a510634</span> b<span class="number">8488e0607</span>      mov     eax,7068E48h</span><br><span class="line"><span class="number">0a510639</span> 8038ff          cmp     byte ptr [eax],0FFh</span><br><span class="line"><span class="number">0a51063</span>c 7402            je      <span class="number">0a510640</span></span><br><span class="line"><span class="number">0a51063</span>e fe00            inc     byte ptr [eax]</span><br><span class="line"><span class="number">0a510640</span> 8b450c          mov     eax,dword ptr [ebp+0Ch]</span><br><span class="line"><span class="number">0a510643</span> 25ffffff08      and     eax,8FFFFFFh</span><br><span class="line"><span class="number">0a510648</span> 0fbaf01b        btr     eax,1Bh</span><br><span class="line"><span class="number">0a51064</span>c 83d802          sbb     eax,2</span><br><span class="line"><span class="number">0a51064</span>f 7c2f            jl      <span class="number">0a510680</span></span><br><span class="line"><span class="number">0a510651</span> 8b5d14          mov     ebx,dword ptr [ebp+14h] //ebx = num</span><br><span class="line"><span class="number">0a510654</span> 8bc3            mov     eax,ebx		//eax = num (num &lt;&lt; 1 &amp; 1)</span><br><span class="line"><span class="number">0a510656</span> d1f8            sar     eax,1			//eax = num &gt;&gt; 1</span><br><span class="line"><span class="number">0a510658</span> 732f            jae     <span class="number">0a510689</span></span><br><span class="line"><span class="number">0a51065</span>a 8bf0            mov     esi,eax</span><br><span class="line"><span class="number">0a51065</span>c 8bc6            mov     eax,esi</span><br><span class="line"><span class="number">0a51065</span>e 40              inc     eax			//num + 1</span><br><span class="line"><span class="number">0a51065</span>f 7040            jo      <span class="number">0a5106a1</span></span><br><span class="line"><span class="number">0a510661</span> 8bc8            mov     ecx,eax</span><br><span class="line"><span class="number">0a510663</span> 83c102          add     ecx,2			//num + 2</span><br><span class="line"><span class="number">0a510666</span> 7045            jo      0a5106ad</span><br><span class="line"><span class="number">0a510668</span> 8bc1            mov     eax,ecx</span><br><span class="line"><span class="number">0a51066</span>a 83c003          add     eax,3			//num + 3</span><br><span class="line"><span class="number">0a51066</span>d 704a            jo      <span class="number">0a5106b9</span></span><br><span class="line"><span class="number">0a51066</span>f 8bc8            mov     ecx,eax</span><br><span class="line"><span class="number">0a510671</span> d1e1            shl     ecx,1			//ecx = num &lt;&lt; 1</span><br><span class="line"><span class="number">0a510673</span> 7050            jo      <span class="number">0a5106c5</span></span><br><span class="line"><span class="number">0a510675</span> 41              inc     ecx			//ecx = num += 1</span><br><span class="line"><span class="number">0a510676</span> 8bd9            mov     ebx,ecx</span><br><span class="line"><span class="number">0a510678</span> 8bc3            mov     eax,ebx</span><br><span class="line"><span class="number">0a51067</span>a 5b              pop     ebx</span><br><span class="line"><span class="number">0a51067</span>b 5e              pop     esi</span><br><span class="line"><span class="number">0a51067</span>c 8be5            mov     esp,ebp</span><br><span class="line"><span class="number">0a51067</span>e 5d              pop     ebp</span><br><span class="line"><span class="number">0a51067</span>f c3              ret</span><br></pre></td></tr></table></figure>
+<p>Js::ScriptFunction对象中原本指向NativeCodeGenerator::CheckCodeGenThunk函数的指针，在jit之后变为指向jit code的指针。实现了直接调用函数jit code。</p>
+<p>这里简单说明一下，在调用函数传递参数时，是先将参数左移一位，然后将最低位置1之后的值进行传递的（parameter = (num &lt;&lt; 1) &amp; 1）。所以其在获取参数之后的第一件事是将其右移1位，获取参数原始的值。至于为什么要这样，我想应该是因为脚本引擎垃圾回收机制导致的，引擎通过最低位来区分对象与数据。</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:OP_CallCommon&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutDynamicProfile&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutT_CallI&lt;Js</span><span class="symbol">:</span><span class="symbol">:LayoutSizePolicy&lt;</span><span class="number">0</span>&gt; &gt; &gt; &gt;</span><br><span class="line">	|-chakra!<span class="constant">Js:</span><span class="symbol">:JavascriptFunction</span><span class="symbol">:</span><span class="symbol">:CallFunction&lt;</span><span class="number">1</span>&gt;</span><br><span class="line">		|-jit code</span><br></pre></td></tr></table></figure>
+<p>调用jit函数时的调用栈如上所示，这就是chakra引擎调用jit函数的方法。</p>
+<h4 id="0x03_DOM接口函数">0x03 DOM接口函数</h4><p>最后为了完整性，还有一类函数需要简单介绍一下，就是DOM接口函数，由其它引擎如渲染引擎提供的函数（理论上可以为任何其它引擎）。</p>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">document</span>.createElement(<span class="string">"button"</span>);</span><br></pre></td></tr></table></figure>
+<p>执行上面脚本则会通过下面的函数调用流程，最后调用到提供接口函数的引擎中。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">chakra!Js::InterpreterStackFrame::OP_CallCommon&lt;Js::OpLayoutDynamicProfile&lt;Js::OpLayoutT_CallI&lt;Js::LayoutSizePolicy&lt;<span class="number">0</span>&gt; &gt; &gt; &gt;</span><br><span class="line">	|-chakra!Js::JavascriptFunction::CallFunction&lt;<span class="number">1</span>&gt;</span><br><span class="line">		|-chakra!Js::JavascriptExternalFunction::ExternalFunctionThunk <span class="comment">//调用dom接口函数</span></span><br><span class="line">			|-dom_interface_function	<span class="comment">//EDGEHTML!CFastDOM::CDocument::Trampoline_createElement</span></span><br></pre></td></tr></table></figure>
+<p>当调用dom接口函数时，Js::InterpreterStackFrame::OP_CallCommon<js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0> &gt; &gt; &gt;函数及后续的处理流程中所使用的Function对象与前面不同，使用的是Js::JavascriptExternalFunction对象。然后与前面的函数调用类似，也是通过解析对象内的函数指针，并对其进行调用，最终进入到想要调用的DOM接口函数中。</js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0></p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">0:010&gt; u poi(06f2cea0)</span><br><span class="line">chakra!Js<span class="number">::</span>JavascriptExternalFunction<span class="number">::</span>`vftable':</span><br><span class="line"></span><br><span class="line">0:010&gt; dd 06f2cea0 </span><br><span class="line">06f2cea0  <span class="number">5f696c4</span>c <span class="number">06e6f7a0</span> <span class="number">00000000 00</span>000000</span><br><span class="line"></span><br><span class="line">0:010&gt; dd poi(06f2cea0+4)</span><br><span class="line"><span class="number">06e6f7a0</span>  <span class="number">00000012 00</span><span class="number">000000 06</span>e<span class="number">76c00 06f04</span>0a0</span><br><span class="line"><span class="number">06e6f7b0</span>  <span class="number">5f8c6130</span> <span class="number">00000000 5</span>fb<span class="number">0b454 00</span>000101</span><br><span class="line"></span><br><span class="line">0:010&gt; u poi(poi(06f2cea0+4)+0x10)</span><br><span class="line">chakra!Js<span class="number">::</span>JavascriptExternalFunction<span class="number">::E</span>xternalFunctionThunk:</span><br></pre></td></tr></table></figure>
+<p>这就是chakra引擎对不同类型函数的不同调用的方式。</p>
+<h2 id="0x02_漏洞与利用">0x02 漏洞与利用</h2><p>经过前面对chakra引擎各种调用函数方法的介绍，我们再来看一下本文的重点绕过cfg的漏洞。前面提到的在第一次调用脚本创建的函数时与后续调用此函数会有不同的流程。这里我们再看一下此处的逻辑，调用栈如下。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//第一次调用</span></span><br><span class="line">chakra!Js::InterpreterStackFrame::OP_CallCommon&lt;Js::OpLayoutDynamicProfile&lt;Js::OpLayoutT_CallI&lt;Js::LayoutSizePolicy&lt;<span class="number">0</span>&gt; &gt; &gt; &gt;</span><br><span class="line">	|-chakra!Js::JavascriptFunction::CallFunction&lt;<span class="number">1</span>&gt;</span><br><span class="line">		|-chakra!Js::JavascriptFunction::DeferredParsingThunk</span><br><span class="line">			|-chakra!Js::JavascriptFunction::DeferredParse    <span class="comment">//获取NativeCodeGenerator::CheckCodeGenThunk函数</span></span><br><span class="line">			|-chakra!NativeCodeGenerator::CheckCodeGenThunk</span><br><span class="line">				|-chakra!Js::InterpreterStackFrame::DelayDynamicInterpreterThunk</span><br><span class="line">					|-jmp_code	</span><br><span class="line">						|-chakra!Js::InterpreterStackFrame::InterpreterThunk</span><br></pre></td></tr></table></figure>
+<p>在前面没有提到的是，上面调用流程中的Js::JavascriptFunction::DeferredParse函数。此函数内部会进行函数解析相关的工作，并且返回NativeCodeGenerator::CheckCodeGenThunk函数的指针，然后在返回Js::JavascriptFunction::DeferredParsingThunk函数后对其进行调用。NativeCodeGenerator::CheckCodeGenThunk函数的指针也是通过解析Js::JavascriptFunction对象获得的。代码如下。</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> __cdecl Js::JavascriptFunction::DeferredParsingThunk(<span class="keyword">struct</span> Js::ScriptFunction *p_script_function)</span><br><span class="line">&#123;</span><br><span class="line">  NativeCodeGenerator_CheckCodeGenThunk = Js::JavascriptFunction::DeferredParse(&amp;p_script_function);</span><br><span class="line">  <span class="keyword">return</span> NativeCodeGenerator_CheckCodeGenThunk();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3F0</span> <span class="tag">push</span>    <span class="tag">ebp</span></span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3F1</span> <span class="tag">mov</span>     <span class="tag">ebp</span>, <span class="tag">esp</span></span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3F3</span> <span class="tag">lea</span>     <span class="tag">eax</span>, <span class="attr_selector">[esp+p_script_function]</span></span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3F7</span> <span class="tag">push</span>    <span class="tag">eax</span>             ; <span class="tag">struct</span> <span class="tag">Js</span><span class="pseudo">::ScriptFunction</span> **</span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3F8</span> <span class="tag">call</span>    <span class="tag">Js</span><span class="pseudo">::JavascriptFunction</span><span class="pseudo">::DeferredParse</span></span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3FD</span> <span class="tag">pop</span>     <span class="tag">ebp</span></span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3FE</span> <span class="tag">jmp</span>     <span class="tag">eax</span></span><br></pre></td></tr></table></figure>
+<p>在这个跳转位置上并没有对eax中的函数指针进行CFG检查。所以可以利用其进行eip劫持。不过还首先还要知道Js::JavascriptFunction::DeferredParse函数返回的NativeCodeGenerator::CheckCodeGenThunk函数指针是如何通过Js::ScriptFunction对象何解析出来的。解析过程如下。</p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">0:010&gt; u poi(070af050)</span><br><span class="line">chakra!Js<span class="number">::</span>ScriptFunction<span class="number">::</span>`vftable':</span><br><span class="line"></span><br><span class="line">0:010&gt; dd 070af050 + 14</span><br><span class="line">070af064  <span class="number">076690e0</span> 5fb11ef<span class="number">4 00000000</span> <span class="number">00000000</span></span><br><span class="line"></span><br><span class="line">0:010&gt; dd <span class="number">076690e0</span> + 10</span><br><span class="line"><span class="number">076690f0</span>  <span class="number">076690e0</span> <span class="number">04186628 07</span><span class="number">065f90 00</span>000000</span><br><span class="line"></span><br><span class="line">0:010&gt; dd <span class="number">076690e0</span> + 28</span><br><span class="line"><span class="number">07669108</span>  07010dc<span class="number">0 000001</span>a<span class="number">8 00000035</span> <span class="number">00000000</span></span><br><span class="line"></span><br><span class="line">0:010&gt; dd 07010dc0 </span><br><span class="line">07010dc0  <span class="number">5f696000</span> <span class="number">05a452b8</span> <span class="number">00000000 5</span>f8db9e0</span><br><span class="line"></span><br><span class="line">0:010&gt; u 5f8db9e0</span><br><span class="line">chakra!NativeCodeGenerator<span class="number">::C</span>heckCodeGenThunk:</span><br></pre></td></tr></table></figure>
+<p>如上所述，Js::JavascriptFunction::DeferredParse通过解析Js::ScriptFunction对象获取NativeCodeGenerator::CheckCodeGenThunk函数指针，解析方法简写为[[[Js::ScriptFunction+14]+10]+28]+0c。所以只要伪造此处内存中的数据，即可通过调用函数来间接触发Js::JavascriptFunction::DeferredParse函数的调用，进而劫持eip，具体如下。</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0</span>:<span class="number">010</span>&gt; g</span><br><span class="line">Breakpoint <span class="number">0</span> hit</span><br><span class="line"><span class="literal">eax</span>=603ba064 <span class="literal">ebx</span>=063fba10 <span class="literal">ecx</span>=063fba40 <span class="literal">edx</span>=063fba40 <span class="literal">esi</span>=<span class="number">00000001</span> <span class="literal">edi</span>=058fc6b0</span><br><span class="line"><span class="literal">eip</span>=603ba064 <span class="literal">esp</span>=058fc414 <span class="literal">ebp</span>=058fc454 iopl=<span class="number">0</span>         nv <span class="preprocessor">up</span> ei ng nz na po cy</span><br><span class="line"><span class="literal">cs</span>=<span class="number">001b</span>  <span class="literal">ss</span>=<span class="number">0023</span>  <span class="literal">ds</span>=<span class="number">0023</span>  <span class="literal">es</span>=<span class="number">0023</span>  <span class="literal">fs</span>=003b  <span class="literal">gs</span>=<span class="number">0000</span>             efl=<span class="number">00000283</span></span><br><span class="line">chakra!<span class="string">`dynamic initializer for 'DOMFastPathInfo::getterTable''+0x734:</span><br><span class="line">603ba064 94              xchg    eax,esp</span><br><span class="line">603ba065 c3              ret</span></span><br></pre></td></tr></table></figure>
+<p>这样就绕过了cfg，成功劫持了eip。这种方法简单稳定，在获得了内存读写能力时使用是很方便的。此漏洞已于2015年7月25日报告微软。</p>
+<h2 id="0x03_修补方案">0x03 修补方案</h2><p>本文所述的漏洞微软已经修补，修补方案也比较简单就是对此处跳转增加cfg检查。</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">.text</span>:002AB460 <span class="keyword">push</span>    <span class="literal">ebp</span></span><br><span class="line"><span class="string">.text</span>:002AB461 <span class="keyword">mov</span>     <span class="literal">ebp</span>, <span class="literal">esp</span></span><br><span class="line"><span class="string">.text</span>:002AB463 <span class="keyword">lea</span>     <span class="literal">eax</span>, [<span class="literal">esp</span>+arg_0]</span><br><span class="line"><span class="string">.text</span>:002AB467 <span class="keyword">push</span>    <span class="literal">eax</span></span><br><span class="line"><span class="string">.text</span>:002AB468 <span class="keyword">call</span>    <span class="keyword">Js</span>::JavascriptFunction::DeferredParse</span><br><span class="line"><span class="string">.text</span>:002AB46D <span class="keyword">mov</span>     <span class="literal">ecx</span>, <span class="literal">eax</span>        <span class="comment">; this</span></span><br><span class="line"><span class="string">.text</span>:002AB46F <span class="keyword">call</span>    <span class="literal">ds</span>:___guard_check_icall_fptr  //增加cfg检查</span><br><span class="line"><span class="string">.text</span>:002AB475 <span class="keyword">mov</span>     <span class="literal">eax</span>, <span class="literal">ecx</span></span><br><span class="line"><span class="string">.text</span>:002AB477 <span class="keyword">pop</span>     <span class="literal">ebp</span></span><br><span class="line"><span class="string">.text</span>:002AB478 <span class="keyword">jmp</span>     <span class="literal">eax</span></span><br><span class="line"><span class="string">.text</span>:<span class="number">00</span></span><br></pre></td></tr></table></figure>
+<h2 id="参考">参考</h2><p><a href="http://xlab.tencent.com/cn/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/">利用Chakra JIT绕过DEP和CFG</a><br><a href="https://github.com/exp-sky/HitCon-2015-spartan-0day-exploit/blob/master/Spartan%200day%20%26%20Exploit-m.pdf" target="_blank" rel="external">spartan 0day &amp; exploit</a></p>
+
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://xlab.tencent.com/2015/12/24/xx/" data-id="ciik0zgn70002eiunvj9t2uo4" class="article-share-link"></a>
+      
+      
+
+    </footer>
+  </div>
+</article>
+
+
+</section>
+        <aside id="sidebar">
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">标签云</h3>
+    <hr>
+    <div class="widget tagcloud">
+      <a href="/cn/tags/CFG/" style="font-size: 10px;">CFG</a> <a href="/cn/tags/Chakra/" style="font-size: 10px;">Chakra</a> <a href="/cn/tags/DEP/" style="font-size: 10px;">DEP</a> <a href="/cn/tags/JIT/" style="font-size: 20px;">JIT</a> <a href="/cn/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/cn/tags/RowHammer/" style="font-size: 10px;">RowHammer</a> <a href="/cn/tags/沙箱逃逸/" style="font-size: 10px;">沙箱逃逸</a>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">归档</h3>
+    <hr>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/12/">2015-12</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/11/">2015-11</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/08/">2015-08</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/cn/archives/2015/06/">2015-06</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">最近更新</h3>
+    <hr>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/cn/2015/12/24/xx/">再利用Chakra引擎绕过CFG</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/12/17/ie-sandbox-drop-security-policy/">IE沙箱拖拽安全策略解析</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/">利用Chakra JIT绕过DEP和CFG</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/11/05/pc-wormhole/">一个PC上的“WormHole”漏洞</a>
+          </li>
+        
+          <li>
+            <a href="/cn/2015/08/27/Poking-a-Hole-in-the-Patch/">在补丁上戳个洞——利用已经被修复的漏洞实现IE沙箱逃逸</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+  
+      <div class="widget-wrap">
+    <h3 class="widget-title rss-title">RSS</h3>
+    <hr>
+    <div class="widget">
+      <a href="/cn/atom.xml" target="_blank">安全文档</a>
+      <br>
+      <a href="/cn/advisories/atom.xml" target="_blank">安全公告</a>
+    </div>
+  </div>
+
+  
+</aside>
+
+      </div>
+      <footer id="footer">
+  <div id="outer">
+    <div id="footer-infoi" >
+        <div id="us">
+            <ul id="us_ul">
+            
+                <li id="follow_us" class="us_li"><p>关注我们: </p></li>
+                
+                <li class="us_li">
+                <a class="social_icon_twitter" href="https://twitter.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_twitter" src="/cn/css/images/twitter_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_weibo" href="http://weibo.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_weibo" src="/cn/css/images/weibo_chose.png" />
+                </a>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="copyright"><p>Copyright &copy; 2015 Tencent's XuanwuLab.All Rights Reserved.<p></div>
+  </>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/cn" class="mobile-nav-link">首页</a>
+  
+    <a href="/cn/advisories" class="mobile-nav-link">安全公告</a>
+  
+    <a href="/cn/policy" class="mobile-nav-link">披露原则</a>
+  
+    <a href="/cn/archives" class="mobile-nav-link">归档</a>
+  
+    <a href="/cn/about" class="mobile-nav-link">关于</a>
+  
+</nav>
+
+    
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/cn/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/cn/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/cn/js/script.js" type="text/javascript"></script>
+ 
+  </div>
+</body>
+</html>
