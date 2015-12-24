@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[再利用Chakra引擎绕过CFG]]></title>
-    <link href="http://xlab.tencent.com/2015/12/24/xx/"/>
-    <id>http://xlab.tencent.com/2015/12/24/xx/</id>
+    <link href="http://xlab.tencent.com/2015/12/24/bypass-cfg-using-chakra-engine/"/>
+    <id>http://xlab.tencent.com/2015/12/24/bypass-cfg-using-chakra-engine/</id>
     <published>2015-12-24T07:32:26.000Z</published>
     <updated>2015-12-24T07:56:15.000Z</updated>
     <content type="html"><![CDATA[<p>本文源自一次与<a href="http://weibo.com/101174?from=feed&amp;loc=at&amp;nick=tombkeeper&amp;is_all=1" target="_blank" rel="external">TK</a>闲聊，期间得知成功绕过CFG的经过与细节(参考：<a href="http://xlab.tencent.com/cn/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/">利用Chakra JIT绕过DEP和CFG</a>)。随即出于对技术的兴趣，也抽出一些时间看了相关的东西，结果发现了另一处绕过CFG的位置。所以这篇文章中提到的思路与技术归根结底是来自<a href="http://weibo.com/101174?from=feed&amp;loc=at&amp;nick=tombkeeper&amp;is_all=1" target="_blank" rel="external">TK</a>提示的，在此特别感谢。</p>
