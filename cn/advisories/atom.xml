@@ -3,9 +3,9 @@
   <title><![CDATA[xuanwulab]]></title>
   
   <link href="/cn/advisories/atom.xml" rel="self"/>
-  <link href="http://xlab.tencent.com/"/>
-  <updated>2015-12-09T07:50:29.000Z</updated>
-  <id>http://xlab.tencent.com/</id>
+  <link href="http://xlab.tencent.com/cn/advisories/"/>
+  <updated>2015-12-29T03:25:56.000Z</updated>
+  <id>http://xlab.tencent.com/cn/advisories/</id>
   
   <author>
     <name><![CDATA[freener]]></name>
@@ -15,9 +15,87 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title><![CDATA[Microsoft Internet Explorer 和 Microsoft Edge 的 Use-After-Free 远程代码执行漏洞]]></title>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/29/xlab-15-025/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/29/xlab-15-025/</id>
+    <published>2015-12-29T03:22:42.000Z</published>
+    <updated>2015-12-29T03:25:56.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-025 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-1752 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> 已修复<br><a id="more"></a><br><strong>Vulnerability Details:</strong><br>该漏洞允许远程攻击者在微软Internet Explorer和Microsoft Edge中执行任意代码。利用这个漏洞需要用户交互，该目标需要访问恶意网页或打开恶意文件。攻击者可以利用此漏洞在当前进程的上下文中执行任意代码。</p>
+<p><strong>Discloure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/03/05</th>
+<th style="text-align:left">向Microsoft Security Response Center(secure@microsoft.com)提供漏洞细节</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/04/01</td>
+<td style="text-align:left">Microsoft Security Response Center邮件自动回复</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/06/09</td>
+<td style="text-align:left">Microsoft Security Response Center分配CVE-ID CVE-2015-1752</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>漏洞发现者: &nbsp;&nbsp; exp-sky</p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-025 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-1752 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> 已修复<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
+    <title><![CDATA[Flash Player Display List内存崩溃漏洞]]></title>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/29/xlab-15-024/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/29/xlab-15-024/</id>
+    <published>2015-12-29T03:19:27.000Z</published>
+    <updated>2015-12-29T03:27:24.000Z</updated>
+    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-024 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8459 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> 已修复<br><a id="more"></a><br><strong>Vulnerability Details:</strong><br>通过对Display List进行一定操作，攻击者可使Flash Player在处理Display List时发生内存崩溃。若成功利用该漏洞，若成功利用该漏洞，攻击者能够以攻击者能够以当前用户权限执行任意代码。</p>
+<p><strong>Discloure Timeline:</strong></p>
+<table>
+<thead>
+<tr>
+<th style="text-align:left">2015/07/13</th>
+<th style="text-align:left">向Adobe (psirt@adobe.com)提供漏洞细节</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:left">2015/07/16</td>
+<td style="text-align:left">Adobe回复正在验证漏洞细节，内部漏洞编号PSIRT-3929</td>
+</tr>
+<tr>
+<td style="text-align:left">2015/12/28</td>
+<td style="text-align:left">Adobe回复已分配漏洞编号CVE-2015-8459</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Credit:</strong><br>漏洞发现者: &nbsp;&nbsp; Kai Kang </p>
+]]></content>
+    <summary type="html">
+    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-024 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8459 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>Patch Status:</strong> 已修复<br>]]>
+    
+    </summary>
+    
+  </entry>
+  
+  <entry>
     <title><![CDATA[苹果Safari浏览器对话框域来源欺骗漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/12/09/xlab-15-022/"/>
-    <id>http://xlab.tencent.com/2015/12/09/xlab-15-022/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/09/xlab-15-022/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/09/xlab-15-022/</id>
     <published>2015-12-09T07:42:34.000Z</published>
     <updated>2015-12-09T07:50:29.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-022 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -63,12 +141,12 @@
   
   <entry>
     <title><![CDATA[BitDenfeder 安全漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-021/"/>
-    <id>http://xlab.tencent.com/2015/12/02/xlab-15-021/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-021/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-021/</id>
     <published>2015-12-02T13:04:08.000Z</published>
-    <updated>2015-12-07T08:16:36.000Z</updated>
+    <updated>2015-12-28T09:29:37.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-021 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> 暂无 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8695 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 未修复<br><a id="more"></a></p>
 <p><strong>Vulnerability Details:</strong></p>
 <p><strong>Disclosure Timeline:</strong> </p>
@@ -104,13 +182,17 @@
 <td style="text-align:left">2015/11/23</td>
 <td style="text-align:left">向MITRE报告漏洞</td>
 </tr>
+<tr>
+<td style="text-align:left">2015/12/28</td>
+<td style="text-align:left">MITRE分配CVE-ID CVE-2015-8695</td>
+</tr>
 </tbody>
 </table>
 <p><strong>Credit:</strong><br>漏洞发现者: &nbsp;&nbsp; wwq</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-021 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> 暂无 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8695 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 未修复<br>]]>
     
     </summary>
@@ -119,12 +201,12 @@
   
   <entry>
     <title><![CDATA[Total Defense 安全漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-020/"/>
-    <id>http://xlab.tencent.com/2015/12/02/xlab-15-020/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-020/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-020/</id>
     <published>2015-12-02T13:02:45.000Z</published>
-    <updated>2015-12-07T08:15:17.000Z</updated>
+    <updated>2015-12-28T09:29:27.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-020 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> 暂无 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8695 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 未修复<br><a id="more"></a></p>
 <p><strong>Vulnerability Details:</strong></p>
 <p><strong>Disclosure Timeline:</strong></p>
@@ -156,13 +238,17 @@
 <td style="text-align:left">2015/11/23</td>
 <td style="text-align:left">向MITRE报告漏洞</td>
 </tr>
+<tr>
+<td style="text-align:left">2015/12/28</td>
+<td style="text-align:left">MITRE分配CVE-ID CVE-2015-8695</td>
+</tr>
 </tbody>
 </table>
 <p><strong>Credit:</strong><br>漏洞发现者: &nbsp;&nbsp; wwq</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-020 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> 暂无 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8695 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 未修复<br>]]>
     
     </summary>
@@ -171,8 +257,8 @@
   
   <entry>
     <title><![CDATA[Panda Security 安全漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-019/"/>
-    <id>http://xlab.tencent.com/2015/12/02/xlab-15-019/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-019/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-019/</id>
     <published>2015-12-02T13:01:36.000Z</published>
     <updated>2015-12-07T08:14:25.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-019 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -207,12 +293,12 @@
   
   <entry>
     <title><![CDATA[Kaspersky 安全漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-018/"/>
-    <id>http://xlab.tencent.com/2015/12/02/xlab-15-018/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-018/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-018/</id>
     <published>2015-12-02T13:00:02.000Z</published>
-    <updated>2015-12-07T08:13:50.000Z</updated>
+    <updated>2015-12-28T09:29:16.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-018 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> 暂无 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8691 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 未修复<br><a id="more"></a></p>
 <p><strong>Vulnerability Details:</strong></p>
 <p><strong>Disclosure Timeline:</strong></p>
@@ -228,13 +314,17 @@
 <td style="text-align:left">2015/11/23</td>
 <td style="text-align:left">向MITRE报告漏洞</td>
 </tr>
+<tr>
+<td style="text-align:left">2015/12/28</td>
+<td style="text-align:left">MITRE分配CVE-ID CVE-2015-8691</td>
+</tr>
 </tbody>
 </table>
 <p><strong>Credit:</strong><br>漏洞发现者: &nbsp;&nbsp; wwq</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-018 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> 暂无 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8691 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 未修复<br>]]>
     
     </summary>
@@ -243,8 +333,8 @@
   
   <entry>
     <title><![CDATA[Trend Micro 安全漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-023/"/>
-    <id>http://xlab.tencent.com/2015/12/02/xlab-15-023/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-023/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-023/</id>
     <published>2015-12-02T12:56:39.000Z</published>
     <updated>2015-12-10T01:26:29.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-023 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -302,8 +392,8 @@
   
   <entry>
     <title><![CDATA[Trend Micro 安全漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-017/"/>
-    <id>http://xlab.tencent.com/2015/12/02/xlab-15-017/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-017/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-017/</id>
     <published>2015-12-02T12:56:39.000Z</published>
     <updated>2015-12-10T01:26:16.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-017 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -362,8 +452,8 @@
   
   <entry>
     <title><![CDATA[HP 安全漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-016/"/>
-    <id>http://xlab.tencent.com/2015/12/02/xlab-15-016/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-016/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-016/</id>
     <published>2015-12-02T12:54:27.000Z</published>
     <updated>2015-12-07T08:12:38.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-016 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -410,12 +500,12 @@
   
   <entry>
     <title><![CDATA[Avast 安全漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-015/"/>
-    <id>http://xlab.tencent.com/2015/12/02/xlab-15-015/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-015/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-015/</id>
     <published>2015-12-02T12:52:39.000Z</published>
-    <updated>2015-12-07T08:12:00.000Z</updated>
+    <updated>2015-12-28T09:29:03.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-015 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> 暂无 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8692 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 未修复<br><a id="more"></a></p>
 <p><strong>Vulnerability Details:</strong></p>
 <p><strong>Disclosure Timeline:</strong></p>
@@ -467,13 +557,17 @@
 <td style="text-align:left">2015/11/27</td>
 <td style="text-align:left">向MITRE报告漏洞</td>
 </tr>
+<tr>
+<td style="text-align:left">2015/12/28</td>
+<td style="text-align:left">MITRE分配CVE-ID CVE-2015-8692</td>
+</tr>
 </tbody>
 </table>
 <p><strong>Credit:</strong><br>漏洞发现者: &nbsp;&nbsp; wwq</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-015 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> 暂无 &nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8692 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 未修复<br>]]>
     
     </summary>
@@ -482,12 +576,12 @@
   
   <entry>
     <title><![CDATA[Comodo 安全漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/12/02/xlab-15-014/"/>
-    <id>http://xlab.tencent.com/2015/12/02/xlab-15-014/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-014/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/12/02/xlab-15-014/</id>
     <published>2015-12-02T09:46:46.000Z</published>
-    <updated>2015-12-07T08:11:23.000Z</updated>
+    <updated>2015-12-28T09:28:54.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-014 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> 暂无&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8690 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 未修复<br><a id="more"></a></p>
 <p><strong>Vulnerability Details:</strong></p>
 <p><strong>Disclosure Timeline:</strong></p>
@@ -527,13 +621,17 @@
 <td style="text-align:left">2015/11/23</td>
 <td style="text-align:left">向MITRE报告漏洞</td>
 </tr>
+<tr>
+<td style="text-align:left">2015/12/28</td>
+<td style="text-align:left">MITRE分配CVE-ID CVE-2015-8690</td>
+</tr>
 </tbody>
 </table>
 <p><strong>Credit:</strong><br>漏洞发现者: &nbsp;&nbsp; wwq</p>
 ]]></content>
     <summary type="html">
     <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-014 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> 暂无&nbsp;&nbsp;&nbsp;&nbsp;</p>
+<p><strong>CVE ID:</strong> CVE-2015-8690 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 未修复<br>]]>
     
     </summary>
@@ -542,8 +640,8 @@
   
   <entry>
     <title><![CDATA[Internet Explorer CDispContainer 对象释放后重用漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-013/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-013/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-013/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-013/</id>
     <published>2015-11-30T08:17:44.000Z</published>
     <updated>2015-12-10T01:07:33.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-013 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -594,8 +692,8 @@
   
   <entry>
     <title><![CDATA[Internet Explorer TreeNode 对象释放后重用漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-012/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-012/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-012/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-012/</id>
     <published>2015-11-30T08:12:41.000Z</published>
     <updated>2015-12-10T01:07:47.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-012 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -646,8 +744,8 @@
   
   <entry>
     <title><![CDATA[Internet Explorer ElementNode 对象释放后重用漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-011/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-011/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-011/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-011/</id>
     <published>2015-11-30T08:11:13.000Z</published>
     <updated>2015-12-10T01:08:01.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-011 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -694,8 +792,8 @@
   
   <entry>
     <title><![CDATA[Internet Explorer 数组越界访问漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-010/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-010/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-010/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-010/</id>
     <published>2015-11-30T08:09:34.000Z</published>
     <updated>2015-12-10T01:08:19.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-010 &nbsp;&nbsp;&nbsp;&nbsp; </p>
@@ -742,8 +840,8 @@
   
   <entry>
     <title><![CDATA[Flash Player TextField 对象内存崩溃漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-009/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-009/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-009/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-009/</id>
     <published>2015-11-30T08:07:56.000Z</published>
     <updated>2015-12-07T08:08:16.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-009 &nbsp;&nbsp;&nbsp;&nbsp; </p>
@@ -782,8 +880,8 @@
   
   <entry>
     <title><![CDATA[Flash Player Display List 缓冲区溢出]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-008/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-008/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-008/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-008/</id>
     <published>2015-11-30T08:06:35.000Z</published>
     <updated>2015-12-07T08:07:40.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-008 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -822,8 +920,8 @@
   
   <entry>
     <title><![CDATA[Flash Player Display List 内存崩溃漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-007/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-007/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-007/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-007/</id>
     <published>2015-11-30T08:05:03.000Z</published>
     <updated>2015-12-07T08:06:57.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-007 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -862,8 +960,8 @@
   
   <entry>
     <title><![CDATA[Flash Player Display List 释放后重用漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-006/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-006/</id>
+    <link href="http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-006/"/>
+    <id>http://xlab.tencent.com/cn/advisories/2015/11/30/xlab-15-006/</id>
     <published>2015-11-30T08:03:23.000Z</published>
     <updated>2015-12-07T08:06:17.000Z</updated>
     <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-006 &nbsp;&nbsp;&nbsp;&nbsp;</p>
@@ -894,110 +992,6 @@
     <summary type="html">
     <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-006 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>CVE ID:</strong> CVE-2015-5581 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>Patch Status:</strong> 已修复<br>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Win32k.sys 内核对象释放后重用漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-005/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-005/</id>
-    <published>2015-11-30T08:01:48.000Z</published>
-    <updated>2015-12-07T08:05:35.000Z</updated>
-    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-005 &nbsp;&nbsp;&nbsp;&nbsp; </p>
-<p><strong>CVE ID:</strong> CVE-2015-1720 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>Patch Status:</strong> 已修复<br><a id="more"></a></p>
-<p><strong>Vulnerability Details:</strong><br>Win32k.sys函数NtUserTrackPopupMenu对MENU对象的引用计数操作不当，攻击者通过精心构造可执行程序可使内核引用已经被释放了的对象。若成功利用该漏洞，攻击者能够以SYSTEM权限执行任意代码。</p>
-<p><strong>Disclosure Timeline:</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">2015/03/18</th>
-<th style="text-align:left">向Micorsoft (secure@Micorsoft.com)提供漏洞细节</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">2015/03/19</td>
-<td style="text-align:left">Micorsoft回复正在验证漏洞细节，内部漏洞编号case 21767</td>
-</tr>
-<tr>
-<td style="text-align:left">2015/04/16</td>
-<td style="text-align:left">Micorsoft回复已经成功重现漏洞，但请求提供PoC源代码</td>
-</tr>
-<tr>
-<td style="text-align:left">2015/04/16</td>
-<td style="text-align:left">出于对知识产权的保护，委婉拒绝向Micorsoft提供PoC源代码</td>
-</tr>
-<tr>
-<td style="text-align:left">2015/04/28</td>
-<td style="text-align:left">Micorsoft回复漏洞正在修复中，且很快将要修复完善</td>
-</tr>
-<tr>
-<td style="text-align:left">2015/06/09</td>
-<td style="text-align:left">Micorsoft回复已分配漏洞编号CVE-2015-1720，并且在MS15-061中修复该漏洞</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Credit:</strong><br>漏洞发现者: &nbsp;&nbsp;Kai Kang</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-005 &nbsp;&nbsp;&nbsp;&nbsp; </p>
-<p><strong>CVE ID:</strong> CVE-2015-1720 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>Patch Status:</strong> 已修复<br>]]>
-    
-    </summary>
-    
-  </entry>
-  
-  <entry>
-    <title><![CDATA[Win32k.sys 内核信息泄露漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/11/30/xlab-15-004/"/>
-    <id>http://xlab.tencent.com/2015/11/30/xlab-15-004/</id>
-    <published>2015-11-30T08:00:04.000Z</published>
-    <updated>2015-12-07T08:04:58.000Z</updated>
-    <content type="html"><![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-004 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> CVE-2015-0095 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>Patch Status:</strong> 已修复<br><a id="more"></a></p>
-<p><strong>Vulnerability Details:</strong><br>Win32k.sys函数NtUserSetParent在处理输入参数时没有进行严格校验，攻击者通过精心构造的参数可读取内核地址信息。若成功利用该漏洞该漏洞，攻击者能够绕过KASLR。</p>
-<p><strong>Disclosure Timeline:</strong></p>
-<table>
-<thead>
-<tr>
-<th style="text-align:left">2014/11/17</th>
-<th style="text-align:left">向Microsot (secure@Micorsoft.com)提供漏洞细节</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:left">2014/11/19</td>
-<td style="text-align:left">Micorsoft回复正在验证漏洞细节，内部漏洞编号case 21058</td>
-</tr>
-<tr>
-<td style="text-align:left">2014/12/11</td>
-<td style="text-align:left">Micorsoft回复产品团队已经成功重现漏洞，正在研究漏洞修复方案</td>
-</tr>
-<tr>
-<td style="text-align:left">2015/01/17</td>
-<td style="text-align:left">Micorsoft回复漏洞正在修复中</td>
-</tr>
-<tr>
-<td style="text-align:left">2015/02/07</td>
-<td style="text-align:left">Micorsoft回复已分配漏洞编号CVE-2015-0095</td>
-</tr>
-<tr>
-<td style="text-align:left">2015/03/11</td>
-<td style="text-align:left">Micorsoft在MS15-023中修复该漏洞</td>
-</tr>
-</tbody>
-</table>
-<p><strong>Credit:</strong><br>漏洞发现者: &nbsp;&nbsp;Kai Kang</p>
-]]></content>
-    <summary type="html">
-    <![CDATA[<p><strong>XLAB ID:</strong> XLAB-15-004 &nbsp;&nbsp;&nbsp;&nbsp;</p>
-<p><strong>CVE ID:</strong> CVE-2015-0095 &nbsp;&nbsp;&nbsp;&nbsp;</p>
 <p><strong>Patch Status:</strong> 已修复<br>]]>
     
     </summary>

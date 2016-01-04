@@ -3,9 +3,9 @@
   <title><![CDATA[xuanwulab]]></title>
   
   <link href="/cn/atom.xml" rel="self"/>
-  <link href="http://xlab.tencent.com/"/>
+  <link href="http://xlab.tencent.com/cn/"/>
   <updated>2015-12-24T07:56:15.000Z</updated>
-  <id>http://xlab.tencent.com/</id>
+  <id>http://xlab.tencent.com/cn/</id>
   
   <author>
     <name><![CDATA[freener]]></name>
@@ -16,8 +16,8 @@
   
   <entry>
     <title><![CDATA[再利用Chakra引擎绕过CFG]]></title>
-    <link href="http://xlab.tencent.com/2015/12/24/bypass-cfg-using-chakra-engine/"/>
-    <id>http://xlab.tencent.com/2015/12/24/bypass-cfg-using-chakra-engine/</id>
+    <link href="http://xlab.tencent.com/cn/2015/12/24/bypass-cfg-using-chakra-engine/"/>
+    <id>http://xlab.tencent.com/cn/2015/12/24/bypass-cfg-using-chakra-engine/</id>
     <published>2015-12-24T07:32:26.000Z</published>
     <updated>2015-12-24T07:56:15.000Z</updated>
     <content type="html"><![CDATA[<p>本文源自一次与<a href="http://weibo.com/101174?from=feed&amp;loc=at&amp;nick=tombkeeper&amp;is_all=1" target="_blank" rel="external">TK</a>闲聊，期间得知成功绕过CFG的经过与细节(参考：<a href="http://xlab.tencent.com/cn/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/">利用Chakra JIT绕过DEP和CFG</a>)。随即出于对技术的兴趣，也抽出一些时间看了相关的东西，结果发现了另一处绕过CFG的位置。所以这篇文章中提到的思路与技术归根结底是来自<a href="http://weibo.com/101174?from=feed&amp;loc=at&amp;nick=tombkeeper&amp;is_all=1" target="_blank" rel="external">TK</a>提示的，在此特别感谢。</p>
@@ -75,8 +75,8 @@
   
   <entry>
     <title><![CDATA[IE沙箱拖拽安全策略解析]]></title>
-    <link href="http://xlab.tencent.com/2015/12/17/ie-sandbox-drop-security-policy/"/>
-    <id>http://xlab.tencent.com/2015/12/17/ie-sandbox-drop-security-policy/</id>
+    <link href="http://xlab.tencent.com/cn/2015/12/17/ie-sandbox-drop-security-policy/"/>
+    <id>http://xlab.tencent.com/cn/2015/12/17/ie-sandbox-drop-security-policy/</id>
     <published>2015-12-17T07:56:47.000Z</published>
     <updated>2015-12-18T01:19:46.000Z</updated>
     <content type="html"><![CDATA[<p>IE沙箱逃逸是IE浏览器安全研究的一个重要课题，其中有一类漏洞会借助ElevationPolicy设置中的白名单程序的缺陷来完成沙箱逃逸。IE在注册表中有一个和ElevationPolicy类似的名为DragDrop策略设置，这引起了我们的注意。在本文中，笔者将以一个攻击者的视角，尝试各种途径来突破IE沙箱的这一安全策略，通过分析所遇到的障碍，达到对IE沙箱拖拽安全策略进行详细解析的目的。</p>
@@ -215,8 +215,8 @@
   
   <entry>
     <title><![CDATA[利用Chakra JIT绕过DEP和CFG]]></title>
-    <link href="http://xlab.tencent.com/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/"/>
-    <id>http://xlab.tencent.com/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/</id>
+    <link href="http://xlab.tencent.com/cn/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/"/>
+    <id>http://xlab.tencent.com/cn/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-chakra-engine/</id>
     <published>2015-12-09T06:15:35.000Z</published>
     <updated>2015-12-09T09:30:01.000Z</updated>
     <content type="html"><![CDATA[<p>JIT Spray是一种诞生于2010年的漏洞利用技术，可将Shellcode嵌入到JIT引擎生成的可执行代码中。目前，包括Chakra在内的各JIT引擎几乎都针对该技术采取了防御措施，包括随机插入空指令、立即数加密等。本文将指出Chakra的JIT Spray防御措施的两个问题（分别存在于Windows 8.1及其之前的系统，以及Windows 10之中），使得攻击者可在IE中用JIT Spray技术执行Shellcode，从而绕过DEP。同时，本文还给出了一种利用Chakra的JIT引擎绕过CFG的方法。</p>
@@ -260,20 +260,20 @@
     
     </summary>
     
-      <category term="CFG" scheme="http://xlab.tencent.com/tags/CFG/"/>
+      <category term="CFG" scheme="http://xlab.tencent.com/cn/tags/CFG/"/>
     
-      <category term="Chakra" scheme="http://xlab.tencent.com/tags/Chakra/"/>
+      <category term="Chakra" scheme="http://xlab.tencent.com/cn/tags/Chakra/"/>
     
-      <category term="DEP" scheme="http://xlab.tencent.com/tags/DEP/"/>
+      <category term="DEP" scheme="http://xlab.tencent.com/cn/tags/DEP/"/>
     
-      <category term="JIT" scheme="http://xlab.tencent.com/tags/JIT/"/>
+      <category term="JIT" scheme="http://xlab.tencent.com/cn/tags/JIT/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[一个PC上的“WormHole”漏洞]]></title>
-    <link href="http://xlab.tencent.com/2015/11/05/pc-wormhole/"/>
-    <id>http://xlab.tencent.com/2015/11/05/pc-wormhole/</id>
+    <link href="http://xlab.tencent.com/cn/2015/11/05/pc-wormhole/"/>
+    <id>http://xlab.tencent.com/cn/2015/11/05/pc-wormhole/</id>
     <published>2015-11-05T08:12:48.000Z</published>
     <updated>2015-12-09T08:19:35.000Z</updated>
     <content type="html"><![CDATA[<p>最近安全界关注的焦点WormHole是一类不安全的开发习惯所导致的，在PC上类似问题也毫不罕见，只不过很多风险被微软默认自带的防火墙缓解了。希望本文和众多关于WormHole的讨论能获多或少地提高一些开发人员的安全意识。</p>
@@ -303,8 +303,8 @@
   
   <entry>
     <title><![CDATA[在补丁上戳个洞——利用已经被修复的漏洞实现IE沙箱逃逸]]></title>
-    <link href="http://xlab.tencent.com/2015/08/27/Poking-a-Hole-in-the-Patch/"/>
-    <id>http://xlab.tencent.com/2015/08/27/Poking-a-Hole-in-the-Patch/</id>
+    <link href="http://xlab.tencent.com/cn/2015/08/27/Poking-a-Hole-in-the-Patch/"/>
+    <id>http://xlab.tencent.com/cn/2015/08/27/Poking-a-Hole-in-the-Patch/</id>
     <published>2015-08-27T11:17:24.000Z</published>
     <updated>2015-11-30T05:45:35.000Z</updated>
     <content type="html"><![CDATA[<p>James Forshaw在2014年11月曾向微软报告过一个Windows Audio Service的本地权限提升漏洞。我们通过分析发现，微软提供的补丁并没有完全解决问题。通过一些技巧的组合，我们可以绕过补丁，继续利用该漏洞。<br><a id="more"></a></p>
@@ -346,14 +346,14 @@
     
     </summary>
     
-      <category term="沙箱逃逸" scheme="http://xlab.tencent.com/tags/%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/"/>
+      <category term="沙箱逃逸" scheme="http://xlab.tencent.com/cn/tags/%E6%B2%99%E7%AE%B1%E9%80%83%E9%80%B8/"/>
     
   </entry>
   
   <entry>
     <title><![CDATA[JIT引擎触发RowHammer可行性研究]]></title>
-    <link href="http://xlab.tencent.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/"/>
-    <id>http://xlab.tencent.com/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/</id>
+    <link href="http://xlab.tencent.com/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/"/>
+    <id>http://xlab.tencent.com/cn/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/</id>
     <published>2015-06-09T02:42:07.000Z</published>
     <updated>2015-11-30T05:46:27.000Z</updated>
     <content type="html"><![CDATA[<p>RowHammer漏洞是DDR3内存中存在的问题，通过频繁的访问内存中的一行数据，会导致临近行的数据发生反转。然而由于其运行需要在目标主机上大量运行特定的代码，实施攻击存在很大的难度。本文旨在研究能否通过Javascript等脚本语言的动态执行触发RowHammer，如果能够成功将极大增加RowHammer的攻击性。为了验证该思路，本文分析了Java Hotspot、Chrome V8、.NET CoreCLR以及Firefox SpiderMonkey的实现机制并给出了可行性分析。<br><a id="more"></a></p>
@@ -398,11 +398,11 @@
     
     </summary>
     
-      <category term="JIT" scheme="http://xlab.tencent.com/tags/JIT/"/>
+      <category term="JIT" scheme="http://xlab.tencent.com/cn/tags/JIT/"/>
     
-      <category term="Javascript" scheme="http://xlab.tencent.com/tags/Javascript/"/>
+      <category term="Javascript" scheme="http://xlab.tencent.com/cn/tags/Javascript/"/>
     
-      <category term="RowHammer" scheme="http://xlab.tencent.com/tags/RowHammer/"/>
+      <category term="RowHammer" scheme="http://xlab.tencent.com/cn/tags/RowHammer/"/>
     
   </entry>
   

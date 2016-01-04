@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  
+    <link rel="shortcut icon" href="/favicon.ico">
+  
+  <link rel="stylesheet" href="/en/css/style.css" type="text/css">
+</head>
+
+<body>
+  <div id="container">
+    <div id="wrap">
+      <header id="header">
+  <div id="header_top">
+    <div id="tencent_logo">
+    </div>
+    <div id="header_version">
+        <ul id="language_nav">
+          <li class="language_li"><a class="version_a" href="/cn">中文</a></li>
+          <li class="sep"><a class="version_a"> |&nbsp;&nbsp;  </a></li>
+          <li class="language_li"><a class="version_a" href="/en"> English</a></li>
+        </ul>
+    </div>
+  </div>
+
+  <div id="header_nav">
+    <div id="xuanwulab_logo"></div>
+    <!-- 
+    <div id="mobile-menu" >
+        <a class="nav-icon" id="main-nav-toggle"></a> 
+    </div>
+    -->
+    <div id="main_nav">
+        <a class="nav-icon" id="main-nav-toggle"></a> 
+        <ul id="menu_ul">
+        
+        <li id="menu_item">
+            <a class="navi" href="/en">Home</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/en/advisories">Advisories</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/en/policy">Disclosure Policy</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/en/archives">Archives</a>
+        </li>
+        
+        <li id="menu_item">
+            <a class="navi" href="/en/about/index.html">About</a>
+        </li>
+        
+        </ul>
+    </div>
+  </div>
+
+</header>
+
+      <div class="outer">
+        <section id="main"><article id="post-use-chakra-engine-again-to-bypass-cfg" class="article article-type-post" itemscope itemprop="blogPost">
+  <div class="article-inner">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      Use Chakra engine again to bypass CFG
+    </h1>
+  
+
+
+      </header>
+       <div class="article-sum-time">
+            <p>By <span class="author">exp-sky</span> on 
+            4 Jan 2016
+            </p>
+       </div>
+    
+    <div class="article-entry" itemprop="articleBody">
+        <p>This post is initially inspired by a talk with @<a href="https://twitter.com/tombkeeper" target="_blank" rel="external">TK</a>, during which I learned the process and detail on how to successfully bypass CFG (reference: use Chakra JIT to bypass DEP and CFG). Due to my interest in its technology, I spent some time reading related materials and found another position to bypass CFG. I would like to thanks @<a href="https://twitter.com/tombkeeper" target="_blank" rel="external">TK</a> for enlightening me on the ideas and techniques mentioned in this post.</p>
+<p>There are plenty of articles that focus on the analysis of CFG, if you are interested, you may refer to my previous speech on HitCon 2015(<a href="https://github.com/exp-sky/HitCon-2015-spartan-0day-exploit/blob/master/Spartan%200day%20%26%20Exploit-m.pdf" target="_blank" rel="external">《spartan 0day &amp; exploit》</a>). To be clear, this post is the part that is not revealed in my speech. At this point, the method to implement arbitrary code execution on edge through a write to memory is completely revealed.<br><a id="more"></a></p>
+<h2 id="0x01_the_function_calling_logic_of_Chakra">0x01 the function calling logic of Chakra</h2><p>When the chakra engine calls a function, it will conduct different process based on different function status, for example, the function called first time, the function called multi-times, DOM interface function an the function compiled by jit. Different types of functions have different processing flow, but all processing will be achieved by the Js::InterpreterStackFrame::OP_CallCommon<js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0> &gt; &gt; &gt; function through calling the Js::JavascriptFunction::CallFunction<1> function.</1></js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0></p>
+<h3 id="1-the_first_call_and_the_multiple_calls_of_a_function">1.the first call and the multiple calls of a function</h3><p>When the following script is called, the function Js::JavascriptFunction::CallFunction<1> will be called by Js::InterpreterStackFrame::OP_CallCommon<js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0> &gt; &gt; &gt;.</js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0></1></p>
+<figure class="highlight delphi"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">test</span><span class="params">()</span><span class="comment">&#123;&#125;</span></span><br><span class="line"></span><br><span class="line"><span class="title">test</span><span class="params">()</span>;</span></span><br></pre></td></tr></table></figure>
+<p>If the function is called for the first time, the execution flow will be:</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:OP_CallCommon&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutDynamicProfile&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutT_CallI&lt;Js</span><span class="symbol">:</span><span class="symbol">:LayoutSizePolicy&lt;</span><span class="number">0</span>&gt; &gt; &gt; &gt;</span><br><span class="line">	|-chakra!<span class="constant">Js:</span><span class="symbol">:JavascriptFunction</span><span class="symbol">:</span><span class="symbol">:CallFunction&lt;</span><span class="number">1</span>&gt;</span><br><span class="line">		|-chakra!<span class="constant">Js:</span><span class="symbol">:JavascriptFunction</span><span class="symbol">:</span><span class="symbol">:DeferredParsingThunk</span></span><br><span class="line">			|-chakra!<span class="constant">Js:</span><span class="symbol">:JavascriptFunction</span><span class="symbol">:</span><span class="symbol">:DeferredParse</span></span><br><span class="line">			|-chakra!<span class="constant">NativeCodeGenerator:</span><span class="symbol">:CheckCodeGenThunk</span></span><br><span class="line">				|-chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:DelayDynamicInterpreterThunk</span></span><br><span class="line">					|-jmp_code</span><br><span class="line">						|-chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:InterpreterThunk</span></span><br></pre></td></tr></table></figure>
+<p>If the function is called again, the calling process will be:</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:OP_CallCommon&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutDynamicProfile&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutT_CallI&lt;Js</span><span class="symbol">:</span><span class="symbol">:LayoutSizePolicy&lt;</span><span class="number">0</span>&gt; &gt; &gt; &gt;</span><br><span class="line">	|-chakra!<span class="constant">Js:</span><span class="symbol">:JavascriptFunction</span><span class="symbol">:</span><span class="symbol">:CallFunction&lt;</span><span class="number">1</span>&gt;</span><br><span class="line">		|-chakra!<span class="constant">NativeCodeGenerator:</span><span class="symbol">:CheckCodeGenThunk</span></span><br><span class="line">			|-chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:DelayDynamicInterpreterThunk</span></span><br><span class="line">				|-jmp_code</span><br><span class="line">					|-chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:InterpreterThunk</span></span><br></pre></td></tr></table></figure>
+<p>These two calling flows are almost identical. The mainly difference is when the function is called the first time, it has to use the DeferredParsingThunk function to resolve it. This design is for high efficiency. But the subsequent call will directly execute it.</p>
+<p>By analysis, the sub function called by Js::JavascriptFunction::CallFunction<1> is obtained through the data in the Js::ScriptFunction object. The functions called subsequently Js::JavascriptFunction::DeferredParsingThunk and NativeCodeGenerator::CheckCodeGenThunk are both included in the Js::ScriptFunction object. Here are the differences of Js::ScriptFunction in two different calls.</1></p>
+<p>The object Js::ScriptFunction called the first time:</p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">0:010&gt; u poi(06eaf050 )</span><br><span class="line">chakra!Js<span class="number">::</span>ScriptFunction<span class="number">::</span>`vftable':</span><br><span class="line"></span><br><span class="line">0:010&gt; dd 06eaf050 </span><br><span class="line">06eaf050  <span class="number">5f695580</span> 06eaf<span class="number">080 00000</span><span class="number">000 00000</span>000</span><br><span class="line"></span><br><span class="line">0:010&gt; dd poi(06eaf050+4) </span><br><span class="line">06eaf080  <span class="number">00000012 00</span><span class="number">000000 06</span>e<span class="number">26c00 06e1</span>fea0</span><br><span class="line">06eaf090  5f8db<span class="number">3f0 00000</span>000 5fb<span class="number">0b454 00</span>000101</span><br><span class="line"></span><br><span class="line">0:010&gt; u poi(poi(06eaf050+4)+0x10)</span><br><span class="line">chakra!Js<span class="number">::</span>JavascriptFunction<span class="number">::Defe</span>rredParsingThunk:</span><br></pre></td></tr></table></figure>
+<p>The object Js::ScriptFunction called the second time:</p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">0:010&gt; u poi(06eaf050 )</span><br><span class="line">chakra!Js<span class="number">::</span>ScriptFunction<span class="number">::</span>`vftable':</span><br><span class="line"></span><br><span class="line">0:010&gt; dd 06eaf050 </span><br><span class="line">06eaf050  <span class="number">5f695580</span> 1ce<span class="number">1a0c0 00</span><span class="number">000000 00</span>000000</span><br><span class="line"></span><br><span class="line">0:010&gt; dd poi(06eaf050+4)</span><br><span class="line">1ce1a0c0  <span class="number">00000012 00</span><span class="number">000000 06</span>e<span class="number">26c00 06e1</span>fea0</span><br><span class="line">1ce1a0d0  5f8db<span class="number">9e0 00000</span>000 5fb<span class="number">0b454 00</span>000101</span><br><span class="line"></span><br><span class="line">0:010&gt; u poi(poi(06eaf050+4)+0x10)</span><br><span class="line">chakra!NativeCodeGenerator<span class="number">::C</span>heckCodeGenThunk:</span><br></pre></td></tr></table></figure>
+<p>So the differences between the first call and the subsequent calls are achieved by changing the function pointer in the Js::ScriptFunction object.</p>
+<h3 id="2-jit_of_the_function">2.jit of the function</h3><p>Next we’ll look at the jit of the function. Here is the script code for test, which triggers its jit through multiple calling the test1 function.</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="function">function <span class="title">test1</span><span class="params">(num)</span></span><br><span class="line"></span>&#123;</span><br><span class="line">	<span class="keyword">return</span> num + <span class="number">1</span> + <span class="number">2</span> + <span class="number">3</span>;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="comment">//trigger jit</span></span><br><span class="line"></span><br><span class="line">test1(<span class="number">1</span>);</span><br></pre></td></tr></table></figure>
+<p>The Js::ScriptFunction object that goes through jit.</p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br></pre></td><td class="code"><pre><span class="line">//new debug, the memory address of the object will be different</span><br><span class="line"></span><br><span class="line">0:010&gt; u poi(<span class="number">07103050</span> )</span><br><span class="line">chakra!Js<span class="number">::</span>ScriptFunction<span class="number">::</span>`vftable':</span><br><span class="line"></span><br><span class="line">0:010&gt; dd <span class="number">07103050</span> </span><br><span class="line"><span class="number">07103050</span>  <span class="number">5f695580</span> <span class="number">1d7280c0</span> <span class="number">00000000 00</span>000000</span><br><span class="line"></span><br><span class="line">0:010&gt; dd poi(<span class="number">07103050+4</span>)</span><br><span class="line"><span class="number">1d7280c0</span>  <span class="number">00000012 00</span><span class="number">000000 07</span><span class="number">076c00 07</span>1080a0</span><br><span class="line"><span class="number">1d7280d0</span>  <span class="number">0a510600</span> <span class="number">00000000 5</span>fb<span class="number">0b454 00</span>000101</span><br><span class="line"></span><br><span class="line">0:010&gt; u poi(poi(<span class="number">07103050+4</span>)+0x10)			//jit code</span><br><span class="line"><span class="number">0a510600</span> 55              push    ebp</span><br><span class="line"><span class="number">0a510601</span> 8bec            mov     ebp,esp</span><br><span class="line"><span class="number">0a510603</span> 81fc5cc9d005    cmp     esp,5D0C95Ch</span><br><span class="line"><span class="number">0a510609</span> 7f21            jg      <span class="number">0a51062</span>c</span><br><span class="line"><span class="number">0a51060</span>b 6a00            push    0</span><br><span class="line"><span class="number">0a51060</span>d 6a00            push    0</span><br><span class="line"><span class="number">0a51060</span>f <span class="number">68d0121b04</span>      push    41B12D0h</span><br><span class="line"><span class="number">0a510614</span> <span class="number">685c09000</span>0      push    95Ch</span><br><span class="line"><span class="number">0a510619</span> e<span class="number">802955b55</span>      call    chakra!ThreadContext<span class="number">::</span>ProbeCurrentStack2 (5fac9b20)</span><br><span class="line"><span class="number">0a51061</span>e <span class="number">0f1f4000</span>        nop     dword ptr [eax]</span><br><span class="line"><span class="number">0a510622</span> <span class="number">0f1f4000</span>        nop     dword ptr [eax]</span><br><span class="line"><span class="number">0a510626</span> <span class="number">0f1f4000</span>        nop     dword ptr [eax]</span><br><span class="line"><span class="number">0a51062</span>a 6690            xchg    ax,ax</span><br><span class="line"><span class="number">0a51062</span>c 6a00            push    0</span><br><span class="line"><span class="number">0a51062</span>e 8d6424ec        lea     esp,[esp-14h]</span><br><span class="line"><span class="number">0a510632</span> 56              push    esi</span><br><span class="line"><span class="number">0a510633</span> 53              push    ebx</span><br><span class="line"><span class="number">0a510634</span> b<span class="number">8488e0607</span>      mov     eax,7068E48h</span><br><span class="line"><span class="number">0a510639</span> 8038ff          cmp     byte ptr [eax],0FFh</span><br><span class="line"><span class="number">0a51063</span>c 7402            je      <span class="number">0a510640</span></span><br><span class="line"><span class="number">0a51063</span>e fe00            inc     byte ptr [eax]</span><br><span class="line"><span class="number">0a510640</span> 8b450c          mov     eax,dword ptr [ebp+0Ch]</span><br><span class="line"><span class="number">0a510643</span> 25ffffff08      and     eax,8FFFFFFh</span><br><span class="line"><span class="number">0a510648</span> 0fbaf01b        btr     eax,1Bh</span><br><span class="line"><span class="number">0a51064</span>c 83d802          sbb     eax,2</span><br><span class="line"><span class="number">0a51064</span>f 7c2f            jl      <span class="number">0a510680</span></span><br><span class="line"><span class="number">0a510651</span> 8b5d14          mov     ebx,dword ptr [ebp+14h] //ebx = num</span><br><span class="line"><span class="number">0a510654</span> 8bc3            mov     eax,ebx		//eax = num (num &lt;&lt; 1 &amp; 1)</span><br><span class="line"><span class="number">0a510656</span> d1f8            sar     eax,1			//eax = num &gt;&gt; 1</span><br><span class="line"><span class="number">0a510658</span> 732f            jae     <span class="number">0a510689</span></span><br><span class="line"><span class="number">0a51065</span>a 8bf0            mov     esi,eax</span><br><span class="line"><span class="number">0a51065</span>c 8bc6            mov     eax,esi</span><br><span class="line"><span class="number">0a51065</span>e 40              inc     eax			//num + 1</span><br><span class="line"><span class="number">0a51065</span>f 7040            jo      <span class="number">0a5106a1</span></span><br><span class="line"><span class="number">0a510661</span> 8bc8            mov     ecx,eax</span><br><span class="line"><span class="number">0a510663</span> 83c102          add     ecx,2			//num + 2</span><br><span class="line"><span class="number">0a510666</span> 7045            jo      0a5106ad</span><br><span class="line"><span class="number">0a510668</span> 8bc1            mov     eax,ecx</span><br><span class="line"><span class="number">0a51066</span>a 83c003          add     eax,3			//num + 3</span><br><span class="line"><span class="number">0a51066</span>d 704a            jo      <span class="number">0a5106b9</span></span><br><span class="line"><span class="number">0a51066</span>f 8bc8            mov     ecx,eax</span><br><span class="line"><span class="number">0a510671</span> d1e1            shl     ecx,1			//ecx = num &lt;&lt; 1</span><br><span class="line"><span class="number">0a510673</span> 7050            jo      <span class="number">0a5106c5</span></span><br><span class="line"><span class="number">0a510675</span> 41              inc     ecx			//ecx = num += 1</span><br><span class="line"><span class="number">0a510676</span> 8bd9            mov     ebx,ecx</span><br><span class="line"><span class="number">0a510678</span> 8bc3            mov     eax,ebx</span><br><span class="line"><span class="number">0a51067</span>a 5b              pop     ebx</span><br><span class="line"><span class="number">0a51067</span>b 5e              pop     esi</span><br><span class="line"><span class="number">0a51067</span>c 8be5            mov     esp,ebp</span><br><span class="line"><span class="number">0a51067</span>e 5d              pop     ebp</span><br><span class="line"><span class="number">0a51067</span>f c3              ret</span><br></pre></td></tr></table></figure>
+<p>The pointer to NativeCodeGenerator::CheckCodeGenThunk in the Js::ScriptFunction object is changed to a pointer to jit code after jit. The implementation directly called the jit code.</p>
+<p>Simply speaking, when the called function passes it parameters, it first rotates one bit left, and pass the values after the lowest bit 1（parameter = (num &lt;&lt; 1) &amp; 1）. So the first thing to do after getting the parameter is to rotate one bit right to get the original parameter value. As for why, I suppose it’s caused by the garbage collection mechanism of the script engine, which separates object and data by the lowest bit.</p>
+<figure class="highlight elixir"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">chakra!<span class="constant">Js:</span><span class="symbol">:InterpreterStackFrame</span><span class="symbol">:</span><span class="symbol">:OP_CallCommon&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutDynamicProfile&lt;Js</span><span class="symbol">:</span><span class="symbol">:OpLayoutT_CallI&lt;Js</span><span class="symbol">:</span><span class="symbol">:LayoutSizePolicy&lt;</span><span class="number">0</span>&gt; &gt; &gt; &gt;</span><br><span class="line">	|-chakra!<span class="constant">Js:</span><span class="symbol">:JavascriptFunction</span><span class="symbol">:</span><span class="symbol">:CallFunction&lt;</span><span class="number">1</span>&gt;</span><br><span class="line">		|-jit code</span><br></pre></td></tr></table></figure>
+<p>When calling the jit function, the calling stack is as the above, this is the method that chakra engine uses to call the jit function.</p>
+<h3 id="3-DOM_interface_function">3.DOM interface function</h3><p>To cover everything, there is another kind of function to mention, that’s DOM interface function, a function provided by other engines, such as the rendering engine (theoretically it can be other engines as will).</p>
+<figure class="highlight coffeescript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">document</span>.createElement(<span class="string">"button"</span>);</span><br></pre></td></tr></table></figure>
+<p>On execution, the above script will use the following function calling process, until call the engine that provides the interface function.</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">chakra!Js::InterpreterStackFrame::OP_CallCommon&lt;Js::OpLayoutDynamicProfile&lt;Js::OpLayoutT_CallI&lt;Js::LayoutSizePolicy&lt;<span class="number">0</span>&gt; &gt; &gt; &gt;</span><br><span class="line">	|-chakra!Js::JavascriptFunction::CallFunction&lt;<span class="number">1</span>&gt;</span><br><span class="line">		|-chakra!Js::JavascriptExternalFunction::ExternalFunctionThunk <span class="comment">//call dom interface function</span></span><br><span class="line">			|-dom_interface_function	<span class="comment">//EDGEHTML!CFastDOM::CDocument::Trampoline_createElement</span></span><br></pre></td></tr></table></figure>
+<p>When calling the interface function, the Js::InterpreterStackFrame::OP_CallCommon<js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0> &gt; &gt; &gt; function and the function object used in the subsequent process differ from the ones used previously, it is the Js::JavascriptExternalFunction object. Then similar to the previosfunction call, it also resolves the function pointer in their subject and calls it; finally it enters the wanted DOM interface function.</js::oplayoutdynamicprofile<js::oplayoutt_calli<js::layoutsizepolicy<0></p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line">0:010&gt; u poi(06f2cea0)</span><br><span class="line">chakra!Js<span class="number">::</span>JavascriptExternalFunction<span class="number">::</span>`vftable':</span><br><span class="line"></span><br><span class="line">0:010&gt; dd 06f2cea0 </span><br><span class="line">06f2cea0  <span class="number">5f696c4</span>c <span class="number">06e6f7a0</span> <span class="number">00000000 00</span>000000</span><br><span class="line"></span><br><span class="line">0:010&gt; dd poi(06f2cea0+4)</span><br><span class="line"><span class="number">06e6f7a0</span>  <span class="number">00000012 00</span><span class="number">000000 06</span>e<span class="number">76c00 06f04</span>0a0</span><br><span class="line"><span class="number">06e6f7b0</span>  <span class="number">5f8c6130</span> <span class="number">00000000 5</span>fb<span class="number">0b454 00</span>000101</span><br><span class="line"></span><br><span class="line">0:010&gt; u poi(poi(06f2cea0+4)+0x10)</span><br><span class="line">chakra!Js<span class="number">::</span>JavascriptExternalFunction<span class="number">::E</span>xternalFunctionThunk:</span><br></pre></td></tr></table></figure>
+<p>These are the different call methods that chakra engine uses to call different types of functions.</p>
+<h2 id="0x02_Exploit_and_Exploitation">0x02 Exploit and Exploitation</h2><p>After describing the call methods for all sorts of chakra engines, now we’ll check out the very important cog vulnerability. As mentioned above, the first calling process differs from the sub sequent ones. Let’s look at the logic here; the following is the call stack:</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//the first call</span></span><br><span class="line">chakra!Js::InterpreterStackFrame::OP_CallCommon&lt;Js::OpLayoutDynamicProfile&lt;Js::OpLayoutT_CallI&lt;Js::LayoutSizePolicy&lt;<span class="number">0</span>&gt; &gt; &gt; &gt;</span><br><span class="line">	|-chakra!Js::JavascriptFunction::CallFunction&lt;<span class="number">1</span>&gt;</span><br><span class="line">		|-chakra!Js::JavascriptFunction::DeferredParsingThunk</span><br><span class="line">			|-chakra!Js::JavascriptFunction::DeferredParse    <span class="comment">//obtain NativeCodeGenerator::CheckCodeGenThunk function</span></span><br><span class="line">			|-chakra!NativeCodeGenerator::CheckCodeGenThunk</span><br><span class="line">				|-chakra!Js::InterpreterStackFrame::DelayDynamicInterpreterThunk</span><br><span class="line">					|-jmp_code	</span><br><span class="line">						|-chakra!Js::InterpreterStackFrame::InterpreterThunk</span><br></pre></td></tr></table></figure>
+<p>What is not mentioned above is the Js::JavascriptFunction::DeferredParse function in the above process. Function resolution related work is conducted in this function, and this function returns the pointer value of NativeCodeGenerator::CheckCodeGenThunk, then returns Js::JavascriptFunction::DeferredParsingThunk and calls it. The pointer of NativeCodeGenerator::CheckCodeGenThunk is also obtained through resolving the Js::JavascriptFunction object. Here is the code.</p>
+<figure class="highlight cpp"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">int</span> __cdecl Js::JavascriptFunction::DeferredParsingThunk(<span class="keyword">struct</span> Js::ScriptFunction *p_script_function)</span><br><span class="line">&#123;</span><br><span class="line">  NativeCodeGenerator_CheckCodeGenThunk = Js::JavascriptFunction::DeferredParse(&amp;p_script_function);</span><br><span class="line">  <span class="keyword">return</span> NativeCodeGenerator_CheckCodeGenThunk();</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3F0</span> <span class="tag">push</span>    <span class="tag">ebp</span></span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3F1</span> <span class="tag">mov</span>     <span class="tag">ebp</span>, <span class="tag">esp</span></span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3F3</span> <span class="tag">lea</span>     <span class="tag">eax</span>, <span class="attr_selector">[esp+p_script_function]</span></span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3F7</span> <span class="tag">push</span>    <span class="tag">eax</span>             ; <span class="tag">struct</span> <span class="tag">Js</span><span class="pseudo">::ScriptFunction</span> **</span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3F8</span> <span class="tag">call</span>    <span class="tag">Js</span><span class="pseudo">::JavascriptFunction</span><span class="pseudo">::DeferredParse</span></span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3FD</span> <span class="tag">pop</span>     <span class="tag">ebp</span></span><br><span class="line"><span class="class">.text</span><span class="pseudo">:002AB3FE</span> <span class="tag">jmp</span>     <span class="tag">eax</span></span><br></pre></td></tr></table></figure>
+<p>On this jump position, no CFG check is made on the function pointer in eax. Therefore, this can be used to hijack the eip. But first you need to know how the function pointer NativeCodeGenerator::CheckCodeGenThunk returned by the Js::JavascriptFunction::DeferredParse function is resolved through the Js::ScriptFunction object. Here is the resolution process.</p>
+<figure class="highlight dns"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line">0:010&gt; u poi(070af050)</span><br><span class="line">chakra!Js<span class="number">::</span>ScriptFunction<span class="number">::</span>`vftable':</span><br><span class="line"></span><br><span class="line">0:010&gt; dd 070af050 + 14</span><br><span class="line">070af064  <span class="number">076690e0</span> 5fb11ef<span class="number">4 00000000</span> <span class="number">00000000</span></span><br><span class="line"></span><br><span class="line">0:010&gt; dd <span class="number">076690e0</span> + 10</span><br><span class="line"><span class="number">076690f0</span>  <span class="number">076690e0</span> <span class="number">04186628 07</span><span class="number">065f90 00</span>000000</span><br><span class="line"></span><br><span class="line">0:010&gt; dd <span class="number">076690e0</span> + 28</span><br><span class="line"><span class="number">07669108</span>  07010dc<span class="number">0 000001</span>a<span class="number">8 00000035</span> <span class="number">00000000</span></span><br><span class="line"></span><br><span class="line">0:010&gt; dd 07010dc0 </span><br><span class="line">07010dc0  <span class="number">5f696000</span> <span class="number">05a452b8</span> <span class="number">00000000 5</span>f8db9e0</span><br><span class="line"></span><br><span class="line">0:010&gt; u 5f8db9e0</span><br><span class="line">chakra!NativeCodeGenerator<span class="number">::C</span>heckCodeGenThunk:</span><br></pre></td></tr></table></figure>
+<p>As shown above, Js::JavascriptFunction::DeferredParse gets the NativeCodeGenerator::CheckCodeGenThunk function pointer by resolving the Js::ScriptFunction object, the resolving method is abbreviated as [[[Js::ScriptFunction+14]+10]+28]+0c. So just by forging the data in this memory, it can trigger the call of Js::JavascriptFunction::DeferredParse by calling the function, further to hijack the eip, as shown below.</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line"><span class="number">0</span>:<span class="number">010</span>&gt; g</span><br><span class="line">Breakpoint <span class="number">0</span> hit</span><br><span class="line"><span class="literal">eax</span>=603ba064 <span class="literal">ebx</span>=063fba10 <span class="literal">ecx</span>=063fba40 <span class="literal">edx</span>=063fba40 <span class="literal">esi</span>=<span class="number">00000001</span> <span class="literal">edi</span>=058fc6b0</span><br><span class="line"><span class="literal">eip</span>=603ba064 <span class="literal">esp</span>=058fc414 <span class="literal">ebp</span>=058fc454 iopl=<span class="number">0</span>         nv <span class="preprocessor">up</span> ei ng nz na po cy</span><br><span class="line"><span class="literal">cs</span>=<span class="number">001b</span>  <span class="literal">ss</span>=<span class="number">0023</span>  <span class="literal">ds</span>=<span class="number">0023</span>  <span class="literal">es</span>=<span class="number">0023</span>  <span class="literal">fs</span>=003b  <span class="literal">gs</span>=<span class="number">0000</span>             efl=<span class="number">00000283</span></span><br><span class="line">chakra!<span class="string">`dynamic initializer for 'DOMFastPathInfo::getterTable''+0x734:</span><br><span class="line">603ba064 94              xchg    eax,esp</span><br><span class="line">603ba065 c3              ret</span></span><br></pre></td></tr></table></figure>
+<p>By this way, cfg is bypassed and eip is hijacked. This method is simple and stable. It’s convenient to use when you get access to read and write the memory. This exploit has been reported to Microsoft on 25th July, 2015.</p>
+<h2 id="0x03_Mitigation">0x03 Mitigation</h2><p>Microsoft has fixed all the exploits in this post. The mitigation plan is relatively easy, which is to add cft check at this jump.</p>
+<figure class="highlight x86asm"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="string">.text</span>:002AB460 <span class="keyword">push</span>    <span class="literal">ebp</span></span><br><span class="line"><span class="string">.text</span>:002AB461 <span class="keyword">mov</span>     <span class="literal">ebp</span>, <span class="literal">esp</span></span><br><span class="line"><span class="string">.text</span>:002AB463 <span class="keyword">lea</span>     <span class="literal">eax</span>, [<span class="literal">esp</span>+arg_0]</span><br><span class="line"><span class="string">.text</span>:002AB467 <span class="keyword">push</span>    <span class="literal">eax</span></span><br><span class="line"><span class="string">.text</span>:002AB468 <span class="keyword">call</span>    <span class="keyword">Js</span>::JavascriptFunction::DeferredParse</span><br><span class="line"><span class="string">.text</span>:002AB46D <span class="keyword">mov</span>     <span class="literal">ecx</span>, <span class="literal">eax</span>        <span class="comment">; this</span></span><br><span class="line"><span class="string">.text</span>:002AB46F <span class="keyword">call</span>    <span class="literal">ds</span>:___guard_check_icall_fptr  //<span class="keyword">add</span> cfg check</span><br><span class="line"><span class="string">.text</span>:002AB475 <span class="keyword">mov</span>     <span class="literal">eax</span>, <span class="literal">ecx</span></span><br><span class="line"><span class="string">.text</span>:002AB477 <span class="keyword">pop</span>     <span class="literal">ebp</span></span><br><span class="line"><span class="string">.text</span>:002AB478 <span class="keyword">jmp</span>     <span class="literal">eax</span></span><br></pre></td></tr></table></figure>
+<h2 id="Reference">Reference</h2><ol>
+<li><p><a href="http://xlab.tencent.com/en/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-charkra-engine/">《Bypass DEP and CFG using JIT compiler in Chakra engine》</a></p>
+</li>
+<li><p><a href="https://github.com/exp-sky/HitCon-2015-spartan-0day-exploit/blob/master/Spartan%200day%20%26%20Exploit-m.pdf" target="_blank" rel="external">《spartan 0day &amp; exploit》</a></p>
+</li>
+</ol>
+
+    </div>
+    <footer class="article-footer">
+      <a data-url="http://xlab.tencent.com/en/2016/01/04/use-chakra-engine-again-to-bypass-cfg/" data-id="ciizmbu870003n7unew0p6kg5" class="article-share-link"></a>
+      
+      
+
+    </footer>
+  </div>
+</article>
+
+
+</section>
+        <aside id="sidebar">
+  
+    
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Tag Cloud</h3>
+    <hr>
+    <div class="widget tagcloud">
+      <a href="/en/tags/CFG/" style="font-size: 10px;">CFG</a> <a href="/en/tags/Chakra/" style="font-size: 10px;">Chakra</a> <a href="/en/tags/DEP/" style="font-size: 10px;">DEP</a> <a href="/en/tags/JIT/" style="font-size: 20px;">JIT</a> <a href="/en/tags/Javascript/" style="font-size: 10px;">Javascript</a> <a href="/en/tags/RowHammer/" style="font-size: 10px;">RowHammer</a> <a href="/en/tags/Sandbox/" style="font-size: 10px;">Sandbox</a> <a href="/en/tags/Vulnerability/" style="font-size: 10px;">Vulnerability</a>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Archives</h3>
+    <hr>
+    <div class="widget">
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2016/01/">January 2016</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2015/12/">December 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2015/08/">August 2015</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/en/archives/2015/06/">June 2015</a><span class="archive-list-count">1</span></li></ul>
+    </div>
+  </div>
+
+
+  
+    
+  <div class="widget-wrap">
+    <h3 class="widget-title">Recents</h3>
+    <hr>
+    <div class="widget">
+      <ul>
+        
+          <li>
+            <a href="/en/2016/01/04/use-chakra-engine-again-to-bypass-cfg/">Use Chakra engine again to bypass CFG</a>
+          </li>
+        
+          <li>
+            <a href="/en/2015/12/09/bypass-dep-and-cfg-using-jit-compiler-in-charkra-engine/">Bypass DEP and CFG using JIT compiler in Chakra engine</a>
+          </li>
+        
+          <li>
+            <a href="/en/2015/08/27/Poking-a-Hole-in-the-Patch/">Poking a Hole in the Patch--Escaping from IE Sandbox with a Poorly Patched Vulnerability</a>
+          </li>
+        
+          <li>
+            <a href="/en/2015/06/09/Research-report-on-using-JIT-to-trigger-RowHammer/">Research report on using JIT to trigger RowHammer</a>
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+
+
+  
+      <div class="widget-wrap">
+    <h3 class="widget-title rss-title">RSS</h3>
+    <hr>
+    <div class="widget">
+      <a href="/en/atom.xml" target="_blank">Papers</a>
+      <br>
+      <a href="/en/advisories/atom.xml" target="_blank">Advisories</a>
+    </div>
+  </div>
+
+  
+</aside>
+
+      </div>
+      <footer id="footer">
+  <div id="outer">
+    <div id="footer-infoi" >
+        <div id="us">
+            <ul id="us_ul">
+            
+                <li id="follow_us" class="us_li"><p>Follow us: </p></li>
+                
+                <li class="us_li">
+                <a class="social_icon_twitter" href="https://twitter.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_twitter" src="/en/css/images/twitter_chose.png" />
+                </a>
+                </li>
+                
+                <li class="us_li">
+                <a class="social_icon_weibo" href="http://weibo.com/xuanwulab" target="_blank">
+                <img class="social_icon_img_weibo" src="/en/css/images/weibo_chose.png" />
+                </a>
+                </li>
+                
+            </ul>
+        </div>
+        <div id="copyright"><p>Copyright &copy; 2015 Tencent's XuanwuLab. All Rights Reserved.<p></div>
+  </>
+</footer>
+
+    </div>
+    <nav id="mobile-nav">
+  
+    <a href="/en" class="mobile-nav-link">Home</a>
+  
+    <a href="/en/advisories" class="mobile-nav-link">Advisories</a>
+  
+    <a href="/en/policy" class="mobile-nav-link">Disclosure Policy</a>
+  
+    <a href="/en/archives" class="mobile-nav-link">Archives</a>
+  
+    <a href="/en/about/index.html" class="mobile-nav-link">About</a>
+  
+</nav>
+    
+
+<script src="http://cdnjs.gtimg.com/cdnjs/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+  <link rel="stylesheet" href="/en/fancybox/jquery.fancybox.css" type="text/css">
+  <script src="/en/fancybox/jquery.fancybox.pack.js" type="text/javascript"></script>
+
+
+<script src="/en/js/script.js" type="text/javascript"></script>
+ 
+  </div>
+</body>
+</html>
