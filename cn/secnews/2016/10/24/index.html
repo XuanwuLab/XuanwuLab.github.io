@@ -1,0 +1,404 @@
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>XuanwuLab</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/10/23/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/10/24/index.html">2016/10/24</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/10/25/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @ binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Android hacking, SW and HW : <a href="https://www.thanassis.space/android.html" rel="nofollow">https://www.thanassis.space/android.html</a></p>
+<div class="translated" id="198714">
+<p>﻿" Hacking Asus MemoPad Android 平板电脑（软件和硬件）︰ <a href="https://t.co/k8ikJbCLbG" rel="nofollow">https://t.co/k8ikJbCLbG</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Android Tamer @ AndroidTamer retweets XDA Developers @ xdadevelopers</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Sultanxda Bypasses new SafetyNet unlocked Bootloader check <a href="http://www.xda-developers.com/sultanxda-bypasses-new-safetynet-unlocked-bootloader-check-on-latest-cm13-builds-for-op3/" rel="nofollow">http://www.xda-developers.com/sultanxda-bypasses-new-safetynet-unlocked-bootloader-check-on-latest-cm13-builds-for-op3/</a> <a href="https://t.co/l4TbIQccsU" rel="nofollow">https://t.co/l4TbIQccsU</a></p>
+<div class="translated" id="198781">
+<p>﻿" Bypass SafetyNet 解锁后的 Bootloader 检查： <a href="https://t.co/QlmTg6ukeL" rel="nofollow">https://t.co/QlmTg6ukeL</a> <a href="https://t.co/l4TbIQccsU" rel="nofollow">https://t.co/l4TbIQccsU</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CvYTkKKXYAETgcx.jpg" target="_blank">
+<img src="CvYTkKKXYAETgcx.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Cedric Halbronn @ saidelike retweets Francisco Alonso @ revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Mozilla "Add unified fuzzing interface, supporting AFL and libfuzzer" <a href="https://bugzilla.mozilla.org/show_bug.cgi?id=1303757" rel="nofollow">https://bugzilla.mozilla.org/show_bug.cgi?id=1303757</a></p>
+<div class="translated" id="198616">
+<p>﻿"Mozilla Firefox 添加了一个统一的 Fuzzing 接口，支持 AFL 和 libfuzzer：  <a href="https://t.co/vl2UJESXdO" rel="nofollow">https://t.co/vl2UJESXdO</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Matt Graeber @ mattifestation retweets Justin Warner @ sixdub</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Slides from @ xorrior and I presented at BSidesDC on emulating adversarial post exploitation techniques <a href="https://goo.gl/SQ01hX" rel="nofollow">https://goo.gl/SQ01hX</a></p>
+<div class="translated" id="198578">
+<p>﻿" 来自 BSidesDC 会议的一篇演讲：《Adversarial Post-Ex: Lessons From The Pros》： <a href="https://t.co/lSZSv1wgDT" rel="nofollow">https://t.co/lSZSv1wgDT</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @ binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  Exposing high-end poker cheating devices : <a href="https://www.elie.net/blog/security/fuller-house-exposing-high-end-poker-cheating-devices" rel="nofollow">https://www.elie.net/blog/security/fuller-house-exposing-high-end-poker-cheating-devices</a></p>
+<div class="translated" id="198594">
+<p>﻿" 揭露一款高端的扑克牌作弊设备︰ <a href="https://t.co/nMimdYHFNT" rel="nofollow">https://t.co/nMimdYHFNT</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @ binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Operating System </i>]  Hack the Kernel – Learn about operating systems online : <a href="https://www.ops-class.org/" rel="nofollow">https://www.ops-class.org/</a></p>
+<div class="translated" id="198713">
+<p>﻿" <a href="http://ops-class.org" rel="nofollow">ops-class.org</a> 网站有关于操作系统的各方面的知识︰ <a href="https://t.co/2rlp8aGqgG" rel="nofollow">https://t.co/2rlp8aGqgG</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @ binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  dnschain : A blockchain-based DNS + HTTP server that fixes HTTPS security, and more! : <a href="https://github.com/okTurtles/dnschain" rel="nofollow">https://github.com/okTurtles/dnschain</a></p>
+<div class="translated" id="198593">
+<p>﻿" DNSChain - 基于区块链的 DNS、配合 HTTP 服务器，用于解决 HTTPS 安全性的工具: <a href="https://t.co/F7Y9yuRI1G" rel="nofollow">https://t.co/F7Y9yuRI1G</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Binni Shah @ binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  phishery : An SSL Enabled Basic Auth Credential Harvester with a Word Document Template URL Injector : <a href="https://github.com/ryhanson/phishery" rel="nofollow">https://github.com/ryhanson/phishery</a></p>
+<div class="translated" id="198596">
+<p>﻿"phishery - 支持 SSL 的一款密钥凭据钓鱼工具，也支持在 Word 文档模板中嵌入 URL︰ <a href="https://t.co/Ame9VULA24" rel="nofollow">https://t.co/Ame9VULA24</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>PythonArsenal @ PythonArsenal</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  autoexp - A script to automatically create a working exploit from crash PoCs. Based on pykd <a href="https://github.com/theevilbit/exploit_generator" rel="nofollow">https://github.com/theevilbit/exploit_generator</a></p>
+<div class="translated" id="198619">
+<p>﻿"autoexp - 从 Crash PoC 自动化生成 Exploit 的一个脚本，基于 pykd： <a href="https://t.co/HB6NISmrJs" rel="nofollow">https://t.co/HB6NISmrJs</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>`Ivan @ Ivanlef0u retweets Sean Metcalf @ PyroTek3</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Slides from my @ BSidesDC #PowerShell attack &amp; defense talk posted: <a href="https://adsecurity.org/?page_id=1352" rel="nofollow">https://adsecurity.org/?page_id=1352</a>
+PowerShell obfuscation,… <a href="https://t.co/1uAJLVu8R7" rel="nofollow">https://t.co/1uAJLVu8R7</a></p>
+<div class="translated" id="198687">
+<p>﻿" PowerShell 攻击与防御，来自 BSides DC 会议的演讲： <a href="https://adsecurity.org/wp-content/uploads/2015/01/BSidesDC2016-PowerShellSecurity-Defending-the-Enterprise-from-the-Latest-Attack-Platform-Presented.pdf" rel="nofollow">https://adsecurity.org/wp-content/uploads/2015/01/BSidesDC2016-PowerShellSecurity-Defending-the-Enterprise-from-the-Latest-Attack-Platform-Presented.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
