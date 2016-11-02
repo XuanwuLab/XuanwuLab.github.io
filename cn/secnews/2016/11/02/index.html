@@ -1,0 +1,529 @@
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>XuanwuLab</title>
+<style>
+body{
+    width: 40%;
+    margin: 0 auto;
+}
+#weibowrapper{
+    /*width: 390px;*/
+    /*width = auto;*/
+    /*font-family: "Courier", "Serif";*/
+    /*font-family: "PingHei","Lucida Grande", "Lucida Sans", "Helvetica", "Arial", "Sans Serif", "Consolas";*/
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+    font-size: 14px;
+    /*color: #a7a7a7;*/
+}
+#weibowrapper li{
+    list-style: none;
+}
+#singleweibo{
+    margin-top: 15px;
+    padding-top: 5px;
+    border-top: 1px solid #f0f0f0;
+}
+#weibowrapper .weibolist{
+    margin: 0px 0px;
+    padding: 0px 10px;
+}
+.selectbox{
+    float: left;
+    height: auto;
+    width: 24px;
+    margin: auto;
+}
+
+#singleweibologo{
+    float: left;
+    /*width: 24px;*/
+    width: 17px;
+    height: 17px;
+    margin-right: 5px;
+}
+#singleweibologo img{
+    float: left;
+    width: 15px;
+    height: 13px;
+    max-height: 15px;
+    max-width: 15px;
+    /*width: 80%;
+    height: 80%;*/
+}
+#singleweiboauthor{
+    /*float: left;*/
+    margin-left: 5px;
+    color: #a7a7a7;
+}
+.singleweibotext a{
+    text-decoration: none;
+    color: #37485b;
+}
+.singleweiboretweet{
+    border: 1px solid #f0f0f0;
+}
+.translated{
+    margin: 0px 0px;
+    padding-left: 20px;
+    /*border: 1px dotted #a7a7a7;*/
+    font-family:"微软雅黑","Courier", "Serif";
+}
+.translated p{
+    font-size: 14px;
+    color: #a7a7a7;
+}
+.singleweiboimage, a img{
+    max-width: 400px;
+    max-height: 600px;
+    /*width: expression(this.width > 500? 500px;'auto';)
+    height: expression(this.width > 600? 600px;'auto';);*/
+}
+#avatar{
+    font-family: "微软雅黑","Courier", "Serif";
+    color: #37485b;
+    width: 100%;
+    height: 150px;
+    margin-top: 30px;
+    text-align: center;
+}
+#avatar_pic{
+    display: inline-block;
+    vertical-align: middle;
+}
+#avatar img{
+    max-height: 120px;
+    max-width: 300px;
+    
+    /*width: 250px;
+    height:145px;*/
+}
+#logo_title{
+    display: inline-block;
+    vertical-align: middle;
+    font-family: "微软雅黑","Courier", "Serif";
+}
+#logo_title h2{
+    font-weight: normal;
+    font-size: 18px;
+}
+
+#logo_title p{
+    font-size: 14px;
+}
+
+#datenavigate{
+    text-align: center;
+    margin: 20px 0;
+    font-size: 14px;
+    font-family: "Helvetica Neue", "Helvetica", "Arial", "Microsoft Yahei", "微软雅黑", "Consolas";
+}
+
+#datenavigate a{
+    text-decoration: none;
+    color: #37485b;
+}
+
+#prevpage{
+    margin-left: 50px;
+    display: inline-block;
+    float: left;
+}
+
+#currentpage{
+    display: inline-block;
+}
+
+#nextpage{
+    margin-right: 50px;
+    display: inline-block;
+    float: right;
+}
+
+</style>
+<script type="text/javascript">
+    function ConvertTextToHyperLink()
+    {
+        var textElements = document.getElementsByClassName("singleweibotext");
+        if (textElements.length){
+            for (var tIdx=0; tIdx < textElements.length; tIdx++){
+                var aElements = textElements[tIdx].getElementsByTagName("a");
+                if (aElements.length){
+                    for (var aIdx=0; aIdx < aElements.length; aIdx++){
+                        console.log(aElements[aIdx].href);
+                        var matchidx = aElements[aIdx].href.search('%C2%A0');
+                        console.log(matchidx);
+                        if (matchidx != -1){
+                            aElements[aIdx].href = aElements[aIdx].href.substr(0, matchidx);
+                            console.log("new -> "+aElements[aIdx].href);
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+</script>
+</head>
+<!-- <body onload="ConvertTextToHyperLink()"> -->
+<body onload="ConvertTextToHyperLink()">
+<div id="mainbody">
+<div id="avatar">
+<div id="avatar_pic">
+<img src="logo.jpg"/>
+</div>
+<div id="logo_title">
+<h2>腾讯玄武实验室安全动态推送</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/11/01/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/11/02/index.html">2016/11/02</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/11/03/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>TrendLabs @ TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  New post: Security Update Patches 13 Android Vulnerabilities Discovered by Trend Micro <a href="http://bit.ly/2ehZewA" rel="nofollow">http://bit.ly/2ehZewA</a> @ TrendMicro</p>
+<div class="translated" id="202462">
+<p>﻿"Trend Micro 回顾了由自家发现的值得关注的13个 Android 漏洞：   <a href="https://t.co/4IiI5760z9" rel="nofollow">https://t.co/4IiI5760z9</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @ Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Google Adwords Malvertising Campaign Targets Apple Macs <a href="http://www.darkreading.com/attacks-breaches/google-adwords-malvertising-campaign-targets-apple-macs-/d/d-id/1327357" rel="nofollow">http://www.darkreading.com/attacks-breaches/google-adwords-malvertising-campaign-targets-apple-macs-/d/d-id/1327357</a></p>
+<div class="translated" id="202698">
+<p>﻿"本篇文章谈到上周如果 Apple Mac 的用户使用了 Google 搜索引擎，那么可能受到来自恶意广告的感染：   <a href="https://t.co/RwNacTw5Ju" rel="nofollow">https://t.co/RwNacTw5Ju</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>the grugq @ thegrugq retweets Anil Madhavapeddy @ avsm</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Google is launching a hosted free fuzzing service for OSS projects; tracking it for @ openmirage here <a href="https://github.com/mirage/mirage/issues/642" rel="nofollow">https://github.com/mirage/mirage/issues/642</a></p>
+<div class="translated" id="202596">
+<p>﻿"Google 为 OSS 项目发起了一个免费的 fuzz 服务：    <a href="https://t.co/k0E44BOMKB%C2%A0%C2%A0" rel="nofollow">https://t.co/k0E44BOMKB  </a> <a href="https://github.com/google/oss-fuzz" rel="nofollow">https://github.com/google/oss-fuzz</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jacob Soo @ _jsoo_ retweets Frank Denis @ jedisct1</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  System call fuzzing of OpenBSD amd64 using TriforceAFL (i.e. AFL and QEMU) <a href="https://github.com/nccgroup/TriforceOpenBSDFuzzer" rel="nofollow">https://github.com/nccgroup/TriforceOpenBSDFuzzer</a></p>
+<div class="translated" id="202428">
+<p>﻿"使用 Triforce AFL 来 fuzz OpenBSD amd64 的系统调用：   <a href="https://t.co/9tbudjUA7h" rel="nofollow">https://t.co/9tbudjUA7h</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @ Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  [dos] - Apple OS X Kernel - IOBluetoothFamily.kext Use-After-Free <a href="https://www.exploit-db.com/exploits/40652/" rel="nofollow">https://www.exploit-db.com/exploits/40652/</a></p>
+<div class="translated" id="202424">
+<p>﻿"Apple OS X Kernel - IOBluetoothFamily.kext Use-After-Free：   <a href="https://t.co/vF9YtxQJ44" rel="nofollow">https://t.co/vF9YtxQJ44</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @ Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Phony Android Flash Player Installs Banking Malware: <a href="https://threatpost.com/phony-android-flash-player-installs-banking-malware/121696/" rel="nofollow">https://threatpost.com/phony-android-flash-player-installs-banking-malware/121696/</a> via @ threatpost</p>
+<div class="translated" id="202587">
+<p>﻿"一款针对 Android 设备的假 Flash Player 通过诱使用户下载来安装可窃取信用卡信息的恶意银行软件：   <a href="https://threatpost.com/phony-android-flash-player-installs-banking-malware/121696/" rel="nofollow">https://threatpost.com/phony-android-flash-player-installs-banking-malware/121696/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Threatpost @ threatpost</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  New #IoT botnet malware borrows from #Mirai - <a href="http://bit.ly/2ewH7Rv" rel="nofollow">http://bit.ly/2ewH7Rv</a> <a href="https://t.co/m1C4IeJg2I" rel="nofollow">https://t.co/m1C4IeJg2I</a></p>
+<div class="translated" id="202681">
+<p>﻿"Mirai 的‘继承者’，新 IoT 恶意软件被发现，来自 Threatpost：   <a href="https://threatpost.com/new-iot-botnet-malware-borrows-from-mirai/121705/%C2%A0" rel="nofollow">https://threatpost.com/new-iot-botnet-malware-borrows-from-mirai/121705/ </a>; "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CwMkwnoW8AEZiAM.jpg" target="_blank">
+<img src="http://pbs.twimg.com/media/CwMkwnoW8AEZiAM.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Giuseppe `N3mes1s` @ gN3mes1s retweets Sean Metcalf @ PyroTek3</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Video &amp; Slides posted for my #PowerShell attack &amp; defense talk @ BSidesDC: <a href="https://adsecurity.org/?page_id=1352" rel="nofollow">https://adsecurity.org/?page_id=1352</a> PS obfuscation, d… <a href="https://t.co/5ks7r9iXg8" rel="nofollow">https://t.co/5ks7r9iXg8</a></p>
+<div class="translated" id="202436">
+<p>﻿" BSidesDC 会议《Defending the Enterprise from the Latest Attack Platform》 的 PPT：   <a href="https://adsecurity.org/?page_id=1352%C2%A0%C2%A0" rel="nofollow">https://adsecurity.org/?page_id=1352  </a> 该页面还有他们团队在其他会议的历史演讲资料"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Jacob Soo @ _jsoo_ retweets Pierre (피에르 김) @ PierreKimSec</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  GPON FTTH networks (in)security #IoT #FTTH #RCE
+<a href="https://pierrekim.github.io/blog/2016-11-01-gpon-ftth-networks-insecurity.html" rel="nofollow">https://pierrekim.github.io/blog/2016-11-01-gpon-ftth-networks-insecurity.html</a></p>
+<div class="translated" id="202459">
+<p>﻿"GPON FTTH networks (in)security：   <a href="https://t.co/TbuhTxmnkJ" rel="nofollow">https://t.co/TbuhTxmnkJ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @ Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Abusing GDI for ring0 exploit primitives: Reloaded <a href="https://www.coresecurity.com/publication/abusing-gdi-ring0-exploit-primitives-reloaded" rel="nofollow">https://www.coresecurity.com/publication/abusing-gdi-ring0-exploit-primitives-reloaded</a></p>
+<div class="translated" id="202493">
+<p>﻿"Abusing GDI for ring0 exploit primitives: Reloaded[pdf]：   <a href="https://t.co/6urESYehbw" rel="nofollow">https://t.co/6urESYehbw</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @ Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Adobe Flash: Overflow in Rastering <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=886" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=886</a></p>
+<div class="translated" id="202429">
+<p>﻿"Adobe Flash: Overflow in Rastering：   <a href="https://t.co/9Galun5Csg" rel="nofollow">https://t.co/9Galun5Csg</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @ SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Multiple SQL injection vulnerabilities in dotCMS (8x CVE) <a href="https://goo.gl/fb/3sZ8rZ" rel="nofollow">https://goo.gl/fb/3sZ8rZ</a> #FullDisclosure</p>
+<div class="translated" id="202447">
+<p>﻿"开源内容管理系统 dotCMS 中的存在多个 SQL 注入漏洞：   <a href="https://t.co/ndb58f3YIo" rel="nofollow">https://t.co/ndb58f3YIo</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>James Forshaw @ tiraniddo</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  I've published the NtObjectManager #powershell module to the PowerShell Gallery. <a href="https://www.powershellgallery.com/packages/NtObjectManager" rel="nofollow">https://www.powershellgallery.com/packages/NtObjectManager</a></p>
+<div class="translated" id="202547">
+<p>﻿" James Forshaw 发布了他的 NtObjectManager 工具，该工具用 PowerShell 编写：   <a href="https://t.co/usCqSz2Kor" rel="nofollow">https://t.co/usCqSz2Kor</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>James Forshaw @ tiraniddo</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Released a big update to my sandbox tools <a href="https://github.com/google/sandbox-attacksurface-analysis-tools" rel="nofollow">https://github.com/google/sandbox-attacksurface-analysis-tools</a>. Removed un-managed code, generic NT API library,… <a href="https://twitter.com/i/web/status/793448062001741824" rel="nofollow">https://twitter.com/i/web/status/793448062001741824</a></p>
+<div class="translated" id="202542">
+<p>﻿"一个针对 Windows 沙箱分析的工具：   <a href="https://github.com/google/sandbox-attacksurface-analysis-tools" rel="nofollow">https://github.com/google/sandbox-attacksurface-analysis-tools</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>雪碧0xroot @ cn0Xroot</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Wireless Security Testing/Hacking/Research  cc @ grymoire <a href="http://www.grymoire.com/Security/Hardware.html" rel="nofollow">http://www.grymoire.com/Security/Hardware.html</a>  #HardWare #SDR <a href="https://t.co/rxGyC2B8Fm" rel="nofollow">https://t.co/rxGyC2B8Fm</a></p>
+<div class="translated" id="202403">
+<p>﻿"无线安全测试介绍：   <a href="http://www.grymoire.com/Security/Hardware.html" rel="nofollow">http://www.grymoire.com/Security/Hardware.html</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/CwJaokYVIAAq56C.jpg" target="_blank">
+<img src="CwJaokYVIAAq56C.jpg">
+</img></a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+<img align="left" src="twitter_logo.jpg">
+</img></div>
+<div id="singleweiboauthor">
+<p>雪碧0xroot @ cn0Xroot</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Decoding Lora <a href="https://revspace.nl/DecodingLora" rel="nofollow">https://revspace.nl/DecodingLora</a>    Reversing LoRa. Exploring Next-Generation Wireless [PDF] <a href="https://static1.squarespace.com/static/54cecce7e4b054df1848b5f9/t/57489e6e07eaa0105215dc6c/1464376943218/Reversing-Lora-Knight.pdf" rel="nofollow">https://static1.squarespace.com/static/54cecce7e4b054df1848b5f9/t/57489e6e07eaa0105215dc6c/1464376943218/Reversing-Lora-Knight.pdf</a>  #Lora #SDR</p>
+<div class="translated" id="202404">
+<p>﻿"LoRa 射频调制格式介绍：   <a href="https://revspace.nl/DecodingLora" rel="nofollow">https://revspace.nl/DecodingLora</a> 探讨下一代无线 [PDF]：   <a href="https://t.co/x28sL8nFMt" rel="nofollow">https://t.co/x28sL8nFMt</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+</div>
+</div>
+</body>
+</html>
