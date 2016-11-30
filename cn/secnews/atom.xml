@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 29 Nov 2016 10:59:00 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2016-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2016/10/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 30 Nov 2016 11:33:18 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2016-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2016/10/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -13466,7 +13466,604 @@ non-reantrant functions and event handling do not mix
 </li>
 </ul>
 </div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2016/11/15/index.html</guid><pubDate>Tue, 15 Nov 2016 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2016-11-24</title><link>http://xuanwulab.github.io/cn/secnews/2016/11/24/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2016/11/15/index.html</guid><pubDate>Tue, 15 Nov 2016 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2016-11-30</title><link>http://xuanwulab.github.io/cn/secnews/2016/11/30/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/11/29/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/11/30/index.html">2016/11/30</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/12/01/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Android Studio @androidstudio </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Android Studio 2.3 Canary 2 is now available. Read all about the changes here: <a href="https://goo.gl/hpg3ja" rel="nofollow">https://goo.gl/hpg3ja</a></p>
+<div class="translated" id="212870">
+<p>&#65279;" Android Studio 2.3 Canary 2 &#21457;&#24067;&#65072;   <a href="https://t.co/YGRTNeqwnB" rel="nofollow">https://t.co/YGRTNeqwnB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>C:\S&#7435;&#655;L&#618;&#628;&#7431;&#7429;&#10217;_ @berendjanwever</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  #DailyBug Google #Chrome Accessibility blink::Node corruption details
+
+<a href="http://blog.skylined.nl/20161129001.html" rel="nofollow">http://blog.skylined.nl/20161129001.html</a></p>
+<div class="translated" id="212909">
+<p>&#65279;"Chrome Accessibility blink::Node corruption &#32454;&#33410;&#65306;   <a href="https://t.co/Ws3o7njVUk" rel="nofollow">https://t.co/Ws3o7njVUk</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Offensive Security @offsectraining </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Debug </i>]  Introducing Fldbg, a Pykd script to debug FlashPlayer - <a href="http://offs.ec/2fMXgVT" rel="nofollow">http://offs.ec/2fMXgVT</a></p>
+<div class="translated" id="213067">
+<p>&#65279;"Fldbg -- &#19968;&#20010;&#21487;&#29992;&#26469;&#35843;&#35797; FlashPlayer &#30340; Pykd &#33050;&#26412;&#65306;   <a href="https://t.co/Dmduzc6WaW" rel="nofollow">https://t.co/Dmduzc6WaW</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Piotr Kijewski @piotrkijewski </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  Detecting crypto ransomware based on HTTP traffic characteristics (Cryptowall &amp; Locky tested) <a href="https://arxiv.org/pdf/1611.08294v1.pdf" rel="nofollow">https://arxiv.org/pdf/1611.08294v1.pdf</a> (by @ wmazurczyk)</p>
+<div class="translated" id="212994">
+<p>&#65279;"&#22522;&#20110; HTTP &#27969;&#37327;&#29305;&#24449;&#26469;&#26816;&#27979;&#21152;&#23494;&#21202;&#32034;&#36719;&#20214;&#65306;   <a href="https://t.co/Mr1G2iYdfu" rel="nofollow">https://t.co/Mr1G2iYdfu</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  slipstream/RoL @TheWack0lian </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  PoC (works in qemu only) of RCE affecting 35+ IoT cameras from 7+ vendors. 32+ of those pwned by 1 GET request.
+
+<a href="https://t.co/BB8flkksTN" rel="nofollow">https://t.co/BB8flkksTN</a></p>
+<div class="translated" id="213228">
+<p>&#65279;"&#26234;&#33021;&#25668;&#20687;&#22836;&#65288;UCam247/Phylink/Titathink/YCam/Anbash/Trivision/Netvision&#65289;&#36828;&#31243;&#20195;&#30721;&#25191;&#34892; PoC &#65306;   <a href="https://t.co/BB8flkksTN" rel="nofollow">https://t.co/BB8flkksTN</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>PHR34K @unpacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Cerber Spam: Tor All the Things! <a href="http://blog.talosintel.com/2016/11/cerber-spam-tor.html" rel="nofollow">http://blog.talosintel.com/2016/11/cerber-spam-tor.html</a></p>
+<div class="translated" id="212812">
+<p>&#65279;"&#21202;&#32034;&#36719;&#20214;&#21464;&#31181; Cerber 5.0.1 &#24320;&#22987;&#36890;&#36807;  Google &#21644; Tor2Web &#20195;&#29702;&#26469;&#36827;&#34892;&#20256;&#25773; &#65306;   <a href="https://t.co/4XPlmgYrnQ" rel="nofollow">https://t.co/4XPlmgYrnQ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Mathias Payer @gannimo </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Our SafeStack from the Code Pointer Integrity paper at OSDI'14 is now used in HardenedBSD. Go harden all the things! <a href="https://t.co/jnB6QZm5U1" rel="nofollow">https://t.co/jnB6QZm5U1</a></p>
+<div class="translated" id="213248">
+<p>&#65279;"SafeStack -- HardenedBSD &#31995;&#32479; CPI&#65288;Code Pointer Integrity&#65289;&#39033;&#30446;&#20998;&#25903;&#65306;   <a href="https://t.co/jnB6QZm5U1" rel="nofollow">https://t.co/jnB6QZm5U1</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Matt Graeber @mattifestation</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Great documentation on configuring/auditing Windows 10 Virtualization-based Security (VBS) settings. <a href="https://technet.microsoft.com/en-us/itpro/windows/keep-secure/deploy-device-guard-enable-virtualization-based-security" rel="nofollow">https://technet.microsoft.com/en-us/itpro/windows/keep-secure/deploy-device-guard-enable-virtualization-based-security</a></p>
+<div class="translated" id="212821">
+<p>&#65279;"&#37096;&#32626; Device Guard&#65288; Windows 10 &#12289;Windows Server 2016&#65289; : &#21551;&#29992;&#22522;&#20110;&#34394;&#25311;&#21270;&#30340;&#23433;&#20840;&#35774;&#32622;&#65306;   <a href="https://t.co/rL4GzkC0Vx" rel="nofollow">https://t.co/rL4GzkC0Vx</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Ben Hawkes @benhawkes</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Project Zero blog: "Breaking the Chain" by @ tiraniddo - <a href="https://goo.gl/LFt4pz" rel="nofollow">https://goo.gl/LFt4pz</a></p>
+<div class="translated" id="213102">
+<p>&#65279;"'Breaking the Chain' Chrome Win32K lockdown &#30340;&#23454;&#29616;&#65306;   <a href="https://googleprojectzero.blogspot.com/2016/11/breaking-chain.html" rel="nofollow">https://googleprojectzero.blogspot.com/2016/11/breaking-chain.html</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>McAfee Labs @McAfee_Labs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Our Threats Predictions report is out now. Read our forecast on 2017 threats and attack vectors:&#8230; <a href="https://twitter.com/i/web/status/803474852820746240" rel="nofollow">https://twitter.com/i/web/status/803474852820746240</a></p>
+<div class="translated" id="212865">
+<p>&#65279;"McAfee Lab &#21457;&#24067; 2017 &#23041;&#32961;&#39044;&#27979;&#25253;&#21578;:   <a href="http://www.mcafee.com/common/js/asset_redirect.html?eid=16Q4NASTOSM11556&amp;url=" rel="nofollow">http://www.mcafee.com/common/js/asset_redirect.html?eid=16Q4NASTOSM11556&amp;;url=</a> <a href="http://www.mcafee.com/us/resources/reports/rp-threats-predictions-2017.pdf" rel="nofollow">http://www.mcafee.com/us/resources/reports/rp-threats-predictions-2017.pdf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Richard Mitton @grumpygiant </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Can naive assembly beat a modern C++ compiler?
+Beating The Compiler - <a href="http://www.codersnotes.com/notes/beating-the-compiler/" rel="nofollow">http://www.codersnotes.com/notes/beating-the-compiler/</a></p>
+<div class="translated" id="212922">
+<p>&#65279;"Beating The Compiler&#65306;   <a href="https://t.co/FERA7zhOqv" rel="nofollow">https://t.co/FERA7zhOqv</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Daniel Bohannon @danielhbohannon </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  My PowerShell Obfuscation talk from @ hacktivityconf is now up: <a href="https://www.youtube.com/watch?v=uE8IAxM_BhE" rel="nofollow">https://www.youtube.com/watch?v=uE8IAxM_BhE</a></p>
+<div class="translated" id="213030">
+<p>&#65279;" Invoke-Obfuscation: PowerShell &#20195;&#30721;&#28151;&#28102;&#65072;   <a href="https://t.co/1m0zKGEj82" rel="nofollow">https://t.co/1m0zKGEj82</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Linuzifer @Linuzifer </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Protocol </i>]  The TR-069 Exploit:
+<a href="https://terrorbyte.org/tr069-request.txt" rel="nofollow">https://terrorbyte.org/tr069-request.txt</a>
+Payload:
+<a href="https://terrorbyte.org/Telekom-Payload" rel="nofollow">https://terrorbyte.org/Telekom-Payload</a></p>
+<div class="translated" id="213022">
+<p>&#65279;"TR-069 &#28431;&#27934;&#65072;   <a href="https://t.co/Q2AgOKxZu5" rel="nofollow">https://t.co/Q2AgOKxZu5</a> Payload&#65072;   <a href="https://t.co/q2WfVbE1WU" rel="nofollow">https://t.co/q2WfVbE1WU</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  CyberChef (The Cyber Swiss Army Knife) :  a web app for encryption, encoding, compression and data analysis : <a href="https://github.com/gchq/CyberChef" rel="nofollow">https://github.com/gchq/CyberChef</a></p>
+<div class="translated" id="213062">
+<p>&#65279;"CyberChef -- &#19968;&#20010;&#21487;&#29992;&#22312;&#27983;&#35272;&#22120;&#20013;&#36827;&#34892;&#21152;&#23494;&#12289; &#32534;&#30721;&#12289; &#21387;&#32553;&#21644;&#25968;&#25454;&#20998;&#26512;&#30340; web &#24212;&#29992;&#31243;&#24207;&#65072;   <a href="https://t.co/ezwQbTCF2Q" rel="nofollow">https://t.co/ezwQbTCF2Q</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Automated WiFi time / data limit evasion using WPAD :  <a href="https://github.com/violentshell/Rollmac" rel="nofollow">https://github.com/violentshell/Rollmac</a></p>
+<div class="translated" id="213089">
+<p>&#65279;"Rollmac -- &#20813;&#36153; wifi &#22909;&#24110;&#25163;&#65292;&#20351;&#29992; WPAD &#21327;&#35758;&#33258;&#21160;&#21457;&#29616;&#30331;&#38470;&#39029;&#38754;&#12289;&#25509;&#21463;&#26465;&#27454;&#65072;   <a href="https://t.co/6trggfvfGr" rel="nofollow">https://t.co/6trggfvfGr</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Yuniet Piloto @yunietps </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  NEW Update for #xAnalyzer plugin for #x64dbg..automatic loops detection and generic arguments added...more at: <a href="https://t.co/G71OIi0c2X" rel="nofollow">https://t.co/G71OIi0c2X</a></p>
+<div class="translated" id="213135">
+<p>&#65279;"x64dbg &#30340; xAnalyzer &#25554;&#20214;&#21457;&#24067;&#26356;&#26032;&#65072;   <a href="https://t.co/G71OIi0c2X" rel="nofollow">https://t.co/G71OIi0c2X</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Brendan Dolan-Gavitt @moyix </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  PANDA 2.0 is live &#8211; now based on latest version of QEMU! <a href="http://mailman.mit.edu/pipermail/panda-users/2016-November/000535.html" rel="nofollow">http://mailman.mit.edu/pipermail/panda-users/2016-November/000535.html</a></p>
+<div class="translated" id="213136">
+<p>&#65279;"PANDA 2.0 &#21457;&#24067; &#8212;&#8212; &#19968;&#20010;&#22522;&#20110; QEMU &#30340;&#21160;&#24577;&#20998;&#26512;&#24179;&#21488;&#65306;   <a href="https://t.co/w8yvPL0ivE" rel="nofollow">https://t.co/w8yvPL0ivE</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  avatao @theavatao </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Understand binary parsing using @kaitai_io WebIDE on a new avatao learning path from @koczkatamas. Thank you!&#8230; <a href="https://t.co/TRd5APB4ku" rel="nofollow">https://t.co/TRd5APB4ku</a></p>
+<div class="translated" id="213227">
+<p>&#65279;"&#19968;&#20010;  Kaitai Struct .ksy &#25991;&#20214;&#30340;&#21487;&#35270;&#21270;&#32534;&#36753;&#22120;&#65306;  <a href="https://t.co/TRd5APB4ku" rel="nofollow">https://t.co/TRd5APB4ku</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Kacper Szurek @KacperSzurek </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  WinPower V4.9.0.4 Privilege Escalation <a href="http://security.szurek.pl/winpower-v4904-privilege-escalation.html" rel="nofollow">http://security.szurek.pl/winpower-v4904-privilege-escalation.html</a> #exploit #0day</p>
+<div class="translated" id="213001">
+<p>&#65279;"WinPower V4.9.0.4 &#25552;&#26435;&#65306;   <a href="https://t.co/TOvxUJXpth" rel="nofollow">https://t.co/TOvxUJXpth</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  An update on MD5 poisoning : <a href="https://blog.silentsignal.eu/2016/11/28/an-update-on-md5-poisoning/" rel="nofollow">https://blog.silentsignal.eu/2016/11/28/an-update-on-md5-poisoning/</a></p>
+<div class="translated" id="213088">
+<p>&#65279;"MD5 &#30896;&#25758;&#20197;&#21450;&#23433;&#20840;&#20135;&#21697;&#30340;&#36867;&#36920;&#65072;   <a href="https://t.co/fR66LwyhrV" rel="nofollow">https://t.co/fR66LwyhrV</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>MWR Labs @mwrlabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Taking your first steps into 64-bit Windows exploitation? Check out our paper on porting MS08-067 to 64-bit systems <a href="https://labs.mwrinfosecurity.com/publications/hello-ms08-067-my-old-friend/" rel="nofollow">https://labs.mwrinfosecurity.com/publications/hello-ms08-067-my-old-friend/</a></p>
+<div class="translated" id="213028">
+<p>&#65279;"&#24819;&#24565; MS08-067 &#21527;&#65311;&#26469;&#20026; Windows x64 &#20889;&#20010; MS08-067 &#28431;&#27934;&#21033;&#29992;&#20195;&#30721;&#65306;   <a href="https://t.co/Ij2LC1P2ew" rel="nofollow">https://t.co/Ij2LC1P2ew</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  SHIFT-F10 during Windows Update pops CMD and bypasses Bitlocker <a href="http://blog.win-fu.com/2016/11/every-windows-10-in-place-upgrade-is.html" rel="nofollow">http://blog.win-fu.com/2016/11/every-windows-10-in-place-upgrade-is.html</a></p>
+<div class="translated" id="213040">
+<p>&#65279;"&#23384;&#22312;&#20110;&#25152;&#26377; Windows 10 &#26412;&#22320;&#21319;&#32423;&#20013;&#30340;&#23433;&#20840;&#39118;&#38505;&#65292;&#22312;&#26356;&#26032;&#36807;&#31243;&#20013;&#25353;Shift + F10 &#21487;&#24377;&#20986; cmd &#20197;&#21450;&#32469;&#36807; Bitlocker&#65306;   <a href="https://t.co/sGTTLWZLnO" rel="nofollow">https://t.co/sGTTLWZLnO</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via 360 netlab</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> MalwareAnalysis </i>]  &#24503;&#22269;&#30005;&#20449;&#26029;&#32593;&#65306;mirai&#20725;&#23608;&#32593;&#32476;&#30340;&#26032;&#21464;&#31181;&#21644;&#26087;&#20027;&#25511;&#65306; <a href="http://blog.netlab.360.com/a-mirai-botnet-evolvement-new-variant-and-old-c2/" rel="nofollow">http://blog.netlab.360.com/a-mirai-botnet-evolvement-new-variant-and-old-c2/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via Paper</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Web Security </i>]  &#24403;&#20195; Web &#30340; JSON &#21163;&#25345;&#25216;&#24039;&#65306;http://paper.seebug.org/130/</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via Paper</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  JSON-handle DomXSS <a href="http://vulnerability:http://paper.seebug.org/129/" rel="nofollow">Vulnerability&#65306;http://paper.seebug.org/129/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via ThreatPost</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> MalwareAnalysis </i>]  NETWIRE RAT &#26408;&#39532;&#24402;&#26469;&#65292;&#20877;&#27425;&#31363;&#21462;&#25903;&#20184;&#21345;&#25968;&#25454;&#65306; <a href="https://threatpost.com/netwire-rat-back-stealing-payment-card-data/122156/" rel="nofollow">https://threatpost.com/netwire-rat-back-stealing-payment-card-data/122156/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via Freebuf</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Others </i>]  &#26031;&#35834;&#30331;&#26368;&#26032;&#27844;&#38706;&#25991;&#26723;&#65306;&#32445;&#32422;AT&amp;T&#22823;&#21414;&#21487;&#33021;&#26159;NSA&#36827;&#34892;&#25968;&#25454;&#30417;&#25511;&#30340;&#31192;&#23494;&#22522;&#22320;&#65306; <a href="http://www.freebuf.com/news/121112.html" rel="nofollow">http://www.freebuf.com/news/121112.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via &#23433;&#20840;&#23458;</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> iOS </i>]  &#12304;&#28431;&#27934;&#20998;&#26512;&#12305;iPhone &#25773;&#25918;&#35270;&#39057;&#33258;&#21160;&#20851;&#26426;&#8220;&#22855;&#33897;&#8221;&#28431;&#27934;&#25104;&#22240;&#20998;&#26512;&#65306; <a href="http://bobao.360.cn/learning/detail/3234.html" rel="nofollow">http://bobao.360.cn/learning/detail/3234.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via  malwarebenchmark</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> MalwareAnalysis </i>]  &#32654;&#19996;&#37096;&#26029;&#32593;&#20803;&#20982;MIRAI&#20043;&#29616;&#22330;&#36824;&#21407;&#19982;&#26816;&#27979;&#65306; <a href="http://mp.weixin.qq.com/s?__biz=MzI4ODA4MTcxMA%3D%3D&amp;mid=2649550113&amp;idx=1&amp;sn=bba4b0a196580bf1410f424984ba3b81&amp;chksm=f3db9f60c4ac16761261d2f95ce7980b84e318d24db5fac348a24b09b9b6768f58f575f79712&amp;mpshare=1&amp;scene=2&amp;srcid=1128n2PYLPIiWT0aIccMYsJS&amp;from=timeline#rd" rel="nofollow">http://mp.weixin.qq.com/s?__biz=MzI4ODA4MTcxMA==&amp;mid=2649550113&amp;idx=1&amp;sn=bba4b0a196580bf1410f424984ba3b81&amp;chksm=f3db9f60c4ac16761261d2f95ce7980b84e318d24db5fac348a24b09b9b6768f58f575f79712&amp;mpshare=1&amp;scene=2&amp;srcid=1128n2PYLPIiWT0aIccMYsJS&amp;from=timeline#rd</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://xlab.tencent.com/cn/secnews/2016-03-09/rss_logo.png" width="12px" height="12px" align="left">Xuanwu Spider via 360&#23433;&#20840;&#21355;&#22763;&#25216;&#26415;&#21338;&#23458;</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  'Three roads lead to Rome' Edge &#27983;&#35272;&#22120;&#30340;&#28431;&#27934;&#21033;&#29992;&#65306;http://blogs.360.cn/360safe/2016/11/29/three-roads-lead-to-rome</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2016/11/30/index.html</guid><pubDate>Wed, 30 Nov 2016 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2016-11-24</title><link>http://xuanwulab.github.io/cn/secnews/2016/11/24/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
