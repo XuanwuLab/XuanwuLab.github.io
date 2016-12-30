@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 29 Dec 2016 10:47:52 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2016-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2016/10/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 30 Dec 2016 11:18:20 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2016-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2016/10/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -15728,7 +15728,371 @@ Author: @jaredcatkinson
 </li>
 </ul>
 </div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2016/12/15/index.html</guid><pubDate>Thu, 15 Dec 2016 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2016-12-24</title><link>http://xuanwulab.github.io/cn/secnews/2016/12/24/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2016/12/15/index.html</guid><pubDate>Thu, 15 Dec 2016 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2016-12-30</title><link>http://xuanwulab.github.io/cn/secnews/2016/12/30/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2016/12/29/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2016/12/30/index.html">2016/12/30</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2016/12/31/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Dino A. Dai Zovi @dinodaizovi</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Finally, a secure web browser for the enterprise: 
+
+<a href="https://enterprise.google.com/chrome/chrome-browser/" rel="nofollow">https://enterprise.google.com/chrome/chrome-browser/</a>
+
+(GPO policies are crucial for enterprise use).</p>
+<div class="translated" id="223085">
+<p>&#65279;"Google &#25512;&#20986;&#20225;&#19994;&#29256; chrome &#27983;&#35272;&#22120;&#65306;   <a href="https://t.co/sbaX4M8K9Z" rel="nofollow">https://t.co/sbaX4M8K9Z</a> &#12290;"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Rapid7 @rapid7</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Understanding the Firefox fracas. @ iamwilliamwebb takes a look at the vuln and exploit: <a href="http://r-7.co/2ifd7vY" rel="nofollow">http://r-7.co/2ifd7vY</a></p>
+<div class="translated" id="223168">
+<p>&#65279;"Firefox &#28431;&#27934;&#20998;&#26512;&#19982;&#21033;&#29992;&#65292;&#26469;&#33258; Rapid7&#65072;   <a href="https://t.co/PpsphozlVv" rel="nofollow">https://t.co/PpsphozlVv</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Alisa &#9728; @badd1e</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Debug </i>]  Yay, Microsoft made a JavaScript extension for Windbg before I've had a chance to kill myself with Python:&#8230; <a href="https://twitter.com/i/web/status/814411428257939456" rel="nofollow">https://twitter.com/i/web/status/814411428257939456</a></p>
+<div class="translated" id="223024">
+<p>&#65279;"Microsoft JS Windbg &#25193;&#23637;&#65306;  <a href="https://t.co/Jehk6kSWB3" rel="nofollow">https://t.co/Jehk6kSWB3</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Malware Obfuscation Techniques : Packing : <a href="http://security.di.unimi.it/sicurezza1314/slides/obfuscation-2014.pdf" rel="nofollow">http://security.di.unimi.it/sicurezza1314/slides/obfuscation-2014.pdf</a> (Slides)</p>
+<div class="translated" id="223082">
+<p>&#65279;"&#24694;&#24847;&#36719;&#20214;&#28151;&#28102;&#25216;&#26415;&#20043;&#21152;&#22771;&#65288;slides&#65289;&#65072;   <a href="https://t.co/1C2TbxuhiU" rel="nofollow">https://t.co/1C2TbxuhiU</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Marko [~sHaKaL~] @mobilef0rensics </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  #Android #Security Bulletin by #Samsung <a href="http://security.samsungmobile.com/smrupdate.html#SMR-DEC-2015" rel="nofollow">http://security.samsungmobile.com/smrupdate.html#SMR-DEC-2015</a></p>
+<div class="translated" id="223050">
+<p>&#65279;"Samsung Android Security 12&#26376;&#20844;&#21578;&#65306;   <a href="http://security.samsungmobile.com/smrupdate.html" rel="nofollow">http://security.samsungmobile.com/smrupdate.html</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  Relive : A look into the Mobile Messaging Black Box : <a href="https://fahrplan.events.ccc.de/congress/2016/Fahrplan/system/event_attachments/attachments/000/003/121/original/slides.pdf" rel="nofollow">https://fahrplan.events.ccc.de/congress/2016/Fahrplan/system/event_attachments/attachments/000/003/121/original/slides.pdf</a> (Slides) , Live-Stream : <a href="http://streaming.media.ccc.de/33c3/relive/8062" rel="nofollow">http://streaming.media.ccc.de/33c3/relive/8062</a> cc @  twillnix</p>
+<div class="translated" id="223103">
+<p>&#65279;"&#31227;&#21160;&#36890;&#35759;&#36719;&#20214;&#30340;&#28040;&#24687;&#20256;&#36882;&#20869;&#24149;&#20998;&#26512;&#65072;   <a href="https://t.co/m8hp3MuKhE" rel="nofollow">https://t.co/m8hp3MuKhE</a> &#65292;video&#65072;   <a href="https://t.co/WYym0TgEaH" rel="nofollow">https://t.co/WYym0TgEaH</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Facebook Open Source @fbOpenSource </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Today we released Transform360, our next generation video encoding and transform techniques for 360 video and VR. <a href="https://t.co/vb3rVDj8uk" rel="nofollow">https://t.co/vb3rVDj8uk</a></p>
+<div class="translated" id="223217">
+<p>&#65279;"Facebook &#24320;&#28304; Transform360 &#20840;&#26223;&#35270;&#39057;&#21450; VR &#25216;&#26415;&#65306;   <a href="https://t.co/vb3rVDj8uk" rel="nofollow">https://t.co/vb3rVDj8uk</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Paterva @Paterva </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  New Maltego User Guide (up to 4.0.12). So much depth &amp;amp; detail we should have called it 'The Ultimate Maltego Book'. <a href="https://t.co/GFcxsUVkEI" rel="nofollow">https://t.co/GFcxsUVkEI</a></p>
+<div class="translated" id="223111">
+<p>&#65279;"&#24773;&#25253;&#25910;&#38598;&#21644;&#21462;&#35777;&#24037;&#20855; Maltego &#29992;&#25143;&#25351;&#21335; &#65306;   <a href="https://t.co/GFcxsUVkEI" rel="nofollow">https://t.co/GFcxsUVkEI</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via seebug</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  How to bypass CSP nonces with DOM XSS &#65288;&#35793;&#65289;&#65306; <a href="http://paper.seebug.org/166/" rel="nofollow">http://paper.seebug.org/166/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via Youtube</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> iOS </i>]  33c3 &#20250;&#35758;&#19978;&#20851;&#20110; iOS &#35774;&#22791;&#38477;&#32423;&#30340;&#35758;&#39064;&#65292;&#20250;&#35758;&#35270;&#39057;&#65306;  <a href="https://www.youtube.com/watch?v=m3NuW83m1to" rel="nofollow">https://www.youtube.com/watch?v=m3NuW83m1to</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via Github</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Windows </i>]  DeviceGuard Bypass Mitigation Rules&#65306; <a href="https://github.com/mattifestation/DeviceGuardBypassMitigationRules" rel="nofollow">https://github.com/mattifestation/DeviceGuardBypassMitigationRules</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via twitter</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Others </i>]  &lt;insert x86 instruction here&gt; &#21738;&#38169;&#20102;&#65292;&#20391;&#20449;&#36947;&#25915;&#20987;&#20197;&#21450; Kernel ASLR &#30340;&#32469;&#36807;&#65306; <a href="https://twitter.com/dinosn/status/814473902298726401" rel="nofollow">https://twitter.com/dinosn/status/814473902298726401</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via twitter</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Others </i>]  &lt;insert x86 instruction here&gt; &#21738;&#38169;&#20102;&#65292;&#20391;&#20449;&#36947;&#25915;&#20987;&#20197;&#21450; Kernel ASLR &#30340;&#32469;&#36807;(video)&#65306; <a href="https://twitter.com/dinosn/status/814473902298726401" rel="nofollow">https://twitter.com/dinosn/status/814473902298726401</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via &#19978;&#28023;&#20132;&#22823; GoSSIP</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Mobile </i>]  &#21073;&#19982;&#30462;&#8212;&#8212;&#31227;&#21160;&#28216;&#25103;&#23433;&#20840;&#25915;&#38450;&#30740;&#31350;&#65306; <a href="http://securitygossip.com/blog/2016/12/29/2016-12-29/" rel="nofollow">http://securitygossip.com/blog/2016/12/29/2016-12-29/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via ccc-tv</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Attack </i>]  PHP 7 &#21453;&#24207;&#21015;&#28431;&#27934;&#25915;&#20987;&#65292;&#26469;&#33258; 33c3 &#20250;&#35758;&#35270;&#39057;&#65306;
+<a href="https://media.ccc.de/v/33c3-7858-exploiting_php7_unserialize" rel="nofollow">https://media.ccc.de/v/33c3-7858-exploiting_php7_unserialize</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via &#21574;&#23376;&#19981;&#24320;&#21475;</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Others </i>]  poc &#38142;&#25509;&#30340;&#21453;&#20998;&#26512;&#65292;&#26469;&#33258;&#21574;&#23376;&#19981;&#24320;&#21475;&#22312; FreeBuf &#20250;&#35758;&#30340;&#28436;&#35762;&#65292;&#35848;&#29992;&#39118;&#25511;&#30340;&#24605;&#36335;&#21435;&#20445;&#25252;&#25105;&#20204;&#30340;&#25915;&#20987;&#38142;&#25509;&#65306; <a href="https://pan.baidu.com/s/1bpl9buZ" rel="nofollow">https://pan.baidu.com/s/1bpl9buZ</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via weibo</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Android </i>]  &#32599;&#21319;&#38451;&#65288;&#32769;&#32599;&#30340; Android&#20043;&#26053;&#65289;&#33258;&#24049;&#25645;&#24314;&#20102;&#19968;&#20010;&#32593;&#31449;&#24320;&#22987;&#36830;&#36733;&#12298;Android&#31995;&#32479;&#28304;&#30721;&#24773;&#26223;&#20998;&#26512;&#12299;&#65306; <a href="http://0xcc0xcd.com/p/index.php" rel="nofollow">http://0xcc0xcd.com/p/index.php</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via &#32593;&#23433;&#22269;&#38469;</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Others </i>]  Hypnoguard: &#20445;&#25252;&#24453;&#26426;&#29366;&#24577;&#19979;&#30340;&#20869;&#23384;&#25968;&#25454;&#65306; <a href="http://mp.weixin.qq.com/s/Jj-w6AsNeikT25VeYQiHjQ" rel="nofollow">http://mp.weixin.qq.com/s/Jj-w6AsNeikT25VeYQiHjQ</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2016/12/30/index.html</guid><pubDate>Fri, 30 Dec 2016 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2016-12-24</title><link>http://xuanwulab.github.io/cn/secnews/2016/12/24/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
