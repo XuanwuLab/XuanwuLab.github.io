@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 11 Jan 2017 10:52:31 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 12 Jan 2017 10:46:23 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -2088,7 +2088,421 @@ featuring OpenSSL 1.0.1u ECDSA P-256 key recovery vulnerability.</p>
 <a href="/cn/secnews/2017/01/11/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/01/10/index.html</guid><pubDate>Tue, 10 Jan 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-01-04</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/04/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/01/10/index.html</guid><pubDate>Tue, 10 Jan 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-01-12</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/12/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/11/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/12/index.html">2017/01/12</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/13/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Bernhard Mueller @muellerberndt </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Solving an #Android #Crackme with a Little Symbolic Execution <a href="http://www.vantagepoint.sg/blog/81-solving-an-android-crackme-with-a-little-symbolic-execution" rel="nofollow">http://www.vantagepoint.sg/blog/81-solving-an-android-crackme-with-a-little-symbolic-execution</a></p>
+<div class="translated" id="227342">
+<p>&#65279;"&#21033;&#29992;&#31526;&#21495;&#25191;&#34892;&#35299;&#20915; Android Crackme&#65306;   <a href="https://t.co/l5RmlSW13m" rel="nofollow">https://t.co/l5RmlSW13m</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>nullcon @nullcon</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Drone Hijacking and other IoT hacking with GNU Radio and SDR by ARTHUR GARIPOV, <a href="http://bit.ly/2izXfDM" rel="nofollow">http://bit.ly/2izXfDM</a> <a href="https://t.co/vRvlMLfrKQ" rel="nofollow">https://t.co/vRvlMLfrKQ</a></p>
+<div class="translated" id="227353">
+<p>&#65279;"nullcon 2017 &#22823;&#20250;&#35758;&#39064;&#25918;&#20986;&#65306;   <a href="http://nullcon.net/website/goa-2017/about-speakers.php" rel="nofollow">http://nullcon.net/website/goa-2017/about-speakers.php</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C15wv9xXUAEOBax.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Patrick Longa @PatrickLonga </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Slides of some RWC talks are already online: <a href="https://www.realworldcrypto.com/rwc2017/program" rel="nofollow">https://www.realworldcrypto.com/rwc2017/program</a>. Here are my slides on FourQ: <a href="https://t.co/p9ZUQRdsOA" rel="nofollow">https://t.co/p9ZUQRdsOA</a>  #realworldcrypto</p>
+<div class="translated" id="227486">
+<p>&#65279;"Real World Cryptography 2017 &#22823;&#20250;&#19968;&#20123;&#35758;&#39064; PPT &#24050;&#20844;&#24067;&#65072;   <a href="https://t.co/HLjh7Bw77s" rel="nofollow">https://t.co/HLjh7Bw77s</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Finding Bugs in TensorFlow with LibFuzzer 
+ <a href="https://da-data.blogspot.com.es/2017/01/finding-bugs-in-tensorflow-with.html" rel="nofollow">https://da-data.blogspot.com.es/2017/01/finding-bugs-in-tensorflow-with.html</a></p>
+<div class="translated" id="227364">
+<p>&#65279;"&#21033;&#29992; LibFuzzer &#25366;&#25496; TensorFlow &#20013;&#30340; bug&#65306;   <a href="https://t.co/IxlH1kvmd0" rel="nofollow">https://t.co/IxlH1kvmd0</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>&#38634;&#30887;0xroot @cn0Xroot</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  The Common Methods of Hardware Hacking <a href="https://www.sparkfun.com/news/1314" rel="nofollow">https://www.sparkfun.com/news/1314</a> <a href="https://t.co/PdyQYSJB9d" rel="nofollow">https://t.co/PdyQYSJB9d</a></p>
+<div class="translated" id="227120">
+<p>&#65279;"Hardware Hacking &#30340;&#24120;&#29992;&#26041;&#27861;&#65306;   <a href="https://t.co/GO7wf8lQ7R" rel="nofollow">https://t.co/GO7wf8lQ7R</a> <a href="https://t.co/PdyQYSJB9d" rel="nofollow">https://t.co/PdyQYSJB9d</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C120Uy-UAAAXUv5.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  Huawei Flybox B660 - (POST Reboot) CSRF Vulnerability <a href="https://goo.gl/fb/DiiTXh" rel="nofollow">https://goo.gl/fb/DiiTXh</a> #FullDisclosure</p>
+<div class="translated" id="227224">
+<p>&#65279;"&#21326;&#20026; Flybox B660 &#36335;&#30001;&#22120; CSRF &#28431;&#27934;&#65306;   <a href="https://t.co/3KWET8NJ0f" rel="nofollow">https://t.co/3KWET8NJ0f</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Attacking UEFI Runtime Services and Linux : <a href="http://blog.frizk.net/2017/01/attacking-uefi-and-linux.html" rel="nofollow">http://blog.frizk.net/2017/01/attacking-uefi-and-linux.html</a> , Demo : <a href="https://www.youtube.com/watch?v=PiUVRHYTDUg" rel="nofollow">https://www.youtube.com/watch?v=PiUVRHYTDUg</a> ,&#8230; <a href="https://twitter.com/i/web/status/819185214618566660" rel="nofollow">https://twitter.com/i/web/status/819185214618566660</a></p>
+<div class="translated" id="227327">
+<p>&#65279;"&#36890;&#36807;&#20462;&#25913;&#35745;&#31639;&#26426;&#22266;&#20214;&#25915;&#20987; UEFI &#36816;&#34892;&#26381;&#21153;&#21487;&#36827;&#19968;&#27493;&#25511;&#21046; Linux &#31995;&#32479;&#65072;   <a href="https://t.co/fntFEX3JS6" rel="nofollow">https://t.co/fntFEX3JS6</a> ; Demo&#65072;   <a href="https://t.co/LLdLKDe4On" rel="nofollow">https://t.co/LLdLKDe4On</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Shamoon Can Now Destroy Virtual Desktops, Too <a href="http://arstechnica.com/security/2017/01/shamoon-disk-wiping-malware-can-now-destroy-virtual-desktops-too/" rel="nofollow">http://arstechnica.com/security/2017/01/shamoon-disk-wiping-malware-can-now-destroy-virtual-desktops-too/</a></p>
+<div class="translated" id="227190">
+<p>&#65279;"Shamoon &#24694;&#24847;&#36719;&#20214;&#29616;&#22312;&#33021;&#22815;&#30772;&#22351;&#34394;&#25311;&#26700;&#38754;&#65306;   <a href="https://t.co/UUbF38o7oc" rel="nofollow">https://t.co/UUbF38o7oc</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Find out which #ransomware infected a smart TV and used a ransom note mimicking the FBI. Report:&#8230; <a href="https://twitter.com/i/web/status/819182083427958785" rel="nofollow">https://twitter.com/i/web/status/819182083427958785</a></p>
+<div class="translated" id="227317">
+<p>&#65279;"Trendmicro &#23545;&#24694;&#24847;&#36719;&#20214;&#30340;&#22238;&#39038;&#65288;2016 &#24180; 12 &#26376; 19-31&#26085; &#65289;&#65306;   <a href="https://t.co/Nm0hxoQE2j" rel="nofollow">https://t.co/Nm0hxoQE2j</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Mobile Security @Mobile_Sec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  OnePlus 3/3T Vulnerability Allows Changing of SELinux to Permissive Mode in Fastboot:
+<a href="https://www.xda-developers.com/oneplus-33t-bootloader-vulnerability-allows-changing-of-selinux-to-permissive-mode-in-fastboot/" rel="nofollow">https://www.xda-developers.com/oneplus-33t-bootloader-vulnerability-allows-changing-of-selinux-to-permissive-mode-in-fastboot/</a></p>
+<div class="translated" id="227444">
+<p>&#65279;"&#19968;&#21152;&#25163;&#26426; 3/3T Bootloader &#23384;&#22312;&#28431;&#27934;&#65292;&#20801;&#35768;&#22312; Fastboot &#20013;&#23558;SELinux &#26356;&#25913;&#20026; Permissive &#27169;&#24335;&#65072;   <a href="https://t.co/l14j8BMnVI" rel="nofollow">https://t.co/l14j8BMnVI</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Alex Gantman @againsthimself </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  New from @ acar_can: whitepaper detailing pointer authentication on ARMv8.3  <a href="https://www.qualcomm.com/news/onq/2017/01/10/qualcomm-releases-whitepaper-detailing-pointer-authentication-armv83" rel="nofollow">https://www.qualcomm.com/news/onq/2017/01/10/qualcomm-releases-whitepaper-detailing-pointer-authentication-armv83</a></p>
+<div class="translated" id="227095">
+<p>&#65279;"Pointer Authentication on ARMv8.3 &#30333;&#30382;&#20070;&#65306;   <a href="https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf" rel="nofollow">https://www.qualcomm.com/media/documents/files/whitepaper-pointer-authentication-on-armv8-3.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>dragosr @dragosr</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Disabling Intel-ME <a href="https://goo.gl/ajBKaS" rel="nofollow">https://goo.gl/ajBKaS</a></p>
+<div class="translated" id="227392">
+<p>&#65279;"&#22914;&#20309;&#31105;&#29992; Intel ME&#65306;   <a href="https://t.co/XA2qjo8LH2" rel="nofollow">https://t.co/XA2qjo8LH2</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Adobe Acrobat Pro DC ImageConversion TIFF Parsing Heap-based Buffer Overflow Remote Code Execution Vulnerability <a href="http://www.zerodayinitiative.com/advisories/ZDI-17-030/" rel="nofollow">http://www.zerodayinitiative.com/advisories/ZDI-17-030/</a></p>
+<div class="translated" id="227197">
+<p>&#65279;"Adobe Acrobat Pro DC ImageConversion TIFF &#35299;&#26512;&#23384;&#22312;&#22534;&#28322;&#20986;&#28431;&#27934;&#21487;&#23548;&#33268;&#36828;&#31243;&#20195;&#30721;&#25191;&#34892;&#65288;CVE-2017-2966&#65289;&#65306;   <a href="https://t.co/vzogSUvkl8" rel="nofollow">https://t.co/vzogSUvkl8</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  Bit Defender #39 - Auth Token Bypass Vulnerability <a href="https://goo.gl/fb/R774pk" rel="nofollow">https://goo.gl/fb/R774pk</a> #FullDisclosure</p>
+<div class="translated" id="227225">
+<p>&#65279;"&#26432;&#36719; Bit Defender Auth Token &#32469;&#36807;&#28431;&#27934;&#65306;   <a href="https://t.co/jXQeMcZX66" rel="nofollow">https://t.co/jXQeMcZX66</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  Art of Anti Detection &#8211; Intro to AV &amp; Detection  : <a href="https://pentest.blog/art-of-anti-detection-1-introduction-to-av-detection-techniques/" rel="nofollow">https://pentest.blog/art-of-anti-detection-1-introduction-to-av-detection-techniques/</a> , Part 2 &#8211; PE Backdoor Manufacturing :&#8230; <a href="https://twitter.com/i/web/status/819183101108776960" rel="nofollow">https://twitter.com/i/web/status/819183101108776960</a></p>
+<div class="translated" id="227318">
+<p>&#65279;"&#21453;&#26816;&#27979;&#30340;&#33402;&#26415;&#20171;&#32461;&#65072;   <a href="https://t.co/6XeeyiVC2K%C2%A0" rel="nofollow">https://t.co/6XeeyiVC2K </a> &#21453;&#26816;&#27979;&#30340;&#33402;&#26415;&#20043; PE &#21518;&#38376;&#21046;&#20316;&#65306;   <a href="https://t.co/zC2onjCP6w" rel="nofollow">https://t.co/zC2onjCP6w</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>mitp0sh ( &#12415;&#12392;&#12413;&#12375;&#12421; ) @mitp0sh</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Nice and useful site from Microsoft: <a href="http://rise4fun.com/" rel="nofollow">http://rise4fun.com/</a>, pretty cool stuff there to explore!</p>
+<div class="translated" id="227257">
+<p>&#65279;"Microsoft &#20844;&#24320;&#30340;&#22810;&#20010;&#39046;&#22495;&#30340;&#24037;&#20855;&#21015;&#34920;&#65072;   <a href="https://t.co/JIJvkwvmeM" rel="nofollow">https://t.co/JIJvkwvmeM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows DLL Injection Basics : <a href="http://blog.opensecurityresearch.com/2013/01/windows-dll-injection-basics.html" rel="nofollow">http://blog.opensecurityresearch.com/2013/01/windows-dll-injection-basics.html</a></p>
+<div class="translated" id="227330">
+<p>&#65279;"Windows DLL &#27880;&#20837;&#22522;&#30784;&#65072;   <a href="https://t.co/S83ggJ8IL1" rel="nofollow">https://t.co/S83ggJ8IL1</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  The Unpatched LSASS Remote Denial of Service (MS16-137) <a href="https://www.coresecurity.com/blog/unpatched-lsass-remote-denial-service-ms16-137" rel="nofollow">https://www.coresecurity.com/blog/unpatched-lsass-remote-denial-service-ms16-137</a></p>
+<div class="translated" id="227188">
+<p>&#65279;"&#26410;&#20462;&#22797;&#30340; LSASS &#36828;&#31243;&#25298;&#32477;&#26381;&#21153;(MS16-137)&#65306;   <a href="https://t.co/YnslRcCBr7" rel="nofollow">https://t.co/YnslRcCBr7</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>&#38634;&#30887;0xroot @cn0Xroot</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  OpenAirinterface - Towards Truly Open-Source Solutions for 5G #IoT #SDR  [<a href="http://PDF]http://www.openairinterface.org/docs/workshop/1_OAI_Workshop_20160122/OAI-obj2016.pdf" rel="nofollow">PDF]http://www.openairinterface.org/docs/workshop/1_OAI_Workshop_20160122/OAI-obj2016.pdf</a> <a href="https://t.co/IVUOJQY0mM" rel="nofollow">https://t.co/IVUOJQY0mM</a></p>
+<div class="translated" id="227173">
+<p>&#65279;"OpenAirinterface - 5G&#24320;&#28304;&#23454;&#29616;&#26041;&#26696;&#65306;   <a href="https://t.co/FdrMyN075H" rel="nofollow">https://t.co/FdrMyN075H</a> <a href="https://t.co/IVUOJQY0mM" rel="nofollow">https://t.co/IVUOJQY0mM</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C135Y3bVEAAaDKn.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/11/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/12/index.html">2017/01/12</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/13/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/01/12/index.html</guid><pubDate>Thu, 12 Jan 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-01-04</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/04/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
