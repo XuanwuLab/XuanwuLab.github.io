@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Sun, 22 Jan 2017 11:07:50 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Mon, 23 Jan 2017 10:25:09 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -6613,7 +6613,244 @@ php-gettext &#24211;&#30340; select_string &#20989;&#25968;&#23384;&#22312;&#202
 <a href="/cn/secnews/2017/01/20/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/01/19/index.html</guid><pubDate>Thu, 19 Jan 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-01-11</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/11/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/01/19/index.html</guid><pubDate>Thu, 19 Jan 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-01-23</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/23/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/22/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/23/index.html">2017/01/23</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/24/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  alex @insertScript </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Bypass IE XSS filter for POST requests with any POST payload (it is not triggered at all). Of course PDF is used: <a href="https://t.co/AIBQqvyEOl" rel="nofollow">https://t.co/AIBQqvyEOl</a></p>
+<div class="translated" id="231650">
+<p>&#65279;"&#21033;&#29992; PDF &#32469;&#36807; IE XSS &#36807;&#28388;&#22120;&#23545; Post &#25968;&#25454;&#30340;&#38450;&#24481;:   <a href="https://t.co/AIBQqvyEOl" rel="nofollow">https://t.co/AIBQqvyEOl</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Evil : A poor man&#8217;s ransomware in JavaScript : <a href="https://www.cert.pl/en/news/single/evil-a-poor-mans-ransomware-in-javascript/" rel="nofollow">https://www.cert.pl/en/news/single/evil-a-poor-mans-ransomware-in-javascript/</a></p>
+<div class="translated" id="231697">
+<p>&#65279;"JavaScript &#21202;&#32034;&#36719;&#20214;&#20998;&#26512;&#65072;   <a href="https://t.co/bK65Fl8Nsc" rel="nofollow">https://t.co/bK65Fl8Nsc</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  0xAX @0xAX </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mitigation </i>]  excellent post - 
+Manual Control Flow Guard in C - <a href="http://nullprogram.com/blog/2017/01/21/" rel="nofollow">http://nullprogram.com/blog/2017/01/21/</a> #programming</p>
+<div class="translated" id="231815">
+<p>&#65279;"&#29992; C &#35821;&#35328;&#23454;&#29616;&#19968;&#20010; CFG&#65306;   <a href="https://t.co/EsuyFkPbTT" rel="nofollow">https://t.co/EsuyFkPbTT</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  [local] - Microsoft Power Point 2016 - Java Code Execution <a href="https://www.exploit-db.com/exploits/41144/" rel="nofollow">https://www.exploit-db.com/exploits/41144/</a></p>
+<div class="translated" id="231791">
+<p>&#65279;"Microsoft Power Point 2016 &#20013;&#23384;&#22312; Java &#20195;&#30721;&#25191;&#34892;&#65306;   <a href="https://t.co/T6UrzCB5zr" rel="nofollow">https://t.co/T6UrzCB5zr</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Protocol </i>]  A cheat sheet of TLS/SSL vulnerabilities :  <a href="https://www.gracefulsecurity.com/tls-ssl-vulnerabilities/" rel="nofollow">https://www.gracefulsecurity.com/tls-ssl-vulnerabilities/</a> cc @ HollyGraceful</p>
+<div class="translated" id="231693">
+<p>&#65279;"&#38024;&#23545; TLS/SSL &#30340;&#28431;&#27934;&#24635;&#32467;&#65072;   <a href="https://t.co/RgXXWR5iqg" rel="nofollow">https://t.co/RgXXWR5iqg</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  KaliTut @xKaliSec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> ReverseEngineering </i>]  List of reverse engineering resources 
+<a href="https://github.com/wtsxDev/reverse-engineering" rel="nofollow">https://github.com/wtsxDev/reverse-engineering</a>
+#reverseengineering <a href="https://t.co/1oFlgubrC0" rel="nofollow">https://t.co/1oFlgubrC0</a></p>
+<div class="translated" id="231725">
+<p>&#65279;"&#36870;&#21521;&#24037;&#31243;&#23398;&#20064;&#36164;&#28304;&#38598;&#65306;   <a href="https://t.co/XFQg9YzK04" rel="nofollow">https://t.co/XFQg9YzK04</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C2ucWJYXEAEhcO9.png" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  autovpn : Automatically connect to a VPN in a country of your choice :  <a href="https://github.com/adtac/autovpn" rel="nofollow">https://github.com/adtac/autovpn</a></p>
+<div class="translated" id="231737">
+<p>&#65279;"autovpn -- &#21487;&#20197;&#33258;&#21160;&#36830;&#25509;&#25351;&#23450;&#22269;&#23478; VPN Gate &#26381;&#21153;&#22120;&#30340;&#24037;&#20855;&#65072;   <a href="https://t.co/9jfV9byLhx" rel="nofollow">https://t.co/9jfV9byLhx</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Dino A. Dai Zovi @dinodaizovi</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Kube Lego automates @ letsencrypt certificate requests and renewals for tagged TLS Ingresses in your k8s cluster: 
+
+<a href="https://blog.jetstack.io/blog/kube-lego/" rel="nofollow">https://blog.jetstack.io/blog/kube-lego/</a></p>
+<div class="translated" id="231740">
+<p>&#65279;"&#20351;&#29992; kuge-lego &#22312; Kubernetes &#20013;&#33258;&#21160;&#37197;&#32622;&#35777;&#20070;&#65072;   <a href="https://t.co/sdmjPiOAwM" rel="nofollow">https://t.co/sdmjPiOAwM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>&#26447; @angealbertini</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  I started cleaning up some older PoCs for re-releasing: uploaded mini GIF, PE, Mach-O, ELF, Java - w/ NASM source <a href="https://github.com/corkami/pocs" rel="nofollow">https://github.com/corkami/pocs</a></p>
+<div class="translated" id="231813">
+<p>&#65279;"&#20851;&#20110; PE, Mach-O, ELF, Java &#31561;&#19968;&#20123;&#26087;&#30340; poc&#65306;   <a href="https://t.co/RRkvPDn3ez" rel="nofollow">https://t.co/RRkvPDn3ez</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via &#33150;&#35759;&#23433;&#20840;&#24212;&#24613;&#21709;&#24212;&#20013;&#24515;</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Obfuscation </i>]  &#21033;&#29992;&#31526;&#21495;&#25191;&#34892;&#21435;&#38500;&#25511;&#21046;&#27969;&#24179;&#22374;&#21270;&#65306; <a href="https://security.tencent.com/index.php/blog/msg/112" rel="nofollow">https://security.tencent.com/index.php/blog/msg/112</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/01/22/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/01/23/index.html">2017/01/23</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/01/24/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/01/23/index.html</guid><pubDate>Mon, 23 Jan 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-01-11</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/11/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
