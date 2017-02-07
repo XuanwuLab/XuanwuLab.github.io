@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Mon, 06 Feb 2017 11:04:50 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-02-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/02/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 07 Feb 2017 10:44:41 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-02-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/02/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -2013,7 +2013,305 @@ Upgrade to tcpdump 4.9.0.1 ASAP!&#8230; <a href="https://t.co/l30ezSMYeo" rel="n
 <a href="/cn/secnews/2017/02/02/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/02/01/index.html</guid><pubDate>Wed, 01 Feb 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/03/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/02/01/index.html</guid><pubDate>Wed, 01 Feb 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-02-07</title><link>http://xuanwulab.github.io/cn/secnews/2017/02/07/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/02/06/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/02/07/index.html">2017/02/07</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/02/08/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Mobile Security @Mobile_Sec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Android Security Bulletin February 2017
+<a href="http://source.android.com/security/bulletin/2017-02-01.html" rel="nofollow">http://source.android.com/security/bulletin/2017-02-01.html</a></p>
+<div class="translated" id="237836">
+<p>&#65279;"Android &#23433;&#20840;&#20844;&#21578; - 2017 &#24180; 2 &#26376;&#65306;   <a href="https://t.co/DYYpvC5GgJ" rel="nofollow">https://t.co/DYYpvC5GgJ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Manuel Caballero @magicmac2000 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  IE11 UXSS / SOP bypass - Abusing of the ActiveXObject to access content across domains without restrictions.&#8230; <a href="https://t.co/KWjyv4XmW6" rel="nofollow">https://t.co/KWjyv4XmW6</a></p>
+<div class="translated" id="237867">
+<p>&#65279;"IE11 UXSS / SOP &#32469;&#36807;&#65292;&#21033;&#29992; ActiveXObject &#36328;&#22495;&#35775;&#38382;&#36164;&#28304;&#65306;   <a href="https://t.co/KWjyv4XmW6" rel="nofollow">https://t.co/KWjyv4XmW6</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Chrome Developers @ChromiumDev </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  V8 5.7 news!
+?  ES2017 async functions now as fast as Promises
+&#9889;&#65039;&#9889;&#65039; Promises perf doubled
+? 15% faster RegExp&#8230; <a href="https://t.co/LbQAIdo4tu" rel="nofollow">https://t.co/LbQAIdo4tu</a></p>
+<div class="translated" id="237817">
+<p>&#65279;"V8 JavaScript Engine 5.7 &#29256;&#26412;&#21457;&#24067;&#65306;   <a href="https://t.co/LbQAIdo4tu" rel="nofollow">https://t.co/LbQAIdo4tu</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  CSOonline @CSOonline </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  Hacker hijacks thousands of publicly exposed printers to warn owners, by @ lconstantin  - <a href="http://bit.ly/2kzvblT" rel="nofollow">http://bit.ly/2kzvblT</a> #infosec</p>
+<div class="translated" id="237767">
+<p>&#65279;"&#25968;&#20197;&#21315;&#35745;&#30340;&#25171;&#21360;&#26426;&#34987;&#40657;&#23458;&#21163;&#25345;&#65292;&#21463;&#36843;&#25171;&#21360;&#20986;&#21163;&#25345;&#28040;&#24687;&#65306;   <a href="https://t.co/aNr6gOoAM5" rel="nofollow">https://t.co/aNr6gOoAM5</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Chris Rohlf @chrisrohlf</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Very cool. The comparison to SSP hits it home. Perf win and more with no tradeoffs vs SSP. <a href="https://twitter.com/paxteam/status/828600806500876288" rel="nofollow">https://twitter.com/paxteam/status/828600806500876288</a></p>
+<div class="translated" id="237661">
+<p>&#65279;"Linux Kernel 4.9 &#21152;&#20837; RAP(Reuse Attack Protector &#22797;&#29992;&#25915;&#20987;&#20445;&#25252;) &#26426;&#21046;&#65306;   <a href="https://grsecurity.net/rap_announce_ret.php" rel="nofollow">https://grsecurity.net/rap_announce_ret.php</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Operating System </i>]  Remote DoS against OpenBSD http server (up to 6.0) <a href="https://goo.gl/fb/eNMIUx" rel="nofollow">https://goo.gl/fb/eNMIUx</a> #FullDisclosure</p>
+<div class="translated" id="237783">
+<p>&#65279;" OpenBSD http server (&#29256;&#26412; &gt; 6.0) &#23384;&#22312;&#36828;&#31243;&#25298;&#32477;&#26381;&#21153;&#25915;&#20987;&#65288;CVE-2017-5850)&#65306;   <a href="https://t.co/ohWccVDxeB" rel="nofollow">https://t.co/ohWccVDxeB</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>A. Hacker @armitagehacker</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  High-reputation Redirectors and Domain Fronting <a href="http://blog.cobaltstrike.com/2017/02/06/high-reputation-redirectors-and-domain-fronting" rel="nofollow">http://blog.cobaltstrike.com/2017/02/06/high-reputation-redirectors-and-domain-fronting</a> <a href="https://t.co/pxmqVX4ypi" rel="nofollow">https://t.co/pxmqVX4ypi</a></p>
+<div class="translated" id="237658">
+<p>&#65279;" &#21033;&#29992; Amazon &#30340; CloudFront &#20570;&#39640;&#20449;&#35465;&#30340;&#36716;&#21457;&#22120;&#21450; Domain Fronting&#65306;   <a href="https://t.co/CjSg1W2uMy" rel="nofollow">https://t.co/CjSg1W2uMy</a> <a href="https://t.co/pxmqVX4ypi" rel="nofollow">https://t.co/pxmqVX4ypi</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C3_LVIBVcAE0ynX.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  [KIS-2017-01] PEAR HTML_AJAX &lt;= 0.5.7 (PHP Serializer) PHP Object Injection&#8230; <a href="https://goo.gl/fb/xGzkHS" rel="nofollow">https://goo.gl/fb/xGzkHS</a> #FullDisclosure</p>
+<div class="translated" id="237694">
+<p>&#65279;"PEAR HTML_AJAX &#29256;&#26412; &lt;= 0.5.7 &#23384;&#22312; PHP &#23545;&#35937;&#27880;&#20837;&#28431;&#27934;&#65288;CVE-2017-5677&#65289;&#65306;   <a href="https://t.co/NNjOK0TKgA" rel="nofollow">https://t.co/NNjOK0TKgA</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  maldevel &#9763; @maldevel </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  Script to create templates to use with VirtualBox to make vm detection harder <a href="https://github.com/nsmfoo/antivmdetection" rel="nofollow">https://github.com/nsmfoo/antivmdetection</a> #malware</p>
+<div class="translated" id="237668">
+<p>&#65279;"&#38754;&#21521; VirtualBox &#30340;&#21453;&#34394;&#25311;&#26426;&#26816;&#27979;&#33050;&#26412;&#65306;   <a href="https://t.co/7VdbLkzseb" rel="nofollow">https://t.co/7VdbLkzseb</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  AMOSSYS @Amossys </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Demystifying #Windows Virtualization Based #Security - Part 1: The boot process - <a href="http://blog.amossys.fr/virtualization-based-security-part1.html" rel="nofollow">http://blog.amossys.fr/virtualization-based-security-part1.html</a> #VBS #DeviceGuard #CredentialGuard</p>
+<div class="translated" id="237625">
+<p>&#65279;"Windows &#34394;&#25311;&#21270;&#23433;&#20840; Part 1&#65306;   <a href="https://t.co/HjMRdWogk8" rel="nofollow">https://t.co/HjMRdWogk8</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Kevin Figueroa @KevinFigueroa </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Researchers have discovered that media content protected by DRM can be used to uncloak Windows Tor Browser users. <a href="https://t.co/1U59Vm7R87" rel="nofollow">https://t.co/1U59Vm7R87</a></p>
+<div class="translated" id="237689">
+<p>&#65279;"&#26377;&#30740;&#31350;&#20154;&#21592;&#21457;&#29616;&#21033;&#29992; Windows DRM(&#25968;&#23383;&#23186;&#20307;&#29256;&#26435;&#31649;&#29702;)&#21487;&#20197;&#33719;&#21462; Windows TOR &#27983;&#35272;&#22120;&#29992;&#25143;&#30340;&#30495;&#23454; IP&#65306;  <a href="https://t.co/1U59Vm7R87" rel="nofollow">https://t.co/1U59Vm7R87</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Enno Rey @Enno_Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  gr-keyfob. GNU Radio module to receive and reencode signals of (some) wireless car key fobs
+<a href="https://github.com/bastibl/gr-keyfob" rel="nofollow">https://github.com/bastibl/gr-keyfob</a>
+<a href="https://t.co/AMO2JnqnBH" rel="nofollow">https://t.co/AMO2JnqnBH</a></p>
+<div class="translated" id="237684">
+<p>&#65279;" gr-keyfob -- Hella &#26080;&#32447;&#36710;&#38053;&#21273;&#25910;&#21457;&#22120;&#30340;&#20449;&#21495;&#22788;&#29702;&#24037;&#20855;&#65306;   <a href="https://t.co/qOyNs6cgTu" rel="nofollow">https://t.co/qOyNs6cgTu</a> <a href="https://t.co/AMO2JnqnBH" rel="nofollow">https://t.co/AMO2JnqnBH</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  iarce @4Dgifts </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Somebody's been looking for integer overflows in QCOM drivers. F.e
+CVE-2016-8476: EoP in Qualcomm WiFi driver
+<a href="https://t.co/ScGA6mCNEQ" rel="nofollow">https://t.co/ScGA6mCNEQ</a></p>
+<div class="translated" id="237770">
+<p>&#65279;"&#39640;&#36890; wifi &#39537;&#21160;&#25972;&#25968;&#28322;&#20986;&#28431;&#27934;&#30340;&#34917;&#19969;&#20195;&#30721;&#65306;   <a href="https://t.co/ScGA6mCNEQ" rel="nofollow">https://t.co/ScGA6mCNEQ</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/02/06/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/02/07/index.html">2017/02/07</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/02/08/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/02/07/index.html</guid><pubDate>Tue, 07 Feb 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/01/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
