@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 09 Feb 2017 10:45:17 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-02-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/02/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 10 Feb 2017 10:50:54 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-02-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/02/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -1240,7 +1240,412 @@ Sources, configuration and how to detect evil things utilizing Microsoft Sysmon 
 <a href="/cn/secnews/2017/02/07/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/02/06/index.html</guid><pubDate>Mon, 06 Feb 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-02-04</title><link>http://xuanwulab.github.io/cn/secnews/2017/02/04/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/02/06/index.html</guid><pubDate>Mon, 06 Feb 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-02-10</title><link>http://xuanwulab.github.io/cn/secnews/2017/02/10/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/02/09/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/02/10/index.html">2017/02/10</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/02/11/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Microsoft Edge: Use-after-free in TypedArray.sort <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=983" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=983</a></p>
+<div class="translated" id="239164">
+<p>&#65279;"Edge &#27983;&#35272;&#22120; TypedArray.sort &#20013;&#30340; UAF &#28431;&#27934;&#65288;CVE-2016-7288&#65289;&#65306;   <a href="https://t.co/0ldeKjlai2" rel="nofollow">https://t.co/0ldeKjlai2</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>hyp @hyp_h5p</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  ntfs-3g local privilege escalation to root CVE-2017-0359
+
+<a href="http://marc.info/?l=oss-security&amp;m=148619467901185&amp;w=2" rel="nofollow">http://marc.info/?l=oss-security&amp;m=148619467901185&amp;w=2</a>
+
+#infosec #ntfs #linux #Privesc</p>
+<div class="translated" id="238903">
+<p>&#65279;"ntfs-3g &#26412;&#22320;&#26435;&#38480;&#25552;&#21319;&#28431;&#27934;&#21033;&#29992;&#33050;&#26412;&#65288;CVE-2017-0359&#65289;&#65306;   <a href="https://t.co/U2wntS4YBA" rel="nofollow">https://t.co/U2wntS4YBA</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  Running Executables on macOS From Memory : <a href="https://blog.cylance.com/running-executables-on-macos-from-memory" rel="nofollow">https://blog.cylance.com/running-executables-on-macos-from-memory</a></p>
+<div class="translated" id="238844">
+<p>&#65279;"&#22312; macOS &#20174;&#20869;&#23384;&#36816;&#34892;&#21487;&#25191;&#34892;&#25991;&#20214;&#65072;   <a href="https://t.co/703UfqaZ9X" rel="nofollow">https://t.co/703UfqaZ9X</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Unit 42 @Unit42_Intel</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  #Unit42&#8217;s @ Malware_traffic explores CryptoShield Ransomware from Rig EK <a href="http://oak.ctx.ly/r/5eztz" rel="nofollow">http://oak.ctx.ly/r/5eztz</a> @ sans_isc</p>
+<div class="translated" id="239116">
+<p>&#65279;"&#21202;&#32034;&#36719;&#20214; CryptoShield &#25506;&#32034;&#65292;&#26469;&#33258; Unit42&#65306;   <a href="https://t.co/eFnV5gQifO" rel="nofollow">https://t.co/eFnV5gQifO</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Eduardo Vela @sirdarckcat </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  New Blogpost: ? Unpatched (0day) jQuery Mobile XSS <a href="http://sirdarckcat.blogspot.com/2017/02/unpatched-0day-jquery-mobile-xss.html" rel="nofollow">http://sirdarckcat.blogspot.com/2017/02/unpatched-0day-jquery-mobile-xss.html</a></p>
+<div class="translated" id="238864">
+<p>&#65279;"&#26410;&#20462;&#22797;&#30340; jQuery Mobile XSS&#65306;    <a href="https://t.co/i5y5Ww6g66" rel="nofollow">https://t.co/i5y5Ww6g66</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Android Tamer @AndroidTamer</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  OnePlus3/3T Bootloader Vuln (&lt;OxygenOS4.0.1): <a href="https://securityresear.ch/2017/02/08/oneplus3-bootloader-vulns/#exploiting-cve-2017-5626-for-kernel-code-execution" rel="nofollow">https://securityresear.ch/2017/02/08/oneplus3-bootloader-vulns/#exploiting-cve-2017-5626-for-kernel-code-execution</a> more details: <a href="https://www.xda-developers.com/two-critical-oneplus-33t-bootloader-security-flaws-discovered-one-patched-and-other-being-addressed/" rel="nofollow">https://www.xda-developers.com/two-critical-oneplus-33t-bootloader-security-flaws-discovered-one-patched-and-other-being-addressed/</a> "fastboot oem disable dm-verity"</p>
+<div class="translated" id="239099">
+<p>&#65279;"OnePlus 3/3T BootLoader &#35299;&#38145;&#28431;&#27934;&#21450; SELinux &#28431;&#27934;&#30340;&#20998;&#26512;&#65306;   <a href="https://www.xda-developers.com/two-critical-oneplus-33t-bootloader-security-flaws-discovered-one-patched-and-other-being-addressed/" rel="nofollow">https://www.xda-developers.com/two-critical-oneplus-33t-bootloader-security-flaws-discovered-one-patched-and-other-being-addressed/</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  titon @_titon_ </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> NetworkDevice </i>]  Vuln in F5 TLS stack allowing an attacker to extract up to 31 bytes of uninitialized memory at a time <a href="https://blog.filippo.io/finding-ticketbleed/" rel="nofollow">https://blog.filippo.io/finding-ticketbleed/</a> #Ticketbleed</p>
+<div class="translated" id="238939">
+<p>&#65279;" Ticketbleed (CVE-2016-9244) &#28431;&#27934;&#20998;&#26512;&#65306;   <a href="https://t.co/8d0TV5QmF8" rel="nofollow">https://t.co/8d0TV5QmF8</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Eugene Kaspersky @e_kaspersky </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Operating System </i>]  Secure operating system? Is this possible? An insight into #KasperskyOS <a href="https://kas.pr/v7jy" rel="nofollow">https://kas.pr/v7jy</a></p>
+<div class="translated" id="239190">
+<p>&#65279;"KasperskyOS &#29305;&#24615;&#20171;&#32461;&#65306;   <a href="https://t.co/pfQWtrsSik" rel="nofollow">https://t.co/pfQWtrsSik</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  GNU/Justin @justinsteven </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Remote directory traversal in Metasploit's downloading of files from victims. Patch 'em if you got 'em! <a href="https://t.co/GzhUGOrotO" rel="nofollow">https://t.co/GzhUGOrotO</a></p>
+<div class="translated" id="238813">
+<p>&#65279;" Metasploit meterpreter &#30446;&#24405;&#36941;&#21382;&#28431;&#27934;&#20998;&#26512;&#65306;   <a href="https://t.co/GzhUGOrotO" rel="nofollow">https://t.co/GzhUGOrotO</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Unit 42 @Unit42_Intel</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  Part 4 of the Exploring the Cybercrime Underground series dives into darknet markets <a href="http://oak.ctx.ly/r/5f0dy" rel="nofollow">http://oak.ctx.ly/r/5f0dy</a> #Unit42</p>
+<div class="translated" id="239191">
+<p>&#65279;"&#26263;&#32593;&#20080;&#21334;&#22823;&#25581;&#31192; Part 4&#65306;   <a href="https://t.co/13JDVao5Nl" rel="nofollow">https://t.co/13JDVao5Nl</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Invoke-Vnc : Powershell VNC injector : <a href="https://github.com/artkond/Invoke-Vnc" rel="nofollow">https://github.com/artkond/Invoke-Vnc</a> cc @ artkond</p>
+<div class="translated" id="239010">
+<p>&#65279;"Invoke-Vnc -- Powershell VNC injector&#65072;   <a href="https://t.co/A1z9a797GM" rel="nofollow">https://t.co/A1z9a797GM</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  InfoSec Institute @InfosecEdu </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Writing Burp Extensions (Shodan Scanner) <a href="https://lnkd.in/eqZHxk3" rel="nofollow">https://lnkd.in/eqZHxk3</a></p>
+<div class="translated" id="238841">
+<p>&#65279;"&#32534;&#20889; Burpsuite &#25193;&#23637;(shodan scanner)&#65306;   <a href="https://t.co/1WSxwPC8Bx" rel="nofollow">https://t.co/1WSxwPC8Bx</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Node.js Security @nodesecurity </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Exploiting node-serialize deserialization for Remote Code Execution-@ ajinabraham
+
+<a href="https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/" rel="nofollow">https://opsecx.com/index.php/2017/02/08/exploiting-node-js-deserialization-bug-for-remote-code-execution/</a>
+
+Advisory <a href="https://t.co/UQhHHzgCum" rel="nofollow">https://t.co/UQhHHzgCum</a></p>
+<div class="translated" id="239215">
+<p>&#65279;"&#21033;&#29992; Node.js &#21453;&#24207;&#21015;&#21270;&#26469;&#36827;&#34892;&#36828;&#31243;&#21629;&#20196;&#25191;&#34892;&#65306;   <a href="https://t.co/kkJEQ53KMw" rel="nofollow">https://t.co/kkJEQ53KMw</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  XSS Payloads @XssPayloads </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Nice ! Turning self-XSS into good-XSS part 2 by @ emgeekboy
+<a href="http://bit.ly/2k65bRK" rel="nofollow">http://bit.ly/2k65bRK</a></p>
+<div class="translated" id="239212">
+<p>&#65279;"AirBnb Bug Bounty&#65306;&#23558; self-XSS &#36716;&#21270;&#20026; XSS Part 2&#65306;   <a href="https://t.co/Y6CoVJMY6G" rel="nofollow">https://t.co/Y6CoVJMY6G</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Pierre (&#54588;&#50640;&#47476; &#44608;) @PierreKimSec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  TP-Link C2 and C20i multiple vulnerabilities <a href="https://pierrekim.github.io/blog/2017-02-09-tplink-c2-and-c20i-vulnerable.html" rel="nofollow">https://pierrekim.github.io/blog/2017-02-09-tplink-c2-and-c20i-vulnerable.html</a> #IoT #routers #RCE #DoS #PoC</p>
+<div class="translated" id="238906">
+<p>&#65279;"TP-Link C2 &#21450; C20i &#20013;&#23384;&#22312;&#22810;&#20010;&#28431;&#27934; &#65306;   <a href="https://t.co/G0OGwfXP0i" rel="nofollow">https://t.co/G0OGwfXP0i</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via Github</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Language </i>]  &#36817;&#26085;,&#24494;&#36719;&#20122;&#27954;&#30740;&#31350;&#38498;&#22312;GitHub &#19978;&#24320;&#28304;&#22270;&#25968;&#25454;&#26597;&#35810;&#35821;&#35328;LIKQ,&#23427;&#26159;&#22522;&#20110;&#20998;&#24067;&#24335;&#22270;&#25968;&#25454;&#22788;&#29702;&#24341;&#25806;Graph Engine&#30340;&#21487;&#29992;&#20110;&#23376;&#22270;&#21644;&#36335;&#24452;&#26597;&#35810;&#30340;&#25968;&#25454;&#26597;&#35810;&#35821;&#35328;&#12290;LIKQ&#30452;&#25509;&#20351;&#29992;&#21407;&#29983;C#&#20195;&#30721;&#26500;&#24314;&#30693;&#35782;&#22270;&#35889;&#35821;&#35328;,&#35753;&#28023;&#37327;&#22270;&#25968;&#25454;&#23454;&#26102;&#26816;&#32034;&#21644;&#38598;&#25104;&#35302;&#25163;&#21487;&#24471;&#65306;  <a href="https://github.com/Microsoft/GraphEngine" rel="nofollow">https://github.com/Microsoft/GraphEngine</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via mottoin</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Windows </i>]  MS14-068&#22495;&#26435;&#38480;&#25552;&#21319;&#28431;&#27934;&#24635;&#32467;&#65306; <a href="http://www.mottoin.com/95877.html" rel="nofollow">http://www.mottoin.com/95877.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via &#23433;&#20840;&#33033;&#25615;</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Pentest </i>]  Github &amp; CSRF &#32452;&#21512;&#20837;&#20225;&#19994;&#20869;&#32593;&#30340;&#26696;&#20363;&#65306; <a href="https://www.secpulse.com/archives/55359.html" rel="nofollow">https://www.secpulse.com/archives/55359.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via DockOne.io</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Windows </i>]  &#22312; Windows 10 &#19978;&#36816;&#34892; Linux &#21450; Windows &#23481;&#22120;&#65306;  <a href="http://dockone.io/article/1755" rel="nofollow">http://dockone.io/article/1755</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/02/09/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/02/10/index.html">2017/02/10</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/02/11/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/02/10/index.html</guid><pubDate>Fri, 10 Feb 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-02-04</title><link>http://xuanwulab.github.io/cn/secnews/2017/02/04/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
