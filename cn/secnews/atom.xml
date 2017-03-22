@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 21 Mar 2017 10:33:56 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 22 Mar 2017 11:05:55 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -8490,7 +8490,481 @@ CVE-2017-5638
 <a href="/cn/secnews/2017/03/08/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/03/07/index.html</guid><pubDate>Tue, 07 Mar 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-02-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/02/03/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/03/07/index.html</guid><pubDate>Tue, 07 Mar 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-03-22</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/22/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/21/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/22/index.html">2017/03/22</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/23/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Hardware </i>]  D-Link DGS-1510 - Multiple Vulnerabilities : <a href="https://www.exploit-db.com/exploits/41662/" rel="nofollow">https://www.exploit-db.com/exploits/41662/</a></p>
+<div class="translated" id="256161">
+<p>&#65279;"D-Link DGS-1510 &#20013;&#23384;&#22312;&#22810;&#20010;&#28431;&#27934;&#65288;CVE-2017-6206&#65289;&#65072;   <a href="https://t.co/y4LXoAE0aW" rel="nofollow">https://t.co/y4LXoAE0aW</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  Over 20 million Gmail and 5 million Yahoo accounts available for sale on the Dark Web <a href="http://securityaffairs.co/wordpress/57300/deep-web/gmail-yahoo-accounts-dark-web.html" rel="nofollow">http://securityaffairs.co/wordpress/57300/deep-web/gmail-yahoo-accounts-dark-web.html</a></p>
+<div class="translated" id="256260">
+<p>&#65279;"&#36229;&#36807; 2000 &#19975; Gmail &#21644; 500 &#19975;&#38597;&#34382;&#24080;&#25143;&#22312;&#26263;&#32593;&#19978;&#21483;&#21334;&#65306;   <a href="https://t.co/EhReFejYsl" rel="nofollow">https://t.co/EhReFejYsl</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Arrigo Triulzi @cynicalsecurity</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MachineLearning </i>]  N. Papernot et al. "Practical Black-Box Attacks against Machine Learning" <a href="https://arxiv.org/abs/1602.02697" rel="nofollow">https://arxiv.org/abs/1602.02697</a></p>
+<div class="translated" id="256194">
+<p>&#65279;"&#38024;&#23545;&#28145;&#24230;&#31070;&#32463;&#32593;&#32476;&#25915;&#20987;&#23454;&#36341;&#65306;   <a href="https://t.co/SJoGbTiSvr" rel="nofollow">https://t.co/SJoGbTiSvr</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Insinuator @Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  New blog post: Autonomic Network Analysis &#8211; Part 2 <a href="https://insinuator.net/2017/03/autonomic-network-analysis/" rel="nofollow">https://insinuator.net/2017/03/autonomic-network-analysis/</a></p>
+<div class="translated" id="256453">
+<p>&#65279;"&#24605;&#31185;&#33258;&#21160;&#32593;&#32476;(AN)&#21327;&#35758;&#20998;&#26512; part 2&#65306;   <a href="https://t.co/lU18kJykhl" rel="nofollow">https://t.co/lU18kJykhl</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  GitHub @github </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  SHA-1 computations on <a href="http://GitHub.com" rel="nofollow">http://GitHub.com</a> now detect and reject Git content that may signal a collision attack. <a href="https://t.co/F1wrZ1VNvi" rel="nofollow">https://t.co/F1wrZ1VNvi</a></p>
+<div class="translated" id="256237">
+<p>&#65279;"SHA-1 Hash &#20914;&#31361;&#23545;&#20110; Git &#24433;&#21709;&#38750;&#24120;&#22823;&#65292;&#22240;&#20026; Git &#29992; SHA-1 Hash &#26469;&#23384;&#20648;&#20179;&#24211;&#20013;&#30340;&#23545;&#35937;&#65292;&#25152;&#20197; GitHub.com &#23448;&#26041;&#24320;&#22987;&#30528;&#25163;&#26816;&#26597;&#26159;&#21542;&#26377; SHA-1 &#30896;&#25758;&#30340;&#30165;&#36857;&#12290;&#23613;&#31649;&#30896;&#25758;&#27010;&#29575;&#24456;&#23567;&#65292;&#20294;&#26159; GitHub &#26377; 500 &#19975;&#31243;&#24207;&#21592;&#12289;&#24179;&#22343;&#27599;&#31186;&#19968;&#27425; Commit
+&#65306;   <a href="https://t.co/F1wrZ1VNvi" rel="nofollow">https://t.co/F1wrZ1VNvi</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  redsnarf @redsnarf </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  We've Updated the RDP Session Hijacking workflows and Video Demo to include backdooring a machine too  :-)
+<a href="https://t.co/xxFzDFhNXZ" rel="nofollow">https://t.co/xxFzDFhNXZ</a></p>
+<div class="translated" id="256246">
+<p>&#65279;"RDP &#20250;&#35805;&#21163;&#25345;&#28436;&#31034;&#65288;video&#65289;&#65306;   <a href="https://t.co/xxFzDFhNXZ" rel="nofollow">https://t.co/xxFzDFhNXZ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Enno Rey @Enno_Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Protocol </i>]  Slides from my #TR17 NGI talk on "IPv6 Configuration Approaches for Servers"
+<a href="https://www.ernw.de/download/ERNW_TR17_NGI_IPv6_Config_Approach_Servers.pdf" rel="nofollow">https://www.ernw.de/download/ERNW_TR17_NGI_IPv6_Config_Approach_Servers.pdf</a> [PDF] <a href="https://t.co/GAXueAVS3P" rel="nofollow">https://t.co/GAXueAVS3P</a></p>
+<div class="translated" id="256190">
+<p>&#65279;"&#26381;&#21153;&#22120; IPV6 &#37197;&#32622;&#35814;&#35299;&#65306;  <a href="https://www.ernw.de/download/ERNW_TR17_NGI_IPv6_Config_Approach_Servers.pdf" rel="nofollow">https://www.ernw.de/download/ERNW_TR17_NGI_IPv6_Config_Approach_Servers.pdf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>NCC Group US InfoSec @NCCsecurityUS</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Install a test browser with ease by downloading our new public tool: Autochrome #chromium #WAPT <a href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/march/autochrome/" rel="nofollow">https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/march/autochrome/</a></p>
+<div class="translated" id="256444">
+<p>&#65279;"Autochrome -- &#33258;&#21160;&#21270;&#25645;&#24314; Chrome &#26412;&#22320;&#27979;&#35797;&#29615;&#22659;&#65306;   <a href="https://t.co/dsfmfcSi8c" rel="nofollow">https://t.co/dsfmfcSi8c</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Rishabh Dangwal @prohack</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Introducing Bloaty McBloatface: a size profiler for binaries <a href="http://blog.reverberate.org/2016/11/07/introducing-bloaty-mcbloatface.html" rel="nofollow">http://blog.reverberate.org/2016/11/07/introducing-bloaty-mcbloatface.html</a></p>
+<div class="translated" id="256227">
+<p>&#65279;"Bloaty McBloatface - Google &#30340;&#19968;&#20301;&#24320;&#21457;&#32773;&#24320;&#28304;&#30340;&#19968;&#20010;&#24037;&#20855;&#65292;&#26041;&#20415;&#26816;&#26597; .o, .a, .so &#30340;&#31561;&#25991;&#20214;&#31867;&#22411;&#25152;&#21344;&#29992;&#30340;&#31354;&#38388;&#65306;   <a href="https://t.co/GGRNc4tfxH" rel="nofollow">https://t.co/GGRNc4tfxH</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Dr0p1t-Framework 1.2 - A Framework That Creates An Advanced FUD Dropper With Some Tricks <a href="http://www.kitploit.com/2017/03/dr0p1t-framework-12-framework-that.html" rel="nofollow">http://www.kitploit.com/2017/03/dr0p1t-framework-12-framework-that.html</a></p>
+<div class="translated" id="256485">
+<p>&#65279;" Dr0p1t-Framework 1.2 -- Dropper&#21518;&#38376;&#29983;&#25104;&#26694;&#26550;&#65306;   <a href="https://t.co/RrJmfMNFYg" rel="nofollow">https://t.co/RrJmfMNFYg</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  alexander knorr @opexxx </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  pwlist - Password lists obtained from strangers attempting to log in to my server. <a href="http://github.com/droope/pwlist" rel="nofollow">http://github.com/droope/pwlist</a>
+
+&#8212; Python Trending (pythontrend&#8230;</p>
+<div class="translated" id="256245">
+<p>&#65279;"pwlist -- &#21033;&#29992;&#34588;&#32592;&#25910;&#38598;&#30340; SSH &#26292;&#21147;&#30772;&#35299;&#24120;&#29992;&#23494;&#30721;&#21015;&#34920;&#65306;   <a href="https://t.co/zljYfaRF5E" rel="nofollow">https://t.co/zljYfaRF5E</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  Hack The Virtual Memory : C strings &amp; /proc : <a href="https://blog.holbertonschool.com/hack-the-virtual-memory-c-strings-proc/" rel="nofollow">https://blog.holbertonschool.com/hack-the-virtual-memory-c-strings-proc/</a> cc @ julienbarbier42</p>
+<div class="translated" id="256278">
+<p>&#65279;"hacking &#34394;&#25311;&#20869;&#23384;: C &#23383;&#31526;&#20018;&#19982; proc &#25991;&#20214;&#31995;&#32479;:   <a href="https://t.co/Rphb5aCCqn" rel="nofollow">https://t.co/Rphb5aCCqn</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  OpenSSH on Cygwin: directory traversal in SFTP client <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1058" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1058</a></p>
+<div class="translated" id="256338">
+<p>&#65279;"OpenSSH &#22312; Windows Cygwin &#36816;&#34892;&#26102;&#23384;&#22312;&#19968;&#20010;&#30446;&#24405;&#31359;&#36234;&#28431;&#27934;&#65306;   <a href="https://t.co/d7Dc4leTWU" rel="nofollow">https://t.co/d7Dc4leTWU</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  Code Execution Vulnerability Found in #Libpurple IM Library: <a href="https://threatpost.com/code-execution-vulnerability-found-in-libpurple-im-library/124448/" rel="nofollow">https://threatpost.com/code-execution-vulnerability-found-in-libpurple-im-library/124448/</a> via @ threatpost</p>
+<div class="translated" id="256460">
+<p>&#65279;"Libpurple &#24211;&#23384;&#22312;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#65306;   <a href="https://t.co/ZSPeyyQCNM" rel="nofollow">https://t.co/ZSPeyyQCNM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Giuseppe `N3mes1s` @gN3mes1s</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows 10 and Windows Server 2016 security auditing and monitoring reference - <a href="https://www.microsoft.com/en-us/download/details.aspx?id=52630" rel="nofollow">https://www.microsoft.com/en-us/download/details.aspx?id=52630</a></p>
+<div class="translated" id="256448">
+<p>&#65279;"Windows 10 &#19982; Windows Server 2016 &#23433;&#20840;&#23457;&#35745;&#19982;&#30417;&#25511;&#25163;&#20876;&#65306;   <a href="https://www.microsoft.com/en-us/download/details.aspx?id=52630" rel="nofollow">https://www.microsoft.com/en-us/download/details.aspx?id=52630</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>&#38634;&#30887;0xroot @cn0Xroot</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Bundled GNURadio + GrOsmoSDR For Windows Machine <a href="https://github.com/pothosware/PothosSDR/wiki/GNURadio" rel="nofollow">https://github.com/pothosware/PothosSDR/wiki/GNURadio</a> #SDR #GNURadio <a href="https://t.co/yUenKDKPxg" rel="nofollow">https://t.co/yUenKDKPxg</a></p>
+<div class="translated" id="256254">
+<p>&#65279;"Bundled GNURadio + GrOsmoSDR&#65306;   <a href="https://t.co/A8ZkS3Myt5" rel="nofollow">https://t.co/A8ZkS3Myt5</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C7b24fSV0AARHEY.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via seebug</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  SOP bypass/ UXSS on IE &#8211; &#26080;&#22495;&#19990;&#30028;&#30340;&#26032;&#20882;&#38505;&#65306; <a href="http://paper.seebug.org/254/" rel="nofollow">http://paper.seebug.org/254/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via apnic.net</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> MalwareAnalysis </i>]  360 &#32593;&#32476;&#23433;&#20840;&#23454;&#39564;&#23460;&#20889;&#30340;&#19968;&#31687;&#20851;&#20110; Mirai Botnet &#30340; Blog&#65306;
+<a href="https://blog.apnic.net/2017/03/21/questions-answered-mirai-botnet/" rel="nofollow">https://blog.apnic.net/2017/03/21/questions-answered-mirai-botnet/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via archive.org</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Others </i>]  PoC||GTFO &#26434;&#24535;&#30340;&#31532; 0x14 &#26399;&#21457;&#24067;&#20102;&#65306;
+  <a href="https://archive.org/details/pocorgtfo14" rel="nofollow">https://archive.org/details/pocorgtfo14</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via project zero</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Popular Software </i>]  Tavis &#20844;&#24067;&#20102;&#26152;&#22825; Twitter &#25552;&#21040;&#30340; LastPass &#21487;&#20197;&#22312; Chrome/Firefox &#24377;&#35745;&#31639;&#22120;&#30340;&#28431;&#27934;&#32454;&#33410;&#12290;&#20027;&#35201;&#26159;&#21033;&#29992; LastPass &#25193;&#23637;&#20013; websiteConnector.js &#20801;&#35768;&#20195;&#29702; IPC commands &#30340;&#28431;&#27934;&#65306;
+<a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1209" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1209</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via project zero</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Virtualization </i>]  QEMU cache block &#32763;&#35793;&#36807;&#31243;&#23384;&#22312;&#19968;&#20010;&#28431;&#27934;&#65292;Guest &#26426;&#20013; ring3 &#36827;&#31243;&#21487;&#20197;&#21521;&#21478;&#19968;&#20010; ring3 &#36827;&#31243;&#27880;&#20837;&#20195;&#30721;&#65292;&#21253;&#25324;&#21521;&#25317;&#26377; root &#26435;&#38480;&#30340; ring3 &#36827;&#31243;&#65306;
+<a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1122" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1122</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via gitlab.com
+  http://www.freebuf.com/vuls/129906.html
+
+gitlab.com &amp; freebuf.com</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Vulnerability </i>]  GitLab &#21457;&#24067;&#26032;&#29256;&#26412;&#65292;&#20462;&#22797;&#20102;&#22810;&#20010;&#28431;&#27934;&#65292;&#21253;&#25324;&#19968;&#20010;&#20005;&#37325;&#30340;&#20449;&#24687;&#27844;&#38706;&#28431;&#27934;&#65292;&#21487;&#20197;&#27844;&#38706;&#29992;&#25143; Private Token&#65306;
+<a href="https://about.gitlab.com/2017/03/20/gitlab-8-dot-17-dot-4-security-release/" rel="nofollow">https://about.gitlab.com/2017/03/20/gitlab-8-dot-17-dot-4-security-release/</a>
+<a href="http://www.freebuf.com/vuls/129906.html" rel="nofollow">http://www.freebuf.com/vuls/129906.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/21/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/22/index.html">2017/03/22</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/03/23/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/03/22/index.html</guid><pubDate>Wed, 22 Mar 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-02-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/02/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
