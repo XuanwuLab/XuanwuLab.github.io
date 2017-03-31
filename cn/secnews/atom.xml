@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 30 Mar 2017 10:30:28 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 31 Mar 2017 11:14:40 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -8115,7 +8115,507 @@ Industrial RFID Printers Local root privilege escalation&#8230; <a href="https:/
 <a href="/cn/secnews/2017/03/30/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/03/29/index.html</guid><pubDate>Wed, 29 Mar 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-03-04</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/04/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/03/29/index.html</guid><pubDate>Wed, 29 Mar 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-03-31</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/31/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/31/index.html">2017/03/31</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/01/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Chris Evans @scarybeasts</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  [blog] Black box discovery of memory corruption RCE on <a href="http://box.com" rel="nofollow">http://box.com</a>: <a href="https://goo.gl/BPkDNl" rel="nofollow">https://goo.gl/BPkDNl</a></p>
+<div class="translated" id="259882">
+<p>&#65279;" &#22914;&#20309;&#20174;&#40657;&#30418;&#27979;&#35797;&#30340;&#35282;&#24230;&#23454;&#29616; <a href="http://box.com" rel="nofollow">box.com</a> &#26381;&#21153;&#22120;&#30340; RCE&#65292;&#26469;&#33258; Chris Evans&#65306;   <a href="https://t.co/qAODXFtVH8" rel="nofollow">https://t.co/qAODXFtVH8</a>:   <a href="https://t.co/4r2JuyVvRA" rel="nofollow">https://t.co/4r2JuyVvRA</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Github Repository Owners Targeted by Data-Stealing Malware: <a href="https://threatpost.com/github-repository-owners-targeted-by-data-stealing-malware/124656/" rel="nofollow">https://threatpost.com/github-repository-owners-targeted-by-data-stealing-malware/124656/</a> via @ threatpost</p>
+<div class="translated" id="260176">
+<p>&#65279;" &#24456;&#22810; GitHub &#20195;&#30721;&#24211;&#31649;&#29702;&#21592;&#25910;&#21040;&#20102;&#23884;&#26377;&#24694;&#24847;&#20195;&#30721;&#30340;&#38035;&#40060;&#37038;&#20214;&#65292;&#36825;&#20123;&#37038;&#20214;&#20551;&#35013;&#25104;&#27714;&#32844;&#20449;&#65306;   <a href="https://t.co/KPATTdNKHi" rel="nofollow">https://t.co/KPATTdNKHi</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>daveaitel @daveaitel</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  interesting presentation: <a href="https://www.blackhat.com/docs/asia-17/materials/asia-17-Li-Cross-The-Wall-Bypass-All-Modern-Mitigations-Of-Microsoft-Edge.pdf" rel="nofollow">https://www.blackhat.com/docs/asia-17/materials/asia-17-Li-Cross-The-Wall-Bypass-All-Modern-Mitigations-Of-Microsoft-Edge.pdf</a></p>
+<div class="translated" id="260098">
+<p>&#65279;" Bypass Edge &#27983;&#35272;&#22120;&#25152;&#26377;&#30340;&#21033;&#29992;&#32531;&#35299;&#25514;&#26045;&#65292;&#26469;&#33258; BlackHat Asia &#20250;&#35758;&#30340;&#28436;&#35762;&#65072;   <a href="https://t.co/qlUq8zamZp" rel="nofollow">https://t.co/qlUq8zamZp</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>David Storey @dstorey</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Test Edge for free via BrowserStack, including WebDriver support for automated testing <a href="https://blogs.windows.com/msedgedev/2017/03/30/free-edge-testing-browserstack/" rel="nofollow">https://blogs.windows.com/msedgedev/2017/03/30/free-edge-testing-browserstack/</a> Great for Mac-based devs</p>
+<div class="translated" id="260173">
+<p>&#65279;"&#24494;&#36719;&#21644; BrowserStack &#21512;&#20316;&#65292;&#20026;&#24191;&#22823;&#29992;&#25143;&#25552;&#20379; Edge &#27983;&#35272;&#22120;&#30340;&#33258;&#21160;&#21270;&#27979;&#35797;&#25903;&#25345;&#65292;&#21487;&#20197;&#36890;&#36807;&#32534;&#20889;&#33050;&#26412;&#24555;&#36895;&#23454;&#29616;&#65306;   <a href="https://t.co/F1iwWwSunf" rel="nofollow">https://t.co/F1iwWwSunf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  ZDI-17-241: Apple Safari RenderBox Use-After-Free Remote Code Execution Vulnerability <a href="http://www.zerodayinitiative.com/advisories/ZDI-17-241/" rel="nofollow">http://www.zerodayinitiative.com/advisories/ZDI-17-241/</a></p>
+<div class="translated" id="260189">
+<p>&#65279;"ZDI-17-241 - Safari RenderBox UAF RCE&#65288;CVE-2017-2463&#65289;&#65292;&#35813;&#28431;&#27934;&#30001;&#29572;&#27494;&#23454;&#39564;&#23460; Kai Kang &#21457;&#29616;&#65306;   <a href="https://t.co/6vFGzkbPrg" rel="nofollow">https://t.co/6vFGzkbPrg</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Nicolas Grégoire @Agarri_FR </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Cloud </i>]  Slides for "SSH over CPU cache covert channels" (cf last RT) <a href="https://twitter.com/bloodytangerine/status/847369269977403393" rel="nofollow">https://twitter.com/bloodytangerine/status/847369269977403393</a></p>
+<div class="translated" id="260108">
+<p>&#65279;" &#22522;&#20110; CPU &#32531;&#23384;&#38544;&#34109;&#38567;&#36947;&#30340; SSH - &#20174;&#20113;&#20013;&#32531;&#23384;&#20449;&#36947;&#37324;&#21457;&#26469;&#30340;&#38382;&#20505;&#65292;&#26469;&#33258;&#20316;&#32773;&#26152;&#22825;&#22312; BlackHat Asia &#20250;&#35758;&#30340;&#28436;&#35762;&#65292; PPT&#65306;  <a href="https://cmaurice.fr/pdf/ndss17_maurice_slides.pdf" rel="nofollow">https://cmaurice.fr/pdf/ndss17_maurice_slides.pdf</a>   Paper&#65306;   <a href="https://cmaurice.fr/pdf/ndss17_maurice.pdf" rel="nofollow">https://cmaurice.fr/pdf/ndss17_maurice.pdf</a>     <a href="https://t.co/onweue0Olt" rel="nofollow">https://t.co/onweue0Olt</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>nullcon @nullcon</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Antivirus Evasion Reconstructed - Veil 3.0 by Christopher Truncer @ christruncer. Presentation available here: <a href="http://nullcon.net/website/archives/goa-2017.php" rel="nofollow">http://nullcon.net/website/archives/goa-2017.php</a></p>
+<div class="translated" id="259870">
+<p>&#65279;" Veil &#26432;&#36719;&#36867;&#36920;&#26694;&#26550; 3.0 &#21457;&#24067;&#65292;&#26469;&#33258;&#20316;&#32773;&#22312; NULLCON &#20250;&#35758;&#30340;&#28436;&#35762;&#65292;&#21478;&#22806; NullCon GOA 2017 &#20250;&#35758;&#30340;&#35758;&#39064;&#36164;&#26009;&#20844;&#24320;&#20102;&#65072;   <a href="https://t.co/mvxAmXQjPB" rel="nofollow">https://t.co/mvxAmXQjPB</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Black Hat @BlackHatEvents</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  All available slides and materials from today&#8217;s #BHASIA Briefings presentations are now posted online here: <a href="http://ow.ly/KQhN30aotH6" rel="nofollow">http://ow.ly/KQhN30aotH6</a></p>
+<div class="translated" id="259961">
+<p>&#65279;" BlackHat  Aisa &#20250;&#35758;&#30340;&#37096;&#20998; PPT &#20844;&#24320;&#20102;&#65072;   <a href="https://t.co/Rrf3fYu6Wd" rel="nofollow">https://t.co/Rrf3fYu6Wd</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  New post: Smart Whitelisting Using Locality Sensitive Hashing <a href="http://bit.ly/2obyyUe" rel="nofollow">http://bit.ly/2obyyUe</a> @ TrendMicro</p>
+<div class="translated" id="259964">
+<p>&#65279;" &#22522;&#20110;&#23616;&#37096;&#25935;&#24863;&#21704;&#24076;&#31639;&#27861;&#30340;&#26234;&#33021;&#30333;&#21517;&#21333;&#65306;   <a href="https://t.co/1MMF2Zue9c" rel="nofollow">https://t.co/1MMF2Zue9c</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Detect </i>]  ossec-hids : Open Source Host-based Intrusion Detection Sys(log analysis, file integrity, rootkit detection &amp; more): <a href="https://github.com/ossec/ossec-hids" rel="nofollow">https://github.com/ossec/ossec-hids</a></p>
+<div class="translated" id="260057">
+<p>&#65279;" ossec-hids - &#19968;&#27454;&#20027;&#26426;&#31471;&#30340;&#24320;&#28304;&#20837;&#20405;&#26816;&#27979;&#31995;&#32479;&#65292;&#25903;&#25345;&#26085;&#24535;&#20998;&#26512;&#12289;&#25991;&#20214;&#23436;&#25972;&#24615;&#26816;&#26597;&#12289;&#31574;&#30053;&#30417;&#25511;&#31561;&#21151;&#33021;&#65306;   <a href="https://t.co/POL7peuXjJ" rel="nofollow">https://t.co/POL7peuXjJ</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Max Bazaliy @mbazaliy </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  Updated slides from our BlackHat talk available here - <a href="https://speakerdeck.com/mbazaliy/fried-apples-jailbreak-diy" rel="nofollow">https://speakerdeck.com/mbazaliy/fried-apples-jailbreak-diy</a></p>
+<div class="translated" id="260096">
+<p>&#65279;"Fried Apples: Jailbreak DIY&#65292;&#26469;&#33258; BlackHat Asia &#20250;&#35758;&#30340;&#28436;&#35762;&#65306;   <a href="https://t.co/dTXQ6ywZHO" rel="nofollow">https://t.co/dTXQ6ywZHO</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Hossein Lotfi @hosselot </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Kernel upstream patch for pwn2own ubuntu Kernel local privilege escalation (CVE-2017-7184):
+<a href="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=677e806da4d916052585301785d847c3b3e6186a" rel="nofollow">https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git/commit/?id=677e806da4d916052585301785d847c3b3e6186a</a>
+<a href="https://t.co/gUaIJZGPWd" rel="nofollow">https://t.co/gUaIJZGPWd</a></p>
+<div class="translated" id="260182">
+<p>&#65279;"&#38271;&#20141;&#31185;&#25216;&#22312; PWN2OWN 2017 &#27604;&#36187;&#20013;&#29992;&#30340; Ubuntu &#20869;&#26680;&#26412;&#22320;&#25552;&#26435;&#28431;&#27934;(CVE-2017-7184)&#20462;&#22797;&#20102;&#65292;&#34917;&#19969;&#20449;&#24687;&#65072;   <a href="https://t.co/w2hvCIdhLP" rel="nofollow">https://t.co/w2hvCIdhLP</a> <a href="https://t.co/gUaIJZGPWd" rel="nofollow">https://t.co/gUaIJZGPWd</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Alexander Popov @a13xp0p0v </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  I've published the write-up about exploiting CVE-2017-2636 in the Linux kernel: <a href="https://a13xp0p0v.github.io/2017/03/24/CVE-2017-2636.html" rel="nofollow">https://a13xp0p0v.github.io/2017/03/24/CVE-2017-2636.html</a></p>
+<div class="translated" id="260001">
+<p>&#65279;" Linux &#20869;&#26680; n_hdlc &#26465;&#20214;&#31454;&#20105;&#28431;&#27934;&#30340;&#21033;&#29992;&#65288;CVE-2017-2636&#65289;&#65288;&#21547; SMEP Bypass&#65289;&#65072;   <a href="https://t.co/U6jQqp6urM" rel="nofollow">https://t.co/U6jQqp6urM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Tracing Runtime Events in .NET Core on Linux <a href="http://blogs.microsoft.co.il/sasha/2017/03/30/tracing-runtime-events-in-net-core-on-linux/" rel="nofollow">http://blogs.microsoft.co.il/sasha/2017/03/30/tracing-runtime-events-in-net-core-on-linux/</a></p>
+<div class="translated" id="260083">
+<p>&#65279;" &#22914;&#20309;&#36319;&#36394; Linux &#29256;&#26412; .NET Core &#30340;&#36816;&#34892;&#26102;&#20107;&#20214;&#65292;&#21253;&#25324;&#22403;&#22334;&#22238;&#25910;&#12289;&#23383;&#33410;&#30721;&#21152;&#36733;&#12289;&#32447;&#31243;&#21019;&#24314;&#12289;&#23545;&#35937;&#21019;&#24314;&#31561;&#31561;&#65306;   <a href="https://t.co/Qy8QxeF6GU" rel="nofollow">https://t.co/Qy8QxeF6GU</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  macOS/IOS: mach_msg doesn't copy memory in a certain case <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1083" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1083</a></p>
+<div class="translated" id="260168">
+<p>&#65279;" macOS/IOS: mach_msg doesn't copy memory in a certain case&#65288;CVE-2017-2456&#65289;&#65292;&#26469;&#33258; Project Zero&#65306;   <a href="https://t.co/ULwE9bZkWT" rel="nofollow">https://t.co/ULwE9bZkWT</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  hasherezade @hasherezade </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Implementation of the anti-VM (etc.) environment checks used by #NeutrinoBot Loader (<a href="https://blog.malwarebytes.com/threat-analysis/2017/02/new-neutrino-bot-comes-in-a-protective-loader/):%E2%80%A6" rel="nofollow">https://blog.malwarebytes.com/threat-analysis/2017/02/new-neutrino-bot-comes-in-a-protective-loader/):&#8230;</a> <a href="https://t.co/lqj9bglvPF" rel="nofollow">https://t.co/lqj9bglvPF</a></p>
+<div class="translated" id="259848">
+<p>&#65279;" Neutrino Bot &#24694;&#24847;&#36719;&#20214;&#30340;&#36817;&#26399;&#21464;&#31181;&#21152;&#20837;&#20102;&#23545;&#34394;&#25311;&#26426;&#29615;&#22659;&#30340;&#26816;&#27979;&#65306;   <a href="https://blog.malwarebytes.com/threat-analysis/2017/02/new-neutrino-bot-comes-in-a-protective-loader/" rel="nofollow">https://blog.malwarebytes.com/threat-analysis/2017/02/new-neutrino-bot-comes-in-a-protective-loader/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Artem I. Baranov @artem_i_baranov </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  EquationDrug rootkit analysis (mstcp32.sys) <a href="http://artemonsecurity.blogspot.com/2017/03/equationdrug-rootkit-analysis-mstcp32sys.html" rel="nofollow">http://artemonsecurity.blogspot.com/2017/03/equationdrug-rootkit-analysis-mstcp32sys.html</a> #rootkit #injector #equationgroup #fiveeyes #cyberespionage</p>
+<div class="translated" id="260111">
+<p>&#65279;"Equation&#65288;&#26041;&#31243;&#24335;&#32452;&#32455;&#65289; &#30340; mstcp32.sys Rootkit &#20998;&#26512;&#65306;    <a href="https://t.co/ArvCgJdmCH" rel="nofollow">https://t.co/ArvCgJdmCH</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  NCC Group @NCCGroupInfosec </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  NCC Group Tool: Auto Chrome - <a href="https://github.com/nccgroup/autochrome" rel="nofollow">https://github.com/nccgroup/autochrome</a> - downloads, installs, and configures a shiny new copy of Chromium on Mac and Linux</p>
+<div class="translated" id="260047">
+<p>&#65279;" autochrome - &#20026;&#26041;&#20415;&#27979;&#35797;&#65292;NCC Group &#24320;&#28304;&#30340;&#19968;&#20010; Chrome &#33258;&#21160;&#21270;&#37197;&#32622;&#24037;&#20855;&#65292;&#31105;&#29992; XSS Auditor&#12289;&#38598;&#25104; Burp&#65306;   <a href="https://github.com/nccgroup/autochrome" rel="nofollow">https://github.com/nccgroup/autochrome</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  0patch @0patch </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  New blog post: 0patching the "Immortal" CVE-2017-7269 <a href="https://0patch.blogspot.com/2017/03/0patching-immortal-cve-2017-7269.html" rel="nofollow">https://0patch.blogspot.com/2017/03/0patching-immortal-cve-2017-7269.html</a></p>
+<div class="translated" id="259909">
+<p>&#65279;" 0patch &#22242;&#38431;&#20026; IIS 6.0/WebDav CVE-2017-7269 &#28431;&#27934;&#20889;&#20102;&#19968;&#20010;&#20020;&#26102;&#30340;&#34917;&#19969;&#65306;   <a href="https://t.co/d95miEJ7Qm" rel="nofollow">https://t.co/d95miEJ7Qm</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>FireF0X @hFireF0X</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows 10 Redstone 1/2 UAC changes, <a href="http://www.kernelmode.info/forum/viewtopic.php?f=11&amp;t=3643&amp;start=130#p30191" rel="nofollow">http://www.kernelmode.info/forum/viewtopic.php?f=11&amp;t=3643&amp;start=130#p30191</a> <a href="https://t.co/4jruiEEhvm" rel="nofollow">https://t.co/4jruiEEhvm</a></p>
+<div class="translated" id="259977">
+<p>&#65279;"Windows 10 RS1/RS2 &#29256;&#26412;&#20013; UAC &#26426;&#21046;&#30340;&#21464;&#21270;&#65292;RS 2 &#23558;&#20110; 4 &#26376; 11 &#21495;&#21457;&#24067;&#65306;   <a href="https://t.co/2dlyJf9knl" rel="nofollow">https://t.co/2dlyJf9knl</a> <a href="https://t.co/4jruiEEhvm" rel="nofollow">https://t.co/4jruiEEhvm</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C8KX9cGVwAIaCI_.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Cn33liz @Cneelis </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Low IL to System by Leaking Process _THREADINFO structure using GDI/Bitmaps.
+<a href="https://github.com/Cn33liz/HSEVD-ArbitraryOverwriteLowIL/blob/master/HS-ArbitraryOverwriteGDI/HS-ArbitraryOverwriteGDI.c" rel="nofollow">https://github.com/Cn33liz/HSEVD-ArbitraryOverwriteLowIL/blob/master/HS-ArbitraryOverwriteGDI/HS-ArbitraryOverwriteGDI.c</a>
+@ NicoEconomou&#8230; <a href="https://t.co/sGj0Hjxf2k" rel="nofollow">https://t.co/sGj0Hjxf2k</a></p>
+<div class="translated" id="260241">
+<p>&#65279;" &#21033;&#29992; GDI/Bitmaps&#65292;Low IL &#36827;&#31243;&#21487;&#20197;&#27844;&#28431;&#36827;&#31243; _THREADINFO &#32467;&#26500;&#65306;    <a href="https://t.co/sGj0Hjxf2k" rel="nofollow">https://t.co/sGj0Hjxf2k</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via phunter_lau &#24494;&#21338;</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Network </i>]  &#38024;&#23545;DNS&#30340;&#38543;&#26426;&#22495;&#21517;DDoS&#25915;&#20987;&#32508;&#36848;&#65306; <a href="https://www.dropbox.com/s/rzagsxhb3y5e87a/PSC2017-nominum-hongliang-liu-chinese.pdf?dl=0" rel="nofollow">https://www.dropbox.com/s/rzagsxhb3y5e87a/PSC2017-nominum-hongliang-liu-chinese.pdf?dl=0</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via &#28783;&#22612;&#23454;&#39564;&#23460;</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> SCADA </i>]  &#24037;&#25511;&#31995;&#32479;&#30340;&#25351;&#32441;&#35782;&#21035;&#25216;&#26415;&#65306; <a href="http://plcscan.org/blog/2017/03/fingerprint-identification-technology-of-industrial-control-system/" rel="nofollow">http://plcscan.org/blog/2017/03/fingerprint-identification-technology-of-industrial-control-system/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via FreeBuf</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Windows </i>]  &#22914;&#20309;&#32469;&#36807; Win8&#12289;Win10 &#30340; systemsetting &#19982;&#27880;&#20876;&#34920;&#26657;&#39564;&#35774;&#32622;&#40664;&#35748;&#27983;&#35272;&#22120;&#65306; <a href="http://www.freebuf.com/articles/system/130288.html" rel="nofollow">http://www.freebuf.com/articles/system/130288.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/03/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/03/31/index.html">2017/03/31</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/01/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/03/31/index.html</guid><pubDate>Fri, 31 Mar 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-03-04</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/04/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
