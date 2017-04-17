@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 14 Apr 2017 11:20:15 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Mon, 17 Apr 2017 11:12:41 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -23718,7 +23718,181 @@ SP4RKCON 2017 &#8211; Hacking mainframes for CICS and giggles</p>
 <a href="/cn/secnews/2017/04/15/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/04/14/index.html</guid><pubDate>Fri, 14 Apr 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-04-02</title><link>http://xuanwulab.github.io/cn/secnews/2017/04/02/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/04/14/index.html</guid><pubDate>Fri, 14 Apr 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-04-16</title><link>http://xuanwulab.github.io/cn/secnews/2017/04/16/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/16/index.html">2017/04/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/17/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Linux Kernel 4.8.0 udev 232 Privilege Escalation <a href="https://packetstormsecurity.com/files/142152/linuxkernel480udev-escalate.txt" rel="nofollow">https://packetstormsecurity.com/files/142152/linuxkernel480udev-escalate.txt</a></p>
+<div class="translated" id="266866">
+<p>&#65279;"Linux Kernel 4.8.0 udev 232 &#26435;&#38480;&#25552;&#21319;&#28431;&#27934;&#65288;CVE-2017-7874&#65289;&#65306;   <a href="https://t.co/zzlxyUHs6d" rel="nofollow">https://t.co/zzlxyUHs6d</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>patrick wardle @patrickwardle</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  Quite enjoyed speaking at @ HITBSecConf Mahalo! ? ? slides: "OverSight: Exposing Spies on macOS" <a href="https://speakerdeck.com/patrickwardle/hack-in-the-box-2017-oversight-exposing-spies-on-macos" rel="nofollow">https://speakerdeck.com/patrickwardle/hack-in-the-box-2017-oversight-exposing-spies-on-macos</a> #HITB2017AMS #synack</p>
+<div class="translated" id="266930">
+<p>&#65279;"&#25581;&#38706; mac &#19978;&#30340;&#30417;&#25511;&#65292;&#20027;&#35201;&#35762;&#35299;&#20102;&#21033;&#29992; webcam &#35760;&#24405;&#29992;&#25143;&#35270;&#39057;&#21644;&#38899;&#39057;&#30340;&#24694;&#24847;&#36719;&#20214;&#65292;&#21516;&#26102;&#20171;&#32461;&#20102;&#19968;&#27454;&#29992;&#20110;&#26816;&#27979;&#27492;&#34892;&#20026;&#30340;&#24037;&#20855;&#65292;&#26469;&#33258; HITB 2017 AMS &#22823;&#20250;&#65306;   <a href="https://t.co/neJ1QqiRZ4" rel="nofollow">https://t.co/neJ1QqiRZ4</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  &#1053;&#1080;&#1082;&#1080;&#1090;&#1072; &#1057;&#1082;&#1086;&#1074;&#1086;&#1088;&#1086;&#1076;&#1072; @skovorodan </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Just published a new blog post on improper markup sanitization. Featuring GitHub, GitLab, Atlassian and others.&#8230; <a href="https://t.co/XboCVpzJJv" rel="nofollow">https://t.co/XboCVpzJJv</a></p>
+<div class="translated" id="266917">
+<p>&#65279;"&#36719;&#20214;&#20013;&#19981;&#24403;&#30340; Markup &#25991;&#26723;&#35299;&#26512;&#23548;&#33268;&#30340;&#23433;&#20840;&#38382;&#39064;&#19968;&#35272;&#65306;   <a href="https://github.com/ChALkeR/notes/blob/master/Improper-markup-sanitization.md" rel="nofollow">https://github.com/ChALkeR/notes/blob/master/Improper-markup-sanitization.md</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Markus Vervier @marver </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  #HITB2017AMS slides for our talk on Signal (w/ @ veorq) are available here: <a href="https://conference.hitb.org/hitbsecconf2017ams/materials/D2T1%20-%20Markus%20Vervier%20-%20Hunting%20for%20Vulnerabilities%20in%20Signal.pdf" rel="nofollow">https://conference.hitb.org/hitbsecconf2017ams/materials/D2T1%20-%20Markus%20Vervier%20-%20Hunting%20for%20Vulnerabilities%20in%20Signal.pdf</a></p>
+<div class="translated" id="266793">
+<p>&#65279;"&#25366;&#25496;&#21363;&#26102;&#36890;&#35759;&#24212;&#29992; Signal &#30340;&#28431;&#27934;&#65292;&#26469;&#33258; HITB 2017 AMS &#20250;&#35758; &#65072;   <a href="https://t.co/Fkob6N8UJG" rel="nofollow">https://t.co/Fkob6N8UJG</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  CVE-2017-0199 Practical exploitation ! (PoC) <a href="http://rewtin.blogspot.com/2017/04/cve-2017-0199-practical-exploitation-poc.html" rel="nofollow">http://rewtin.blogspot.com/2017/04/cve-2017-0199-practical-exploitation-poc.html</a></p>
+<div class="translated" id="266839">
+<p>&#65279;"CVE-2017-0199 &#28431;&#27934;&#21033;&#29992; PoC&#65306;   <a href="https://t.co/oiQLWJAzqF" rel="nofollow">https://t.co/oiQLWJAzqF</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Jason Fossen @JasonFossen </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  Microsoft responds to the Shadow Brokers release of Windows exploits (#infosec) <a href="https://blogs.technet.microsoft.com/msrc/2017/04/14/protecting-customers-and-evaluating-risk/" rel="nofollow">https://blogs.technet.microsoft.com/msrc/2017/04/14/protecting-customers-and-evaluating-risk/</a></p>
+<div class="translated" id="267085">
+<p>&#65279;"&#24494;&#36719;&#20063;&#21457;&#34920;&#32039;&#24613;&#22768;&#26126;&#65292;&#31216;&#20854;&#20013;&#28041;&#21450;&#30340;&#28431;&#27934;&#37117;&#24050;&#32463;&#20462;&#22797;&#65292;&#26377;&#24847;&#24605;&#30340;&#26159;&#26377;&#30340;&#28431;&#27934;&#26159;&#19978;&#20010;&#26376;(MS17-010)&#25165;&#20462;&#22797;&#30340;&#65306;   <a href="https://t.co/Bz8supVDbg" rel="nofollow">https://t.co/Bz8supVDbg</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Dave Kennedy (ReL1K) @HackingDave </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  New blog post has video walkthrough on Win7 RCE fully patched @ justinelze :
+
+<a href="https://www.trustedsec.com/blog/equation-group-dump-analysis-full-rce-win7-fully-patched-cobalt-strike/" rel="nofollow">https://www.trustedsec.com/blog/equation-group-dump-analysis-full-rce-win7-fully-patched-cobalt-strike/</a></p>
+<div class="translated" id="266935">
+<p>&#65279;"&#20998;&#26512;&#26041;&#31243;&#24335;&#32452;&#32455;&#27844;&#38706;&#30340;&#24037;&#20855;&#24182;&#32467;&#21512; Cobalt Strike &#28436;&#31034; MS17-010 &#36828;&#31243;&#21629;&#20196;&#25191;&#34892;&#28431;&#27934;&#22312; Win7 &#19978;&#30340;&#25928;&#26524;&#65306;   <a href="https://t.co/GOULMwiRck" rel="nofollow">https://t.co/GOULMwiRck</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/16/index.html">2017/04/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/17/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/04/16/index.html</guid><pubDate>Sun, 16 Apr 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-04-02</title><link>http://xuanwulab.github.io/cn/secnews/2017/04/02/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -24370,7 +24544,683 @@ leak sensitive user info <a href="https://support.apple.com/en-us/HT207605" rel=
 <a href="/cn/secnews/2017/04/07/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/04/06/index.html</guid><pubDate>Thu, 06 Apr 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-04-10</title><link>http://xuanwulab.github.io/cn/secnews/2017/04/10/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/04/06/index.html</guid><pubDate>Thu, 06 Apr 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-04-17</title><link>http://xuanwulab.github.io/cn/secnews/2017/04/17/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/17/index.html">2017/04/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/18/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Roberto Suggi @malerisch </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  Very cool preso from #HITB2017AMS - "Attack Surface Extended by URL Schemes": <a href="https://conference.hitb.org/hitbsecconf2017ams/materials/D2T2%20-%20Yu%20Hong%20-%20Attack%20Surface%20Extended%20by%20URL%20Schemes.pdf" rel="nofollow">https://conference.hitb.org/hitbsecconf2017ams/materials/D2T2%20-%20Yu%20Hong%20-%20Attack%20Surface%20Extended%20by%20URL%20Schemes.pdf</a></p>
+<div class="translated" id="267395">
+<p>&#65279;"&#36890;&#36807; URL Schemes &#25299;&#23637;&#30340;&#25915;&#20987;&#38754;&#65292;&#26469;&#33258; HITB 2017 AMS:   <a href="https://t.co/L6vP8aDm7P" rel="nofollow">https://t.co/L6vP8aDm7P</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Brenton Morris @_scrapbird </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Generic #malware #unpacking with @ radareorg and #r2pipe using #locky as an example <a href="http://blog.devit.co/unpacking-with-r2pipe/" rel="nofollow">http://blog.devit.co/unpacking-with-r2pipe/</a></p>
+<div class="translated" id="267285">
+<p>&#65279;"&#22522;&#20110; r2pipe &#30340;&#36890;&#29992;&#33073;&#22771;&#65306;   <a href="https://t.co/F1JkZyeVqM" rel="nofollow">https://t.co/F1JkZyeVqM</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Efrain Torres @etlow </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  #ShadowBrokers Table with all the exploits leaked based on public info to help understand the impact for current an&#8230; <a href="https://t.co/YqEDZ7O7jm" rel="nofollow">https://t.co/YqEDZ7O7jm</a></p>
+<div class="translated" id="267206">
+<p>&#65279;"&#19968;&#24352;&#22270;&#30475;&#28165;&#26041;&#31243;&#24335;&#27844;&#38706; Windows &#25915;&#20987;&#24037;&#20855;&#30340;&#24433;&#21709;&#30340; Windows &#29256;&#26412;&#24773;&#20917;&#65306;   <a href="https://t.co/YqEDZ7O7jm" rel="nofollow">https://t.co/YqEDZ7O7jm</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Programming </i>]  Python Anti-Patterns - The Little Book of Python Anti-Patterns and Worst Practice : <a href="https://docs.quantifiedcode.com/python-anti-patterns/latex/The-Little-Book-of-Python-Anti-Patterns-1.0.pdf" rel="nofollow">https://docs.quantifiedcode.com/python-anti-patterns/latex/The-Little-Book-of-Python-Anti-Patterns-1.0.pdf</a> (pdf)</p>
+<div class="translated" id="267210">
+<p>&#65279;"Python Anti-Patterns - Python &#32534;&#30721;&#30340;&#21453;&#38754;&#26696;&#20363;&#65072;   <a href="https://t.co/aejlaNiFyL" rel="nofollow">https://t.co/aejlaNiFyL</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Adam Baldwin @adam_baldwin </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  The story of how I found &amp; exploited XSS to execute SQL Queries and RCE on pgAdmin 4.
+
+<a href="https://blog.liftsecurity.io/2017/04/14/sql-and-more-via-xss-in-pgadmin4/" rel="nofollow">https://blog.liftsecurity.io/2017/04/14/sql-and-more-via-xss-in-pgadmin4/</a> <a href="https://t.co/nKVvEJwQnn" rel="nofollow">https://t.co/nKVvEJwQnn</a></p>
+<div class="translated" id="267258">
+<p>&#65279;"PostgreSQL &#31649;&#29702;&#24037;&#20855; pgAdmin 4 &#20013; XSS &#28431;&#27934;&#30340;&#21457;&#29616;&#21644;&#21033;&#29992;:   <a href="https://t.co/MCcLNLdvSe" rel="nofollow">https://t.co/MCcLNLdvSe</a> <a href="https://t.co/nKVvEJwQnn" rel="nofollow">https://t.co/nKVvEJwQnn</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via ele7enxxh.com</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Android </i>]   Details of Denial of Service Vulnerability in Andriod Libskia (CVE-2017-0548)&#65306; 
+<a href="http://ele7enxxh.com/Details-Of-Denial-Of-Service-Vulnerability-In-Libskia-CVE-2017-0548.html" rel="nofollow">http://ele7enxxh.com/Details-Of-Denial-Of-Service-Vulnerability-In-Libskia-CVE-2017-0548.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via leucosite.com</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  input &#26631;&#31614; webkitdirectory &#23646;&#24615;&#30456;&#20851;&#30340;&#36328;&#27983;&#35272;&#22120;&#26412;&#22320;&#25991;&#20214;&#27844;&#38706;&#28431;&#27934;&#65306; 
+<a href="http://leucosite.com/Chrome-Firefox-Edge-Local-File-Disclosure/" rel="nofollow">http://leucosite.com/Chrome-Firefox-Edge-Local-File-Disclosure/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via project-zero/issues/detail?id=965#c10
+
+project zero</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> iOS </i>]   ianbeer &#20998;&#20139;&#30340;&#20851;&#20110; mach_portal &#28431;&#27934;&#21033;&#29992;&#30340; Paper&#65306; 
+<a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=965#c10" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=965#c10</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via  &#30475;&#38634;&#23398;&#38498;</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Network </i>]  IIS 6.0 WebDAV CVE-2017-7269 &#26679;&#26412;&#35843;&#35797;&#31508;&#35760;&#65288;&#19968;&#65289;&#65306; 
+<a href="https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw%3D%3D&amp;mid=2458282525&amp;idx=1&amp;sn=fd6d49991327b740f498cc09aacbed38&amp;chksm=b1815a9786f6d3811a269eb01b4f46f963963f64f0186970320f5fff9f32b8fef9ba3f1530d7&amp;mpshare=1&amp;scene=23&amp;srcid=0414LRfIonKw2yG91gM1v5IN#rd" rel="nofollow">https://mp.weixin.qq.com/s?__biz=MjM5NTc2MDYxMw==&amp;mid=2458282525&amp;idx=1&amp;sn=fd6d49991327b740f498cc09aacbed38&amp;chksm=b1815a9786f6d3811a269eb01b4f46f963963f64f0186970320f5fff9f32b8fef9ba3f1530d7&amp;mpshare=1&amp;scene=23&amp;srcid=0414LRfIonKw2yG91gM1v5IN#rd</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via twitter</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Others </i>]  &#21069; KGB&#65288;&#20811;&#26684;&#21187;&#65289;&#30340;&#25104;&#21592;&#26159;&#22914;&#20309;&#20445;&#25252;&#33258;&#24049;&#30340;&#25351;&#32441;&#30340;&#65292;just for 
+ fun&#65306; 
+<a href="https://twitter.com/englishrussia1/status/852167084817752064" rel="nofollow">https://twitter.com/englishrussia1/status/852167084817752064</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via 001001.org</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Tools </i>]  &#24352;&#38134;&#22862;&#32769;&#24072;&#24635;&#32467;&#30340;&#12298;&#21452;&#21073;&#21512;&#29863;&#8212;&#8212;WinDBG&#19982;GDB&#20043;&#29702;&#19968;&#20998;&#27530;&#12299;&#65306; 
+<a href="http://001001.org/gedu/00_WARS_RAYMOND_OPEN.pdf" rel="nofollow">http://001001.org/gedu/00_WARS_RAYMOND_OPEN.pdf</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via xfocus.net</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Windows </i>]  &#26041;&#31243;&#24335;&#27844;&#38706;&#30340; SMB 0Day Exploits &#23041;&#21147;&#24040;&#22823;&#65292;&#20462;&#25913; SMB &#40664;&#35748;&#31471;&#21475;&#20063;&#35768;&#21487;&#20197;&#20020;&#26102;&#32531;&#35299;&#19968;&#19979;&#65292;&#36530;&#36991;&#25209;&#37327;&#25195;&#25551;&#24037;&#20855;&#12290;&#26469;&#33258; tombkeeper 2004 &#24180;&#30340;&#19968;&#31687; Paper&#12298;&#20462;&#25913;Windows SMB&#30456;&#20851;&#26381;&#21153;&#30340;&#40664;&#35748;&#31471;&#21475;&#12299;&#65306; 
+<a href="http://www.xfocus.net/releases/200408/a723.html" rel="nofollow">http://www.xfocus.net/releases/200408/a723.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via freebuf</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Windows </i>]   Windows Server 2012 R2&#30340;&#25552;&#26435;&#36807;&#31243;&#35299;&#26512;&#65306; 
+<a href="http://www.freebuf.com/articles/system/130352.html" rel="nofollow">http://www.freebuf.com/articles/system/130352.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via inn0team wechat</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Windows </i>]  &#12298;&#26041;&#31243;&#24335; 0day ETERNALBLUE  &#22797;&#29616;&#36807;&#31243;&#12299;&#65306;  <a href="https://mp.weixin.qq.com/s?__biz=MzIyNTA1NzAxOA%3D%3D&amp;mid=502990295&amp;idx=1&amp;sn=181c1e9b01854b87d3d4752c593c4dd4&amp;chksm=700a2442477dad54b542427edad3ec16df8cde9f470ee4e6f4597d4866d64b405801baf3d799&amp;mpshare=1&amp;scene=23&amp;srcid=0415GxTpNYqgzPgtAveSn6s1#rd" rel="nofollow">https://mp.weixin.qq.com/s?__biz=MzIyNTA1NzAxOA==&amp;mid=502990295&amp;idx=1&amp;sn=181c1e9b01854b87d3d4752c593c4dd4&amp;chksm=700a2442477dad54b542427edad3ec16df8cde9f470ee4e6f4597d4866d64b405801baf3d799&amp;mpshare=1&amp;scene=23&amp;srcid=0415GxTpNYqgzPgtAveSn6s1#rd</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via freebuf</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Windows </i>]  &#12298;ShadowBroker&#37322;&#25918;&#30340;NSA&#24037;&#20855;&#37096;&#20998;&#65288;windows&#65289;fb.py&#22797;&#29616;&#21644;&#20013;&#25307;&#26816;&#26597;&#26041;&#27861;&#12299;&#65306;  <a href="http://www.freebuf.com/sectool/132076.html" rel="nofollow">http://www.freebuf.com/sectool/132076.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via freebuf</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Windows </i>]  &#12298;ShadowBroker&#26159;&#36825;&#26679;&#25918;&#22823;&#25307;&#30340;&#65306;Windows&#38646;&#26085;&#21033;&#29992;&#24037;&#20855;&#26356;&#22810;&#25968;&#25454;&#21576;&#29616;&#12299;&#65306;  <a href="http://www.freebuf.com/articles/system/132028.html" rel="nofollow">http://www.freebuf.com/articles/system/132028.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/17/index.html">2017/04/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/18/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/04/17/index.html</guid><pubDate>Mon, 17 Apr 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-04-15</title><link>http://xuanwulab.github.io/cn/secnews/2017/04/15/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/15/index.html">2017/04/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/16/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Mobile Security @m0bile_security </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  iOS Kernel Integrity Protection bypass #MobileSecurity #iOSsecurity 
+<a href="https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html" rel="nofollow">https://xerub.github.io/ios/kpp/2017/04/13/tick-tock.html</a></p>
+<div class="translated" id="266601">
+<p>&#65279;"iOS 9 &#24320;&#22987;&#24341;&#20837;&#30340;&#20869;&#26680;&#23436;&#25972;&#24615;&#20445;&#25252;&#65288;KPP&#65289;&#21151;&#33021;&#26159;&#22914;&#20309;&#23454;&#29616;&#30340;&#65306;   <a href="https://t.co/lQKwqiPMLK" rel="nofollow">https://t.co/lQKwqiPMLK</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  OBD-II Dongle Attack : Stopping a Moving Car via Bluetooth : <a href="https://argus-sec.com/remote-attack-bosch-drivelog-connector-dongle/" rel="nofollow">https://argus-sec.com/remote-attack-bosch-drivelog-connector-dongle/</a> <a href="https://t.co/qid2H1OL2F" rel="nofollow">https://t.co/qid2H1OL2F</a></p>
+<div class="translated" id="266653">
+<p>&#65279;"&#21338;&#19990;&#30340; Drivelog Connector OBD-II &#30005;&#23376;&#29399;&#23384;&#22312;&#28431;&#27934;&#65292;&#25915;&#20987;&#32773;&#21487;&#20197;&#36828;&#31243;&#20851;&#38381;&#27773;&#36710;&#30340;&#21457;&#21160;&#26426;&#24341;&#25806;&#65072;   <a href="https://t.co/AZ5Z58SqHe" rel="nofollow">https://t.co/AZ5Z58SqHe</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C9Y9zT8WsAEBgKd.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  JaromirHorejsi @JaromirHorejsi </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  My latest blog post about TeamSpy, malware abusing TeamViewer
+
+<a href="https://blog.avast.com/a-deeper-look-into-malware-abusing-teamviewer" rel="nofollow">https://blog.avast.com/a-deeper-look-into-malware-abusing-teamviewer</a></p>
+<div class="translated" id="266353">
+<p>&#65279;" &#28145;&#24230;&#20998;&#26512;&#28389;&#29992; Teamviewer &#30340;&#21518;&#38376; - TeamSpy&#65306;   <a href="https://t.co/gnJEnplmL6" rel="nofollow">https://t.co/gnJEnplmL6</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  The Power of Data-Oriented Attacks : Bypassing Memory Mitigation Using Data-Only Exploitation Technique (Part II) : <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D2T1%20-%20Bing%20Sun%20and%20Chong%20Xu%20-%20Bypassing%20Memory%20Mitigation%20Using%20Data-Only%20Exploitation%20Techniques.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D2T1%20-%20Bing%20Sun%20and%20Chong%20Xu%20-%20Bypassing%20Memory%20Mitigation%20Using%20Data-Only%20Exploitation%20Techniques.pdf</a></p>
+<div class="translated" id="266550">
+<p>&#65279;"&#25968;&#25454;&#25915;&#20987;&#30340;&#23041;&#21147; - &#21033;&#29992; Data-Only &#25216;&#26415;&#31361;&#30772;&#20869;&#23384;&#21033;&#29992;&#32531;&#35299;&#25514;&#26045; Part 2&#65292;&#26469;&#33258; McAfee &#30740;&#31350;&#21592;&#22312; HITB 2017 Ams &#30340;&#28436;&#35762;:   <a href="https://t.co/085M7wKg0X%C2%A0%C2%A0" rel="nofollow">https://t.co/085M7wKg0X  </a> Part 1 &#20110; Blackhat Asia &#19978;&#25918;&#20986;&#36807;&#65306;   <a href="https://www.blackhat.com/docs/asia-17/materials/asia-17-Sun-The-Power-Of-Data-Oriented-Attacks-Bypassing-Memory-Mitigation-Using-Data-Only-Exploitation-Technique.pdf" rel="nofollow">https://www.blackhat.com/docs/asia-17/materials/asia-17-Sun-The-Power-Of-Data-Oriented-Attacks-Bypassing-Memory-Mitigation-Using-Data-Only-Exploitation-Technique.pdf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  HITBSecConf @HITBSecConf </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  #HITB2017AMS D2T1 - Trammel Hudson - Bootstrapping Systems with Open Source Firmware - <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D2T1%20-%20Trammel%20Hudson%20-%20Bootstrapping%20Systems%20with%20Open%20Source%20Firmware.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D2T1%20-%20Trammel%20Hudson%20-%20Bootstrapping%20Systems%20with%20Open%20Source%20Firmware.pdf</a></p>
+<div class="translated" id="266612">
+<p>&#65279;"&#22522;&#20110;&#24320;&#28304;&#22266;&#20214;(coreboot)&#21152;&#24378;&#31995;&#32479;&#21551;&#21160;&#36807;&#31243;&#20013;&#30340;&#23433;&#20840;&#24615;&#65292;&#26469;&#33258; HITB AMS 2017 &#20250;&#35758;&#65306;   <a href="https://t.co/4BW4eWCgfv" rel="nofollow">https://t.co/4BW4eWCgfv</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Fault Injection Attacks on Secure Boot : <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20Niek%20Timmers%20and%20Albert%20Spruyt%20-%20Fault%20Injection%20Attacks%20On%20Secure%20Boot.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20Niek%20Timmers%20and%20Albert%20Spruyt%20-%20Fault%20Injection%20Attacks%20On%20Secure%20Boot.pdf</a> (Slides) #HITB2017AMS  cc @ tieknimmers</p>
+<div class="translated" id="266394">
+<p>&#65279;"Fault Injection Attacks on Secure Boot &#65292;HITB 2017 AMS &#22823;&#20250;&#65072;   <a href="https://t.co/SBQG4wNzC2" rel="nofollow">https://t.co/SBQG4wNzC2</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Hacking Customer Information Control System : <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D1T1%20-%20Ayoub%20Elaassal%20-%20Hacking%20Customer%20Information%20System.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D1T1%20-%20Ayoub%20Elaassal%20-%20Hacking%20Customer%20Information%20System.pdf</a>  (Slides) cc @ ayoul3__ #HITB2017AMS</p>
+<div class="translated" id="266365">
+<p>&#65279;"&#25915;&#20987;&#23458;&#25143;&#20449;&#24687;&#25511;&#21046;&#31995;&#32479;&#65288;CICS&#65289;&#65292;&#26469;&#33258; HITB 2017 AMS &#22823;&#20250;&#65072;   <a href="https://t.co/f8jKad1ksu" rel="nofollow">https://t.co/f8jKad1ksu</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  Adobe Creative Cloud Desktop Application &lt;= v4.0.0.185 Privilege Escalation <a href="https://goo.gl/fb/rYoVxv" rel="nofollow">https://goo.gl/fb/rYoVxv</a> #FullDisclosure</p>
+<div class="translated" id="266405">
+<p>&#65279;"Adobe Creative Cloud Desktop Application &lt;= v4.0.0.185 &#30001;&#20110;&#30446;&#24405; ACL &#35774;&#32622;&#19981;&#24403;&#24341;&#36215;&#30340;&#25552;&#21462;&#28431;&#27934;&#65288;CVE-2017-3006&#65289;&#65306;   <a href="https://t.co/dEdzsRv1pn" rel="nofollow">https://t.co/dEdzsRv1pn</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  x0rz @x0rz </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Zippybeer authenticated RCE through SMB (445/tcp) on Windows domain controllers <a href="https://github.com/x0rz/EQGRP_Lost_in_Translation/blob/master/windows/exploits/Zippybeer-1.0.2.py" rel="nofollow">https://github.com/x0rz/EQGRP_Lost_in_Translation/blob/master/windows/exploits/Zippybeer-1.0.2.py</a> #EquationGroup #ShadowBrokers</p>
+<div class="translated" id="266525">
+<p>&#65279;"&#31243;&#24335;&#32452;&#32455;&#27844;&#38706;&#30340;&#31532;&#20108;&#25209;&#21033;&#29992;&#24037;&#20855;&#20844;&#24320;&#20102;&#65292;&#36825;&#27425;&#27844;&#38706;&#20102;&#24456;&#22810; Windows/Swift &#30456;&#20851;&#30340;&#25915;&#20987;&#24037;&#20855;&#65292;Windows &#24179;&#21488;&#30340;&#20027;&#35201;&#26159; SMB &#21644; RDP &#30456;&#20851;&#30340; 0Day Exploits&#65306;&#35299;&#21387;&#21518;&#30340;&#20195;&#30721;&#65306;   <a href="https://github.com/x0rz/EQGRP_Lost_in_Translation" rel="nofollow">https://github.com/x0rz/EQGRP_Lost_in_Translation</a>   
+&#36824;&#26377;&#19968;&#20123;&#30456;&#20851;&#30340;&#25991;&#31456;&#65306;&#12298;NSA 0day ETERNALBLUE  &#28431;&#27934;&#21033;&#29992;&#12299;&#65306;   <a href="https://xianzhi.aliyun.com/forum/mobile/read/1512.html%C2%A0" rel="nofollow">https://xianzhi.aliyun.com/forum/mobile/read/1512.html </a> 
+&#12298;Latest Shadow Brokers dump&#8202;&#8212;&#8202;owning SWIFT Alliance Access, Cisco and Windows&#12299;&#65306;   <a href="https://medium.com/@networksecurity/latest-shadow-brokers-dump-owning-swift-alliance-access-cisco-and-windows-7b7782270e70%C2%A0" rel="nofollow">https://medium.com/@networksecurity/latest-shadow-brokers-dump-owning-swift-alliance-access-cisco-and-windows-7b7782270e70 </a> 
+ 
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  HITBMedia @HITBMedia </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  #HITB2017AMS D2T3 - James Forshaw - Introduction to Logical Privilege Escalation on Windows - <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D2T3%20-%20James%20Forshaw%20-%20Introduction%20to%20Logical%20Privilege%20Escalation%20on%20Windows.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D2T3%20-%20James%20Forshaw%20-%20Introduction%20to%20Logical%20Privilege%20Escalation%20on%20Windows.pdf</a></p>
+<div class="translated" id="266566">
+<p>&#65279;"Windows &#19978;&#30340;&#36923;&#36753;&#26435;&#38480;&#25552;&#21319;&#65292;&#26469;&#33258; HITB2017AMS Workshop &#19978; James Forshaw &#28436;&#35762;&#65306;   <a href="https://t.co/rYgPeTH9B4" rel="nofollow">https://t.co/rYgPeTH9B4</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  netbiosX @netbiosX </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  [New Post] Privilege Escalation via Hot Potato <a href="https://pentestlab.blog/2017/04/13/hot-potato/" rel="nofollow">https://pentestlab.blog/2017/04/13/hot-potato/</a> #pentestlab #hotpotato #pentest #Pentesting</p>
+<div class="translated" id="266334">
+<p>&#65279;" Windows &#25552;&#26435;&#25216;&#26415;&#20043; Hot Potato&#65306;   <a href="https://t.co/E7LQibsZhg" rel="nofollow">https://t.co/E7LQibsZhg</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Setting up a Shiny Development Environment within Linux on Windows 10 : <a href="https://www.hanselman.com/blog/SettingUpAShinyDevelopmentEnvironmentWithinLinuxOnWindows10.aspx" rel="nofollow">https://www.hanselman.com/blog/SettingUpAShinyDevelopmentEnvironmentWithinLinuxOnWindows10.aspx</a> <a href="https://t.co/y28E7cnYb2" rel="nofollow">https://t.co/y28E7cnYb2</a></p>
+<div class="translated" id="266396">
+<p>&#65279;" &#22312; Win10 &#30340; Linux &#23376;&#31995;&#32479;&#37324;&#25645;&#24314;&#37239;&#28843;&#30340;&#24320;&#21457;&#29615;&#22659;&#65072;   <a href="https://t.co/4ceYaVlt7N" rel="nofollow">https://t.co/4ceYaVlt7N</a> <a href="https://t.co/y28E7cnYb2" rel="nofollow">https://t.co/y28E7cnYb2</a>"</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C9XL2qpVoAAZx9v.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Lure10 : Exploiting Windows Automatic Wireless Association Algorithm : <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20George%20Chatzisofroniou%20-%20Exploiting%20Windows%20Automatic%20Wireless%20Association%20Algorithm.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20George%20Chatzisofroniou%20-%20Exploiting%20Windows%20Automatic%20Wireless%20Association%20Algorithm.pdf</a> (Slides) #HITB2017AMS cc @ _sophron</p>
+<div class="translated" id="266381">
+<p>&#65279;"&#25915;&#20987; Windows 10 &#20013;&#30340; Wi-Fi Sense &#33258;&#21160;&#36830;&#25509;&#21151;&#33021;&#65292;&#36825;&#20010;&#21151;&#33021;&#26159;&#36890;&#36807; '&#20247;&#21253;' &#27169;&#24335;&#23454;&#29616;&#30340;&#65292;&#26469;&#33258; HITB 2017 AMS &#22823;&#20250;&#65072;   <a href="https://t.co/iG37ph80Bu" rel="nofollow">https://t.co/iG37ph80Bu</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  So You Want to Hack Radios - A Primer on Wireless Reverse Engineering : <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20Marc%20Newlin%20and%20Matt%20Knight%20-%20So%20You%20Want%20to%20Hack%20Radios.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D1T4%20-%20Marc%20Newlin%20and%20Matt%20Knight%20-%20So%20You%20Want%20to%20Hack%20Radios.pdf</a> (Slides) #HITB2017AMS  cc @ marcnewlin</p>
+<div class="translated" id="266388">
+<p>&#65279;"&#24819;&#35201;&#30772;&#35299; Radios&#65311; -- &#26080;&#32447;&#36870;&#21521;&#20837;&#38376;&#25945;&#31243;&#65292;&#26469;&#33258; HITB 2017 AMS  :   <a href="https://t.co/NWBe8sYUMX" rel="nofollow">https://t.co/NWBe8sYUMX</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/15/index.html">2017/04/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/16/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/04/15/index.html</guid><pubDate>Sat, 15 Apr 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-04-10</title><link>http://xuanwulab.github.io/cn/secnews/2017/04/10/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
