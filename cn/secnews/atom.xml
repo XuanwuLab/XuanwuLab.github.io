@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 20 Apr 2017 11:09:40 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 21 Apr 2017 11:01:53 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -24513,7 +24513,380 @@ Great follow-up on <a href="https://t.co/gn3QYN4Lik" rel="nofollow">https://t.co
 <a href="/cn/secnews/2017/04/03/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/04/02/index.html</guid><pubDate>Sun, 02 Apr 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-04-06</title><link>http://xuanwulab.github.io/cn/secnews/2017/04/06/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/04/02/index.html</guid><pubDate>Sun, 02 Apr 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-04-21</title><link>http://xuanwulab.github.io/cn/secnews/2017/04/21/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/20/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/21/index.html">2017/04/21</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/22/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>rmallof @rmallof</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Attack </i>]  Benchmarking memcmp() for timing attacks <a href="http://nzzl.us/XODmrKb" rel="nofollow">http://nzzl.us/XODmrKb</a></p>
+<div class="translated" id="268922">
+<p>&#65279;"&#20869;&#23384;&#27604;&#36739; memcmp() &#24341;&#20837;&#30340; TIMING ATTACKS&#65288;&#20391;&#20449;&#36947;&#25915;&#20987;&#65289;&#28431;&#27934;&#65306;   <a href="https://t.co/YP66bDkn5F" rel="nofollow">https://t.co/YP66bDkn5F</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Safari Browser: Memory corruption in Array concat <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1095" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1095</a></p>
+<div class="translated" id="268933">
+<p>&#65279;" Safari Browser Array.concat &#26041;&#27861;&#20013;&#36234;&#30028;&#30340;&#20869;&#23384;&#25335;&#36125;&#21487;&#23548;&#33268;&#20869;&#23384;&#30772;&#22351;&#65288;CVE-2017-2464&#65289;&#65306;   <a href="https://t.co/nx6YKwNUwJ" rel="nofollow">https://t.co/nx6YKwNUwJ</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Ruxcon @ruxcon </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Ruxcon 2017 Call For Presentations released: <a href="https://ruxcon.org.au/cfp" rel="nofollow">https://ruxcon.org.au/cfp</a></p>
+<div class="translated" id="268801">
+<p>&#65279;"Ruxcon 2017 &#22823;&#20250;&#24320;&#22987;&#20844;&#24320;&#24449;&#38598;&#35758;&#39064;&#65072;   <a href="https://t.co/lxp7R1YQFv" rel="nofollow">https://t.co/lxp7R1YQFv</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Threatpost @threatpost</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  #Stuxnet LNK exploits still widely circulated - <a href="http://bit.ly/2oUoQ6C" rel="nofollow">http://bit.ly/2oUoQ6C</a></p>
+<div class="translated" id="268885">
+<p>&#65279;"&#25454;&#21345;&#24052;&#26031;&#22522;&#25253;&#21578;&#65292;&#38663;&#32593;&#30149;&#27602;&#21457;&#29616; 8 &#24180;&#21518;&#30340;&#20170;&#22825;&#65292;&#20854;&#20013;&#33879;&#21517;&#30340; LNK &#28431;&#27934; Exploits &#20381;&#28982;&#22312;&#24191;&#27867;&#20256;&#25773;&#65306;   <a href="https://t.co/Ugqn49COpE" rel="nofollow">https://t.co/Ugqn49COpE</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Shiv @5h1vang </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  #Spyware writeup recently found on #GooglePlay
+<a href="https://www.zscaler.com/blogs/research/android-spyware-smsvova-posing-system-update-play-store" rel="nofollow">https://www.zscaler.com/blogs/research/android-spyware-smsvova-posing-system-update-play-store</a>
+cc @ malwrhunterteam</p>
+<div class="translated" id="268915">
+<p>&#65279;"Android &#38388;&#35853;&#36719;&#20214; SMSVova &#22312; Google Play Store &#19978;&#20266;&#35013;&#25104;&#31995;&#32479;&#26356;&#26032;&#65306;   <a href="https://t.co/rHd7EjmbBZ" rel="nofollow">https://t.co/rHd7EjmbBZ</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>André Moulu @andremoulu</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  Attacking ARM Trustzone using Rowhammer by @ eshardNews (direct link) <a href="http://www.eshard.com/wp-content/plugins/email-before-download/download.php?dl=9465aa084ff0f070a3acedb56bcb34f5" rel="nofollow">http://www.eshard.com/wp-content/plugins/email-before-download/download.php?dl=9465aa084ff0f070a3acedb56bcb34f5</a></p>
+<div class="translated" id="268699">
+<p>&#65279;"&#21033;&#29992; RowHammer &#30340;&#26041;&#24335;&#23581;&#35797;&#25915;&#20987; TrustZone&#65306;   <a href="https://t.co/TGCRWnoqVU" rel="nofollow">https://t.co/TGCRWnoqVU</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Combating a spate of Java malware with machine learning in real-time <a href="https://blogs.technet.microsoft.com/mmpc/2017/04/20/combating-a-wave-of-java-malware-with-machine-learning-in-real-time/" rel="nofollow">https://blogs.technet.microsoft.com/mmpc/2017/04/20/combating-a-wave-of-java-malware-with-machine-learning-in-real-time/</a></p>
+<div class="translated" id="268775">
+<p>&#65279;"&#24494;&#36719;&#21033;&#29992;&#26426;&#22120;&#23398;&#20064;&#23454;&#26102;&#38450;&#25252; Java &#24694;&#24847;&#36719;&#20214;&#30340;&#25915;&#20987;&#65306;   <a href="https://t.co/dRJfqpsoc6" rel="nofollow">https://t.co/dRJfqpsoc6</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Drupal Security @drupalsecurity </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  A highly critical security release for #Drupal 8.3.1 and 8.2.8 is now available. Update your sites now. <a href="https://t.co/72kyC4157a" rel="nofollow">https://t.co/72kyC4157a</a></p>
+<div class="translated" id="268919">
+<p>&#65279;"Drupal 8-8.2.8 &#21644; 8.3.1 &#29256;&#26412;&#23384;&#22312;&#20005;&#37325;&#30340;&#35775;&#38382;&#32469;&#36807;&#28431;&#27934;&#65288;CVE-2017-6919&#65289;&#65306;   <a href="https://t.co/72kyC4157a" rel="nofollow">https://t.co/72kyC4157a</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Matt Suiche @msuiche </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  I just published &#8220;PASSFREELY: Oracle &amp; SWIFT at risk&#8221; <a href="https://medium.com/p/passfreely-oracle-swift-at-risk-eb6886908227" rel="nofollow">https://medium.com/p/passfreely-oracle-swift-at-risk-eb6886908227</a></p>
+<div class="translated" id="268746">
+<p>&#65279;"ShadowBrokers &#27844;&#38706;&#30340; PASSFREELY &#24037;&#20855;&#21487;&#29992;&#20110;&#32469;&#36807; Oracle &#30340;&#35748;&#35777;&#65306;   <a href="https://t.co/USMyJMN9O5" rel="nofollow">https://t.co/USMyJMN9O5</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  How we found 100+ RCE vulnerabilities in Trend Micro software : <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D1T1%20-%20Steven%20Seeley%20and%20Roberto%20Suggi%20Liverani%20-%20I%20Got%2099%20Trends%20and%20a%20#%20Is%20All%20Of%20Them.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D1T1%20-%20Steven%20Seeley%20and%20Roberto%20Suggi%20Liverani%20-%20I%20Got%2099%20Trends%20and%20a%20%23%20Is%20All%20Of%20Them.pdf</a> (pdf), Brief : <a href="http://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html" rel="nofollow">http://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html</a> cc @  malerisch</p>
+<div class="translated" id="268780">
+<p>&#65279;" &#22312; HITB AMS 2017 &#20250;&#35758;&#19978;&#65292;&#29420;&#31435;&#23433;&#20840;&#30740;&#31350;&#21592; malerisch &#20998;&#20139;&#20102;&#20182;&#26159;&#22914;&#20309;&#22312;&#36235;&#21183;&#31185;&#25216;&#20135;&#21697;&#20013;&#25366;&#25496;&#21040; 200 &#20010; CVE &#30340;&#65306;   <a href="http://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html%C2%A0" rel="nofollow">http://blog.malerisch.net/2017/04/trend-micro-threat-discovery-appliance-session-generation-authentication-bypass-cve-2016-8584.html </a> &#26152;&#22825;&#20182;&#21448;&#20889;&#20102;&#19968;&#31687; Blog &#20171;&#32461;&#20102;&#19968;&#20010;&#26032;&#21457;&#29616;&#30340;&#36235;&#21183;&#31185;&#25216; TDA &#20135;&#21697; Session &#29983;&#25104;&#35748;&#35777;&#26426;&#21046;&#32469;&#36807;&#30340;&#28431;&#27934;&#65306;   <a href="http://conference.hitb.org/hitbsecconf2017ams/materials/D1T1%20-%20Steven%20Seeley%20and%20Roberto%20Suggi%20Liverani%20-%20I%20Got%2099%20Trends%20and%20a%20#%20Is%20All%20Of%20Them.pdf" rel="nofollow">http://conference.hitb.org/hitbsecconf2017ams/materials/D1T1%20-%20Steven%20Seeley%20and%20Roberto%20Suggi%20Liverani%20-%20I%20Got%2099%20Trends%20and%20a%20%23%20Is%20All%20Of%20Them.pdf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  SSL &amp; TLS Penetration Testing : <a href="https://www.aptive.co.uk/blog/tls-ssl-security-testing/" rel="nofollow">https://www.aptive.co.uk/blog/tls-ssl-security-testing/</a></p>
+<div class="translated" id="268804">
+<p>&#65279;"SSL/TLS &#23433;&#20840;&#35780;&#20272;&#25351;&#21335;&#65072;   <a href="https://t.co/3xoxMr8Qmi" rel="nofollow">https://t.co/3xoxMr8Qmi</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Rapid7 @rapid7</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  Threat intel report Key finding 1. A majority of attackers are still relying on user interactions to create threats: <a href="http://r-7.co/2oO8We1" rel="nofollow">http://r-7.co/2oO8We1</a></p>
+<div class="translated" id="268930">
+<p>&#65279;"RAPID7 2017 &#31532;&#19968;&#23395;&#24230;&#23041;&#32961;&#25253;&#21578;&#65306;   <a href="https://www.rapid7.com/globalassets/_pdfs/research/rapid7-threat-report-2017-q1.pdf" rel="nofollow">https://www.rapid7.com/globalassets/_pdfs/research/rapid7-threat-report-2017-q1.pdf</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Ryan Naraine @ryanaraine </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  Technical details on the Lazarus Group and the SWIFT bank attacks  <a href="https://securelist.com/files/2017/04/Lazarus_Under_The_Hood_PDF_final.pdf" rel="nofollow">https://securelist.com/files/2017/04/Lazarus_Under_The_Hood_PDF_final.pdf</a></p>
+<div class="translated" id="268965">
+<p>&#65279;"&#21345;&#24052;&#26031;&#22522;&#38024;&#23545;&#32463;&#24120;&#25915;&#20987;&#37329;&#34701;&#26426;&#26500;&#30340; Lazarus &#32452;&#32455;&#30340;&#35814;&#32454;&#20998;&#26512;&#25253;&#21578;&#65306;   <a href="https://t.co/45XSLFkXVo" rel="nofollow">https://t.co/45XSLFkXVo</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Hack with GitHub @HackwithGithub </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  CVE-2017-0199
+Python script to #exploit Microsoft RTF #RCE 
+Author: @ bhdresh 
+#meterpreter 
+<a href="https://github.com/bhdresh/CVE-2017-0199" rel="nofollow">https://github.com/bhdresh/CVE-2017-0199</a></p>
+<div class="translated" id="268937">
+<p>&#65279;"&#38024;&#23545; CVE-2017-0199 &#30340; Python &#28431;&#27934;&#21033;&#29992;&#33050;&#26412;&#65292;&#33258;&#21160;&#29983;&#25104;&#24694;&#24847; RTF &#25991;&#20214;&#20197;&#25191;&#34892;&#25351;&#23450; Payload&#65306;   <a href="https://t.co/5OduqRxd8P" rel="nofollow">https://t.co/5OduqRxd8P</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Quequero @quequero</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Abusing Nvidia Node.js to Bypass AppLocker/Device Guard Whitelisting: <a href="http://blog.sec-consult.com/2017/04/application-whitelisting-application.html" rel="nofollow">http://blog.sec-consult.com/2017/04/application-whitelisting-application.html</a> <a href="https://t.co/DuFqeFtl16" rel="nofollow">https://t.co/DuFqeFtl16</a></p>
+<div class="translated" id="268890">
+<p>&#65279;" &#28389;&#29992; NVDIA &#30340; node.js &#20197;&#32469;&#36807;&#24212;&#29992;&#31243;&#24207;&#30333;&#21517;&#21333;&#38480;&#21046;&#65072;   <a href="https://t.co/kAvlcSbfBh" rel="nofollow">https://t.co/kAvlcSbfBh</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C93xFuAW0AAJYEk.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>ChakraCore @ChakraCore</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Better performance and more developer features (spoilers! WebAssembly and shared memory) in Edge and ChakraCore.
+
+<a href="https://blogs.windows.com/msedgedev/2017/04/20/improved-javascript-performance-webassembly-shared-memory/#4S22DBw3oW4ZeiQV.97" rel="nofollow">https://blogs.windows.com/msedgedev/2017/04/20/improved-javascript-performance-webassembly-shared-memory/#4S22DBw3oW4ZeiQV.97</a></p>
+<div class="translated" id="268900">
+<p>&#65279;"Windows 10 Creators &#20013;&#65292;Edge &#27983;&#35272;&#22120;&#38500;&#20102;&#24615;&#33021;&#25552;&#39640;&#20043;&#22806;&#65292;&#36824;&#24102;&#26469;&#20102;&#19977;&#20010;&#23454;&#39564;&#24615;&#30340;&#29305;&#24615;&#65306;WebAssembly&#12289;Shared Memory&#12289;Atomics&#65306;   <a href="https://t.co/C4rTtr8ba8" rel="nofollow">https://t.co/C4rTtr8ba8</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">Xuanwu Spider via Github</p> -->
+<p></p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Fuzzing </i>]  Modern fuzzing of C/C++ Projects &#39033;&#30446;&#30340;&#36164;&#26009; - libfuzzer-workshop&#65292;&#20854;&#20013;&#20998;&#22810;&#20010;&#31456;&#33410;&#20171;&#32461;&#20102;&#22914;&#20309;&#29992; libfuzzer Fuzz C/C++ &#30340;&#20195;&#30721;&#39033;&#30446;: <a href="https://github.com/Dor1s/libfuzzer-workshop" rel="nofollow">https://github.com/Dor1s/libfuzzer-workshop</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/04/20/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/04/21/index.html">2017/04/21</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/04/22/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/04/21/index.html</guid><pubDate>Fri, 21 Apr 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-04-06</title><link>http://xuanwulab.github.io/cn/secnews/2017/04/06/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
