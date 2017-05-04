@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 03 May 2017 11:01:29 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 04 May 2017 10:59:16 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -12597,7 +12597,306 @@ Author: @fdiskyou
 <a href="/cn/secnews/2017/05/03/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/02/index.html</guid><pubDate>Tue, 02 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-01</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/01/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/02/index.html</guid><pubDate>Tue, 02 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-04</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/04/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/03/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/04/index.html">2017/05/04</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/05/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  McAfee @McAfee </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Heads up: a new #googledocs phishing scam is here. And it&#8217;s able to mask itself as one of your friends. <a href="https://mcafee.ly/2pJlnKt" rel="nofollow">https://mcafee.ly/2pJlnKt</a></p>
+<div class="translated" id="274227">
+<p>&#20266;&#36896; Google Docs &#25991;&#26723;&#20998;&#20139;&#36827;&#34892;&#38035;&#40060;&#30340;&#37038;&#20214;&#27491;&#22312;&#24555;&#36895;&#20256;&#25773;&#65306;   <a href="https://securingtomorrow.mcafee.com/business/heads-massive-google-doc-phishing-scam-hit-scene-spreading-fast/" rel="nofollow">https://securingtomorrow.mcafee.com/business/heads-massive-google-doc-phishing-scam-hit-scene-spreading-fast/</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  New Emotet likes Cookies, C2 Server Responds with Fake 404 <a href="https://www.cyphort.com/emotet-cookies-c2-fakes-404/" rel="nofollow">https://www.cyphort.com/emotet-cookies-c2-fakes-404/</a></p>
+<div class="translated" id="273871">
+<p>&#65279;"&#26469;&#33258; Cyphort Labs &#22242;&#38431;&#23545; Emotet &#38134;&#34892;&#26408;&#39532;&#30340;&#35814;&#32454;&#20998;&#26512;&#65306;   <a href="https://www.cyphort.com/emotet-cookies-c2-fakes-404/" rel="nofollow">https://www.cyphort.com/emotet-cookies-c2-fakes-404/</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Aleph Research @alephsecurity</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  [CVE-2017-0563] #Nexus 9 Cypress SAR #Firmware #Injection via I2C #Vulnerability <a href="https://alephsecurity.com/vulns/aleph-2017009" rel="nofollow">https://alephsecurity.com/vulns/aleph-2017009</a></p>
+<div class="translated" id="274050">
+<p>Google Nexus 9 Cypress &#20256;&#24863;&#22120;&#30340;&#22266;&#20214;&#21487;&#20197;&#36890;&#36807; I2C &#24635;&#32447;&#27880;&#20837;&#26356;&#26032;&#65288;CVE-2017-0563&#65289;&#65306;   <a href="https://alephsecurity.com/vulns/aleph-2017009" rel="nofollow">https://alephsecurity.com/vulns/aleph-2017009</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Tyler H @fdivrp </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Debug Instrumentation via Flash ActionScript <a href="http://blog.checkpoint.com/2017/05/03/debug-instrumentation-via-flash-actionscript/" rel="nofollow">http://blog.checkpoint.com/2017/05/03/debug-instrumentation-via-flash-actionscript/</a></p>
+<div class="translated" id="274053">
+<p>
+&#22312;&#20998;&#26512;&#37326;&#22806; Flash Exploit &#26102;&#65292;&#22914;&#20309;&#25552;&#39640;&#25928;&#29575;&#12290;&#20316;&#32773;&#30340;&#26041;&#27861;&#26159;&#35843;&#35797;&#22120;&#37324;&#24039;&#22937;&#22320;&#25554;&#26729;&#12289;&#28789;&#27963;&#20351;&#29992;&#22810;&#20010;&#21453;&#32534;&#35793;&#24037;&#20855;&#65306;   <a href="http://blog.checkpoint.com/2017/05/03/debug-instrumentation-via-flash-actionscript/" rel="nofollow">http://blog.checkpoint.com/2017/05/03/debug-instrumentation-via-flash-actionscript/</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  cobbr @cobbr_io </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  [blog] Bypass for PowerShell Warning-level Event Logging of "Suspicious" Commands: <a href="https://cobbr.io/ScriptBlock-Warning-Event-Logging-Bypass.html" rel="nofollow">https://cobbr.io/ScriptBlock-Warning-Event-Logging-Bypass.html</a></p>
+<div class="translated" id="273869">
+<p>&#65279;"&#32469;&#36807; PowerShell &#36816;&#34892;&#21487;&#30097;&#21629;&#20196;&#26102;&#35760;&#24405; ScriptBlock &#35686;&#21578;&#26085;&#24535;&#30340;&#26041;&#27861;&#65306;   <a href="https://cobbr.io/ScriptBlock-Warning-Event-Logging-Bypass.html" rel="nofollow">https://cobbr.io/ScriptBlock-Warning-Event-Logging-Bypass.html</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Dawid Golunski @dawid_golunski </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  CVE-2016-10033 WordPress Core - Unauthenticated Remote Code Execution (#RCE) #PoC #Exploit #infosec #itsecurity <a href="https://t.co/7OBxK6XD4q" rel="nofollow">https://t.co/7OBxK6XD4q</a></p>
+<div class="translated" id="274195">
+<p>
+ WordPress &#20869;&#26680; PHPMailer &#23384;&#22312;&#19968;&#20010;&#36828;&#31243;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#65292;&#26410;&#25480;&#26435;&#29992;&#25143;&#21487;&#20197;&#36890;&#36807;&#36825;&#20010;&#28431;&#27934;&#30452;&#25509;&#25511;&#21046; Web &#26381;&#21153;&#22120;&#65288;CVE-2016-10033&#65289;&#65292;4.7.1 &#20043;&#21069;&#29256;&#26412;&#21463;&#24433;&#21709;&#65292;&#25991;&#31456;&#20013;&#38468;&#38024;&#23545; 4.6 &#29256;&#26412;&#30340; PoC&#65306;  <a href="https://exploitbox.io/vuln/WordPress-Exploit-4-6-RCE-CODE-EXEC-CVE-2016-10033.html" rel="nofollow">https://exploitbox.io/vuln/WordPress-Exploit-4-6-RCE-CODE-EXEC-CVE-2016-10033.html</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  x0rz @x0rz </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Using Vim? Configuring or programming SSL/TLS servers? You better use this <a href="https://github.com/chr4/sslsecure.vim" rel="nofollow">https://github.com/chr4/sslsecure.vim</a> #crypto #encryption</p>
+<div class="translated" id="273929">
+<p> sslsecure.vim - &#19968;&#20010;&#21487;&#29992;&#20110;&#26816;&#27979; SSL &#38169;&#35823;&#37197;&#32622;&#30340; VIM &#25554;&#20214;&#65306;   <a href="https://github.com/chr4/sslsecure.vim" rel="nofollow">https://github.com/chr4/sslsecure.vim</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Exploit Course (Slides) : <a href="https://exploit.courses/files/bfh2017/content.html" rel="nofollow">https://exploit.courses/files/bfh2017/content.html</a></p>
+<div class="translated" id="274009">
+<p>&#22312;&#20998;&#26512;&#37326;&#22806; Flash Exploit &#26102;&#65292;&#22914;&#20309;&#25552;&#39640;&#25928;&#29575;&#12290;&#20316;&#32773;&#30340;&#26041;&#27861;&#26159;&#35843;&#35797;&#22120;&#37324;&#24039;&#22937;&#22320;&#25554;&#26729;&#12289;&#28789;&#27963;&#20351;&#29992;&#22810;&#20010;&#21453;&#32534;&#35793;&#24037;&#20855;&#65306;   <a href="http://blog.checkpoint.com/2017/05/03/debug-instrumentation-via-flash-actionscript/" rel="nofollow">http://blog.checkpoint.com/2017/05/03/debug-instrumentation-via-flash-actionscript/</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Cure53 @cure53berlin </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  DOMPurify 0.8.9 is out, with further hardening against the Safari DOMParser XSS <a href="https://github.com/cure53/DOMPurify/releases/tag/0.8.9" rel="nofollow">https://github.com/cure53/DOMPurify/releases/tag/0.8.9</a></p>
+<div class="translated" id="273881">
+<p>&#65279;"DOMPurify 0.8.9 &#21457;&#24067;&#65306;   <a href="https://github.com/cure53/DOMPurify/releases/tag/0.8.9" rel="nofollow">https://github.com/cure53/DOMPurify/releases/tag/0.8.9</a>"</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  That worked?! @HackingThings </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> WirelessSecurity </i>]  Just finished uploading all past publications, including code and demo videos. now available at <a href="https://github.com/HackingThings/Publications" rel="nofollow">https://github.com/HackingThings/Publications</a></p>
+<div class="translated" id="274141">
+<p>
+&#19987;&#27880;&#30828;&#20214;&#21644;&#26080;&#32447;&#26041;&#21521;&#30340;&#30740;&#31350;&#21592; Mickey Shkatov &#25972;&#29702;&#30340;&#20182;&#36817;&#20960;&#24180;&#30340;&#28436;&#35762;&#36164;&#26009;&#65306;   <a href="https://github.com/HackingThings/Publications" rel="nofollow">https://github.com/HackingThings/Publications</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via blog.csdn.net</p> -->
+<p>XuanwuSpider via blog.csdn.net</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Popular Software </i>]  &#32469;&#36807;&#38480;&#21046;&#21163;&#25345;Skype&#36134;&#21495;&#65306; 
+<a href="http://blog.csdn.net/u011721501/article/details/71107858" rel="nofollow">http://blog.csdn.net/u011721501/article/details/71107858</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via &#23433;&#20840;&#23458;</p> -->
+<p>XuanwuSpider via &#23433;&#20840;&#23458;</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Vulnerability </i>]  PHPCMS V9.6.1 &#20219;&#24847;&#25991;&#20214;&#35835;&#21462;&#28431;&#27934;&#20998;&#26512;&#65288;&#21547;PoC&#65292;&#24050;&#26377;&#34917;&#19969;&#65289;: <a href="http://bobao.360.cn/learning/detail/3805.html" rel="nofollow">http://bobao.360.cn/learning/detail/3805.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via seebug</p> -->
+<p>XuanwuSpider via seebug</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Vulnerability </i>]  Fastjson &#36828;&#31243;&#21453;&#24207;&#21015;&#21270;&#31243;&#24207;&#39564;&#35777;&#30340;&#26500;&#36896;&#21644;&#20998;&#26512;&#65306; <a href="http://paper.seebug.org/292/" rel="nofollow">http://paper.seebug.org/292/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/03/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/04/index.html">2017/05/04</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/05/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/04/index.html</guid><pubDate>Thu, 04 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-01</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/01/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
