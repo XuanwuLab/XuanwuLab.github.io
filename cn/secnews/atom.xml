@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 04 May 2017 10:59:16 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 05 May 2017 11:07:40 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -12099,7 +12099,453 @@ Author: @fdiskyou
 <a href="/cn/secnews/2017/05/04/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/03/index.html</guid><pubDate>Wed, 03 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-02</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/02/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/03/index.html</guid><pubDate>Wed, 03 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-05</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/05/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/05/index.html">2017/05/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/06/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Mobile Security @m0bile_security </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Detecting tampering with #FRIDA from within an Android app
+#MobileSecurity #AndroidSecurity by @muellerberndt 
+<a href="https://t.co/2cfW3kMV85" rel="nofollow">https://t.co/2cfW3kMV85</a></p>
+<div class="translated" id="274255">
+<p>The Jiu-Jitsu of Detecting Frida&#65306;   <a href="http://www.vantagepoint.sg/blog/90-the-jiu-jitsu-of-detecting-frida" rel="nofollow">http://www.vantagepoint.sg/blog/90-the-jiu-jitsu-of-detecting-frida</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Samuel Groß @5aelo</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  We just released the first part of our pwn2own writeup series! :) <a href="https://twitter.com/phoenhex/status/860184736056176641" rel="nofollow">https://twitter.com/phoenhex/status/860184736056176641</a></p>
+<div class="translated" id="274534">
+<p>Pwn2Own 2017 Samuel Groß &#25915;&#20987; Safari &#25152;&#20351;&#29992;&#30340; WebKit JSC::CachedCall UAF &#28431;&#27934;&#30340;&#20998;&#26512;&#65288;CVE-2017-2491&#65289;&#65292;&#36825;&#26159;&#20010;&#31995;&#21015;&#25991;&#31456;&#65292;&#23558;&#20250;&#23436;&#25972;&#20171;&#32461;&#20182;&#20204;&#20174; WebKit UAF &#21040; MacBook Pro Root &#25552;&#26435;&#30340;&#36807;&#31243;&#65292;&#20170;&#22825;&#26159;&#31532;&#19968;&#31687;&#65306;   <a href="https://phoenhex.re/2017-05-04/pwn2own17-cachedcall-uaf" rel="nofollow">https://phoenhex.re/2017-05-04/pwn2own17-cachedcall-uaf</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  Stealthy RAT Targeting North Korea Since 2014 #Konni <a href="https://threatpost.com/stealthy-rat-targeting-north-korea-since-2014/125450/" rel="nofollow">https://threatpost.com/stealthy-rat-targeting-north-korea-since-2014/125450/</a> via @ threatpost</p>
+<div class="translated" id="274583">
+<p> &#33258;2014&#24180;&#36215;&#20415;&#24320;&#22987;&#25915;&#20987;&#26397;&#40092;&#30340;&#36828;&#31243;&#25511;&#21046;&#36719;&#20214; Konni &#34987; Cisco Talos &#22242;&#38431;&#26333;&#20809;&#65306;   <a href="https://threatpost.com/stealthy-rat-targeting-north-korea-since-2014/125450/" rel="nofollow">https://threatpost.com/stealthy-rat-targeting-north-korea-since-2014/125450/</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Yanick Fratantonio @reyammer </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  Good to see more research on ultrasound-based tracking technology! <a href="https://www.bleepingcomputer.com/news/security/234-android-applications-are-currently-using-ultrasonic-beacons-to-track-users/" rel="nofollow">https://www.bleepingcomputer.com/news/security/234-android-applications-are-currently-using-ultrasonic-beacons-to-track-users/</a> <a href="http://christian.wressnegger.info/content/projects/sidechannels/2017-eurosp.pdf" rel="nofollow">http://christian.wressnegger.info/content/projects/sidechannels/2017-eurosp.pdf</a> by @  mlsec @  chwress et al.</p>
+<div class="translated" id="274633">
+<p>234&#27454;&#23433;&#21331;&#24212;&#29992;&#27491;&#22312;&#20351;&#29992; uXDT &#25216;&#26415;&#36861;&#36394;&#29992;&#25143;&#65306;   <a href="https://www.bleepingcomputer.com/news/security/234-android-applications-are-currently-using-ultrasonic-beacons-to-track-users/" rel="nofollow">https://www.bleepingcomputer.com/news/security/234-android-applications-are-currently-using-ultrasonic-beacons-to-track-users/</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Florian Roth @cyb3rops </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> macOS </i>]  YARA signatures for Snake / Turla OSX malware 
+<a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_snaketurla_osx.yar" rel="nofollow">https://github.com/Neo23x0/signature-base/blob/master/yara/apt_snaketurla_osx.yar</a>
+Report by @  foxit
+<a href="https://blog.fox-it.com/2017/05/03/snake-coming-soon-in-mac-os-x-flavour/" rel="nofollow">https://blog.fox-it.com/2017/05/03/snake-coming-soon-in-mac-os-x-flavour/</a> <a href="https://t.co/H3xXOW2JIz" rel="nofollow">https://t.co/H3xXOW2JIz</a></p>
+<div class="translated" id="274377">
+<p> Fox-IT &#30340;&#30740;&#31350;&#21592;&#21457;&#29616; Snake &#24694;&#24847;&#36719;&#20214;&#26694;&#26550;&#39318;&#27425;&#20986;&#29616;&#20102;&#25915;&#20987; MacOS &#25805;&#20316;&#31995;&#32479;&#30340;&#29256;&#26412;&#65306;    <a href="https://blog.fox-it.com/2017/05/03/snake-coming-soon-in-mac-os-x-flavour/%C2%A0%C2%A0" rel="nofollow">https://blog.fox-it.com/2017/05/03/snake-coming-soon-in-mac-os-x-flavour/  </a> Github&#65306;   <a href="https://github.com/Neo23x0/signature-base/blob/master/yara/apt_snaketurla_osx.yar" rel="nofollow">https://github.com/Neo23x0/signature-base/blob/master/yara/apt_snaketurla_osx.yar</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Aleph Research @alephsecurity</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  [CVE-2017-0582] #Nexus 9 #SensorHub #Firmware #Downgrade #Vulnerability <a href="https://alephsecurity.com/vulns/aleph-2017010" rel="nofollow">https://alephsecurity.com/vulns/aleph-2017010</a></p>
+<div class="translated" id="274414">
+<p>Google Nexus 9 SensorHub Firmware Downgrade Vulnerability&#65288;CVE-2017-0582&#65289;&#65306;   <a href="https://alephsecurity.com/vulns/aleph-2017010" rel="nofollow">https://alephsecurity.com/vulns/aleph-2017010</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Daniel Gruss @lavados</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  [RFC, PATCH] x86_64: KAISER - do not map kernel in user mode <a href="https://lkml.org/lkml/2017/5/4/220" rel="nofollow">https://lkml.org/lkml/2017/5/4/220</a> @ mlqxyz @ misc0110 @ BloodyTangerine #ESSoS17 #ruhrsec</p>
+<div class="translated" id="274394">
+<p>
+ &#38024;&#23545;&#26368;&#36817;&#25915;&#20987; x86_64 KASLR &#30340;&#25216;&#26415;&#65292;&#22885;&#22320;&#21033;&#26684;&#25289;&#33576;&#25216;&#26415;&#22823;&#23398;&#30340;&#30740;&#31350;&#21592;&#25552;&#20986;&#20102; KAISER(Kernel Address Isolation to have Side-channels Efficiently Removed) &#38450;&#25252;&#25216;&#26415;&#65292;&#29992;&#25143;&#24577;&#25191;&#34892;&#26102;&#19981;&#20877;&#26144;&#23556;&#20869;&#26680;&#31354;&#38388;&#65292;&#20182;&#36824;&#32473;&#20986;&#20102;&#23454;&#29616;&#20195;&#30721;&#65306;    <a href="https://lkml.org/lkml/2017/5/4/220" rel="nofollow">https://lkml.org/lkml/2017/5/4/220</a>    paper&#65306;   <a href="https://gruss.cc/files/kaiser.pdf" rel="nofollow">https://gruss.cc/files/kaiser.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  S.N. Fernandez @snfernandez </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  New blog post after some time! How to Protect an Exploit: Detecting PageHeap <a href="http://snf.github.io/2017/05/04/exploit-protection-i-page-heap/" rel="nofollow">http://snf.github.io/2017/05/04/exploit-protection-i-page-heap/</a></p>
+<div class="translated" id="274417">
+<p>
+&#36825;&#31687;&#25991;&#31456;&#31449;&#22312; Exploiter &#30340;&#35282;&#24230;&#65292;&#20171;&#32461;&#22914;&#20309;&#20445;&#25252;&#33258;&#24049;&#30340; Exploit&#65292;&#23613;&#37327;&#36991;&#20813;&#34987;&#26816;&#27979;&#21644;&#20998;&#26512;&#12290;&#36825;&#26159;&#20010;&#31995;&#21015;&#25991;&#31456;&#65292;&#31532;&#19968;&#31687;&#20171;&#32461;&#22914;&#20309;&#26816;&#27979; PageHeap &#30340;&#24320;&#21551;&#65306;   <a href="http://snf.github.io/2017/05/04/exploit-protection-i-page-heap/" rel="nofollow">http://snf.github.io/2017/05/04/exploit-protection-i-page-heap/</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  PowerShell Injection with Diskless Persistence and Bypass Techniques :  <a href="http://www.binarydefense.com/powershell-injection-diskless-persistence-bypass-techniques/" rel="nofollow">http://www.binarydefense.com/powershell-injection-diskless-persistence-bypass-techniques/</a> cc @ HackingDave</p>
+<div class="translated" id="274392">
+<p>PowerShell &#26080;&#25991;&#20214;&#25345;&#20037;&#21270;&#25216;&#26415;&#19982;&#24120;&#29992;&#30340;&#38450;&#24481;&#32469;&#36807;&#25216;&#26415;&#20171;&#32461;&#65306;   <a href="http://www.binarydefense.com/powershell-injection-diskless-persistence-bypass-techniques/" rel="nofollow">http://www.binarydefense.com/powershell-injection-diskless-persistence-bypass-techniques/</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Jerry Gamblin @JGamblin </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  WordPress Core &lt;= 4.7.4 Potential Unauthorized Password Reset (0day). <a href="https://exploitbox.io/vuln/WordPress-Exploit-4-7-Unauth-Password-Reset-0day-CVE-2017-8295.html" rel="nofollow">https://exploitbox.io/vuln/WordPress-Exploit-4-7-Unauth-Password-Reset-0day-CVE-2017-8295.html</a></p>
+<div class="translated" id="274642">
+<p>WordpPress 4.7 &#26080;&#38656;&#30331;&#24405;&#21363;&#21487;&#21033;&#29992;&#30340;&#23494;&#30721;&#37325;&#32622;&#28431;&#27934;&#65288;CVE-2017-8295&#65289;&#65306;   <a href="https://exploitbox.io/vuln/WordPress-Exploit-4-7-Unauth-Password-Reset-0day-CVE-2017-8295.html" rel="nofollow">https://exploitbox.io/vuln/WordPress-Exploit-4-7-Unauth-Password-Reset-0day-CVE-2017-8295.html</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Zero Day Initiative @thezdi</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  New #ZDI white paper available--Auditing #Adobe #Reader: The Open Source Attack Surface in Closed Source Software. <a href="http://bit.ly/2p1QGRO" rel="nofollow">http://bit.ly/2p1QGRO</a></p>
+<div class="translated" id="274540">
+<p>
+&#38381;&#28304;&#36719;&#20214;&#30340;&#24320;&#28304;&#25915;&#20987;&#38754; - &#25366;&#25496; Adobe Reader XSLT &#24341;&#25806;&#30340;&#28431;&#27934;&#65292;&#26469;&#33258;&#36235;&#21183;&#31185;&#25216;&#30340;&#28431;&#27934;&#30740;&#31350;&#25253;&#21578;&#65306;   <a href="https://static1.squarespace.com/static/5894c269e4fcb5e65a1ed623/t/590b42a2ff7c500c50fc2ceb/1493921555683/ZDI+Adobe_XSLT_Report.pdf" rel="nofollow">https://static1.squarespace.com/static/5894c269e4fcb5e65a1ed623/t/590b42a2ff7c500c50fc2ceb/1493921555683/ZDI+Adobe_XSLT_Report.pdf</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  JEB Decompiler for MIPS <a href="https://www.pnfsoftware.com/jeb2/mips" rel="nofollow">https://www.pnfsoftware.com/jeb2/mips</a></p>
+<div class="translated" id="274354">
+<p>
+JEB Decompiler&#65288;&#21453;&#32534;&#35793;&#24037;&#20855;&#65289;&#25903;&#25345; MIPS &#20102;&#65306;   <a href="https://www.pnfsoftware.com/jeb2/mips" rel="nofollow">https://www.pnfsoftware.com/jeb2/mips</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Hackers Clothing @HackersClothing </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Toolkit for performing targeted evil twin attacks against WPA2 by @ s0lst1c3 <a href="http://bit.ly/2pTxt4t" rel="nofollow">http://bit.ly/2pTxt4t</a> #cybersecurity&#8230; <a href="https://t.co/vDaF2bp9pt" rel="nofollow">https://t.co/vDaF2bp9pt</a></p>
+<div class="translated" id="274388">
+<p>eaphammer - &#38024;&#23545; WPA2-EAP &#32593;&#32476;&#30340;&#25915;&#20987;&#24037;&#20855;&#21253;&#65292;&#21487;&#31616;&#21333;&#23454;&#29616; RADIUS &#20973;&#35777;&#31363;&#21462;&#12289;Captive Portal &#39029;&#38754;&#38035;&#40060;&#31561;&#25915;&#20987;&#26041;&#24335;&#65306;   <a href="https://github.com/s0lst1c3/eaphammer" rel="nofollow">https://github.com/s0lst1c3/eaphammer</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>sessionpool @sessionpool</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Virtualization </i>]  <a href="https://4sysops.com/archives/how-to-run-hyper-v-under-vmware-workstation/" rel="nofollow">https://4sysops.com/archives/how-to-run-hyper-v-under-vmware-workstation/</a> 
+Quite helpful for trying out amazing features of #Windows10 like #VBS #DG #CG</p>
+<div class="translated" id="274636">
+<p>
+&#22914;&#20309;&#22312; VMware &#20869;&#37096;&#23884;&#22871;&#23433;&#35013;&#24182;&#36816;&#34892; Hyper-V:   <a href="https://4sysops.com/archives/how-to-run-hyper-v-under-vmware-workstation/" rel="nofollow">https://4sysops.com/archives/how-to-run-hyper-v-under-vmware-workstation/</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  Pwning PHP mail() function For Fun And RCE : <a href="https://exploitbox.io/paper/Pwning-PHP-Mail-Function-For-Fun-And-RCE.html" rel="nofollow">https://exploitbox.io/paper/Pwning-PHP-Mail-Function-For-Fun-And-RCE.html</a></p>
+<div class="translated" id="274386">
+<p>&#38024;&#23545; PHP mail() &#20989;&#25968;&#30340;&#25915;&#20987;&#26041;&#24335;&#19982;&#21033;&#29992;&#26696;&#20363;&#65306;   <a href="https://exploitbox.io/paper/Pwning-PHP-Mail-Function-For-Fun-And-RCE.html" rel="nofollow">https://exploitbox.io/paper/Pwning-PHP-Mail-Function-For-Fun-And-RCE.html</a></p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Pwn All The Things @pwnallthethings </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  V cool security engineering work here by Windows to hardware-isolate Edge browser sessions (coming soon to Win10) <a href="https://t.co/gPVPbfgSqM" rel="nofollow">https://t.co/gPVPbfgSqM</a></p>
+<div class="translated" id="274567">
+<p>
+&#21435;&#24180; 9 &#26376;&#20221;&#25512;&#36865;&#36807;&#19968;&#26465;&#28040;&#24687;&#65292;&#24494;&#36719;&#31216;&#23558;&#22312; 2017 &#24180;&#25512;&#20986; Windows Defender Application Guard &#20445;&#25252;&#25216;&#26415;&#65292;&#23427;&#25552;&#20379;&#19968;&#20010;&#36731;&#37327;&#32423;&#34394;&#25311;&#26426;&#38548;&#31163;&#29615;&#22659;&#36816;&#34892; Edge &#27983;&#35272;&#22120;&#12290;&#20170;&#22825;&#24494;&#36719;&#25918;&#20986;&#30340; Windows 10 Insider Preview Build 16188 &#29256;&#26412;&#23601;&#38598;&#25104;&#20102;&#36825;&#39033;&#20445;&#25252;&#29305;&#24615;&#65306;     <a href="https://blogs.windows.com/windowsexperience/2017/05/04/announcing-windows-10-insider-preview-build-16188-pc-build-15210-mobile/#h5LlBDRQU7abYzvh.97" rel="nofollow">https://blogs.windows.com/windowsexperience/2017/05/04/announcing-windows-10-insider-preview-build-16188-pc-build-15210-mobile/#h5LlBDRQU7abYzvh.97</a>      <a href="https://techcommunity.microsoft.com/t5/Windows-Insider-Program/Windows-Defender-Application-Guard-Standalone-mode/m-p/66903" rel="nofollow">https://techcommunity.microsoft.com/t5/Windows-Insider-Program/Windows-Defender-Application-Guard-Standalone-mode/m-p/66903</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Matt Graeber @mattifestation </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Awesome new Windows 10 exploit mitigation documentation and configuration guidance/tooling! <a href="https://technet.microsoft.com/en-us/itpro/windows/keep-secure/overview-of-threat-mitigations-in-windows-10" rel="nofollow">https://technet.microsoft.com/en-us/itpro/windows/keep-secure/overview-of-threat-mitigations-in-windows-10</a></p>
+<div class="translated" id="274631">
+<p>
+ Windows Defender ATP &#22242;&#38431;&#36817;&#26399;&#26816;&#27979;&#21040;&#20102;&#19968;&#20010;&#38024;&#23545;&#31532;&#19977;&#26041;&#32534;&#36753;&#24037;&#20855;&#30340;&#39640;&#32423;&#25915;&#20987; - WilySupply &#34892;&#21160;&#65292;&#25915;&#20987;&#32773;&#21033;&#29992;&#30340;&#26159;&#36719;&#20214;&#30340;&#26356;&#26032;&#28192;&#36947;&#65306;    <a href="https://blogs.technet.microsoft.com/mmpc/2017/05/04/windows-defender-atp-thwarts-operation-wilysupply-software-supply-chain-cyberattack/%C2%A0" rel="nofollow">https://blogs.technet.microsoft.com/mmpc/2017/05/04/windows-defender-atp-thwarts-operation-wilysupply-software-supply-chain-cyberattack/ </a>  Windows 10 &#26412;&#36523;&#26377;&#19968;&#20123;&#20445;&#25252;&#29305;&#24615;&#21487;&#20197;&#24110;&#21161;&#25105;&#20204;&#21457;&#29616;&#24182;&#38450;&#25252;&#23041;&#32961;&#65306;     <a href="https://docs.microsoft.com/zh-cn/windows/threat-protection/overview-of-threat-mitigations-in-windows-10" rel="nofollow">https://docs.microsoft.com/zh-cn/windows/threat-protection/overview-of-threat-mitigations-in-windows-10</a>
+</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via www.syscan360.org</p> -->
+<p>XuanwuSpider via www.syscan360.org</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Conference </i>]  5 &#26376; 30 &#21495;&#20030;&#21150;&#30340; Syscan360 &#35199;&#38597;&#22270;&#20250;&#35758;&#30340;&#35758;&#39064;&#21015;&#34920;&#20844;&#24320;&#20102;&#65306; 
+<a href="http://www.syscan360.org/en/schedule/" rel="nofollow">http://www.syscan360.org/en/schedule/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via pastebin.com</p> -->
+<p>XuanwuSpider via pastebin.com</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> macOS </i>]  macOS &lt; 10.12.4 trigger for kernel/ring-0 heap overflow PoC: 
+<a href="https://pastebin.com/sF1Kv1hq" rel="nofollow">https://pastebin.com/sF1Kv1hq</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via &#20808;&#30693;&#23433;&#20840;&#25216;&#26415;&#31038;&#21306;</p> -->
+<p>XuanwuSpider via &#20808;&#30693;&#23433;&#20840;&#25216;&#26415;&#31038;&#21306;</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> WirelessSecurity </i>]  &#34013;&#29273; App &#28431;&#27934;&#31995;&#21015;&#20998;&#26512;&#20043;&#19968; CVE-2017-0601 &#25552;&#26435;&#20013;&#21361;&#28431;&#27934;&#65306; 
+<a href="https://xianzhi.aliyun.com/forum/read/1570.html" rel="nofollow">https://xianzhi.aliyun.com/forum/read/1570.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/05/index.html">2017/05/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/06/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/05/index.html</guid><pubDate>Fri, 05 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-02</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/02/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
