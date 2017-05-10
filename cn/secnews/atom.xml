@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 09 May 2017 10:55:55 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 10 May 2017 11:04:50 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -13281,7 +13281,441 @@ Intel AMT Web &#31649;&#29702;&#25509;&#21475;&#35748;&#35777;&#28431;&#27934;&#
 <a href="/cn/secnews/2017/05/07/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/06/index.html</guid><pubDate>Sat, 06 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-04</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/04/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/06/index.html</guid><pubDate>Sat, 06 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-10</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/10/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/09/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/10/index.html">2017/05/10</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/11/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Manuel Caballero @magicmac2000</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  MS Edge - Spoofing the Malware Page was patched today *and bypassed* again. Spoof the user again! (1 byte change) ?&#8230; <a href="https://twitter.com/i/web/status/862063751742337024" rel="nofollow">https://twitter.com/i/web/status/862063751742337024</a></p>
+<div class="translated" id="276491">
+<p>" 
+Edge &#27983;&#35272;&#22120; SmartScreen &#35686;&#21578;&#39029;&#27450;&#39575;&#65292;&#21487;&#20197;&#32469;&#36807;&#20170;&#22825;&#30340;&#34917;&#19969;&#65306;   <a href="https://www.cracking.com.ar/demos/edgesmartscreen/patch-bypass-2.html" rel="nofollow">https://www.cracking.com.ar/demos/edgesmartscreen/patch-bypass-2.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Hossein Lotfi @hosselot </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Details of CVE-2016-9066 exploitation: a Cross-mmap Overflow in Firefox:
+<a href="https://saelo.github.io/posts/firefox-script-loader-overflow.html" rel="nofollow">https://saelo.github.io/posts/firefox-script-loader-overflow.html</a></p>
+<div class="translated" id="276288">
+<p>" CVE-2016-9066 &#28431;&#27934;&#20998;&#26512;&#65306; Firefox &#20013;&#30340; Cross-mmap &#28322;&#20986;&#30340;&#28431;&#27934;&#65306;   <a href="https://t.co/m5dtryqb9p" rel="nofollow">https://t.co/m5dtryqb9p</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  David das Neves @david_das_neves </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Conference </i>]  Powershell Conference Europe 2017 Material #PSConfEU <a href="https://github.com/psconfeu/2017" rel="nofollow">https://github.com/psconfeu/2017</a></p>
+<div class="translated" id="276283">
+<p>" Powershell Conference Europe 2017 Material &#65306;   <a href="https://github.com/psconfeu/2017" rel="nofollow">https://github.com/psconfeu/2017</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Fuzzing </i>]  Fuzzing Apache httpd server with American Fuzzy Lop + persistent mode (+2k exec/sec) <a href="https://animal0day.blogspot.co.uk/2017/05/fuzzing-apache-httpd-server-with.html" rel="nofollow">https://animal0day.blogspot.co.uk/2017/05/fuzzing-apache-httpd-server-with.html</a></p>
+<div class="translated" id="276297">
+<p>" &#21033;&#29992; AFL Fuzz Apache httpd server&#65306; 
+  <a href="https://animal0day.blogspot.co.uk/2017/05/fuzzing-apache-httpd-server-with.html" rel="nofollow">https://animal0day.blogspot.co.uk/2017/05/fuzzing-apache-httpd-server-with.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  LG: Bad alloca calls in liblg_parser_mkv.so <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1102" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1102</a></p>
+<div class="translated" id="276186">
+<p>" 
+Project Zero &#20844;&#24320;&#20102; LG Android &#25163;&#26426; mkvparser &#30340; 3 &#20010;&#28431;&#27934;&#65306;  1&#65289;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1102%C2%A0" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1102 </a> 2&#65289;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1124%C2%A0" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1124 </a> 3&#65289;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1117%C2%A0" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1117 </a> 
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Jun LI @bravo_fighter </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Mobile </i>]  We have found vulnerabilities in 3G&amp;amp;4G cellular networks, we can reset your bank passwords by hijacking/interceptin&#8230; <a href="https://t.co/ySUPb5doHF" rel="nofollow">https://t.co/ySUPb5doHF</a></p>
+<div class="translated" id="276204">
+<p>" 
+360 &#30340;&#30740;&#31350;&#21592;&#20844;&#24320;&#20102;&#19968;&#27573;&#35270;&#39057;&#65292;&#23637;&#31034; 3G&amp;4G &#34562;&#31389;&#32593;&#32476;&#30340;&#28431;&#27934;&#65292;&#31216;&#21487;&#20197;&#21163;&#25345;&#30701;&#20449;&#21644;&#35821;&#38899;&#21628;&#21483;&#65306;   <a href="https://twitter.com/i/web/status/859617047881363456" rel="nofollow">https://twitter.com/i/web/status/859617047881363456</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Guillaume Delugré @lapinhib0u </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  IDA script for understanding ARM coprocessor instructions <a href="https://github.com/gdelugre/ida-arm-system-highlight" rel="nofollow">https://github.com/gdelugre/ida-arm-system-highlight</a></p>
+<div class="translated" id="276381">
+<p>"  ida-arm-system-highlight - &#29992;&#20110;&#39640;&#20142;&#26174;&#31034;&#24182;&#35299;&#30721; ARM &#31995;&#32479;&#25351;&#20196;&#30340; IDA &#33050;&#26412;&#65306;   <a href="https://github.com/gdelugre/ida-arm-system-highlight" rel="nofollow">https://github.com/gdelugre/ida-arm-system-highlight</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Matthew Risck @Mateusz_Jozef </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  DOUBLEPULSAR Usermode Analysis: Generic Reflective DLL Loader <a href="https://countercept.com/our-thinking/doublepulsar-usermode-analysis-generic-reflective-dll-loader/" rel="nofollow">https://countercept.com/our-thinking/doublepulsar-usermode-analysis-generic-reflective-dll-loader/</a></p>
+<div class="translated" id="276446">
+<p>" 
+ShadowBrokers DOUBLEPULSAR &#29992;&#25143;&#24577; Shellcode &#20998;&#26512;&#65306;   <a href="https://countercept.com/our-thinking/doublepulsar-usermode-analysis-generic-reflective-dll-loader/" rel="nofollow">https://countercept.com/our-thinking/doublepulsar-usermode-analysis-generic-reflective-dll-loader/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Nikhil Mittal @nikhil_mitt </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  [Blog]
+Abusing DNSAdmins privilege for escalation in Active Directory. #RedTeam #ActiveDirectory&#8230; <a href="https://t.co/EL13AoAzUK" rel="nofollow">https://t.co/EL13AoAzUK</a></p>
+<div class="translated" id="276410">
+<p>" &#22312;&#22495;&#29615;&#22659;&#20013;&#28389;&#29992; DNSAdmins &#20197;&#23454;&#29616;&#26435;&#38480;&#25552;&#21319;&#65306;   <a href="http://www.labofapenetrationtester.com/2017/05/abusing-dnsadmins-privilege-for-escalation-in-active-directory.html" rel="nofollow">http://www.labofapenetrationtester.com/2017/05/abusing-dnsadmins-privilege-for-escalation-in-active-directory.html</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Threatpost @threatpost</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  Adobe patches seven critical vulnerabilities in Flash, AEM - <a href="http://bit.ly/2pvIOnM" rel="nofollow">http://bit.ly/2pvIOnM</a> #PatchTuesday</p>
+<div class="translated" id="276331">
+<p>"  Adobe &#21457;&#24067;&#28431;&#27934;&#20844;&#21578;&#65292;&#26412;&#27425;&#20462;&#22797;&#20102; Flash &#21644; AEM &#20013;&#30340;&#20849; 8 &#20010;&#28431;&#27934;&#65292;&#20854;&#20013;7&#20010;&#26159;&#39640;&#21361;&#28431;&#27934;&#65306;   <a href="https://threatpost.com/adobe-patches-seven-critical-vulnerabilities-in-flash-aem/125539/" rel="nofollow">https://threatpost.com/adobe-patches-seven-critical-vulnerabilities-in-flash-aem/125539/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Dave dwizzzle Weston @dwizzzleMSFT</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityReport </i>]  Windows Offensive Security Team crushing patch Tuesday again with SMB RCEs <a href="https://portal.msrc.microsoft.com/en-us/security-guidance/acknowledgments" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance/acknowledgments</a></p>
+<div class="translated" id="276393">
+<p>" 
+&#24494;&#36719;&#21457;&#24067;&#26412;&#26376;&#30340;&#28431;&#27934;&#34917;&#19969;&#65292;&#20844;&#21578;&#20449;&#24687;&#65306;   <a href="https://portal.msrc.microsoft.com/en-us/security-guidance%C2%A0" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance </a> &#28431;&#27934;&#33268;&#35874;&#20449;&#24687;&#65306;   <a href="https://portal.msrc.microsoft.com/en-us/security-guidance/acknowledgments" rel="nofollow">https://portal.msrc.microsoft.com/en-us/security-guidance/acknowledgments</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  ? Benjamin Delpy @gentilkiwi </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Just updated #mimilib (&amp;lt;33k)
+Security Package, Password Filter, DNS Srv Plugin, DHCP Srv Callout &amp;amp; WindDBG extensio&#8230; <a href="https://t.co/AV0hRUIS2u" rel="nofollow">https://t.co/AV0hRUIS2u</a></p>
+<div class="translated" id="276144">
+<p>"  mimilib &#29616;&#24050;&#25903;&#25345; DHCP Callout&#12289;DNS Plugin&#12289;Coffee &#31561;&#21151;&#33021;&#65306;   <a href="https://github.com/gentilkiwi/mimikatz/commit/22eaf29e75a0da2628991d7efdaf68563ce0b340" rel="nofollow">https://github.com/gentilkiwi/mimikatz/commit/22eaf29e75a0da2628991d7efdaf68563ce0b340</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Tavis Ormandy @taviso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Remotely Exploitable Type Confusion in Windows 8, 10, Windows Server and more found by @ natashenka and me <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1252" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1252</a></p>
+<div class="translated" id="276085">
+<p>" 
+&#20851;&#20110;&#26152;&#22825;&#25512;&#36865;&#20013;&#25552;&#21040;&#30340; Tavis &#21457;&#29616;&#30340;"&#36817;&#26399;&#26368;&#20005;&#37325;"&#30340;&#28431;&#27934;&#12290;&#35813;&#28431;&#27934;&#23384;&#22312;&#20110;&#24494;&#36719;&#30340;&#21453;&#30149;&#27602;&#24341;&#25806;&#65288;MsMpEng&#65289;&#20013;&#65292;&#26159;&#20010;&#36828;&#31243;&#21487;&#20197;&#21033;&#29992;&#30340;&#31867;&#22411;&#28151;&#28102;&#28431;&#27934;&#65306;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1252&amp;desc=5%C2%A0%C2%A0" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1252&amp;;desc=5  </a> &#24494;&#36719;&#21457;&#24067;&#32039;&#24613;&#34917;&#19969;&#20462;&#22797;&#27425;&#28431;&#27934;&#65306;   <a href="https://technet.microsoft.com/en-us/library/security/4022344.aspx" rel="nofollow">https://technet.microsoft.com/en-us/library/security/4022344.aspx</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>FireEye @FireEye</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  EPS processing zero-days exploited by multiple threat actors <a href="http://bddy.me/2psJFEH" rel="nofollow">http://bddy.me/2psJFEH</a> #Malware #0days <a href="https://t.co/yr5zq3vYLS" rel="nofollow">https://t.co/yr5zq3vYLS</a></p>
+<div class="translated" id="276399">
+<p>" &#24494;&#36719;&#20170;&#22825;&#20462;&#22797;&#30340;&#28431;&#27934;&#20013;&#65292;&#21253;&#25324; 3 &#20010;&#24050;&#32463;&#22312;&#37326;&#22806;&#21033;&#29992;&#30340; 0Day&#65292;&#20004;&#20010; Office EPS(Encapsulated PostScript) 0Day + &#19968;&#20010; Win32k &#25552;&#26435; 0Day&#65292;&#26681;&#25454;&#36825;&#19977;&#20010; 0Day &#37322;&#25918;&#30340; Payload &#20449;&#24687;&#65292;FireEye &#24576;&#30097;&#21644;&#20420;&#32599;&#26031; Turla&#12289;APT28 &#26377;&#20851;&#65292;&#27492;&#27425;&#25915;&#20987;&#30340;&#30446;&#26631;&#20026;&#27431;&#27954;&#22806;&#20132;&#21644;&#20891;&#20107;&#32452;&#32455;&#65292;&#26469;&#33258; FireEye &#30340;&#35814;&#32454;&#20998;&#26512;&#65306;   <a href="https://www.fireeye.com/blog/threat-research/2017/05/eps-processing-zero-days.html" rel="nofollow">https://www.fireeye.com/blog/threat-research/2017/05/eps-processing-zero-days.html</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C_aByZuW0AAnrbI.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  James van den Berg @JamesvandenBerg </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  #Microsoft Introducing Project #Sauron &#8211; Centralised Storage of Windows Events &#8211; Domain Controller Edition&#8230; <a href="https://t.co/IyqX6wzkRO" rel="nofollow">https://t.co/IyqX6wzkRO</a></p>
+<div class="translated" id="276151">
+<p>" 
+Project Sauron - &#32034;&#20262;&#39033;&#30446;&#65292;&#20026;&#22495;&#29615;&#22659;&#20013;&#30340; Windows &#20107;&#20214;&#26085;&#24535;&#25552;&#20379;&#20013;&#24515;&#21270;&#22320;&#23384;&#20648;&#31649;&#29702;&#65306;   <a href="https://blogs.technet.microsoft.com/russellt/2017/05/09/project-sauron-introduction/" rel="nofollow">https://blogs.technet.microsoft.com/russellt/2017/05/09/project-sauron-introduction/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  MsMpEng: UIF decoder will spin forever processing sparse blocks <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1248" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1248</a></p>
+<div class="translated" id="276476">
+<p>" 
+Windows &#21453;&#30149;&#27602;&#24341;&#25806; MsMpEng &#38500;&#20102;&#26152;&#22825;&#30340; mpscript &#28431;&#27934;&#65292;&#36824;&#26377;&#19968;&#20010; UIF &#22270;&#29255;&#35299;&#30721;&#25298;&#32477;&#26381;&#21153;&#28431;&#27934;&#65306;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1248" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1248</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via Chromium Blog</p> -->
+<p>XuanwuSpider via Chromium Blog</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  Chrome &#27983;&#35272;&#22120;&#23545;&#20110;&#25193;&#23637;&#30340;&#22788;&#29702;&#19968;&#30452;&#26377;&#20010;&#20363;&#22806;&#24773;&#20917;&#65292;&#25193;&#23637;&#65288;extensions&#65289;&#20869;&#23884;&#30340; iframe &#20250;&#21644;&#25193;&#23637;&#21516;&#23646;&#19968;&#20010;&#36827;&#31243;&#65292;&#25152;&#20197; iframe &#30340;&#28431;&#27934;&#23558;&#23548;&#33268;&#29305;&#26435; API &#30340;&#27844;&#38706;&#12290;&#20026;&#20102;&#35299;&#20915;&#36825;&#20010;&#38382;&#39064;&#65292;Chrome 56 &#20915;&#23450;&#23558;&#25193;&#23637;&#20869;&#23884; iframe &#38548;&#31163;&#21040;&#29420;&#31435;&#36827;&#31243;&#28210;&#26579;&#65306; 
+<a href="https://blog.chromium.org/2017/05/improving-extension-security-with-out.html" rel="nofollow">https://blog.chromium.org/2017/05/improving-extension-security-with-out.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via Github</p> -->
+<p>XuanwuSpider via Github</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Industry News </i>]   &#27604;&#29305;&#24065;&#24320;&#28304;&#39033;&#30446; Bitcoin &#40723;&#21169;&#24320;&#21457;&#32773;&#23613;&#24555;&#25903;&#25345; libFuzzer&#65292;&#23613;&#26089;&#21457;&#29616;&#23433;&#20840;&#28431;&#27934;&#65306; 
+<a href="https://github.com/bitcoin/bitcoin/issues/10364" rel="nofollow">https://github.com/bitcoin/bitcoin/issues/10364</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via mcafee</p> -->
+<p>XuanwuSpider via mcafee</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Vulnerability </i>]   OpenSSL Encrypt-Then-MAC &#25569;&#25163;&#21327;&#21830;&#25298;&#32477;&#26381;&#21153;&#28431;&#27934;&#65288;CVE-2017-3733&#65289;&#65306; 
+<a href="https://securingtomorrow.mcafee.com/mcafee-labs/vulnerable-openssl-handshake-renegotiation-can-trigger-denial-service/" rel="nofollow">https://securingtomorrow.mcafee.com/mcafee-labs/vulnerable-openssl-handshake-renegotiation-can-trigger-denial-service/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/09/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/10/index.html">2017/05/10</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/11/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/10/index.html</guid><pubDate>Wed, 10 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-04</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/04/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
