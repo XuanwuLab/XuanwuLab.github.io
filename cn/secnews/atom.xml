@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 10 May 2017 11:04:50 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 11 May 2017 10:54:27 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -14053,7 +14053,395 @@ Windows &#21453;&#30149;&#27602;&#24341;&#25806; MsMpEng &#38500;&#20102;&#26152
 <a href="/cn/secnews/2017/05/02/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/01/index.html</guid><pubDate>Mon, 01 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-08</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/08/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/01/index.html</guid><pubDate>Mon, 01 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-11</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/11/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/11/index.html">2017/05/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/12/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  SOP bypass / UXSS &#8211; Stealing Credentials Pretty Fast (Edge) - Broken Browser <a href="https://www.brokenbrowser.com/sop-bypass-uxss-stealing-credentials-pretty-fast/" rel="nofollow">https://www.brokenbrowser.com/sop-bypass-uxss-stealing-credentials-pretty-fast/</a></p>
+<div class="translated" id="276917">
+<p>" SOP BYPASS / UXSS &#8211;  &#20599; Edge &#27983;&#35272;&#22120;&#29992;&#25143;&#30340; Twitter/Facebook &#23494;&#30721;&#65306;    <a href="https://www.brokenbrowser.com/sop-bypass-uxss-stealing-credentials-pretty-fast/" rel="nofollow">https://www.brokenbrowser.com/sop-bypass-uxss-stealing-credentials-pretty-fast/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  evi1m0 @Hi_Evi1m0 </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  Firefox 53 &amp; Edge 40 Browsers CSP Bypass <a href="https://www.n0tr00t.com/2017/05/10/Firefox-and-Edge-Browsers-CSP-Bypass.html" rel="nofollow">https://www.n0tr00t.com/2017/05/10/Firefox-and-Edge-Browsers-CSP-Bypass.html</a></p>
+<div class="translated" id="276948">
+<p>" 
+Firefox53 &amp; Edge40 Browsers CSP Bypass PoC&#65306;   <a href="https://www.n0tr00t.com/2017/05/10/Firefox-and-Edge-Browsers-CSP-Bypass.html" rel="nofollow">https://www.n0tr00t.com/2017/05/10/Firefox-and-Edge-Browsers-CSP-Bypass.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Justin Schuh ? @justinschuh</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  Here's a better article on how Microsoft refuses to allow third-party browsers on Windows 10 S. <a href="http://www.zdnet.com/article/google-chrome-wont-be-allowed-on-windows-10-s/" rel="nofollow">http://www.zdnet.com/article/google-chrome-wont-be-allowed-on-windows-10-s/</a></p>
+<div class="translated" id="276826">
+<p>" 
+&#24494;&#36719;&#20026;&#25945;&#32946;&#24066;&#22330;&#25512;&#20986;&#30340; Windows 10 S &#29256;&#26412;&#65292;&#23558;&#38480;&#21046;&#29992;&#25143;&#21482;&#33021;&#23433;&#35013;&#36816;&#34892;&#26469;&#33258; Windows Store &#30340;&#24212;&#29992;&#65292;&#20854;&#20182;&#26469;&#28304;&#24212;&#29992;&#65292;&#27604;&#22914;&#26700;&#38754;&#29256; Chrome &#27983;&#35272;&#22120;&#23558;&#26080;&#27861;&#20877;&#36816;&#34892;&#65306;   <a href="http://www.zdnet.com/article/google-chrome-wont-be-allowed-on-windows-10-s/" rel="nofollow">http://www.zdnet.com/article/google-chrome-wont-be-allowed-on-windows-10-s/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Full Disclosure @SecLists</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  Multiple Vulnerabilities in ASUS Routers [CVE-2017-5891 and CVE-2017-5892] <a href="https://goo.gl/fb/FxtN5C" rel="nofollow">https://goo.gl/fb/FxtN5C</a> #FullDisclosure</p>
+<div class="translated" id="277007">
+<p>" &#21326;&#30805;&#36335;&#30001;&#22120;&#20013;&#23384;&#22312;&#22810;&#20010; CSRF &#28431;&#27934;&#65288;cve-2017-5892&#12289;cve-2017-5891&#65289;&#65306;   <a href="http://seclists.org/fulldisclosure/2017/May/36?utm_source=feedburner&amp;utm_medium=twitter&amp;utm_campaign=Feed%3A+seclists%2FFullDisclosure+%28Full+Disclosure%29" rel="nofollow">http://seclists.org/fulldisclosure/2017/May/36?utm_source=feedburner&amp;utm_medium=twitter&amp;utm_campaign=Feed%3A+seclists%2FFullDisclosure+%28Full+Disclosure%29</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Rapid7 @rapid7</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  [blog] IoT Security Testing Methodology <a href="http://r-7.co/2pefnui" rel="nofollow">http://r-7.co/2pefnui</a></p>
+<div class="translated" id="276802">
+<p>" IoT &#23433;&#20840;&#27979;&#35797;&#26041;&#27861;&#65306;   <a href="http://r-7.co/2pefnui" rel="nofollow">http://r-7.co/2pefnui</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Ben Hawkes @benhawkes</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  Project Zero guest blog post: "Exploiting the Linux kernel via packet sockets" by @ andreyknvl - <a href="https://googleprojectzero.blogspot.com/2017/05/exploiting-linux-kernel-via-packet.html" rel="nofollow">https://googleprojectzero.blogspot.com/2017/05/exploiting-linux-kernel-via-packet.html</a></p>
+<div class="translated" id="276807">
+<p>" 
+Linux kernel TPACKET_V3 packet_set_ring() &#25972;&#25968;&#31526;&#21495;&#27604;&#36739;&#23548;&#33268;&#30340;&#36234;&#30028;&#20889;&#28431;&#27934;&#65288;CVE-2017-7308&#65289;&#65292;Project Zero &#36825;&#31687; Blog &#20171;&#32461;&#36825;&#20010;&#28431;&#27934;&#26159;&#22914;&#20309;&#21457;&#29616;&#30340;&#20197;&#21450;&#22914;&#20309;&#21033;&#29992;&#36825;&#20010;&#28431;&#27934;&#65306;   <a href="https://googleprojectzero.blogspot.com/2017/05/exploiting-linux-kernel-via-packet.html" rel="nofollow">https://googleprojectzero.blogspot.com/2017/05/exploiting-linux-kernel-via-packet.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Linux </i>]  A collection of Linux kernel exploitation materials: <a href="https://github.com/xairy/linux-kernel-exploitation" rel="nofollow">https://github.com/xairy/linux-kernel-exploitation</a></p>
+<div class="translated" id="276850">
+<p>" 
+Linux Kernel Exploitation - &#36817;&#20960;&#24180; Linuxn &#20869;&#26680;&#28431;&#27934;&#25366;&#25496;&#12289;&#28431;&#27934;&#20998;&#26512;&#12289;&#28431;&#27934;&#21033;&#29992;&#26041;&#38754;&#30340;&#36164;&#26009;&#25972;&#29702;&#65306;   <a href="https://github.com/xairy/linux-kernel-exploitation" rel="nofollow">https://github.com/xairy/linux-kernel-exploitation</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Mike_Mimoso @Mike_Mimoso</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Malware injected into legitimate WordPress JavaScript file designed to reroute sensitive information <a href="https://threatpost.com/session-hijacking-cookie-stealing-wordpress-malware-spotted/125586/" rel="nofollow">https://threatpost.com/session-hijacking-cookie-stealing-wordpress-malware-spotted/125586/</a> via @ threatpost</p>
+<div class="translated" id="276930">
+<p>"  &#23545; Wordpress &#36827;&#34892;&#20250;&#35805;&#21163;&#25345;&#19982; Cookie &#31363;&#21462;&#30340;&#24694;&#24847; JS &#33050;&#26412;&#34987;&#21457;&#29616; &#65306;   <a href="https://threatpost.com/session-hijacking-cookie-stealing-wordpress-malware-spotted/125586/" rel="nofollow">https://threatpost.com/session-hijacking-cookie-stealing-wordpress-malware-spotted/125586/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Black Hills InfoSec @BHinfoSecurity </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  On the #BHISblog today @joff_thyer is tearing it up - "How to Evade Application Whitelisting Using REGSVR32" <a href="https://t.co/k5IBHz80WF" rel="nofollow">https://t.co/k5IBHz80WF</a></p>
+<div class="translated" id="276773">
+<p>"  &#22914;&#20309;&#20351;&#29992; REGSVR32 &#32469;&#36807;&#24212;&#29992;&#30333;&#21517;&#21333;&#65306;   <a href="http://www.blackhillsinfosec.com/?p=5926" rel="nofollow">http://www.blackhillsinfosec.com/?p=5926</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Insinuator @Insinuator </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  New blog post: Git Shell Bypass By Abusing Less (CVE-2017-8386) <a href="https://insinuator.net/2017/05/git-shell-bypass-by-abusing-less-cve-2017-8386/" rel="nofollow">https://insinuator.net/2017/05/git-shell-bypass-by-abusing-less-cve-2017-8386/</a></p>
+<div class="translated" id="276878">
+<p>" 
+git-shell &#26159;&#19968;&#20010;&#21463;&#38480;&#30340; shell &#29615;&#22659;&#65292;&#29992;&#20110;&#38480;&#21046;&#23458;&#25143;&#31471;&#23545;&#26381;&#21153;&#22120;&#31471;&#30340;&#21487;&#25191;&#34892;&#21629;&#20196;&#33539;&#22260;&#65292;&#36825;&#31687; Blog &#20171;&#32461;&#22914;&#20309;&#28389;&#29992; less &#21629;&#20196;&#32469;&#36807;&#36825;&#20010;&#38480;&#21046;&#65288;CVE-2017-8386&#65289;&#65306;   <a href="https://insinuator.net/2017/05/git-shell-bypass-by-abusing-less-cve-2017-8386/" rel="nofollow">https://insinuator.net/2017/05/git-shell-bypass-by-abusing-less-cve-2017-8386/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Zac Brown @zacbrown </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  I wrote another blog post about using ETW for Intrusion Detection: <a href="https://blogs.technet.microsoft.com/office365security/hidden-treasure-intrusion-detection-with-etw-part-2/" rel="nofollow">https://blogs.technet.microsoft.com/office365security/hidden-treasure-intrusion-detection-with-etw-part-2/</a> #DFIR #ETW</p>
+<div class="translated" id="276570">
+<p>" &#22522;&#20110; Windows ETW&#65288;&#20107;&#20214;&#26085;&#24535;&#65289;&#30340;&#20837;&#20405;&#26816;&#27979; part 2 &#65306;   <a href="https://blogs.technet.microsoft.com/office365security/hidden-treasure-intrusion-detection-with-etw-part-2/" rel="nofollow">https://blogs.technet.microsoft.com/office365security/hidden-treasure-intrusion-detection-with-etw-part-2/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  x0rz @x0rz </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Protocol </i>]  Reverse Engineering Apple Location Services Protocol <a href="https://appelsiini.net/2017/reverse-engineering-location-services/" rel="nofollow">https://appelsiini.net/2017/reverse-engineering-location-services/</a> <a href="https://t.co/Pa91YqNFRB" rel="nofollow">https://t.co/Pa91YqNFRB</a></p>
+<div class="translated" id="276788">
+<p>" &#36870;&#21521; Apple &#20301;&#32622;&#26381;&#21153;&#21327;&#35758;&#65288;Location Services Protocol&#65289;&#65306;   <a href="https://appelsiini.net/2017/reverse-engineering-location-services/" rel="nofollow">https://appelsiini.net/2017/reverse-engineering-location-services/</a> "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/C_echnbWAAARgwN.png" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  JACKHAMMER - Security vulnerability assessment tool <a href="https://github.com/olacabs/jackhammer" rel="nofollow">https://github.com/olacabs/jackhammer</a></p>
+<div class="translated" id="276694">
+<p>" 
+Jackhammer - &#23433;&#20840;&#22242;&#38431;&#19982;&#24320;&#21457;&#22242;&#38431;&#20043;&#38388;&#21327;&#20316;&#30340;&#19968;&#20010;&#24037;&#20855;&#65292;&#29992;&#20110;&#28431;&#27934;&#35780;&#20272;&#21644;&#31649;&#29702;&#65306;   <a href="https://github.com/olacabs/jackhammer" rel="nofollow">https://github.com/olacabs/jackhammer</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via &#33150;&#35759;&#28251;&#27896;&#23454;&#39564;&#23460; </p> -->
+<p>XuanwuSpider via &#33150;&#35759;&#28251;&#27896;&#23454;&#39564;&#23460; </p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  Pwn2Own 2017 &#20877;&#29616;&#19978;&#24093;&#20043;&#25163;&#65292;&#26469;&#33258;&#33150;&#35759;&#28251;&#27896;&#23454;&#39564;&#23460;&#22312; Pwn2Own 2017 &#27604;&#36187;&#20013;&#21033;&#29992; DVE &#25216;&#26415;&#25104;&#21151;&#21033;&#29992; Edge &#28431;&#27934;(ArrayBuffer)&#30340;&#32454;&#33410;(CVE-2017-0234/0236)&#65306;
+<a href="http://weibo.com/ttarticle/p/show?id=2309404105928097034074" rel="nofollow">http://weibo.com/ttarticle/p/show?id=2309404105928097034074</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via seebug</p> -->
+<p>XuanwuSpider via seebug</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  &#28145;&#20837;&#29702;&#35299; EdgeHTML &#28210;&#26579;&#24341;&#25806;&#30340;&#25915;&#20987;&#38754;&#21450;&#20854;&#38450;&#25252;&#65292;&#21407;&#25991;&#26469;&#33258; IBM X-Force &#22242;&#38431; Mark Vincent Yason &#22312; BlackHat 2015 &#20250;&#35758;&#30340;&#28436;&#35762;&#65292;&#26412;&#25991;&#26159;&#26469;&#33258;&#30693;&#36947;&#21019;&#23431; xd0ol1 &#30340;&#32763;&#35793;&#65306;
+<a href="http://paper.seebug.org/300/" rel="nofollow">http://paper.seebug.org/300/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via threatpost</p> -->
+<p>XuanwuSpider via threatpost</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Industry News </i>]  &#24494;&#36719;&#22312;&#26152;&#22825;&#30340;&#26356;&#26032;&#20013;&#21435;&#25481;&#20102; IE/Edge &#27983;&#35272;&#22120;&#23545; SHA-1 &#30340;&#25903;&#25345;&#65306; 
+<a href="https://threatpost.com/microsoft-makes-it-official-cuts-off-sha-1-support-in-ie-edge/125579/" rel="nofollow">https://threatpost.com/microsoft-makes-it-official-cuts-off-sha-1-support-in-ie-edge/125579/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via t00ls</p> -->
+<p>XuanwuSpider via t00ls</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Tools </i>]  &#20195;&#29702;&#36716;&#21457;&#24037;&#20855;&#27719;&#24635;&#20998;&#26512;: <a href="https://www.t00ls.net/articles-35614.html" rel="nofollow">https://www.t00ls.net/articles-35614.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/11/index.html">2017/05/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/12/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/11/index.html</guid><pubDate>Thu, 11 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-08</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/08/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
