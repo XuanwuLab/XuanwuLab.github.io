@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Mon, 15 May 2017 11:12:11 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 16 May 2017 12:03:58 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -12687,7 +12687,480 @@ Quite helpful for trying out amazing features of #Windows10 like #VBS #DG #CG</p
 <a href="/cn/secnews/2017/05/15/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/14/index.html</guid><pubDate>Sun, 14 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-02</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/02/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/14/index.html</guid><pubDate>Sun, 14 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-16</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/16/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/16/index.html">2017/05/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/17/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  About the security content of Safari 10.1.1
+ <a href="https://support.apple.com/en-us/HT207804" rel="nofollow">https://support.apple.com/en-us/HT207804</a></p>
+<div class="translated" id="279435">
+<p>" Safari 10.1.1 &#23433;&#20840;&#26356;&#26032;&#20869;&#23481;&#65306;    <a href="https://support.apple.com/en-us/HT207804" rel="nofollow">https://support.apple.com/en-us/HT207804</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Justin Schuh ? @justinschuh</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  The tl;dr here is: smaller memory footprint, better real-world perf, and some nice JIT security improvements. <a href="https://v8project.blogspot.de/2017/05/launching-ignition-and-turbofan.html" rel="nofollow">https://v8project.blogspot.de/2017/05/launching-ignition-and-turbofan.html</a></p>
+<div class="translated" id="279441">
+<p>" 
+V8 &#20174; 5.9 &#29256;&#26412;&#24320;&#22987;&#23558;&#20999;&#25442;&#33267; Ignition &#35299;&#37322;&#22120;&#21644; TurboFan &#32534;&#35793;&#22120;&#65292;&#24615;&#33021;&#23558;&#26377;&#37325;&#22823;&#25552;&#21319;&#65292;&#20197;&#21069;&#30340; Full-codegen &#21644; Crankshaft &#32534;&#35793;&#22120;&#24456;&#24555;&#23601;&#20250;&#34987;&#31227;&#38500;&#65306;    <a href="https://v8project.blogspot.com/2017/05/launching-ignition-and-turbofan.html" rel="nofollow">https://v8project.blogspot.com/2017/05/launching-ignition-and-turbofan.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  WordPress Now on HackerOne <a href="https://wordpress.org/news/2017/05/wordpress-now-on-hackerone/" rel="nofollow">https://wordpress.org/news/2017/05/wordpress-now-on-hackerone/</a></p>
+<div class="translated" id="279383">
+<p>"  WordPress &#29616;&#24050;&#20837;&#39547; HackerOne &#24179;&#21488; &#65306;   <a href="https://wordpress.org/news/2017/05/wordpress-now-on-hackerone/" rel="nofollow">https://wordpress.org/news/2017/05/wordpress-now-on-hackerone/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Industry News </i>]  United Airlines cockpit codes released to the public <a href="http://www.zdnet.com/article/united-airlines-cockpit-codes-released-to-the-public/#ftag=RSSbaffb68" rel="nofollow">http://www.zdnet.com/article/united-airlines-cockpit-codes-released-to-the-public/#ftag=RSSbaffb68</a></p>
+<div class="translated" id="279187">
+<p>"  &#32654;&#32852;&#33322;&#30340;&#39550;&#39542;&#33329;&#26426;&#23494;&#20195;&#30721;&#65288;cockpit codes&#65289;&#24847;&#22806;&#27844;&#38706;&#65306;    <a href="http://www.zdnet.com/article/united-airlines-cockpit-codes-released-to-the-public/#ftag=RSSbaffb68" rel="nofollow">http://www.zdnet.com/article/united-airlines-cockpit-codes-released-to-the-public/#ftag=RSSbaffb68</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> iOS </i>]  About the security content of macOS Sierra 10.12.5 <a href="https://support.apple.com/en-us/HT207797" rel="nofollow">https://support.apple.com/en-us/HT207797</a></p>
+<div class="translated" id="279436">
+<p>" 
+Apple &#21457;&#24067; iOS 10.3.2 &#21644; macOS Sierra 10.12.5&#65292;&#26412;&#27425;&#26356;&#26032;&#20462;&#22797;&#20102;&#22810;&#20010;&#28431;&#27934;&#65292;  
+iOS&#65306;   <a href="https://support.apple.com/en-us/HT207798" rel="nofollow">https://support.apple.com/en-us/HT207798</a>
+  macOS&#65306;   <a href="https://support.apple.com/en-us/HT207797" rel="nofollow">https://support.apple.com/en-us/HT207797</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Glenn Wilkinson @glennzw</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Malware </i>]  Excellent #WannaCry resource sheet:
+
+<a href="https://gist.github.com/rain-1/989428fa5504f378b993ee6efbc0b168" rel="nofollow">https://gist.github.com/rain-1/989428fa5504f378b993ee6efbc0b168</a>
+
+@ MalwareTechBlog @ hackerfantastic</p>
+<div class="translated" id="279339">
+<p>" WannaCry &#30456;&#20851;&#20449;&#24687;&#27719;&#24635;:
+
+  <a href="https://gist.github.com/rain-1/989428fa5504f378b993ee6efbc0b168" rel="nofollow">https://gist.github.com/rain-1/989428fa5504f378b993ee6efbc0b168</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Costin Raiu @craiu</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  We just published an analysis of the #Lazarus/#Wannacry similarities found by @ neelmehta - <a href="https://securelist.com/blog/research/78431/wannacry-and-lazarus-group-the-missing-link/" rel="nofollow">https://securelist.com/blog/research/78431/wannacry-and-lazarus-group-the-missing-link/</a></p>
+<div class="translated" id="279507">
+<p>" &#21345;&#24052;&#26031;&#22522;&#21644; Google &#30340;&#30740;&#31350;&#21592;&#20998;&#26512;&#21457;&#29616;&#65292;WannaCry &#30340;&#26679;&#26412;&#19982; Lazarus APT &#32452;&#32455; 2015 &#24180;&#30340;&#26576;&#20010;&#26679;&#26412;&#23384;&#22312;&#20195;&#30721;&#30456;&#20284;&#24615;&#65292;&#24182;&#25454;&#27492;&#25512;&#26029; WannaCry &#34837;&#34411;&#21202;&#32034;&#20107;&#20214;&#30340;&#24149;&#21518;&#32452;&#32455;&#26469;&#33258;&#26397;&#40092;&#65306;   <a href="https://securelist.com/blog/research/78431/wannacry-and-lazarus-group-the-missing-link/" rel="nofollow">https://securelist.com/blog/research/78431/wannacry-and-lazarus-group-the-missing-link/</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>James Forshaw @tiraniddo</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Tweet is for a silent, "fileless" UAC bypass on Win10 which should be fixed in RS3 :-). Bit more info on my blog <a href="https://tyranidslair.blogspot.co.uk/2017/05/exploiting-environment-variables-in.html" rel="nofollow">https://tyranidslair.blogspot.co.uk/2017/05/exploiting-environment-variables-in.html</a></p>
+<div class="translated" id="279595">
+<p>" 
+&#21033;&#29992;&#35745;&#21010;&#20219;&#21153;&#65288;Scheduled Tasks&#65289;&#20013;&#30340;&#29615;&#22659;&#21464;&#37327;&#23454;&#29616; UAC Bypass&#65292;&#26469;&#33258; James Forshaw:    <a href="https://tyranidslair.blogspot.com/2017/05/exploiting-environment-variables-in.html" rel="nofollow">https://tyranidslair.blogspot.com/2017/05/exploiting-environment-variables-in.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Paulino Calderon @calderpwn </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  Help me test our latest #nmap NSE script to check Windows machines vulnerable to ms17-010 #smb #WannaCry #infosec <a href="https://t.co/um12vdnjGt" rel="nofollow">https://t.co/um12vdnjGt</a></p>
+<div class="translated" id="279254">
+<p>" Nmap &#21457;&#24067;&#38024;&#23545; ms17-010 &#28431;&#27934;&#30340;&#25506;&#27979;&#33050;&#26412;smb-vuln-ms17-010.nse&#65306;   <a href="http://seclists.org/nmap-dev/2017/q2/79" rel="nofollow">http://seclists.org/nmap-dev/2017/q2/79</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Andrew Chiles @AndrewChiles </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  [Blog] Empire - Modifying Server C2 Indicators, follow-up to @bluscreenofjeff recent post on #Empire C2 profiles <a href="https://t.co/VXaNY5BN1G" rel="nofollow">https://t.co/VXaNY5BN1G</a></p>
+<div class="translated" id="279266">
+<p>" &#20462;&#25913; Power Empire &#30340; C2 &#26381;&#21153;&#22120;&#37197;&#32622;&#20197;&#32469;&#36807;&#29305;&#24449;&#26816;&#27979;&#65306;   <a href="http://threatexpress.com/2017/05/empire-modifying-server-c2-indicators/" rel="nofollow">http://threatexpress.com/2017/05/empire-modifying-server-c2-indicators/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Haifei Li @HaifeiLi</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  I just realized I didn't release the slides for my talk @  MS BlueHat and Tencent TenSec last Nov., so here you go <a href="https://sites.google.com/site/zerodayresearch/Analysis_of_the_Attack_Surface_of_Microsoft_Office_from_User_Perspective_final.pdf" rel="nofollow">https://sites.google.com/site/zerodayresearch/Analysis_of_the_Attack_Surface_of_Microsoft_Office_from_User_Perspective_final.pdf</a>.</p>
+<div class="translated" id="279447">
+<p>" &#20174;&#29992;&#25143;&#35282;&#24230;&#20986;&#21457;&#20998;&#26512; Microsoft Office &#30340;&#25915;&#20987;&#38754;&#65292;&#26469;&#33258; Haifei Li &#22312; BlueHat &#30340;&#28436;&#35762;&#65306;   <a href="https://sites.google.com/site/zerodayresearch/Analysis_of_the_Attack_Surface_of_Microsoft_Office_from_User_Perspective_final.pdf" rel="nofollow">https://sites.google.com/site/zerodayresearch/Analysis_of_the_Attack_Surface_of_Microsoft_Office_from_User_Perspective_final.pdf</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Trail of Bits @trailofbits </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Reverse engineer 200 binaries with the mechanical efficiency of symbolic execution <a href="http://blog.trailofbits.com/2017/05/15/magic-with-manticore/" rel="nofollow">http://blog.trailofbits.com/2017/05/15/magic-with-manticore/</a> <a href="https://t.co/ESGwAQgMpf" rel="nofollow">https://t.co/ESGwAQgMpf</a></p>
+<div class="translated" id="279241">
+<p>" &#20351;&#29992; Manticore &#35299;&#20915; DEFCON CTF &#20108;&#36827;&#21046;&#20998;&#26512;&#39064;&#30446; - Magic &#30340;&#35814;&#32454;&#26041;&#27861;&#65306;   <a href="https://blog.trailofbits.com/2017/05/15/magic-with-manticore/" rel="nofollow">https://blog.trailofbits.com/2017/05/15/magic-with-manticore/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Giuseppe `N3mes1s` @gN3mes1s</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  WikiLeaks publishes "AfterMidnight" and "Assassin", two CIA malware frameworks for the Microsoft Windows platform. - <a href="https://wikileaks.org/vault7/releases/#AfterMidnight" rel="nofollow">https://wikileaks.org/vault7/releases/#AfterMidnight</a></p>
+<div class="translated" id="279252">
+<p>" 
+&#19978;&#21608;&#20116; WikiLeaks &#21448;&#20844;&#24320;&#20102;&#20004;&#20010; CIA &#25152;&#29992;&#30340; Windows &#24179;&#21488;&#30340;&#24694;&#24847;&#20195;&#30721;&#26694;&#26550; - AfterMidnight&#65288;&#21320;&#22812;&#20043;&#21518;&#65289;&#21644; Assassin&#65288;&#21050;&#23458;&#65289;&#65306;   <a href="https://wikileaks.org/vault7/releases/" rel="nofollow">https://wikileaks.org/vault7/releases/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Chris @xorrior </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  It's finally here: <a href="https://xorrior.com/2.0-Final-Release/" rel="nofollow">https://xorrior.com/2.0-Final-Release/</a>
+cc @ 424f424f @ harmj0y @ Killswitch_GUI @ sixdub @ enigma0x3 
+Enjoy!?</p>
+<div class="translated" id="279283">
+<p>" 
+&#28183;&#36879;&#27979;&#35797;&#25915;&#20987;&#26694;&#26550; Empire &#26356;&#26032; 2.0 &#29256;&#26412;&#65306;   <a href="https://github.com/EmpireProject/Empire%C2%A0" rel="nofollow">https://github.com/EmpireProject/Empire </a> <a href="https://xorrior.com/2.0-Final-Release/" rel="nofollow">https://xorrior.com/2.0-Final-Release/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows Kernel stack memory disclosure in win32k!xxxClientLpkDrawTextEx <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1182" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1182</a></p>
+<div class="translated" id="279191">
+<p>" 
+Windows &#20869;&#26680;&#39537;&#21160; win32k!xxxClientLpkDrawTextEx &#22312;&#35302;&#21457; user-mode callback &#26102;&#20250;&#27844;&#38706;&#20869;&#26680;&#26632;&#19978; 4 &#23383;&#33410;&#30340;&#20869;&#23384;&#65288;CVE-2017-0245&#65289;&#65306;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1182" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1182</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows Kernel pool memory disclosure in nt!NtTraceControl (EtwpSetProviderTraits) <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1161" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1161</a></p>
+<div class="translated" id="279192">
+<p>" 
+Windows &#20869;&#26680; EtwpSetProviderTraitsUm Kernel Pool &#20869;&#23384;&#27844;&#28431;&#28431;&#27934;&#65288;CVE-2017-0259&#65289;&#65306;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1161" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1161</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows Kernel uninitialized memory in the default dacl descriptor of system processes' token <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1145" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1145</a></p>
+<div class="translated" id="279193">
+<p>" 
+lsass.exe, services.exe &#31561;&#36827;&#31243;&#30340; token &#30340; default DACL &#20013;&#23384;&#22312; 8 &#23383;&#33410;&#26410;&#21021;&#22987;&#21270;&#30340;&#20869;&#23384;&#65288;CVE-2017-0258&#65289;&#65306;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1145" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1145</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Project Zero Bugs @ProjectZeroBugs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Windows Kernel pool-based out-of-bound reads due to bugs in the implementation of bind() in afd.sys and tcpip.sys <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1127" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1127</a></p>
+<div class="translated" id="279194">
+<p>" 
+Windows &#20869;&#26680;&#39537;&#21160; afd.sys &#21644; tcpip.sys &#22312;&#23454;&#29616; Socket bind() &#26102;&#23384;&#22312;&#20869;&#23384;&#36234;&#30028;&#35835;&#28431;&#27934;&#65288;CVE-2017-0175/0220&#65289;&#65306;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1127" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1127</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  0patch @0patch </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  0patching the "Worst Windows Remote Code Execution Bug in Recent Memory" CVE-2017-0290 <a href="https://0patch.blogspot.com/2017/05/0patching-worst-windows-remote-code.html" rel="nofollow">https://0patch.blogspot.com/2017/05/0patching-worst-windows-remote-code.html</a></p>
+<div class="translated" id="279235">
+<p>" 
+0patch &#22242;&#38431;&#20026; Tavis &#21457;&#29616;&#30340; Windows &#21453;&#30149;&#27602;&#24341;&#25806;&#20013;&#30340; mpengine RCE &#28431;&#27934;&#20889;&#20102;&#19968;&#20010;&#31532;&#19977;&#26041;&#34917;&#19969;&#65288;CVE-2017-0290&#65289;&#65306;   <a href="https://0patch.blogspot.com/2017/05/0patching-worst-windows-remote-code.html" rel="nofollow">https://0patch.blogspot.com/2017/05/0patching-worst-windows-remote-code.html</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  Stealing Windows credentials using Google Chrome <a href="https://www.helpnetsecurity.com/2017/05/15/stealing-windows-credentials-using-google-chrome/" rel="nofollow">https://www.helpnetsecurity.com/2017/05/15/stealing-windows-credentials-using-google-chrome/</a></p>
+<div class="translated" id="279549">
+<p>"  
+2015 &#24180;&#26377;&#30740;&#31350;&#32773;&#23637;&#31034;&#20102;&#21033;&#29992; SMB &#25991;&#20214;&#20849;&#20139;&#21327;&#35758;&#35748;&#35777;&#30340;&#32570;&#38519;&#20599;&#29992;&#25143;&#20973;&#25454;&#30340;&#20449;&#24687;&#65292;&#24403;&#26102;&#30340;&#23637;&#31034;&#37117;&#26159;&#22522;&#20110; IE &#21644; Edge &#27983;&#35272;&#22120;&#30340;&#12290;&#36825;&#31687; Blog &#20013;&#20316;&#32773;&#20171;&#32461;&#22914;&#20309;&#21033;&#29992; .scf &#25991;&#20214;&#22312; Chrome &#19978;&#23454;&#29616;&#25915;&#20987;&#65306;   <a href="https://www.helpnetsecurity.com/2017/05/15/stealing-windows-credentials-using-google-chrome/%C2%A0" rel="nofollow">https://www.helpnetsecurity.com/2017/05/15/stealing-windows-credentials-using-google-chrome/ </a> 2015&#24180;&#30340;&#30740;&#31350;&#65306;  <a href="https://www.blackhat.com/docs/us-15/materials/us-15-Brossard-SMBv2-Sharing-More-Than-Just-Your-Files.pdf%C2%A0" rel="nofollow">https://www.blackhat.com/docs/us-15/materials/us-15-Brossard-SMBv2-Sharing-More-Than-Just-Your-Files.pdf </a> &#36824;&#26377;&#19968;&#31687;&#30456;&#20851;&#30340;&#25991;&#31456;&#12298;SPEAR: Redirect to SMB&#12299;&#65306;  <a href="https://www.cylance.com/redirect-to-smb" rel="nofollow">https://www.cylance.com/redirect-to-smb</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via FreeBuf</p> -->
+<p>XuanwuSpider via FreeBuf</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> WirelessSecurity </i>]  IEEE802.11w&#26080;&#32447;&#23433;&#20840;&#21327;&#35758;&#21078;&#26512;: 
+<a href="http://www.freebuf.com/articles/wireless/134349.html" rel="nofollow">http://www.freebuf.com/articles/wireless/134349.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/16/index.html">2017/05/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/17/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/16/index.html</guid><pubDate>Tue, 16 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-02</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/02/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
