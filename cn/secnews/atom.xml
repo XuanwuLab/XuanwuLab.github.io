@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 18 May 2017 11:12:29 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 19 May 2017 11:29:54 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -16395,7 +16395,600 @@ x86/x64 Compatible Stager (Native, No Shellcode)
 <a href="/cn/secnews/2017/05/02/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/01/index.html</guid><pubDate>Mon, 01 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-11</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/11/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/01/index.html</guid><pubDate>Mon, 01 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-19</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/19/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/18/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/19/index.html">2017/05/19</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/20/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Dorian Cussen @doriancussen </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Android </i>]  Android Developers Blog:Android and Architecture <a href="https://android-developers.googleblog.com/2017/05/android-and-architecture.html" rel="nofollow">https://android-developers.googleblog.com/2017/05/android-and-architecture.html</a> via @ google</p>
+<div class="translated" id="281141">
+<p>" &#26469;&#33258; Android &#24320;&#21457;&#32773;&#23448;&#32593;&#30340;&#12298;Android &#19982;&#26550;&#26500;&#12299;&#65306;   <a href="https://t.co/jVwngxyBLr" rel="nofollow">https://t.co/jVwngxyBLr</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Manuel Caballero @magicmac2000</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Browser </i>]  IE11 - popUp blocker bypass - Combined with zombie alerts? popUps from everywhere!
+
+<a href="https://www.cracking.com.ar/demos/iepopups/" rel="nofollow">https://www.cracking.com.ar/demos/iepopups/</a>
+
+Video:&#8230; <a href="https://twitter.com/i/web/status/865198883563032576" rel="nofollow">https://twitter.com/i/web/status/865198883563032576</a></p>
+<div class="translated" id="281128">
+<p>" IE 11 popUp blocker Bypass PoC&#65306;   <a href="https://twitter.com/i/web/status/865198883563032576" rel="nofollow">https://twitter.com/i/web/status/865198883563032576</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  MDSec @MDSecLabs </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> IoTDevice </i>]  We've just released a short blog post and code for an intro to fuzzing UART from an Arduino.. <a href="https://www.mdsec.co.uk/2017/05/hacking-hardware-with-an-arduino/" rel="nofollow">https://www.mdsec.co.uk/2017/05/hacking-hardware-with-an-arduino/</a></p>
+<div class="translated" id="281181">
+<p>" &#20351;&#29992; Arduino &#23545;&#36335;&#30001;&#22120;&#36827;&#34892;&#35843;&#35797;&#65306;   <a href="https://t.co/VTDOqOiiV4" rel="nofollow">https://t.co/VTDOqOiiV4</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Jóseph Mlodzìanowskì @cedoxX</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  Adylkuzz Cryptocurrency Mining #Malware Spreading for Weeks Via #EternalBlue #DoublePulsar by @ kafeine  
+<a href="https://www.proofpoint.com/us/threat-insight/post/adylkuzz-cryptocurrency-mining-malware-spreading-for-weeks-via-eternalblue-doublepulsar" rel="nofollow">https://www.proofpoint.com/us/threat-insight/post/adylkuzz-cryptocurrency-mining-malware-spreading-for-weeks-via-eternalblue-doublepulsar</a></p>
+<div class="translated" id="280866">
+<p>" aAdylkuzz - &#19982; WannaCry &#19968;&#26679;&#30340;&#26041;&#24335;&#20256;&#25773;&#20294;&#26159;&#30446;&#30340;&#26159; "&#25366;&#30719;" &#30340;&#24694;&#24847;&#36719;&#20214;&#65306;   <a href="https://securingtomorrow.mcafee.com/mcafee-labs/adylkuzz-coinminer-spreading-like-wannacry/" rel="nofollow">https://securingtomorrow.mcafee.com/mcafee-labs/adylkuzz-coinminer-spreading-like-wannacry/</a>     <a href="https://www.symantec.com/connect/ko/blogs/adylkuzz-crytocurrency-miner-not-next-wannacry" rel="nofollow">https://www.symantec.com/connect/ko/blogs/adylkuzz-crytocurrency-miner-not-next-wannacry</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>TrendLabs @TrendLabs</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> MalwareAnalysis </i>]  #UIWIX and #WannaCry ransomware: A summary of their differences: <a href="http://bit.ly/2reIjTe" rel="nofollow">http://bit.ly/2reIjTe</a> <a href="https://t.co/zXEgLBiwb4" rel="nofollow">https://t.co/zXEgLBiwb4</a></p>
+<div class="translated" id="281122">
+<p>" &#21202;&#32034;&#36719;&#20214; WannaCry &#12289;UIWIX &#22823;&#23545;&#27604;&#65306;   <a href="https://t.co/cVaOqS3WpS" rel="nofollow">https://t.co/cVaOqS3WpS</a>  "</p>
+</div>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DAHTrYIUMAEOmmq.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Others </i>]  ELF Hello World Tutorial : <a href="http://www.cirosantilli.com/elf-hello-world/" rel="nofollow">http://www.cirosantilli.com/elf-hello-world/</a> cc @ cirosantilli</p>
+<div class="translated" id="280919">
+<p>"  ELF &#25991;&#20214;&#26684;&#24335;&#20837;&#38376;&#25945;&#31243;&#65306;   <a href="https://t.co/i8mUBYe7Um" rel="nofollow">https://t.co/i8mUBYe7Um</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Ryan Cobb @cobbr_io </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Pentest </i>]  [blog] PowerShell ScriptBlock Logging Bypass - <a href="https://cobbr.io/ScriptBlock-Logging-Bypass.html" rel="nofollow">https://cobbr.io/ScriptBlock-Logging-Bypass.html</a></p>
+<div class="translated" id="281054">
+<p>" PowerShell 5.0 &#24341;&#20837;&#20102;&#19968;&#20010;&#38750;&#24120;&#26377;&#29992;&#30340;&#29305;&#24615; - ScriptBlock logging&#65292;ScriptBlock &#21487;&#20197;&#35760;&#24405;&#25191;&#34892;&#36807;&#30340;&#27599;&#19968;&#34892; PowerShell &#20195;&#30721;&#65292;&#21453;&#30149;&#27602;&#36719;&#20214;&#21487;&#20197;&#22522;&#20110;&#27492;&#26816;&#27979;&#24694;&#24847;&#20195;&#30721;&#12290;&#36825;&#31687; Blog &#20013;&#65292;&#20316;&#32773;&#23581;&#35797; Bypass &#36825;&#20010;&#29305;&#24615;&#65292;&#31105;&#29992; Logging&#65306;   <a href="https://cobbr.io/ScriptBlock-Logging-Bypass.html" rel="nofollow">https://cobbr.io/ScriptBlock-Logging-Bypass.html</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Binni Shah @binitamshah</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Popular Software </i>]  The Case of the Stolen Source Code :  <a href="https://panic.com/blog/stolen-source-code/" rel="nofollow">https://panic.com/blog/stolen-source-code/</a></p>
+<div class="translated" id="281198">
+<p>" 
+&#24320;&#28304;&#35270;&#39057;&#36716;&#30721;&#36719;&#20214; HandBrake &#30340;&#38236;&#20687;&#19979;&#36733;&#26381;&#21153;&#22120;&#36973;&#21040;&#20837;&#20405;&#65292;&#36719;&#20214;&#34987;&#26893;&#20837;&#21518;&#38376;&#65292;&#28304;&#30721;&#20063;&#36973;&#21040;&#27844;&#38706;&#12290;&#25915;&#20987;&#32773;&#38543;&#21518;&#36824;&#21457;&#36865;&#30005;&#23376;&#37038;&#20214;&#65292;&#21202;&#32034;&#22823;&#37327;&#27604;&#29305;&#24065;&#12290;&#20854;&#20013;&#28304;&#30721;&#30340;&#21407;&#22240;&#26159;&#21019;&#22987;&#20154;&#24688;&#22909;&#22312;&#26381;&#21153;&#22120;&#36973;&#21040;&#20837;&#20405;&#26399;&#38388;&#25163;&#21160;&#26356;&#26032;&#20102;&#36719;&#20214;&#65306;   <a href="http://www.solidot.org/story?sid=52446%C2%A0" rel="nofollow">http://www.solidot.org/story?sid=52446 </a> <a href="https://panic.com/blog/stolen-source-code/" rel="nofollow">https://panic.com/blog/stolen-source-code/</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Jerry Gamblin @JGamblin </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SCADA </i>]  Introduction to Attacking ICS/SCADA Systems for Penetration Testers.  <a href="http://blog.gdssecurity.com/labs/2017/5/17/introduction-to-attacking-icsscada-systems-for-penetration-t.html" rel="nofollow">http://blog.gdssecurity.com/labs/2017/5/17/introduction-to-attacking-icsscada-systems-for-penetration-t.html</a></p>
+<div class="translated" id="280993">
+<p>" 
+ ICS/SCADA &#31995;&#32479;&#30340;&#28183;&#36879;&#27979;&#35797;&#20171;&#32461;&#65292;&#25991;&#20013;&#26368;&#21518;&#25910;&#38598;&#20102;&#20960;&#36215;&#36817;&#20123;&#24180;&#21457;&#29983;&#30340;&#24037;&#25511;&#23433;&#20840;&#20107;&#20214;&#26696;&#20363;&#65306;
+  <a href="https://t.co/Xpt8st9Baq" rel="nofollow">https://t.co/Xpt8st9Baq</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  SecuriTeam (SSD) @SecuriTeam_SSD </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> SecurityProduct </i>]  SSD Advisory &#8211; @ Bitdefender Code Signing organizationName Buffer Overflow
+For more details: <a href="https://blogs.securiteam.com/index.php/archives/3211" rel="nofollow">https://blogs.securiteam.com/index.php/archives/3211</a> <a href="https://t.co/pXFPQBMMJn" rel="nofollow">https://t.co/pXFPQBMMJn</a></p>
+<div class="translated" id="281179">
+<p>" Bitdefender PE &#24341;&#25806;&#22312;&#22788;&#29702; PE &#20195;&#30721;&#31614;&#21517;&#30340; organizationName &#26102;&#23384;&#22312;&#32531;&#20914;&#21306;&#28322;&#20986;&#28431;&#27934;&#65306;   <a href="https://blogs.securiteam.com/index.php/archives/3211" rel="nofollow">https://blogs.securiteam.com/index.php/archives/3211</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Adrien Guinet @adriengnt </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  #wannacry in-memory private RSA key recovery for Windows XP : <a href="https://github.com/aguinet/wannakey" rel="nofollow">https://github.com/aguinet/wannakey</a></p>
+<div class="translated" id="281114">
+<p>" wannakey - &#20869;&#23384;&#20013;&#26292;&#21147;&#25628;&#32034; WannaCry &#21202;&#32034;&#36719;&#20214;&#30340;&#21152;&#23494; RSA &#23494;&#38053;&#65292;&#26377;&#20102;&#36825;&#20010; Key &#23601;&#21487;&#20197;&#35299;&#23494;&#36824;&#21407;&#34987; WannaCry &#21152;&#23494;&#21518;&#30340;&#25991;&#20214;&#12290;&#20316;&#32773;&#34920;&#31034;&#36825;&#20010;&#24037;&#20855;&#20165;&#22312; Windows XP &#19978;&#24037;&#20316;&#65292;&#24182;&#19988;&#25104;&#21151;&#19982;&#21542;&#20063;&#35201;&#30475;&#36816;&#27668;&#12290;&#36825;&#20010;&#24037;&#20855;&#21033;&#29992;&#30340;&#26159; WannaCry &#35843;&#29992;&#30340;&#21152;&#23494; API &#20043;&#21518;&#37322;&#25918; RSA Private Key &#20869;&#23384;&#20043;&#21069;&#27809;&#26377;&#28165; 0&#65306;   <a href="https://t.co/nMqVKgfv58" rel="nofollow">https://t.co/nMqVKgfv58</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Alex Hude @getorix</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Just pushed IDA plugin to load processor configurations. If you don't know what that is, you probably don't need it?
+<a href="https://github.com/alexhude/LoadProcConfig" rel="nofollow">https://github.com/alexhude/LoadProcConfig</a></p>
+<div class="translated" id="281118">
+<p>" LoadProcConfig - IDA &#20013;&#21152;&#36733; CPU &#37197;&#32622;&#25991;&#20214;&#20197;&#20248;&#21270;&#27719;&#32534;&#23637;&#31034;&#25928;&#26524;&#30340;&#25554;&#20214;&#65306;   <a href="https://t.co/k8CI3ABA19" rel="nofollow">https://t.co/k8CI3ABA19</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  x0rz @x0rz </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Analysis of EPICHERO: RCE with root privileges in Avaya call server <a href="http://blog.infobytesec.com/2017/05/nsa-shadowbrokers-leak-analyzing.html" rel="nofollow">http://blog.infobytesec.com/2017/05/nsa-shadowbrokers-leak-analyzing.html</a> #EquationGroup #ShadowBrokers #vulnerability</p>
+<div class="translated" id="281191">
+<p>" Infobyte Security &#30740;&#31350;&#21592;&#23545; NSA &#20891;&#28779;&#24211;&#20013;&#30340; EPICHERO &#24037;&#20855;&#36827;&#34892;&#20102;&#35814;&#32454;&#30340;&#20998;&#26512;&#65292;&#35813;&#24037;&#20855;&#26159;&#38024;&#23545; Avaya Communication Manager &#30340; RCE &#28431;&#27934;&#21033;&#29992;&#65306;   <a href="https://t.co/hTR0MAo4eR" rel="nofollow">https://t.co/hTR0MAo4eR</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Matthew Risck @Mateusz_Jozef </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Technical analysis of the Equation Group's post-exploitation tools (DanderSpritz and more) Part 1 <a href="https://research.kudelskisecurity.com/2017/05/18/the-equation-groups-post-exploitation-tools-danderspritz-and-more-part-1/" rel="nofollow">https://research.kudelskisecurity.com/2017/05/18/the-equation-groups-post-exploitation-tools-danderspritz-and-more-part-1/</a></p>
+<div class="translated" id="281204">
+<p>" Shadow Broker &#20844;&#24320;&#30340;&#26041;&#31243;&#24335;&#30340; DanderSpritz &#28183;&#36879;&#26694;&#26550;&#20998;&#26512;&#65306;   <a href="https://t.co/LDONsjnhtA" rel="nofollow">https://t.co/LDONsjnhtA</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  OSR @OSRDrivers </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  WinDbg, Debugger Objects, and JavaScript! Oh, My! <a href="https://www.osr.com/blog/2017/05/18/windbg-debugger-objects-javascript-oh/" rel="nofollow">https://www.osr.com/blog/2017/05/18/windbg-debugger-objects-javascript-oh/</a></p>
+<div class="translated" id="280991">
+<p>" WinDbg, Debugger Objects(dx &#21629;&#20196;) &#19982;&#35843;&#35797;&#22120; JavaScript &#25193;&#23637;&#65306;   <a href="https://www.osr.com/blog/2017/05/18/windbg-debugger-objects-javascript-oh/" rel="nofollow">https://www.osr.com/blog/2017/05/18/windbg-debugger-objects-javascript-oh/</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  Steve Weis @sweis </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Google released new Tink crypto library: <a href="https://github.com/google/tink" rel="nofollow">https://github.com/google/tink</a>
+
+From Thai Duong, Daniel Bleichenbacher, Bartosz Przydatek, &amp; Quan Nguyen</p>
+<div class="translated" id="281008">
+<p>" 
+tink - Google &#24320;&#28304;&#30340;&#19968;&#20010;&#31616;&#21333;&#12289;&#24555;&#36895;&#30340;&#21152;&#23494;&#24211;&#65292;&#21487;&#20197;&#22522;&#20110;&#27492;&#24555;&#36895;&#23454;&#29616;&#24120;&#35265;&#30340;&#21152;&#23494;&#38656;&#27714;&#65306;   <a href="https://github.com/google/tink" rel="nofollow">https://github.com/google/tink</a>
+ "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Rapid7 @rapid7</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Tools </i>]  Latest @ Metasploit release includes a scanner and exploit module for the #EternalBlue vulnerability <a href="http://r-7.co/2qADOj4" rel="nofollow">http://r-7.co/2qADOj4</a></p>
+<div class="translated" id="281035">
+<p>" Metasploit &#21457;&#24067;&#20102;&#38024;&#23545; EternalBlue &#30340;&#25195;&#25551;&#19982;&#21033;&#29992;&#27169;&#22359;(MS17-010)&#65306;   <a href="https://t.co/sl6pV1F3d7" rel="nofollow">https://t.co/sl6pV1F3d7</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Nicolas Krassas @Dinosn</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Vulnerability </i>]  A critical Improper Authentication vulnerability in Uber allowed password reset for any account <a href="http://securityaffairs.co/wordpress/59210/hacking/uber-improper-authentication.html" rel="nofollow">http://securityaffairs.co/wordpress/59210/hacking/uber-improper-authentication.html</a></p>
+<div class="translated" id="280923">
+<p>"  Uber &#20219;&#24847;&#29992;&#25143;&#23494;&#30721;&#37325;&#32622;&#28431;&#27934;&#35814;&#24773;&#65306;   <a href="https://t.co/ZSvETqpLKj" rel="nofollow">https://t.co/ZSvETqpLKj</a>  "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Francisco Alonso @revskills</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Web Security </i>]  The 5k Error Page, Google bug bounty <a href="https://slashcrypto.org/2017/05/17/5k_Error_Page/" rel="nofollow">https://slashcrypto.org/2017/05/17/5k_Error_Page/</a></p>
+<div class="translated" id="281171">
+<p>" &#20215;&#20540; 5000 &#20992;&#30340; 404 &#38169;&#35823;&#39029;&#38754; - &#19968;&#19981;&#23567;&#24515;&#24320;&#21551;&#20102;&#35843;&#35797;&#36755;&#20986;&#27169;&#24335;&#65292;&#26469;&#33258; Google Bug Bounty &#39033;&#30446;&#65306;   <a href="https://t.co/AE9SRD8bFz" rel="nofollow">https://t.co/AE9SRD8bFz</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>  PT Security @PTsecurity_UK </p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  A closer look at the CVE-2017-0263 privilege escalation vulnerability in #Windows <a href="http://blog.ptsecurity.com/2017/05/a-closer-look-at-cve-2017-0263.html" rel="nofollow">http://blog.ptsecurity.com/2017/05/a-closer-look-at-cve-2017-0263.html</a></p>
+<div class="translated" id="281148">
+<p>" &#26412;&#26376;&#20462;&#22797;&#30340; win32k!xxxDestroyWindow UAF &#25552;&#26435;&#28431;&#27934;&#30340;&#20998;&#26512;&#65288;CVE-2017-0263&#65289;&#65292;&#26469;&#33258; Positive Technologies &#22242;&#38431;&#65292;&#21069;&#20004;&#21608;&#25512;&#36865;&#36807; FireEye &#20851;&#20110;&#36825;&#20010;&#28431;&#27934;&#30340;&#20998;&#26512;&#65306;   <a href="http://blog.ptsecurity.com/2017/05/a-closer-look-at-cve-2017-0263.html" rel="nofollow">http://blog.ptsecurity.com/2017/05/a-closer-look-at-cve-2017-0263.html</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweiboheader">
+<div id="singleweibologo">
+</div>
+<div id="singleweiboauthor">
+<p>Casey Smith @subTee</p>
+</div>
+</div>
+<div id="singleweibobody">
+<div class="singleweibotext">
+<p>[<i> Windows </i>]  [Blog Post] 
+Subvert CLR Process Listing With .NET Profilers
+<a href="http://subt0x10.blogspot.com/2017/05/subvert-clr-process-listing-with-net.html" rel="nofollow">http://subt0x10.blogspot.com/2017/05/subvert-clr-process-listing-with-net.html</a>
+Basic POC To Hide from Get-Process
+Feedback Welcome :-)</p>
+<div class="translated" id="280987">
+<p>"  .NET 4 &#24320;&#22987;&#65292;CLR &#36827;&#31243;&#20801;&#35768;&#36890;&#36807;&#29615;&#22659;&#21464;&#37327;&#25351;&#23450; Runtime Profiler&#12290;&#30740;&#31350;&#21592; subTee &#21457;&#29616;&#21487;&#20197;&#21033;&#29992;&#36825;&#20010;&#26426;&#21046;&#21163;&#25345; .NET &#36827;&#31243;&#65292;&#21152;&#36733;&#33258;&#24049;&#30340; DLL&#65306;   <a href="https://t.co/63bp75tzPU" rel="nofollow">https://t.co/63bp75tzPU</a> "</p>
+</div>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via threatpost</p> -->
+<p>XuanwuSpider via threatpost</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Android </i>]  Google I/O &#22823;&#20250;&#19978;&#65292;&#23448;&#26041;&#34920;&#31034;&#26032;&#29256;&#26412;&#30340; Android &#23558;&#38598;&#25104; Google Play Protect &#26381;&#21153;&#65292;&#29992;&#26469;&#26816;&#26597;&#19979;&#36733;&#30340; App &#30340;&#23433;&#20840;&#24615;&#65306; 
+<a href="https://threatpost.com/android-gets-security-makeover-with-google-play-protect/125781/" rel="nofollow">https://threatpost.com/android-gets-security-makeover-with-google-play-protect/125781/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via twitter</p> -->
+<p>XuanwuSpider via twitter</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Browser </i>]  Firefox &#30340;&#36825;&#20010; button &#29305;&#24615;&#20063;&#35768;&#21487;&#20197;&#34987;&#29992;&#26469; Bypass WAF&#65306;&lt;button onauxclick=alert(1)&gt;Right-Click Me&lt;/button&gt;&#65306; 
+<a href="https://twitter.com/0x6d6172696f/status/865092205182152705" rel="nofollow">https://twitter.com/0x6d6172696f/status/865092205182152705</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via blog.trendmicro.com</p> -->
+<p>XuanwuSpider via blog.trendmicro.com</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> iOS </i>]  &#36817;&#26399;&#20960;&#27454;&#33394;&#24773; App &#24320;&#22987;&#22823;&#37327;&#22312; Android &#21644; iOS &#24179;&#21488;&#19978;&#20256;&#25773;&#65292;&#20182;&#20204;&#29978;&#33267;&#25214;&#21040;&#20102;&#19978;&#26550; Apple App Store &#30340;&#26041;&#24335;&#65306; 
+<a href="http://blog.trendmicro.com/trendlabs-security-intelligence/pua-operation-spreads-thousands-explicit-apps-wild-legitimate-app-stores/" rel="nofollow">http://blog.trendmicro.com/trendlabs-security-intelligence/pua-operation-spreads-thousands-explicit-apps-wild-legitimate-app-stores/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via heimdalsecurity.com</p> -->
+<p>XuanwuSpider via heimdalsecurity.com</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> MalwareAnalysis </i>]  WannaCry &#21202;&#32034;&#36719;&#20214;&#36824;&#27809;&#23436;&#65292;Heimdal &#23433;&#20840;&#22242;&#38431;&#36890;&#36807;&#34588;&#32592;&#25429;&#33719;&#20102;&#19968;&#20010;&#26032;&#30340;&#34837;&#34411;&#26679;&#26412; - BlueDoom&#65292;BlueDoom &#20960;&#20046;&#38598;&#25104;&#20102; NSA &#27844;&#38706;&#30340;&#25152;&#26377;&#25915;&#20987;&#27494;&#22120;&#65292;BlueDoom &#25915;&#30772;&#29992;&#25143;&#30005;&#33041;&#21518;&#24182;&#27809;&#26377;&#37322;&#25918;&#21202;&#32034;&#36719;&#20214; Payload&#65292;&#20063;&#35768;&#26159;&#22312;&#20026;&#23558;&#26469;&#30340;&#25915;&#20987;&#20570;&#20934;&#22791;&#65306; 
+<a href="https://heimdalsecurity.com/blog/bluedoom-worm-eternablue-nsa-exploits/?utm_content=buffera78a0&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer" rel="nofollow">https://heimdalsecurity.com/blog/bluedoom-worm-eternablue-nsa-exploits/?utm_content=buffera78a0&amp;utm_medium=social&amp;utm_source=twitter.com&amp;utm_campaign=buffer</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via Github</p> -->
+<p>XuanwuSpider via Github</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Tools </i>]  aria2 - &#19968;&#20010;&#36731;&#37327;&#32423;&#30340;&#12289;&#25903;&#25345;&#22810;&#31181;&#21327;&#35758;&#12289;&#36328;&#24179;&#21488;&#30340;&#21629;&#20196;&#34892;&#19979;&#36733;&#24037;&#20855;&#65292;&#25903;&#25345; HTTP/HTTPS, FTP, SFTP, BitTorrent and Metalink&#65306; 
+<a href="https://github.com/aria2/aria2" rel="nofollow">https://github.com/aria2/aria2</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedheader">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedauthor">
+<!--<p><img src="http://ww3.sinaimg.cn/mw690/6b0cfdebgw1f9b7vswmw5j20e80e8t9a.jpg" width="12px" height="12px" align="left">XuanwuSpider via Github</p> -->
+<p>XuanwuSpider via Github</p>
+</div>
+</div>
+<div class="singlefeedbody">
+<div class="singlefeedtext">
+<p>[<i> Vulnerability </i>]  PLASMA PULSAR - kde4/kde5 KAuth &#36923;&#36753;&#28431;&#27934; Root Exploit&#65288;CVE-2017-8422/8849&#65289;&#65306; 
+<a href="https://github.com/stealth/plasmapulsar" rel="nofollow">https://github.com/stealth/plasmapulsar</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/05/18/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/05/19/index.html">2017/05/19</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/05/20/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/05/19/index.html</guid><pubDate>Fri, 19 May 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-05-11</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/11/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
