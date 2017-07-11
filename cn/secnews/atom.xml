@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Mon, 10 Jul 2017 11:42:34 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-05-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 11 Jul 2017 11:16:20 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-05-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -20213,7 +20213,392 @@ systemd &#26368;&#36817;&#20462;&#22797;&#20102;&#19968;&#20010; Bug&#65292;&#19
 <a href="/cn/secnews/2017/07/02/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/07/01/index.html</guid><pubDate>Sat, 01 Jul 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-07-08</title><link>http://xuanwulab.github.io/cn/secnews/2017/07/08/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/07/01/index.html</guid><pubDate>Sat, 01 Jul 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-07-11</title><link>http://xuanwulab.github.io/cn/secnews/2017/07/11/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/07/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/07/11/index.html">2017/07/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/07/12/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  
+ Google &#35745;&#21010;&#20174; Chrome 61 &#29256;&#26412;&#24320;&#22987;&#23436;&#20840;&#24223;&#24323; WoSign &#21644; StartCom &#39041;&#21457;&#30340;&#35777;&#20070;&#65306;   <a href="https://threatpost.com/google-to-fully-distrust-wosignstartcom-ssl-certs-in-chrome-61/126729/" rel="nofollow">https://threatpost.com/google-to-fully-distrust-wosignstartcom-ssl-certs-in-chrome-61/126729/</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DEZSV5OXsAA5aBC.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Hardware ]</span>  &#25805;&#20316;&#31995;&#32479;&#30340;&#24320;&#21457;&#65306;&#20197;IA-32e 64&#20301;&#20998;&#39029;&#20171;&#32461;&#65306;   <a href="http://www.triplefault.io/2017/07/introduction-to-ia-32e-hardware-paging.html" rel="nofollow">http://www.triplefault.io/2017/07/introduction-to-ia-32e-hardware-paging.html</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DEYCDrWVwAEsSLs.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Hardware ]</span>  
+CacheZoom - Intel SGX &#20445;&#25252;&#26426;&#21046;&#25918;&#22823;&#20102;&#32531;&#23384;&#25915;&#20987;&#30340;&#23041;&#21147;&#65306;   <a href="https://arxiv.org/abs/1703.06986" rel="nofollow">https://arxiv.org/abs/1703.06986</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  
+ &#22269;&#38469;&#35843;&#26597;&#32452;&#32455;&#20063;&#26159;&#26576;&#20123;&#25919;&#24220;&#38388;&#35853;&#36719;&#20214;&#30340;&#25915;&#20987;&#30446;&#26631;&#65306;   <a href="https://threatpost.com/international-investigatory-group-also-target-of-government-spyware/126723/" rel="nofollow">https://threatpost.com/international-investigatory-group-also-target-of-government-spyware/126723/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>  
+ &#22914;&#20309;&#22312; OS X &#32534;&#35793;&#20986; AFL &#30340; LLVM &#27169;&#24335;&#65292;&#25552;&#39640;&#24615;&#33021;&#65306;   <a href="https://reverse.put.as/2017/07/10/compiling-afl-osx-llvm-mode/" rel="nofollow">https://reverse.put.as/2017/07/10/compiling-afl-osx-llvm-mode/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  
+&#19982; Operation Emmental &#25915;&#20987;&#34892;&#21160;&#26377;&#20851;&#30340;&#19968;&#27454; OS X &#24694;&#24847;&#36719;&#20214; OSX_DOK &#20250;&#21163;&#25345;&#29992;&#25143;&#30340;&#32593;&#32476;&#27969;&#37327;&#65306;   <a href="http://blog.trendmicro.com/trendlabs-security-intelligence/osx_dok-mac-malware-emmental-hijacks-user-network-traffic/" rel="nofollow">http://blog.trendmicro.com/trendlabs-security-intelligence/osx_dok-mac-malware-emmental-hijacks-user-network-traffic/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  
+LeakerLocker - &#36825;&#27454;&#23433;&#21331;&#21202;&#32034;&#36719;&#20214;&#19981;&#20250;&#21152;&#23494;&#25163;&#26426;&#25991;&#20214;&#65292;&#32780;&#26159;&#22791;&#20221;&#20102;&#25163;&#26426;&#25935;&#24863;&#25968;&#25454;&#65292;&#19981;&#20132;&#38065;&#23601;&#25226;&#25163;&#26426;&#19978;&#30340;&#25935;&#24863;&#20449;&#24687;&#21457;&#32473;&#21463;&#23475;&#32773;&#36890;&#20449;&#24405;&#19978;&#30340;&#20154;&#65306;   <a href="https://securingtomorrow.mcafee.com/mcafee-labs/leakerlocker-mobile-ransomware-acts-without-encryption/" rel="nofollow">https://securingtomorrow.mcafee.com/mcafee-labs/leakerlocker-mobile-ransomware-acts-without-encryption/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  
+ &#28145;&#20837;&#20998;&#26512; Android &#24694;&#24847;&#36719;&#20214; Rootnik &#30340;&#26032;&#21464;&#31181;&#65306;   <a href="http://blog.fortinet.com/2017/07/09/unmasking-android-malware-a-deep-dive-into-a-new-rootnik-variant-part-ii" rel="nofollow">http://blog.fortinet.com/2017/07/09/unmasking-android-malware-a-deep-dive-into-a-new-rootnik-variant-part-ii</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Network ]</span>  
+&#23450;&#21521;&#27880;&#20876;&#39030;&#32423;&#22495;&#65288;TLD&#65289;&#30340;&#31649;&#29702;&#26381;&#21153;&#22120;&#65292;&#25509;&#31649;&#25152;&#26377;&#30340; .io &#22495;&#21517;&#65306;   <a href="https://thehackerblog.com/the-io-error-taking-control-of-all-io-domains-with-a-targeted-registration/" rel="nofollow">https://thehackerblog.com/the-io-error-taking-control-of-all-io-domains-with-a-targeted-registration/</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DEY6x6uXgAAimmG.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  
+&#34588;&#32592;&#65288;Honeypots&#65289;&#27010;&#24565;&#30340;&#24310;&#20280;&#34893;&#29983;&#20986;&#20102; honeyfile&#65292;&#25925;&#24847;&#25918;&#32622;&#35825;&#39285;&#25991;&#20214;&#65292;&#22352;&#31561;&#25915;&#20987;&#32773;&#35775;&#38382;&#12290; MWR Labs &#36825;&#31687; Paper &#20171;&#32461;&#22914;&#20309;&#21033;&#29992; Windows &#20869;&#32622;&#30340;&#25991;&#20214;&#23457;&#35745;&#21151;&#33021;&#26816;&#27979; honeyfile &#30340;&#35775;&#38382;&#65306;   <a href="https://labs.mwrinfosecurity.com/blog/using-windows-file-auditing-to-detect-honeyfile-access/" rel="nofollow">https://labs.mwrinfosecurity.com/blog/using-windows-file-auditing-to-detect-honeyfile-access/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>   Linux &#21518;&#28183;&#36879;&#27979;&#35797;&#24120;&#29992;&#21629;&#20196;&#21015;&#34920;&#65306;   <a href="https://github.com/mubix/post-exploitation/wiki/Linux-Post-Exploitation-Command-List" rel="nofollow">https://github.com/mubix/post-exploitation/wiki/Linux-Post-Exploitation-Command-List</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  &#23558;&#26222;&#36890; Shell &#25552;&#21319;&#20026;&#20132;&#20114;&#24335; TTY Shell &#30340;&#26041;&#27861;&#19968;&#35272;&#65306;   <a href="https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/" rel="nofollow">https://blog.ropnop.com/upgrading-simple-shells-to-fully-interactive-ttys/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   python-idb - &#29992;&#20110;&#35299;&#26512;&#19982;&#20998;&#26512; IDA &#25968;&#25454;&#24211;&#25991;&#20214;(.idb)&#30340;&#32431; Python &#24037;&#20855;&#65306;    <a href="https://github.com/williballenthin/python-idb" rel="nofollow">https://github.com/williballenthin/python-idb</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Virtualization ]</span>  
+&#22522;&#20110; VMware GDB stub &#21644; IDA Pro &#30340;&#34394;&#25311;&#26426;&#35843;&#35797;&#20043;&#21152;&#36733; Windows &#20869;&#26680;&#35843;&#35797;&#31526;&#21495;&#65306;   <a href="http://www.triplefault.io/2017/07/loading-kernel-symbols-vmm-debugging.html" rel="nofollow">http://www.triplefault.io/2017/07/loading-kernel-symbols-vmm-debugging.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  
+Oracle OAM 10g &#20250;&#35805;&#21163;&#25345;&#25915;&#20987;&#65292;&#31649;&#29702;&#21592;&#37197;&#32622;&#19981;&#24403;&#65292;&#25915;&#20987;&#32773;&#32467;&#21512;&#38035;&#40060;&#25216;&#24039;&#23454;&#29616;&#21163;&#25345;&#65306;  <a href="https://krbtgt.pw/oracle-oam-10g-session-hijacking/" rel="nofollow">https://krbtgt.pw/oracle-oam-10g-session-hijacking/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  NfSen &lt; 1.3.7 / AlienVault OSSIM &lt; 5.3.6 - &#26412;&#22320;&#25552;&#26435;&#28431;&#27934;POC&#65306;   <a href="https://www.exploit-db.com/exploits/42305" rel="nofollow">https://www.exploit-db.com/exploits/42305</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+0patch &#22242;&#38431;&#20026; Windows Uniscribe font USP10!MergeLigRecords &#22534;&#28322;&#20986;&#28431;&#27934;&#21457;&#24067;&#30340;&#34917;&#19969;&#65288;CVE-2017-0283&#65289;&#65306;   <a href="https://0patch.blogspot.dk/2017/07/0patching-quick-brown-fox-of-cve-2017.html" rel="nofollow">https://0patch.blogspot.dk/2017/07/0patching-quick-brown-fox-of-cve-2017.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+&#21033;&#29992; .NET &#23383;&#33410;&#30721;&#32534;&#35793;&#25216;&#26415; Bypass Device Guard:   <a href="http://www.exploit-monday.com/2017/07/bypassing-device-guard-with-dotnet-methods.html" rel="nofollow">http://www.exploit-monday.com/2017/07/bypassing-device-guard-with-dotnet-methods.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  2.5&#20195;&#25351;&#32441;&#36861;&#36394;&#25216;&#26415;&#8212;&#36328;&#27983;&#35272;&#22120;&#25351;&#32441;&#35782;&#21035;: 
+<a href="http://paper.seebug.org/350/" rel="nofollow">http://paper.seebug.org/350/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Conference ]</span>  Pwnie Awards 2017 &#25552;&#21517;&#30003;&#35831;&#24050;&#32467;&#26463;&#65306; 
+<a href="http://pwnies.com/" rel="nofollow">http://pwnies.com/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Operating System ]</span>  &#20851;&#20110; Solaris 10 (x86/amd64) &#19978; CVE-2017-3623 (EBBISLAND) &#28431;&#27934;&#21033;&#29992;&#30340;&#19968;&#20123;&#24819;&#27861;&#65306; 
+<a href="https://immunityproducts.blogspot.com/2017/07/a-few-notes-about-exploitation-of-aka.html" rel="nofollow">https://immunityproducts.blogspot.com/2017/07/a-few-notes-about-exploitation-of-aka.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  &#25581;&#31192; Google &#31934;&#33521;&#40657;&#23458;&#22242;&#38431; Project Zero&#65306; 
+<a href="https://mp.weixin.qq.com/s/enxoIfpBxNh1qTMY8sLZ6g" rel="nofollow">https://mp.weixin.qq.com/s/enxoIfpBxNh1qTMY8sLZ6g</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  CVE-2015-1641 Word &#21033;&#29992;&#26679;&#26412;&#20998;&#26512;: 
+<a href="http://paper.seebug.org/351/" rel="nofollow">http://paper.seebug.org/351/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ SecurityReport ]</span>  &#12298;&#23433;&#22825;365&#23433;&#20840;&#30740;&#31350;&#12299;&#26399;&#21002; 2017-06: 
+<a href="https://pan.baidu.com/s/1hscLrb2" rel="nofollow">https://pan.baidu.com/s/1hscLrb2</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Virtualization ]</span>   &#25506;&#32034;QEMU-KVM&#20013;PIO&#22788;&#29702;&#30340;&#22885;&#31192;&#65292;&#26469;&#33258;&#23433;&#20840;&#23458;&#65306; 
+<a href="http://bobao.360.cn/learning/detail/4079.html" rel="nofollow">http://bobao.360.cn/learning/detail/4079.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/07/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/07/11/index.html">2017/07/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/07/12/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/07/11/index.html</guid><pubDate>Tue, 11 Jul 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-07-08</title><link>http://xuanwulab.github.io/cn/secnews/2017/07/08/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
