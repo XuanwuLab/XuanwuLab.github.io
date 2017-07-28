@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 27 Jul 2017 11:22:01 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-05-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 28 Jul 2017 11:03:40 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-05-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/05/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -19805,7 +19805,228 @@ FRIEND - &#19968;&#27454; IDA Pro &#25554;&#20214;&#65292;&#21487;&#20197;&#2604
 <a href="/cn/secnews/2017/07/17/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/07/16/index.html</guid><pubDate>Sun, 16 Jul 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-07-02</title><link>http://xuanwulab.github.io/cn/secnews/2017/07/02/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/07/16/index.html</guid><pubDate>Sun, 16 Jul 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-07-28</title><link>http://xuanwulab.github.io/cn/secnews/2017/07/28/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/07/27/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/07/28/index.html">2017/07/28</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/07/29/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  
+ &#30740;&#31350;&#21592; ScottyBauer &#20844;&#24320;&#20102;&#20960;&#20010;&#26412;&#26376; Android &#28431;&#27934;&#20844;&#21578;&#20013;&#28041;&#21450;&#30340; PoC&#65288;CVE-2017-8260 CVE-2017-0705 CVE-2017-8259&#65289;&#65306;   <a href="https://github.com/ScottyBauer/Android_Kernel_CVE_POCs/commit/0b4721f4c9061f2de2222bff50f6f719864b6a10" rel="nofollow">https://github.com/ScottyBauer/Android_Kernel_CVE_POCs/commit/0b4721f4c9061f2de2222bff50f6f719864b6a10</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>   &#26032; V8 &#24341;&#25806;&#21363;&#23558;&#26469;&#20020;&#20197;&#21450; Node.js &#24615;&#33021;&#26041;&#38754;&#30340;&#25913;&#21464;&#65306;   <a href="https://www.nearform.com/blog/node-js-is-getting-a-new-v8-with-turbofan/" rel="nofollow">https://www.nearform.com/blog/node-js-is-getting-a-new-v8-with-turbofan/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Conference ]</span>  Blackhat us 2017 &#30340;&#37096;&#20998;&#35758;&#39064;&#36164;&#28304;&#24050;&#32463;&#25918;&#20986;&#65306;   <a href="https://www.blackhat.com/us-17/briefings.html" rel="nofollow">https://www.blackhat.com/us-17/briefings.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Fuzzing ]</span>   &#20351;&#29992;&#19981;&#21516;&#30340; Fuzz &#24037;&#20855;&#23454;&#29616;&#21152;&#23494;&#36719;&#20214;&#30340;&#33258;&#21160;&#21270;&#27979;&#35797;&#65292;&#26469;&#33258; Blackhat us 2017&#65306;   <a href="https://131002.net/data/talks/CDFBH.pdf" rel="nofollow">https://131002.net/data/talks/CDFBH.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Hardware ]</span>  
+Hacking Hardware With A $10 SDCard Reader:   <a href="https://bh2017.exploitee.rs/" rel="nofollow">https://bh2017.exploitee.rs/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  
+TheShadowBrokers &#23545; 8 &#26376;&#20221;&#30340;&#35746;&#38405;&#26381;&#21153;&#21457;&#34920;&#22768;&#26126;&#65292;&#22240;&#20026; 7 &#26376;&#20221;&#30340; "&#29983;&#24847;" &#22826;&#22909;&#20102;&#65292;&#25152;&#20197;&#20915;&#23450;&#21363;&#26085;&#36215;&#28072;&#20215;&#65292;&#20043;&#21069;&#20215;&#26684;&#26159; 100 ZEC&#65292;&#29616;&#22312;&#28072;&#21040; 500 ZEC&#65306;   <a href="https://steemit.com/shadowbrokers/@theshadowbrokers/theshadowbrokers-monthly-dump-service-august-2017" rel="nofollow">https://steemit.com/shadowbrokers/@theshadowbrokers/theshadowbrokers-monthly-dump-service-august-2017</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ IoTDevice ]</span>  
+&#31185;&#24681;&#23454;&#39564;&#23460;&#22312; Blackhat USA 2017 &#30340;&#35758;&#39064;&#28436;&#35762;&#20013;&#65292;&#21516;&#26102;&#23545;&#22806;&#23637;&#31034;&#20102;&#29305;&#26031;&#25289;&#30740;&#31350;&#26368;&#26032;&#25104;&#26524;&#65292;&#21253;&#25324;&#32469;&#36807;&#29305;&#26031;&#25289;&#20195;&#30721;&#31614;&#21517;&#31561;&#65306;   <a href="http://keenlab.tencent.com/zh/2017/07/27/New-Car-Hacking-Research-2017-Remote-Attack-Tesla-Motors-Again" rel="nofollow">http://keenlab.tencent.com/zh/2017/07/27/New-Car-Hacking-Research-2017-Remote-Attack-Tesla-Motors-Again</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>   &#25915;&#20987;&#21830;&#19994;&#30005;&#23376;&#37038;&#20214;&#26102;&#26159;&#22914;&#20309;&#36890;&#36807; HTML &#38468;&#20214;&#36827;&#34892;&#32593;&#32476;&#38035;&#40060;&#30340;&#65306;   <a href="http://blog.trendmicro.com/trendlabs-security-intelligence/html-attachments-phishing-used-bec-attacks/" rel="nofollow">http://blog.trendmicro.com/trendlabs-security-intelligence/html-attachments-phishing-used-bec-attacks/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  
+ &#23545;&#21202;&#32034;&#36719;&#20214;&#21463;&#23475;&#29992;&#25143;&#25903;&#20184;&#34892;&#20026;&#30340;&#26816;&#27979;&#65292;&#26469;&#33258; Google&#65306;   <a href="https://cdn.elie.net/talks/tracking-desktop-ransomware-payments-end-to-end-slides.pdf" rel="nofollow">https://cdn.elie.net/talks/tracking-desktop-ransomware-payments-end-to-end-slides.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+ Sobelow - NCC &#24320;&#28304;&#30340;&#29992;&#20110;&#38745;&#24577;&#20998;&#26512; Phoenix Web &#26694;&#26550;&#23433;&#20840;&#24615;&#30340;&#24037;&#20855;&#65306;   <a href="https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/july/sobelow-static-analysis-for-the-phoenix-framework/" rel="nofollow">https://www.nccgroup.trust/us/about-us/newsroom-and-events/blog/2017/july/sobelow-static-analysis-for-the-phoenix-framework/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   rvmi - &#21033;&#29992; VMI &#21644; &#20869;&#23384;&#21462;&#35777;&#30340;&#26041;&#24335;&#23454;&#29616;&#20840;&#38754;&#31995;&#32479;&#20998;&#26512;&#30340;&#24037;&#20855;&#65306;   <a href="https://github.com/fireeye/rvmi" rel="nofollow">https://github.com/fireeye/rvmi</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Web Security ]</span>  
+&#26500;&#36896;&#30072;&#24418; HTTP Request &#21644; Headers &#25915;&#20987; Web &#26381;&#21153;&#20013;&#37027;&#20123;&#30475;&#19981;&#35265;&#30340;&#31995;&#32479;&#65292;&#24182;&#20197;&#27492;&#33719;&#24471;&#32654;&#22269; DoD &#30340; 3 &#19975; Bounty &#22870;&#21169;&#65306;   <a href="https://portswigger.net/knowledgebase/papers/CrackingTheLens-whitepaper.pdf" rel="nofollow">https://portswigger.net/knowledgebase/papers/CrackingTheLens-whitepaper.pdf</a>
+</p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DFv6ImLU0AA3UX4.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  &#30740;&#31350;&#21592; &#30899;&#22522;&#20307; &#25910;&#24405;&#30340; WebShell &#26679;&#26412;&#24211;&#65306; 
+<a href="https://github.com/tanjiti/webshellSample" rel="nofollow">https://github.com/tanjiti/webshellSample</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>   Many Birds, One Stone&#65288;&#19968;&#30707;&#22810;&#40479;&#65289; - &#19968;&#20010;&#24433;&#21709;&#22810;&#20010;&#36719;&#20214;&#30340; SQLite &#28431;&#27934;&#30340;&#21033;&#29992;&#65292;&#26469;&#33258;&#38271;&#20141;&#31185;&#25216;&#22312; BlackHat &#30340;&#28436;&#35762;&#65306; 
+<a href="https://www.blackhat.com/docs/us-17/wednesday/us-17-Feng-Many-Birds-One-Stone-Exploiting-A-Single-SQLite-Vulnerability-Across-Multiple-Software.pdf" rel="nofollow">https://www.blackhat.com/docs/us-17/wednesday/us-17-Feng-Many-Birds-One-Stone-Exploiting-A-Single-SQLite-Vulnerability-Across-Multiple-Software.pdf</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/07/27/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/07/28/index.html">2017/07/28</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/07/29/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/07/28/index.html</guid><pubDate>Fri, 28 Jul 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-07-02</title><link>http://xuanwulab.github.io/cn/secnews/2017/07/02/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
