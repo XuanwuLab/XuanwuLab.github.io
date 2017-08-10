@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 10 Aug 2017 07:34:07 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-06-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/06/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 10 Aug 2017 11:53:23 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-06-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/06/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -8257,8 +8257,345 @@ Windows &#22788;&#29702;&#22270;&#26631;&#26174;&#31034;&#30340;&#20195;&#30721;
 </div>
 <div id="weibowrapper">
 <ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Safari &#25216;&#26415;&#39044;&#35272;&#29256; 37&#21457;&#24067;&#65306;   <a href="https://webkit.org/blog/7862/release-notes-for-safari-technology-preview-release-37/" rel="nofollow">https://webkit.org/blog/7862/release-notes-for-safari-technology-preview-release-37/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DGzZOCxXgAAf7rC.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Forensics ]</span>   Linux &#21462;&#35777;&#25216;&#26415;&#20171;&#32461;&#65306;   <a href="https://countuponsecurity.com/2017/04/12/intro-to-linux-forensics/" rel="nofollow">https://countuponsecurity.com/2017/04/12/intro-to-linux-forensics/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Cerber &#21202;&#32034;&#36719;&#20214;&#20351;&#29992; Magnitude Exploit Kit &#30340;&#19981;&#21516;&#21033;&#29992;&#26041;&#24335;&#36827;&#34892;&#20256;&#25773;&#65306;   <a href="https://blog.malwarebytes.com/threat-analysis/2017/08/cerber-ransomware-delivered-format-different-order-magnitude/" rel="nofollow">https://blog.malwarebytes.com/threat-analysis/2017/08/cerber-ransomware-delivered-format-different-order-magnitude/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Mamba &#21202;&#32034;&#36719;&#20214;&#22238;&#24402;&#65292;&#21345;&#24052;&#26031;&#22522;&#23454;&#39564;&#23460;&#23545;&#27492;&#20570;&#20102;&#31616;&#21333;&#20998;&#26512;&#65306;   <a href="https://securelist.com/the-return-of-mamba-ransomware/79403/" rel="nofollow">https://securelist.com/the-return-of-mamba-ransomware/79403/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DGzfhqMXsAAZ-QR.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  macOS &#31995;&#32479;&#19968;&#27454;&#25658;&#24102;&#26377;&#25928;&#24320;&#21457;&#32773;&#31614;&#21517;&#30340; Mughthesec &#24191;&#21578;&#36719;&#20214;&#38752;&#21163;&#25345;&#29992;&#25143;&#27983;&#35272;&#22120;&#33719;&#21033;&#65306;   <a href="https://threatpost.com/signed-mughthesec-adware-hijacking-macs-for-profit/127333/" rel="nofollow">https://threatpost.com/signed-mughthesec-adware-hijacking-macs-for-profit/127333/</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Acrobat Reader DC  - &#27969;&#23545;&#35937;&#36828;&#31243;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#32454;&#33410;&#19982;POC&#65288;CVE-2017-11254&#65289;&#65306;   <a href="https://blogs.securiteam.com/" rel="nofollow">https://blogs.securiteam.com/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Programming ]</span>  &#21033;&#29992; WinDbg &#35843;&#35797;&#22120;&#32467;&#21512; wscript.exe &#20998;&#26512; JavaScript &#33050;&#26412;&#65306;   <a href="http://blog.talosintelligence.com/2017/08/windbg-and-javascript-analysis.html" rel="nofollow">http://blog.talosintelligence.com/2017/08/windbg-and-javascript-analysis.html</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DGzLN5WVoAAi3-k.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+EggShell - &#21629;&#20196;&#34892;&#29256;&#30340; iOS/macOS &#36828;&#31243;&#31649;&#29702;&#24037;&#20855;&#65292;&#25903;&#25345;&#33719;&#24471;&#31995;&#32479;&#20449;&#24687;&#12289;&#35774;&#22791;&#25511;&#21046;&#12289;&#29992;&#25143;&#20132;&#20114;&#12289;&#23450;&#20301;&#20449;&#24687;&#31561;&#31561;&#65306;   <a href="https://github.com/neoneggplant/EggShell%C2%A0" rel="nofollow">https://github.com/neoneggplant/EggShell </a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+Awesome Lockpicking -  &#19982;&#24320;&#38145;&#12289;&#38145;&#20855;&#23433;&#20840;&#24615;&#26377;&#20851;&#30340;&#36164;&#26009;&#25972;&#29702;&#65306;   <a href="https://github.com/meitar/awesome-lockpicking" rel="nofollow">https://github.com/meitar/awesome-lockpicking</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   DBC2 - &#22522;&#20110; Dropbox &#36827;&#34892; C&amp;C &#36890;&#20449;&#30340;&#27169;&#22359;&#21270;&#21518;&#28183;&#36879;&#24037;&#20855;&#65306;   <a href="https://github.com/Arno0x/DBC2" rel="nofollow">https://github.com/Arno0x/DBC2</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Git &#31192;&#31821; - &#26377;&#29992;&#30340;&#21629;&#20196;&#12289;&#24314;&#35758;&#21450;&#25216;&#24039;&#65306;   <a href="https://sentheon.com/blog/git-cheat-sheet.html" rel="nofollow">https://sentheon.com/blog/git-cheat-sheet.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Virtualization ]</span>  
+Hyper-V sockets internals&#65306;   <a href="https://xakep.ru/2017/08/09/hyper-v-internals/" rel="nofollow">https://xakep.ru/2017/08/09/hyper-v-internals/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+Windows ATA &#24179;&#21488;&#23041;&#32961;&#26816;&#27979;&#30340;&#36867;&#36920; 2&#65306;Overpass-the-hash and Golden Ticket&#65306;   <a href="http://www.labofapenetrationtester.com/2017/08/week-of-evading-microsoft-ata-day2.html%C2%A0" rel="nofollow">http://www.labofapenetrationtester.com/2017/08/week-of-evading-microsoft-ata-day2.html </a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+&#24494;&#36719;&#26152;&#22825;&#20462;&#22797;&#30340;&#28431;&#27934;&#20013;&#65292;&#26377;&#20004;&#20010;&#24456;&#37325;&#35201;&#65306;&#19968;&#20010;&#26159;  Windows Search &#32452;&#20214;&#30340; RCE &#28431;&#27934;&#65292;&#21478;&#19968;&#20010;&#26159; Hyper-V &#30340; RCE&#65306;   <a href="http://blog.trendmicro.com/trendlabs-security-intelligence/critical-windows-search-hyper-v-vulnerabilities-tackled-augusts-patch-tuesday/" rel="nofollow">http://blog.trendmicro.com/trendlabs-security-intelligence/critical-windows-search-hyper-v-vulnerabilities-tackled-augusts-patch-tuesday/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
 </ul>
 <ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Bug Bounty ]</span>  &#31070;&#31192;&#20844;&#21496;&#23558;&#25552;&#20379; 25 &#19975;&#32654;&#37329;&#28431;&#27934;&#22870;&#21169;&#32473; VM &#36867;&#36920;&#28431;&#27934;&#65306; <a href="https://threatpost.com/mystery-company-offers-250000-bounty-for-vm-escape-vulnerabilities/127343/" rel="nofollow">https://threatpost.com/mystery-company-offers-250000-bounty-for-vm-escape-vulnerabilities/127343/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Firmware ]</span>  &#23884;&#20837;&#24335;&#35774;&#22791;&#30340;&#22266;&#20214;&#19968;&#33324;&#37117;&#26159;&#24590;&#20040;&#23384;&#20648;&#30340;&#65292;&#26469;&#33258; Context &#30340; &#31995;&#21015;&#25991;&#31456;&#65292;&#20170;&#22825;&#20171;&#32461;&#23384;&#20648;&#30340;&#20960;&#31181;&#26041;&#24335;&#65292;&#21518;&#38754;&#20250;&#20171;&#32461;&#22914;&#20309;&#25552;&#21462;&#65306; 
+<a href="https://www.contextis.com//resources/blog/part-i-overview-firmware-storage-options/" rel="nofollow">https://www.contextis.com//resources/blog/part-i-overview-firmware-storage-options/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  &#19981;&#20026;&#20154;&#30693;&#30340;&#22320;&#19979;&#26263;&#27969;&#65306;&#25581;&#31192;&#33394;&#24773;&#25512;&#24191;&#8220;&#24433;&#31185;&#25216;&#8221;&#23478;&#26063;&#32972;&#21518;&#30340;&#27969;&#37327;&#29983;&#24847;&#65306; <a href="http://www.freebuf.com/articles/network/143728.html" rel="nofollow">http://www.freebuf.com/articles/network/143728.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  &#25945;&#20320;&#36890;&#36807;Node.js&#28431;&#27934;&#23436;&#25104;&#28183;&#36879;&#27979;&#35797;&#65306; <a href="http://www.freebuf.com/column/143704.html" rel="nofollow">http://www.freebuf.com/column/143704.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  Office Persistence on x64 operating system,&#26469;&#33258; 3gstudent's blog: <a href="https://3gstudent.github.io/3gstudent.github.io/Office-Persistence-on-x64-operating-system/" rel="nofollow">https://3gstudent.github.io/3gstudent.github.io/Office-Persistence-on-x64-operating-system/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  Office&#39640;&#32423;&#23041;&#32961;&#28431;&#27934;&#22312;&#37326;&#21033;&#29992;&#20998;&#26512;&#65306; <a href="http://www.freebuf.com/news/143585.html" rel="nofollow">http://www.freebuf.com/news/143585.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ SecurityReport ]</span>  2017&#19978;&#21322;&#24180;&#31227;&#21160;&#23433;&#20840;&#25253;&#21578; | &#29454;&#35961;&#31227;&#21160;&#19982;&#23433;&#22825;&#31227;&#21160;&#23433;&#20840;&#32852;&#21512;&#21457;&#24067;&#65306; <a href="https://mp.weixin.qq.com/s/2PGUSAIJ-__W8bPFtmtw8w" rel="nofollow">https://mp.weixin.qq.com/s/2PGUSAIJ-__W8bPFtmtw8w</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  Vulnerable OTP Application - &#23384;&#22312;&#28431;&#27934;&#30340; OTP&#65288;&#19968;&#27425;&#19968;&#23494;&#65289;&#21644; 2FA&#65288;&#21452;&#22240;&#32032;&#35748;&#35777;&#65289;Web &#24212;&#29992;&#23454;&#29616;&#65292;&#29992;&#20110;&#23398;&#20064;&#30340;&#30446;&#30340;&#65306; 
+<a href="https://github.com/mddanish/Vulnerable-OTP-Application" rel="nofollow">https://github.com/mddanish/Vulnerable-OTP-Application</a> </p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Web Security ]</span>  &#31185;&#26222; XSS &#19982; CSRF &#8203;&#8203;&#8203;&#8203;&#65292;&#26469;&#33258; &#20313;&#24358;'s weibo&#65306;
+ <a href="http://weibo.com/1652595727/Fgk2z09M4?ref=collection&amp;type=comment#_rnd1502329997985" rel="nofollow">http://weibo.com/1652595727/Fgk2z09M4?ref=collection&amp;type=comment#_rnd1502329997985</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  Windows Server Insider Builds &#29256;&#26412;&#24320;&#22987;&#38598;&#25104; Linux &#23376;&#31995;&#32479;&#65288;WSL&#65289;: 
+<a href="https://blogs.windows.com/buildingapps/2017/08/08/windows-subsystem-linux-windows-server/" rel="nofollow">https://blogs.windows.com/buildingapps/2017/08/08/windows-subsystem-linux-windows-server/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  &#20170;&#24180;&#19979;&#21322;&#24180;&#21363;&#23558;&#21457;&#24067;&#30340; Windows 10 Fall Creators &#20013;&#65292;Windows Defender &#30340; Exploit Guard (WDEG) &#23558;&#23436;&#20840;&#38598;&#25104;&#20043;&#21069; EMET &#30340;&#25152;&#26377; Exploit &#38450;&#25252;&#21151;&#33021;&#65306; 
+<a href="https://blogs.technet.microsoft.com/srd/2017/08/09/moving-beyond-emet-ii-windows-defender-exploit-guard/" rel="nofollow">https://blogs.technet.microsoft.com/srd/2017/08/09/moving-beyond-emet-ii-windows-defender-exploit-guard/</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
 </ul>
 </div>
 <div id="datenavigate">
