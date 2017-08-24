@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 23 Aug 2017 12:08:53 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-06-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/06/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 24 Aug 2017 13:28:28 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-06-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/06/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -10222,7 +10222,289 @@ Windows &#30340;&#34394;&#25311;&#20869;&#23384;&#31649;&#29702;&#26426;&#21046;
 <a href="/cn/secnews/2017/08/16/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/08/15/index.html</guid><pubDate>Tue, 15 Aug 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-08-20</title><link>http://xuanwulab.github.io/cn/secnews/2017/08/20/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/08/15/index.html</guid><pubDate>Tue, 15 Aug 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-08-24</title><link>http://xuanwulab.github.io/cn/secnews/2017/08/24/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/08/23/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/08/24/index.html">2017/08/24</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/08/25/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  Humble Bundle &#32593;&#31449;&#26159;&#19968;&#23478;&#22312;&#32447;&#21334;&#28216;&#25103;&#21644;&#30005;&#23376;&#20070;&#30340;&#32593;&#31449;&#65292;&#29305;&#28857;&#26159;&#21334;&#20215;&#30001;&#20080;&#23478;&#20915;&#23450;&#12290;&#36825;&#31687; Blog &#20171;&#32461;&#20316;&#32773;&#22914;&#20309;&#36870;&#21521;&#35813;&#32593;&#31449;&#30340; Android APP&#65292;&#24471;&#21040; API &#20449;&#24687;&#65292;&#28982;&#21518;&#33258;&#21160;&#21270;&#19979;&#36733;&#19996;&#35199;&#65306;   <a href="https://www.schiff.io/blog/2017/07/21/reverse-engineering-humble-bundle-api" rel="nofollow">https://www.schiff.io/blog/2017/07/21/reverse-engineering-humble-bundle-api</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Safari &#25216;&#26415;&#39044;&#35272;&#29256; 38 &#21457;&#24067;&#65306;    <a href="https://webkit.org/blog/7877/release-notes-for-safari-technology-preview-38/" rel="nofollow">https://webkit.org/blog/7877/release-notes-for-safari-technology-preview-38/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DH7tJe2XsAAMUK_.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Rendertron - Docker &#21270;&#12289;headless &#29256;&#26412;&#30340; Chrome&#65292;Rendertron &#20316;&#20026;&#19968;&#20010;&#29420;&#31435;&#30340; HTTP Server &#36816;&#34892;&#65292;&#30446;&#26631;&#26159;&#23454;&#29616; Google &#25552;&#20986;&#30340; Web APP &#26032;&#24418;&#24577;&#65306;PWA(Progressive Web Apps)&#65306;   <a href="https://github.com/GoogleChrome/rendertron" rel="nofollow">https://github.com/GoogleChrome/rendertron</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  &#19987;&#38376;&#25910;&#36141;&#28431;&#27934;&#21644;&#21033;&#29992;&#30340;&#20844;&#21496; ZERODIUM &#26152;&#22825;&#23459;&#24067;&#65292;&#24320;&#22987;&#20197; 50 &#19975;&#32654;&#37329;&#20215;&#26684;&#24320;&#22987;&#25910;&#36141;&#21152;&#23494;&#36890;&#35759;&#31867; APP &#30340; 0Day&#65292;&#27604;&#22914; Signal &#21644; WhatsApp&#65306;   <a href="https://threatpost.com/zerodium-offers-500k-for-secure-messaging-app-zero-days/127610/https://zerodium.com/program.html" rel="nofollow">https://threatpost.com/zerodium-offers-500k-for-secure-messaging-app-zero-days/127610/https://zerodium.com/program.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  ROPEMAKER - &#38024;&#23545;&#37038;&#20214;&#30340;&#26032;&#25915;&#20987;&#26041;&#24335;&#65292;&#25915;&#20987;&#32773;&#21487;&#20197;&#36828;&#31243;&#20462;&#25913; HTML &#37038;&#20214;&#20013;&#30340; CSS &#26679;&#24335;&#20449;&#24687;&#65292;&#27450;&#39575;&#29992;&#25143;&#28857;&#20987;&#24694;&#24847;&#38142;&#25509;&#65306;   <a href="https://threatpost.com/ropemaker-exploit-allows-for-changing-of-email-post-delivery/127600/" rel="nofollow">https://threatpost.com/ropemaker-exploit-allows-for-changing-of-email-post-delivery/127600/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  Windows &#29256; VirtualBox &#23454;&#29616;&#20102;&#19968;&#22871;&#36827;&#31243;&#38548;&#31163;&#38450;&#25252;&#25514;&#26045;&#38450;&#27490;&#34987;&#20854;&#20182;&#36827;&#31243;&#27880;&#20837;&#25110;&#31713;&#25913;&#65292;Project Zero &#26152;&#22825;&#21457;&#20102;&#19968;&#31687; Blog &#20171;&#32461; 3 &#31181;&#32469;&#36807;&#26041;&#24335;&#65306;   <a href="https://googleprojectzero.blogspot.com/2017/08/bypassing-virtualbox-process-hardening.html" rel="nofollow">https://googleprojectzero.blogspot.com/2017/08/bypassing-virtualbox-process-hardening.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  CrowdStrike &#21457;&#24067;&#24674;&#22797;&#34987; NotPetya / Petya &#21152;&#23494;&#30340; MFT &#30340;&#24037;&#20855;&#21450;&#21407;&#29702;&#65306;   <a href="https://www.crowdstrike.com/blog/decrypting-notpetya-tools-for-recovering-your-mft-after-an-attack/" rel="nofollow">https://www.crowdstrike.com/blog/decrypting-notpetya-tools-for-recovering-your-mft-after-an-attack/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  canisrufus - &#22522;&#20110; Python &#30340; Windows &#38544;&#34255;&#21518;&#38376;&#65292;&#20351;&#29992; Github &#20316;&#20026;&#21629;&#20196;&#21644;&#25511;&#21046;&#26381;&#21153;&#22120;&#65306;  <a href="https://github.com/maldevel" rel="nofollow">https://github.com/maldevel</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  kalirouter - &#23558; Kali Linux &#25645;&#24314;&#25104;&#36335;&#30001;&#22120;&#65292;&#35813;&#36335;&#30001;&#21487;&#23558;&#25152;&#26377; HTTP/HTTPS &#35831;&#27714;&#21457;&#36865;&#21040; Burpsuite &#20195;&#29702;&#20197;&#20415;&#20998;&#26512;&#65306;   <a href="https://github.com/koenbuyens/kalirouter" rel="nofollow">https://github.com/koenbuyens/kalirouter</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Web Security ]</span>  &#21033;&#29992; HTTP &#35831;&#27714;&#30340;&#32534;&#30721;&#32469;&#36807; WAF &#38450;&#24481;&#65306;   <a href="https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2017/august/request-encoding-to-bypass-web-application-firewalls/" rel="nofollow">https://www.nccgroup.trust/uk/about-us/newsroom-and-events/blogs/2017/august/request-encoding-to-bypass-web-application-firewalls/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ WirelessSecurity ]</span>  &#29992;&#21160;&#30011;&#29305;&#25928;&#28436;&#31034; WiFi &#30340;&#24037;&#20316;&#21407;&#29702;&#65306;   <a href="http://www.verizoninternet.com/bookmark/how-wifi-works/" rel="nofollow">http://www.verizoninternet.com/bookmark/how-wifi-works/</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Backdoor ]</span>  Eternalblue&#25152;&#29992;SMB&#21518;&#38376;&#20998;&#26512;: <a href="http://scz.617.cn/windows/201704171419.txt" rel="nofollow">http://scz.617.cn/windows/201704171419.txt</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  &#27983;&#35272;&#22120;&#28431;&#27934;&#25366;&#25496;&#24605;&#36335;&#65306;
+ <a href="https://zhuanlan.zhihu.com/p/28719766" rel="nofollow">https://zhuanlan.zhihu.com/p/28719766</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Compiler ]</span>  GCC low-level IR and basic code generation&#65306; 
+<a href="http://kristerw.blogspot.com/2017/08/gcc-low-level-ir-and-basic-code.html" rel="nofollow">http://kristerw.blogspot.com/2017/08/gcc-low-level-ir-and-basic-code.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Exploit ]</span>  &#19981;&#26159;&#20462;&#25913;&#25968;&#25454;&#30340;&#25915;&#20987;&#23601;&#21483;&#25968;&#25454;&#25915;&#20987;&#26469;&#33258; yuange1975 &#8216;s weibo: <a href="http://www.weibo.com/ttarticle/p/show?id=2309404144223724113779" rel="nofollow">http://www.weibo.com/ttarticle/p/show?id=2309404144223724113779</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Malware ]</span>  SentinelOne &#26368;&#36817;&#21457;&#29616;&#20102;&#19968;&#27454;&#20266;&#35013;&#25104; CS &#21453;&#24656;&#31934;&#33521;&#28216;&#25103;&#30340; macOS &#26408;&#39532;&#65306;
+<a href="https://sentinelone.com/blog/osx-pwnet-a-csgo-hack-and-sneaky-miner/" rel="nofollow">https://sentinelone.com/blog/osx-pwnet-a-csgo-hack-and-sneaky-miner/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  &#36828;&#31243;&#32456;&#31471;&#31649;&#29702;&#24037;&#20855;Xshell&#34987;&#26893;&#20837;&#21518;&#38376;&#20195;&#30721;&#20107;&#20214;: 
+<a href="http://www.freebuf.com/articles/terminal/144822.html" rel="nofollow">http://www.freebuf.com/articles/terminal/144822.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ ReverseEngineering ]</span>  360&#21152;&#22266;&#20445;&#20851;&#38190;&#25216;&#26415;&#27973;&#26512;: 
+<a href="http://www.freebuf.com/articles/terminal/145102.html" rel="nofollow">http://www.freebuf.com/articles/terminal/145102.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>   Windows 10 &#21457;&#24067; Insider Preview Build 16273 &#29256;&#26412;&#65306;
+<a href="https://blogs.windows.com/windowsexperience/2017/08/23/announcing-windows-10-insider-preview-build-16273-pc/#scQ0JB1SO2p2K1J8.97" rel="nofollow">https://blogs.windows.com/windowsexperience/2017/08/23/announcing-windows-10-insider-preview-build-16273-pc/#scQ0JB1SO2p2K1J8.97</a> </p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/08/23/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/08/24/index.html">2017/08/24</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/08/25/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/08/24/index.html</guid><pubDate>Thu, 24 Aug 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-08-20</title><link>http://xuanwulab.github.io/cn/secnews/2017/08/20/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
