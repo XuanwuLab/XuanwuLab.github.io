@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 29 Aug 2017 13:47:18 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-06-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/06/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 30 Aug 2017 12:08:38 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-06-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/06/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -10457,7 +10457,273 @@ Windows &#30340;&#34394;&#25311;&#20869;&#23384;&#31649;&#29702;&#26426;&#21046;
 <a href="/cn/secnews/2017/08/16/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/08/15/index.html</guid><pubDate>Tue, 15 Aug 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-08-24</title><link>http://xuanwulab.github.io/cn/secnews/2017/08/24/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/08/15/index.html</guid><pubDate>Tue, 15 Aug 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-08-30</title><link>http://xuanwulab.github.io/cn/secnews/2017/08/30/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/08/29/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/08/30/index.html">2017/08/30</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/08/31/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  
+Safari XSS &#30340;&#26032;&#26041;&#27861;&#65306;   <a href="https://twitter.com/mramydnei/status/902470271327551489%C2%A0" rel="nofollow">https://twitter.com/mramydnei/status/902470271327551489 </a>&lt;script&gt;location.href;'javascript:alert%281%29'&lt;/script&gt;
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Bug Bounty ]</span>  
+&#22823;&#30086;&#26080;&#20154;&#26426;&#24320;&#22987;&#21551;&#21160; Bug Bounty &#28431;&#27934;&#22870;&#21169;&#39033;&#30446;&#65306;   <a href="https://threatpost.com/dji-launches-drone-bug-bounty-program/127696/%C2%A0" rel="nofollow">https://threatpost.com/dji-launches-drone-bug-bounty-program/127696/ </a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  
+10 &#26376;&#20221;&#24320;&#22987;&#65292;Google&#23558;&#20250;&#22312; Chrome &#27983;&#35272;&#22120;&#20013;&#26631;&#35760; HTTP &#32593;&#31449;&#20026; "&#19981;&#23433;&#20840;" &#29366;&#24577;&#65306;   <a href="https://threatpost.com/google-reminding-admins-http-pages-will-be-marked-not-secure-in-october/127709/" rel="nofollow">https://threatpost.com/google-reminding-admins-http-pages-will-be-marked-not-secure-in-october/127709/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ IoTDevice ]</span>  
+&#26469;&#33258;&#26222;&#26519;&#26031;&#39039;&#22823;&#23398;&#30340;&#30740;&#31350;&#21592;&#20844;&#24320;&#20102;&#19968;&#31181;&#21487;&#20197;&#23545;&#25239; ISP &#30417;&#35270;&#30340; IoT &#35774;&#22791;&#27969;&#37327;&#38544;&#31169;&#20445;&#25252;&#26041;&#27861;&#65292;&#36825;&#31181;&#26041;&#27861;&#20250;&#23558;&#20219;&#24847;&#36895;&#29575;&#30340;&#27969;&#37327;&#37325;&#26032;&#36716;&#25104;&#24658;&#23450;&#36895;&#29575;&#65292;&#38450;&#27490; ISP &#20174;&#27969;&#37327;&#27874;&#24418;&#22270;&#25512;&#27979;&#20449;&#24687;&#65306;   <a href="https://threatpost.com/researchers-figure-out-how-to-blind-isps-from-smart-home-device-traffic/127715/" rel="nofollow">https://threatpost.com/researchers-figure-out-how-to-blind-isps-from-smart-home-device-traffic/127715/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Malwarebytes Labs &#23545; Kronos &#38134;&#34892;&#26408;&#39532;&#30340;&#28145;&#20837;&#21078;&#26512; Part 2&#65306;   <a href="https://blog.malwarebytes.com/cybercrime/2017/08/inside-kronos-malware-p2/" rel="nofollow">https://blog.malwarebytes.com/cybercrime/2017/08/inside-kronos-malware-p2/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  
+ERNW &#23545;&#26397;&#40092;&#30340;&#22823;&#35268;&#27169;&#30417;&#35270;&#25216;&#26415;&#30340;&#21078;&#26512;&#65306;   <a href="https://www.ernw.de/download/exploring_north_koreas_survelliance_technology_troopers17.pdf" rel="nofollow">https://www.ernw.de/download/exploring_north_koreas_survelliance_technology_troopers17.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>  
+ Adobe &#26152;&#22825;&#21457;&#24067;&#34917;&#19969;&#26356;&#26032;&#65288;APSB17-24&#65289;&#65292;&#20462;&#22797;&#20102; Adobe Acrobat Reader &#30340;&#22810;&#20010;&#28431;&#27934;&#65306;   <a href="https://helpx.adobe.com/security/products/acrobat/apsb17-24.html" rel="nofollow">https://helpx.adobe.com/security/products/acrobat/apsb17-24.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+Vulnerable Docker VM - &#29992;&#20110;&#32451;&#20064; Docker &#28183;&#36879;&#30340;&#34394;&#25311;&#26426;&#29615;&#22659;&#65306;   <a href="https://www.notsosecure.com/vulnerable-docker-vm/" rel="nofollow">https://www.notsosecure.com/vulnerable-docker-vm/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+Pharos - CMU &#24320;&#28304;&#30340;&#19968;&#20010;&#20108;&#36827;&#21046;&#38745;&#24577;&#20998;&#26512;&#24037;&#20855;&#65292;&#26368;&#36817;&#26356;&#26032;&#36807;&#65292;&#26032;&#22686;&#20102;&#29992;&#20110;&#20998;&#26512;&#38754;&#21521;&#23545;&#35937;&#31867;&#32487;&#25215;&#20851;&#31995;&#30340; OOAnalyzer&#12289;&#26032;&#22686;&#20102; IDA Pro &#30340;&#25554;&#20214; PyObjDigger&#12289;&#26032;&#22686;&#20102;&#29992;&#20110;&#20998;&#26512;&#20989;&#25968;&#35843;&#29992;&#20449;&#24687;&#30340; CallAnalyzer&#65306;  <a href="http://insights.sei.cmu.edu/sei_blog/2017/08/pharos-binary-static-analysis-tools-released-on-github.html%C2%A0" rel="nofollow">http://insights.sei.cmu.edu/sei_blog/2017/08/pharos-binary-static-analysis-tools-released-on-github.html </a> Github&#65306;   <a href="https://github.com/cmu-sei/pharos" rel="nofollow">https://github.com/cmu-sei/pharos</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  &#21363;&#26102;&#65288;JIT&#65289;&#32534;&#35793;&#22120;&#21407;&#29702;&#35838;&#31243;&#65306;    <a href="https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/" rel="nofollow">https://hacks.mozilla.org/2017/02/a-crash-course-in-just-in-time-jit-compilers/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+&#20170;&#22825;&#30340; Windows 10 &#31995;&#32479;&#20013;&#37117;&#26377;&#21738;&#20123;&#65288;&#28431;&#27934;&#65289;&#25915;&#20987;&#32531;&#35299;&#25514;&#26045;&#65306;   <a href="https://blogs.technet.microsoft.com/iftekhar/2017/08/28/threat-mitigation-in-windows-10/" rel="nofollow">https://blogs.technet.microsoft.com/iftekhar/2017/08/28/threat-mitigation-in-windows-10/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  
+&#25915;&#20987; PowerShell &#30340;&#20195;&#30721;&#27880;&#20837;&#28431;&#27934;&#65292;&#32469;&#36807;&#23427;&#30340;&#35821;&#35328;&#32422;&#26463;&#27169;&#24335;&#65306;   <a href="http://www.exploit-monday.com/2017/08/exploiting-powershell-code-injection.html" rel="nofollow">http://www.exploit-monday.com/2017/08/exploiting-powershell-code-injection.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  JavaScript V8 &#24341;&#25806;&#26159;&#22914;&#20309;&#24037;&#20316;&#30340;&#20197;&#21450;&#22914;&#20309;&#20889;&#20837;&#39640;&#24615;&#33021;&#20195;&#30721;&#65306; 
+<a href="https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e" rel="nofollow">https://blog.sessionstack.com/how-javascript-works-inside-the-v8-engine-5-tips-on-how-to-write-optimized-code-ac089e62b12e</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Conference ]</span>  2017 &#33150;&#35759;&#23433;&#20840;&#22269;&#38469;&#25216;&#26415;&#23792;&#20250;&#22270;&#25991;&#30452;&#25773;&#65306; <a href="http://www.freebuf.com/live?id=145854" rel="nofollow">http://www.freebuf.com/live?id=145854</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  &#34394;&#25311;&#20202;&#22120;&#36719;&#20214; LabVIEW &#30340;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;(CVE-2017-2779)&#65306;
+<a href="http://blog.talosintelligence.com/2017/08/vulnerability-spotlight-code-execution.html" rel="nofollow">http://blog.talosintelligence.com/2017/08/vulnerability-spotlight-code-execution.html</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  Nginx &#25991;&#20214;&#21517;&#36923;&#36753;&#28431;&#27934;&#65288;CVE-2013-4547&#65289;&#65306;
+ <a href="https://github.com/phith0n/vulhub/blob/master/nginx/CVE-2013-4547/README.md" rel="nofollow">https://github.com/phith0n/vulhub/blob/master/nginx/CVE-2013-4547/README.md</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Web Security ]</span>  &#28389;&#29992;&#29228;&#34411;&#36827;&#34892;&#38388;&#25509;&#30340; Web &#25915;&#20987;&#65288;Paper&#65289;&#65306;
+ <a href="https://pdfs.semanticscholar.org/548d/afd83563bf49d1042fb47f052a680cfaed05.pdf" rel="nofollow">https://pdfs.semanticscholar.org/548d/afd83563bf49d1042fb47f052a680cfaed05.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/08/29/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/08/30/index.html">2017/08/30</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/08/31/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/08/30/index.html</guid><pubDate>Wed, 30 Aug 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-08-24</title><link>http://xuanwulab.github.io/cn/secnews/2017/08/24/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
