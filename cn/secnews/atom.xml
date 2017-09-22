@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 21 Sep 2017 12:14:40 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-08-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/08/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 22 Sep 2017 12:13:52 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2017-08-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/08/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -14211,7 +14211,306 @@ SCADA &#24212;&#29992; Jungo&#8217;s DriverWizard WinDriver&#65288;windrvr1240.s
 <a href="/cn/secnews/2017/09/08/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/09/07/index.html</guid><pubDate>Thu, 07 Sep 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-07-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/07/03/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/09/07/index.html</guid><pubDate>Thu, 07 Sep 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-09-22</title><link>http://xuanwulab.github.io/cn/secnews/2017/09/22/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2017/09/21/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/09/22/index.html">2017/09/22</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/09/23/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>   Joomla &#20462;&#22797;&#20102;&#28508;&#34255;&#22312;&#31995;&#32479;8&#24180;&#30340; LDAP &#27880;&#20837;&#65306;   <a href="https://threatpost.com/joomla-patches-eight-year-old-ldap-injection-vulnerability/128069/" rel="nofollow">https://threatpost.com/joomla-patches-eight-year-old-ldap-injection-vulnerability/128069/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>  &#20234;&#26391; APT33 &#20351;&#29992;&#30772;&#22351;&#24615;&#24694;&#24847;&#36719;&#20214;&#25915;&#20987;&#32654;&#22269;&#20844;&#21496;&#65306;   <a href="https://threatpost.com/iranian-apt33-targets-us-firms-with-destructive-malware/128074/" rel="nofollow">https://threatpost.com/iranian-apt33-targets-us-firms-with-destructive-malware/128074/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Operating System ]</span>  
+&#28183;&#36879;&#23450;&#21046;&#25805;&#20316;&#31995;&#32479; Kali Linux 2017.2 &#29256;&#26412;&#21457;&#24067;&#65306;   <a href="https://www.kali.org/news/kali-linux-2017-2-release" rel="nofollow">https://www.kali.org/news/kali-linux-2017-2-release</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  
+Managed object internals&#65292;.NET &#25176;&#31649;&#23545;&#35937;&#30340;&#20869;&#37096;&#32467;&#26500;&#65292;&#21253;&#25324;&#20869;&#23384;&#24067;&#23616;&#30340;&#20998;&#26512;&#65292;Part 4&#65306;   <a href="https://blogs.msdn.microsoft.com/seteplia/2017/09/21/managed-object-internals-part-4-fields-layout/" rel="nofollow">https://blogs.msdn.microsoft.com/seteplia/2017/09/21/managed-object-internals-part-4-fields-layout/</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  Python &#23545;&#35937;&#27880;&#20837;&#28431;&#27934;&#21033;&#29992;&#65306;   <a href="http://defencely.com/blog/defencely-clarifies-python-object-injection-exploitation/" rel="nofollow">http://defencely.com/blog/defencely-clarifies-python-object-injection-exploitation/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DKQHdvFUIAAAYVg.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  
+Ticket Trick - &#21033;&#29992;&#20225;&#19994;&#37038;&#31665;&#30331;&#38470;&#21151;&#33021;&#28508;&#20837;&#20225;&#19994;&#20869;&#37096;&#32593;&#32476;&#65292;&#22823;&#37327;&#20225;&#19994;&#21463;&#24433;&#21709;&#65306;   <a href="https://medium.freecodecamp.org/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c" rel="nofollow">https://medium.freecodecamp.org/how-i-hacked-hundreds-of-companies-through-their-helpdesk-b7680ddc2d4c</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Symbolic Execution ]</span>  
+Floating-Point Symbolic Execution: A Case Study in N-version Programming&#12290;&#20026;&#31526;&#21495;&#25191;&#34892;&#24037;&#20855; KLEE &#28155;&#21152;&#28014;&#28857;&#32422;&#26463;&#27714;&#35299;&#30340;&#25903;&#25345;&#65306;  <a href="https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2017/ASE.pdf" rel="nofollow">https://www.doc.ic.ac.uk/~afd/homepages/papers/pdfs/2017/ASE.pdf</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  &#29992;&#20110;&#22312;&#24037;&#25511;&#31995;&#32479;&#20013;&#24320;&#23637;&#38544;&#31192;&#25915;&#20987;&#30340;&#28145;&#24230;&#23398;&#20064;&#26694;&#26550;&#65288;Paper&#65289;&#65306;   <a href="https://arxiv.org/pdf/1709.06397.pdf" rel="nofollow">https://arxiv.org/pdf/1709.06397.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  
+&#26368;&#36817;&#19968;&#27573;&#26102;&#38388;&#27983;&#35272;&#22120;&#20986;&#22312; DOM &#26641;&#22788;&#29702;&#30456;&#20851;&#30340;&#28431;&#27934;&#31361;&#28982;&#23569;&#20102;&#24456;&#22810;&#65292;Ivan Fratric &#35748;&#20026;&#36825;&#26159;&#28304;&#20110; Flash &#21644; JS &#24341;&#25806;&#30340;"&#24110;&#21161;"&#12290;&#21152;&#20837; Project Zero &#20043;&#21518;&#65292;&#20182;&#20889;&#20102;&#19968;&#20010;&#26032;&#30340; DOM fuzzer - Domato&#65292;&#21033;&#29992; Domato &#23427;&#22312;&#20960;&#22823;&#27983;&#35272;&#22120;&#20013;&#21457;&#29616;&#20102; 33 &#20010; DOM &#30456;&#20851;&#30340;&#28431;&#27934;&#12290;&#26469;&#33258; Project Zero Blog&#65306;  <a href="https://googleprojectzero.blogspot.com/2017/09/the-great-dom-fuzz-off-of-2017.html" rel="nofollow">https://googleprojectzero.blogspot.com/2017/09/the-great-dom-fuzz-off-of-2017.html</a>
+</p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  LiMEaide - &#22522;&#20110; Python &#23454;&#29616;&#30340;&#36828;&#31243;&#36716;&#20648; Linux &#23458;&#25143;&#31471; RAM &#24037;&#20855;&#65306;   <a href="https://github.com/kd8bny/LiMEaide" rel="nofollow">https://github.com/kd8bny/LiMEaide</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Apktool v2.3.0 &#21457;&#24067;&#65306;   <a href="https://connortumbleson.com/2017/09/21/apktool-v2-3-0-released/" rel="nofollow">https://connortumbleson.com/2017/09/21/apktool-v2-3-0-released/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  &#36235;&#21183;&#31185;&#25216;&#23545;&#26368;&#36817;&#30340; Struts &#28431;&#27934;&#30340;&#32479;&#35745;&#21450;&#20462;&#34917;&#24314;&#35758;&#65306;   <a href="http://blog.trendmicro.com/trendlabs-security-intelligence/apache-struts-vulnerabilities-run-rampant/" rel="nofollow">http://blog.trendmicro.com/trendlabs-security-intelligence/apache-struts-vulnerabilities-run-rampant/</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Android ]</span>  Android&#20869;&#26680;&#25552;&#26435;cve-2014-3153&#30740;&#31350;&#31508;&#35760;&#65306; <a href="https://mp.weixin.qq.com/s/7iGcOb0Ac3A0rjCxo_SsNQ" rel="nofollow">https://mp.weixin.qq.com/s/7iGcOb0Ac3A0rjCxo_SsNQ</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Android ]</span>  New Reliable Android Kernel Root
+Exploitation Techniques&#65306; <a href="http://powerofcommunity.net/poc2016/x82.pdf" rel="nofollow">http://powerofcommunity.net/poc2016/x82.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  Wikileaks &#26032;&#20844;&#24067;&#20102;&#19968;&#31995;&#21015;&#25991;&#20214;&#65292;&#20854;&#22768;&#31216;&#26412;&#27425;&#25581;&#28431;&#30340;&#25991;&#20214;&#19982;&#20420;&#32599;&#26031;&#22823;&#35268;&#27169;&#30417;&#25511;&#35745;&#21010;&#26377;&#20851;&#65306;
+ <a href="http://securityaffairs.co/wordpress/63189/intelligence/wikileaks-russia-peter-service.html" rel="nofollow">http://securityaffairs.co/wordpress/63189/intelligence/wikileaks-russia-peter-service.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  &#20122;&#39532;&#36874;/&#24494;&#36719;&#20113;&#26381;&#21153;&#19978;&#30340;&#23458;&#25143;&#30001;&#20110;&#25968;&#25454;&#24211;&#38169;&#35823;&#37197;&#32622;&#23548;&#33268;&#36229;&#36807;&#21313;&#20159;&#26465;&#25968;&#25454;&#26292;&#38706;&#65306; <a href="https://securityintelligence.com/leaking-cloud-databases-and-servers-expose-over-1-billion-records/" rel="nofollow">https://securityintelligence.com/leaking-cloud-databases-and-servers-expose-over-1-billion-records/</a> </p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Chrome&#25554;&#20214;&#65306;User&#8211;Agent Switcher&#24694;&#24847;&#20195;&#30721;&#20998;&#26512;&#25253;&#21578;&#65306; <a href="http://bobao.360.cn/learning/detail/4456.html" rel="nofollow">http://bobao.360.cn/learning/detail/4456.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  &#23545;&#26576;&#23089;&#20048;&#32593;&#30340;&#19968;&#27425;&#31038;&#24037;&#21163;&#25345;&#65306; <a href="https://www.secpulse.com/archives/60626.html" rel="nofollow">https://www.secpulse.com/archives/60626.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  Python&#27801;&#31665;&#36867;&#36920;&#30340;n&#31181;&#23039;&#21183;&#65306; <a href="https://xianzhi.aliyun.com/forum/read/2138.html" rel="nofollow">https://xianzhi.aliyun.com/forum/read/2138.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  Office 2016 &#36828;&#31243;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#35814;&#24773;&#65288;CVE-2017-8630&#65289;&#65306; <a href="https://securingtomorrow.mcafee.com/mcafee-labs/microsoft-kills-potential-remote-code-execution-vulnerability-in-office-cve-2017-8630/" rel="nofollow">https://securingtomorrow.mcafee.com/mcafee-labs/microsoft-kills-potential-remote-code-execution-vulnerability-in-office-cve-2017-8630/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2017/09/21/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2017/09/22/index.html">2017/09/22</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2017/09/23/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2017/09/22/index.html</guid><pubDate>Fri, 22 Sep 2017 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2017-07-03</title><link>http://xuanwulab.github.io/cn/secnews/2017/07/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
