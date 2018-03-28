@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 27 Mar 2018 12:17:36 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 28 Mar 2018 12:20:18 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -1278,7 +1278,277 @@
 <a href="/cn/secnews/2018/03/17/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/03/16/index.html</guid><pubDate>Fri, 16 Mar 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-03-02</title><link>http://xuanwulab.github.io/cn/secnews/2018/03/02/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/03/16/index.html</guid><pubDate>Fri, 16 Mar 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-03-28</title><link>http://xuanwulab.github.io/cn/secnews/2018/03/28/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/03/27/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/03/28/index.html">2018/03/28</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/03/29/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  &#20351;&#29992; Logcat &#26597;&#30475; Android P &#20013;&#35843;&#29992;&#38544;&#34255; API &#30340;&#24212;&#29992;&#65306;   <a href="https://www.xda-developers.com/logcat-android-p-hidden-apis/" rel="nofollow">https://www.xda-developers.com/logcat-android-p-hidden-apis/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  Android Studio 3.1 &#21457;&#24067;&#65306;   <a href="https://android-developers.googleblog.com/2018/03/android-studio-3-1.html" rel="nofollow">https://android-developers.googleblog.com/2018/03/android-studio-3-1.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#24694;&#24847; RTF &#25991;&#26723;&#20869;&#23884;&#23439;&#20195;&#30721;&#29992;&#20110;&#20256;&#25773; NetwiredRC &#21644; Quasar RAT&#65292;&#25171;&#24320;&#25991;&#26723;&#20250;&#19981;&#26029;&#24377;&#20986;&#25191;&#34892;&#23439;&#30340;&#25552;&#31034;&#26694;&#65306;   <a href="https://www.zscaler.com/blogs/research/malicious-rtf-document-leading-netwiredrc-and-quasar-rat" rel="nofollow">https://www.zscaler.com/blogs/research/malicious-rtf-document-leading-netwiredrc-and-quasar-rat</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  &#28145;&#20837;&#29702;&#35299; .NET Runtime&#65306;   <a href="https://mattwarren.org/2018/03/23/Exploring-the-internals-of-the-.NET-Runtime/" rel="nofollow">https://mattwarren.org/2018/03/23/Exploring-the-internals-of-the-.NET-Runtime/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  &#32418;&#38431;&#28183;&#36879;&#27979;&#35797; 5 &#26041;&#38754;&#22823;&#35299;&#23494;&#65292;&#20171;&#32461;&#19981;&#21516;&#38454;&#27573;&#30340;&#25216;&#26415;&#21450;&#24037;&#20855;&#31561;&#65306;   <a href="https://medium.com/@adam.toscher/top-five-ways-the-red-team-breached-the-external-perimeter-262f99dc9d17" rel="nofollow">https://medium.com/@adam.toscher/top-five-ways-the-red-team-breached-the-external-perimeter-262f99dc9d17</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Side Channel ]</span>  BranchScope - &#23450;&#21521;&#20998;&#25903;&#39044;&#27979;&#22120;&#30340;&#26032;&#22411;&#20391;&#20449;&#36947;&#25915;&#20987;(Paper) &#65306;   <a href="http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf" rel="nofollow">http://www.cs.ucr.edu/~nael/pubs/asplos18.pdf</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DZTTPe-VwAAZI4H.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  IDAConnect - &#29992;&#20110; IDA Pro &#21644; Hex-Rays &#30340;&#36870;&#21521;&#24037;&#31243;&#21327;&#21516;&#25554;&#20214;&#65306;   <a href="https://github.com/IDAConnect/IDAConnect" rel="nofollow">https://github.com/IDAConnect/IDAConnect</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  &#22312; PowerShell &#21644; Bash &#29615;&#22659;&#19979;&#28155;&#21152; dotnet  &#21629;&#20196;&#30340;&#33258;&#21160;&#34917;&#20840;&#65306;   <a href="https://www.hanselman.com/blog/CommandLineTabCompletionForNETCoreCLIInPowerShellOrBash.aspx" rel="nofollow">https://www.hanselman.com/blog/CommandLineTabCompletionForNETCoreCLIInPowerShellOrBash.aspx</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/tweet_video_thumb/DZUL4F5VwAAMgsK.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  mac-a-mal - &#22522;&#20110; Cuckoo &#27801;&#30418;&#30340; macOS &#24694;&#24847;&#36719;&#20214;&#20998;&#26512;&#24037;&#20855;&#30340;&#20869;&#26680;&#30417;&#25511;&#27169;&#22359;&#65306;   <a href="https://github.com/phdphuc/mac-a-mal/" rel="nofollow">https://github.com/phdphuc/mac-a-mal/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  RSA Authentication Agent for Web for IIS/Apache Web Server &#23384;&#22312;&#22810;&#20010;&#28431;&#27934;&#65288;CVE-2018-1232, CVE-2018-1233, CVE-2018-1234&#65289;&#65306;   <a href="http://seclists.org/fulldisclosure/2018/Mar/60" rel="nofollow">http://seclists.org/fulldisclosure/2018/Mar/60</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Dell EMC ScaleIO &#22810;&#20010;&#28431;&#27934;&#25259;&#38706;&#65288;CVE-2018-1205, CVE-2018-1237, CVE-2018-1238&#65289;&#65306;   <a href="http://seclists.org/fulldisclosure/2018/Mar/59" rel="nofollow">http://seclists.org/fulldisclosure/2018/Mar/59</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Web Security ]</span>  Web &#35748;&#35777;&#26631;&#20934;(webauthn)&#20171;&#32461;&#65292;&#19968;&#31181;&#29992;&#20197;&#24357;&#34917;&#23494;&#30721;&#35748;&#35777;&#32570;&#38519;&#30340;&#26356;&#23433;&#20840;&#30340;&#35748;&#35777;&#26041;&#24335;&#65306;   <a href="https://www.imperialviolet.org/2018/03/27/webauthn.html" rel="nofollow">https://www.imperialviolet.org/2018/03/27/webauthn.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  &#22914;&#20309;&#22312; Windows &#19978;&#37096;&#32626; Suricata IDS/IPS &#65306;   <a href="https://blog.didierstevens.com/2018/03/27/quickpost-using-suricata-on-windows/" rel="nofollow">https://blog.didierstevens.com/2018/03/27/quickpost-using-suricata-on-windows/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DZT9P7qX0AE8yeq.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  &#21033;&#29992; vm3dum.dll (VMware SVGA 3D Usermode) &#36827;&#34892;&#25345;&#20037;&#21270;:   <a href="http://www.hexacorn.com/blog/2018/03/26/beyond-good-ol-run-key-part-74/" rel="nofollow">http://www.hexacorn.com/blog/2018/03/26/beyond-good-ol-run-key-part-74/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  Windows 7 &#30340;&#20869;&#23384;&#39029;&#34920;(Page Table) &#30340; User/Supervisor &#29305;&#26435;&#20301;&#29992;&#25143;&#24577;&#36827;&#31243;&#21487;&#35775;&#38382;&#65292;&#23548;&#33268;&#20219;&#24847;&#36827;&#31243;&#21487;&#20197;&#20840;&#20869;&#23384;&#31354;&#38388;&#20219;&#24847;&#22320;&#22336;&#35835;&#20889;&#65292;&#36817;&#20004;&#20010;&#26376;&#26410;&#26356;&#26032;&#34917;&#19969;&#30340; Windows 7 x64 &#21644; Windows Server 2008 R2 &#31995;&#32479;&#21463;&#24433;&#21709;&#65306;   <a href="http://blog.frizk.net/2018/03/total-meltdown.html?m=1" rel="nofollow">http://blog.frizk.net/2018/03/total-meltdown.html?m=1</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  pyrexecd - Windows &#31995;&#32479;&#19978;&#30340;&#29420;&#31435; SSH &#26381;&#21153;&#65306;   <a href="https://github.com/euske/pyrexecd" rel="nofollow">https://github.com/euske/pyrexecd</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  &#25915;&#20987;&#37329;&#34701;&#26426;&#26500;&#30340; Carbanak &#29359;&#32618;&#22242;&#20249;&#32972;&#21518;&#19968;&#21517;&#30097;&#20284;&#20027;&#35851;&#30340;&#20154;&#21592;&#34987;&#25429;&#65292;&#35813;&#22242;&#20249;&#34989;&#20987;&#20102;100&#22810;&#23478;&#37329;&#34701;&#26426;&#26500;&#33719;&#21033;&#36229;10&#20159;&#32654;&#20803;&#65306; <a href="https://threatpost.com/alleged-mastermind-behind-carbanak-crime-gang-arrested/130831/" rel="nofollow">https://threatpost.com/alleged-mastermind-behind-carbanak-crime-gang-arrested/130831/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  &#22312;&#35843;&#35797;&#22120;&#37324;&#30475;GPU&#30340;&#38271;&#25351;&#20196;&#65306;
+ <a href="http://mp.weixin.qq.com/s/zn6TKuxJs5jt3UrUfcXY9g" rel="nofollow">http://mp.weixin.qq.com/s/zn6TKuxJs5jt3UrUfcXY9g</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  BloodHound &#30340; Session &#25910;&#38598;&#26159;&#22914;&#20309;&#24037;&#20316;&#30340;&#65288;Video&#65289;&#65306; <a href="https://www.youtube.com/watch?v=q86VgM2Tafc&amp;feature=youtu.be" rel="nofollow">https://www.youtube.com/watch?v=q86VgM2Tafc&amp;feature=youtu.be</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/03/27/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/03/28/index.html">2018/03/28</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/03/29/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/03/28/index.html</guid><pubDate>Wed, 28 Mar 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-03-02</title><link>http://xuanwulab.github.io/cn/secnews/2018/03/02/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
