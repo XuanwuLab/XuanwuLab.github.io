@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Mon, 14 May 2018 13:43:17 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/03/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 16 May 2018 12:54:15 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-03-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/03/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -8975,7 +8975,414 @@ Processor: <a href="https://eprint.iacr.org/2018/427.pdf" rel="nofollow">https:/
 <a href="/cn/secnews/2018/05/15/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/05/14/index.html</guid><pubDate>Mon, 14 May 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-05-02</title><link>http://xuanwulab.github.io/cn/secnews/2018/05/02/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/05/14/index.html</guid><pubDate>Mon, 14 May 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-05-16</title><link>http://xuanwulab.github.io/cn/secnews/2018/05/16/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/05/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/05/16/index.html">2018/05/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/05/17/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  HSTS Bypass Vulnerability in IE Preview&#65306;   <a href="https://medium.com/bugbountywriteup/hsts-bypass-vulnerability-in-ie-preview-fa956161fa8" rel="nofollow">https://medium.com/bugbountywriteup/hsts-bypass-vulnerability-in-ie-preview-fa956161fa8</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Cloud ]</span>  &#38024;&#23545;&#24494;&#36719; Azure Cloud &#30340;&#25915;&#20987;&#25216;&#26415;&#20171;&#32461;&#65306;   <a href="https://speakerdeck.com/tweekfawkes/blue-cloud-of-death-red-teaming-azure-1" rel="nofollow">https://speakerdeck.com/tweekfawkes/blue-cloud-of-death-red-teaming-azure-1</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Hardware ]</span>  Nethammer&#65306;&#36890;&#36807;&#32593;&#32476;&#35831;&#27714;&#24341;&#21457; Rowhammer &#25915;&#20987;&#65288;Paper&#65289;&#65306;   <a href="https://arxiv.org/abs/1805.04956" rel="nofollow">https://arxiv.org/abs/1805.04956</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ iOS ]</span>  &#30424;&#21476;&#23454;&#39564;&#23460;&#21457;&#29616; ZipperDown &#28431;&#27934;&#65292;&#32422; 10 %&#30340; iOS &#24212;&#29992;&#21487;&#33021;&#21463;&#24433;&#21709;&#65292;&#21487;&#36896;&#25104;&#24212;&#29992;&#25968;&#25454;&#30772;&#22351;&#65292;&#19968;&#23450;&#26465;&#20214;&#19979;&#21487;&#20219;&#24847;&#25191;&#34892;&#20195;&#30721;&#65306;   <a href="https://zipperdown.org/%C2%A0%C2%A0" rel="nofollow">https://zipperdown.org/  </a> <a href="https://github.com/ZipArchive/ZipArchive/issues/453" rel="nofollow">https://github.com/ZipArchive/ZipArchive/issues/453</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ IoTDevice ]</span>  GE Healthcare MAC5500 &#24515;&#30005;&#22270;&#35774;&#22791;&#28431;&#27934;&#20998;&#26512;&#65288;CVE-2018-6020&#12289;CVE-2018-6021&#65289;  <a href="https://www.atredis.com/blog/2018/5/14/ge-healthcare-mac-5500-vulnerabilities" rel="nofollow">https://www.atredis.com/blog/2018/5/14/ge-healthcare-mac-5500-vulnerabilities</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Language ]</span>  PHP &#20013; 0e &#24320;&#22836;&#30340;&#39764;&#26415; Hash &#20171;&#32461;&#65306;   <a href="https://www.whitehatsec.com/blog/magic-hashes/" rel="nofollow">https://www.whitehatsec.com/blog/magic-hashes/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  DHCP &#23458;&#25143;&#31471;&#33050;&#26412;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#25259;&#38706;&#65288;CVE-2018-1111&#65289;&#65306;   <a href="https://access.redhat.com/security/vulnerabilities/3442151%C2%A0" rel="nofollow">https://access.redhat.com/security/vulnerabilities/3442151 </a> <a href="https://twitter.com/i/web/status/996470756283486209" rel="nofollow">https://twitter.com/i/web/status/996470756283486209</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  50 ton of Backdoors&#65292;&#37096;&#32626; Linux &#21518;&#38376;&#30340;&#22810;&#31181;&#26041;&#24335;&#65306;   <a href="https://www.slideshare.net/ulissescastro/50-ton-of-backdoors" rel="nofollow">https://www.slideshare.net/ulissescastro/50-ton-of-backdoors</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MachineLearning ]</span>  CLOUDFUZZ&#65306;&#36890;&#36807;&#26426;&#22120;&#23398;&#20064;&#35757;&#32451;&#29983;&#25104;&#26356;&#22810;&#29992;&#20110;&#27169;&#31946;&#27979;&#35797;&#30340;&#36755;&#20837;&#20197;&#25552;&#21319;&#20195;&#30721;&#35206;&#30422;&#29575;&#65306;   <a href="https://payatu.com/cloudfuzz-machine-learning-powered-content-specific-input-generation-fuzzing/" rel="nofollow">https://payatu.com/cloudfuzz-machine-learning-powered-content-specific-input-generation-fuzzing/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  &#20351;&#29992; WinRM &#36827;&#34892;&#27178;&#21521;&#28183;&#36879;:   <a href="https://pentestlab.blog/2018/05/15/lateral-movement-winrm/" rel="nofollow">https://pentestlab.blog/2018/05/15/lateral-movement-winrm/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Adobe Acrobat Reader DC &#36828;&#31243;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#35814;&#24773;&#25259;&#38706;(CVE-2018-4996&#12289;CVE-2018-4947):   <a href="https://blog.talosintelligence.com/2018/05/multiple-acrobat-reader-vulns.html" rel="nofollow">https://blog.talosintelligence.com/2018/05/multiple-acrobat-reader-vulns.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  ESET&#30740;&#31350;&#20154;&#21592;&#21457;&#29616;&#32452;&#21512;&#21033;&#29992;Adobe Reader&#36828;&#31243;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;(CVE-2018-4990)&#21644;Windows&#20869;&#26680;&#25552;&#26435;&#28431;&#27934;(CVE-2018-8120)&#30340;&#37326;&#22806;&#26679;&#26412;&#65306;   <a href="https://www.welivesecurity.com/2018/05/15/tale-two-zero-days/" rel="nofollow">https://www.welivesecurity.com/2018/05/15/tale-two-zero-days/</a> <a href="https://blog.malwarebytes.com/threat-analysis/2018/05/adobe-reader-zero-day-discovered-alongside-windows-vulnerability/" rel="nofollow">https://blog.malwarebytes.com/threat-analysis/2018/05/adobe-reader-zero-day-discovered-alongside-windows-vulnerability/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Spring Data Commons &#32452;&#20214;(CVE-2018-1273)&#27880;&#20837;&#23548;&#33268;&#30340;&#36828;&#31243;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#35814;&#24773;&#21450;POC&#65306; <a href="http://ttp://gosecure.net/2018/05/15/beware-of-the-magic-spell-part-1-cve-2018-1273/" rel="nofollow">ttp://gosecure.net/2018/05/15/beware-of-the-magic-spell-part-1-cve-2018-1273/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Signal &#24212;&#29992;&#26700;&#38754;&#29256; HTML &#27880;&#20837;&#36828;&#31243;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#21033;&#29992;&#35814;&#24773;&#65288;CVE-2018-10994&#65289;&#65306;   <a href="https://packetstormsecurity.com/files/147614/signaldesktop-inject.txt" rel="nofollow">https://packetstormsecurity.com/files/147614/signaldesktop-inject.txt</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ ReverseEngineering ]</span>  &#36870;&#21521; Path of Exile &#28216;&#25103;&#31995;&#21015;&#65292; Part 1&#65306;   <a href="http://tbinarii.blogspot.in/2018/05/reverse-engineering-path-of-exile.html%C2%A0" rel="nofollow">http://tbinarii.blogspot.in/2018/05/reverse-engineering-path-of-exile.html </a> Part 2&#65306;   <a href="http://tbinarii.blogspot.in/2018/05/reverse-engineering-path-of-exile_0.html%C2%A0" rel="nofollow">http://tbinarii.blogspot.in/2018/05/reverse-engineering-path-of-exile_0.html </a> Part 3&#65306;   <a href="http://tbinarii.blogspot.in/2018/05/reverse-engineering-path-of-exile-game.html" rel="nofollow">http://tbinarii.blogspot.in/2018/05/reverse-engineering-path-of-exile-game.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityReport ]</span>  Kaspersky Lab &#21457;&#24067; 2018 Q1 &#23395;&#24230; IT &#23041;&#32961;&#28436;&#21464;&#20998;&#26512;&#65306;   <a href="https://securelist.com/it-threat-evolution-q1-2018-statistics/85541" rel="nofollow">https://securelist.com/it-threat-evolution-q1-2018-statistics/85541</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Shell &#32534;&#30721;&#35268;&#33539;&#25351;&#21335;&#65306;    <a href="https://google.github.io/styleguide/shell.xml" rel="nofollow">https://google.github.io/styleguide/shell.xml</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  GitBackdorizer - &#36890;&#36807;&#20462;&#25913; git &#20179;&#24211;&#30340; hook &#25991;&#20214;&#38035;&#21462;&#29992;&#25143; git &#20973;&#35777;&#30340;&#24037;&#20855;&#65306;   <a href="https://github.com/UnkL4b/GitBackdorizer" rel="nofollow">https://github.com/UnkL4b/GitBackdorizer</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  TheDoc - SQLMAP &#33258;&#21160;&#21270;&#21033;&#29992;&#33050;&#26412;&#65306;   <a href="https://github.com/0x3curity/TheDoc" rel="nofollow">https://github.com/0x3curity/TheDoc</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  AUSERA&#65306;&#22823;&#35268;&#27169;&#30340;&#33258;&#21160;&#21270;&#23433;&#20840;&#39118;&#38505;&#35780;&#20272;&#31995;&#32479;&#65288;Paper&#65289;&#65306;  <a href="https://arxiv.org/pdf/1805.05236.pdf" rel="nofollow">https://arxiv.org/pdf/1805.05236.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  honeybits - &#19968;&#27454; Go &#35821;&#35328;&#24320;&#21457;&#30340;&#34588;&#32592;&#65306;   <a href="https://github.com/0x4D31/honeybits" rel="nofollow">https://github.com/0x4D31/honeybits</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  CredNinja - &#22810;&#32447;&#31243;&#39564;&#35777;&#29992;&#25143;&#20973;&#25454;&#26159;&#21542;&#27491;&#30830;&#30340;&#24037;&#20855;&#65306;   <a href="https://github.com/Raikia/CredNinja" rel="nofollow">https://github.com/Raikia/CredNinja</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  PLAN9 Acme &#29615;&#22659;&#19979;&#30340;&#30005;&#23376;&#37038;&#20214;&#37197;&#32622;&#25945;&#31243;&#65306;   <a href="http://akpoff.com/archive/2018/email_config_plan9_acme_openbsd.html" rel="nofollow">http://akpoff.com/archive/2018/email_config_plan9_acme_openbsd.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Web Security ]</span>  &#39044;&#27979; Java &#30340;&#38543;&#26426;&#25968;&#29983;&#25104;&#23454;&#29616; CSRF &#25915;&#20987;&#65306;   <a href="https://blog.securityevaluators.com/cracking-javas-rng-for-csrf-ea9cacd231d2" rel="nofollow">https://blog.securityevaluators.com/cracking-javas-rng-for-csrf-ea9cacd231d2</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DdN9ylJV0AAZcqd.png" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  UAC &#32469;&#36807;&#25216;&#24039;&#20998;&#20139; &#26469;&#33258; DEFCON China&#65306;   <a href="https://github.com/FuzzySecurity/DefCon-Beijing-UAC/blob/master/DCCBeijing_UAC-0day-All-Day_v1.0.pdf" rel="nofollow">https://github.com/FuzzySecurity/DefCon-Beijing-UAC/blob/master/DCCBeijing_UAC-0day-All-Day_v1.0.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  &#20462;&#25913;&#27880;&#20876;&#34920;&#38190;&#20540;&#32469;&#36807; UAC &#38480;&#21046;&#30340;&#26041;&#27861;&#65306;   <a href="https://attackiq.com/blog/2018/05/14/bypassing-uac-using-registry-keys/" rel="nofollow">https://attackiq.com/blog/2018/05/14/bypassing-uac-using-registry-keys/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  &#24494;&#36719;&#20462;&#22797; CVE-2018-8174 VBScript &#36828;&#31243;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#23384;&#22312;&#38382;&#39064;&#65292;&#20250;&#23548;&#33268;&#37096;&#20998;&#26426;&#22120;&#26080;&#27861;&#19978;&#32593;&#65292;0patch &#22242;&#38431;&#23545;&#28431;&#27934;&#36827;&#34892;&#20998;&#26512;&#24182;&#32473;&#20986;&#20102;&#20462;&#22797;&#34917;&#19969;&#65306;   <a href="https://blog.0patch.com/2018/05/a-single-instruction-micropatch-for.html" rel="nofollow">https://blog.0patch.com/2018/05/a-single-instruction-micropatch-for.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  Windows: Token Process Trust SID Access Check Bypass EOP(CVE-2018-8134)&#65306;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1540" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1540</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Android ]</span>  General ways to find and exploit directory traversals on Android,&#26469;&#33258; DEFCON China &#22823;&#20250;:  <a href="https://pan.baidu.com/s/1jAAGvukDuWp5ijAEk1EWQw" rel="nofollow">https://pan.baidu.com/s/1jAAGvukDuWp5ijAEk1EWQw</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  &#21345;&#24052;&#26031;&#22522;&#23454;&#39564;&#23460;&#23558;&#25226;&#37096;&#20998;&#19994;&#21153;&#20174;&#20420;&#32599;&#26031;&#36801;&#24448;&#29790;&#22763;&#65306; <a href="https://cn.wsj.com/articles/CN-TEC-20180516082507" rel="nofollow">https://cn.wsj.com/articles/CN-TEC-20180516082507</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  &#32418;&#38431;&#32593;&#32476;&#22522;&#30784;&#35774;&#26045;&#24314;&#35774;&#65306; <a href="https://paper.seebug.org/599/" rel="nofollow">https://paper.seebug.org/599/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  Spring Integration Zip&#19981;&#23433;&#20840;&#35299;&#21387;&#65288;CVE-2018-1261&#65289;&#28431;&#27934;&#20998;&#26512;&#65306; <a href="https://mp.weixin.qq.com/s/SJPXdZWNKypvWmL-roIE0Q" rel="nofollow">https://mp.weixin.qq.com/s/SJPXdZWNKypvWmL-roIE0Q</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/05/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/05/16/index.html">2018/05/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/05/17/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/05/16/index.html</guid><pubDate>Wed, 16 May 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-05-02</title><link>http://xuanwulab.github.io/cn/secnews/2018/05/02/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -9453,7 +9860,289 @@ Processor: <a href="https://eprint.iacr.org/2018/427.pdf" rel="nofollow">https:/
 <a href="/cn/secnews/2018/05/07/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/05/06/index.html</guid><pubDate>Sun, 06 May 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-05-10</title><link>http://xuanwulab.github.io/cn/secnews/2018/05/10/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/05/06/index.html</guid><pubDate>Sun, 06 May 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-05-15</title><link>http://xuanwulab.github.io/cn/secnews/2018/05/15/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/05/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/05/15/index.html">2018/05/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/05/16/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Google Chrome 66.0.3359.170 &#30340; 0day RCE &#28431;&#27934;&#28436;&#31034;(Video)&#65306;   <a href="https://www.youtube.com/watch?v=KNTLzeL4cvg&amp;feature=youtu.be" rel="nofollow">https://www.youtube.com/watch?v=KNTLzeL4cvg&amp;;feature=youtu.be</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Towards a Unified Blink and JavaScript Heap&#65306;   <a href="https://slidr.io/mlippautz/towards-a-unified-blink-and-javascript-heap#1" rel="nofollow">https://slidr.io/mlippautz/towards-a-unified-blink-and-javascript-heap#1</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Challenges ]</span>  Defcon Qualifier CTF 2018 IPwnKit - macOS IOKit &#28431;&#27934;&#21033;&#29992;&#39064;&#30446;&#30340;&#21033;&#29992;&#31243;&#24207;&#65306;   <a href="https://gist.github.com/saelo/0a85f22c8a02f3a314661edd715900d3" rel="nofollow">https://gist.github.com/saelo/0a85f22c8a02f3a314661edd715900d3</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Challenges ]</span>  DEF CON CTF Qualifiers 2018 - shellql WriteUp&#65306;   <a href="https://blog.vero.site/post/shellql" rel="nofollow">https://blog.vero.site/post/shellql</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Crypto ]</span>  PGP/GPG &#21450; S/MIME &#37038;&#20214;&#21152;&#23494;&#34987;&#29190;&#23384;&#22312;&#38544;&#31169;&#27844;&#23494;&#38382;&#39064;&#65306;   <a href="https://efail.de " rel="nofollow">https://efail.de </a> Paper&#65306;   <a href="https://efail.de/efail-attack-paper.pdf%E5%85%B3%E9%97%AD" rel="nofollow">https://efail.de/efail-attack-paper.pdf&#20851;&#38381;</a> Thunderbird / Apple Mail / Outlook &#30340; PGP/GPG &#26041;&#27861;&#25351;&#21335;&#65306;   <a href="https://twitter.com/i/web/status/995906702951288833" rel="nofollow">https://twitter.com/i/web/status/995906702951288833</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Crypto ]</span>  Signal &#28040;&#24687;&#24212;&#29992;&#31471;&#21040;&#31471;&#21152;&#23494;&#65288;E2EE&#65289;&#21327;&#35758;&#20998;&#26512;&#65306;   <a href="https://medium.com/@justinomora/demystifying-the-signal-protocol-for-end-to-end-encryption-e2ee-ad6a567e6cb4" rel="nofollow">https://medium.com/@justinomora/demystifying-the-signal-protocol-for-end-to-end-encryption-e2ee-ad6a567e6cb4</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Malware ]</span>  &#26032;&#30340;&#38035;&#40060;&#27963;&#21160;&#20197;&#36890;&#29992;&#25968;&#25454;&#20445;&#25252;&#27861;&#35268;&#65288;GDPR&#65289;&#20026;&#20027;&#39064;&#35201;&#27714;&#29992;&#25143;&#36755;&#20837; Apple &#36134;&#25143;&#20973;&#35777;&#65306;   <a href="https://threatpost.com/gdpr-phishing-scam-targets-apple-accounts-financial-data/131915/" rel="nofollow">https://threatpost.com/gdpr-phishing-scam-targets-apple-accounts-financial-data/131915/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  FireEye &#23545;&#25237;&#36882; Grobios &#26408;&#39532;&#30340; RIG EK &#30340;&#28145;&#20837;&#20998;&#26512;&#65306;   <a href="https://www.fireeye.com/blog/threat-research/2018/05/deep-dive-into-rig-exploit-kit-delivering-grobios-trojan.html" rel="nofollow">https://www.fireeye.com/blog/threat-research/2018/05/deep-dive-into-rig-exploit-kit-delivering-grobios-trojan.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Microsoft Teams URL &#21629;&#20196;&#27880;&#20837;&#23548;&#33268;&#30340;&#36828;&#31243;&#20219;&#24847;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#25259;&#38706;(CVE-2018-1000006) &#65306;   <a href="https://www.zerodayinitiative.com/advisories/ZDI-18-426/" rel="nofollow">https://www.zerodayinitiative.com/advisories/ZDI-18-426/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  backtolife - &#20869;&#23384;&#21462;&#35777;&#24037;&#20855;&#65292;&#20174;&#36716;&#20648;&#30340;&#20869;&#23384;&#20013;&#37325;&#32452;&#36827;&#31243;&#20449;&#24687;:   <a href="https://github.com/lukdog/backtolife" rel="nofollow">https://github.com/lukdog/backtolife</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  DARKSURGEON - &#29992;&#20110;&#20107;&#20214;&#21709;&#24212;&#65292;&#25968;&#23383;&#21462;&#35777;&#65292;&#24694;&#24847;&#36719;&#20214;&#20998;&#26512;&#21644;&#32593;&#32476;&#38450;&#24481;&#30340; Windows &#34394;&#25311;&#26426;&#65306;  <a href="https://medium.com/@cryps1s/darksurgeon-a-windows-10-packer-project-for-defenders-1a57759856b6GitHub%EF%BC%9A" rel="nofollow">https://medium.com/@cryps1s/darksurgeon-a-windows-10-packer-project-for-defenders-1a57759856b6GitHub&#65306;</a> <a href="https://github.com/cryps1s/DARKSURGEON" rel="nofollow">https://github.com/cryps1s/DARKSURGEON</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  streamingphish - &#20351;&#29992;&#30417;&#30563;&#26426;&#22120;&#23398;&#20064;&#20174;&#35777;&#20070;&#36879;&#26126;&#24230;&#26085;&#24535;&#32593;&#32476;&#20013;&#26816;&#27979;&#38035;&#40060;&#22495;&#21517;&#30340;&#24037;&#20855;&#65306;   <a href="https://github.com/wesleyraptor/streamingphish" rel="nofollow">https://github.com/wesleyraptor/streamingphish</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  PinVMP - &#34394;&#25311;&#21270;&#20195;&#30721;&#36741;&#21161;&#20998;&#26512;&#24037;&#20855;&#65306;   <a href="https://github.com/lmy375/pinvmp" rel="nofollow">https://github.com/lmy375/pinvmp</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  sandmap - &#20351;&#29992; Nmap &#24341;&#25806;&#36827;&#34892;&#32593;&#32476;&#21644;&#31995;&#32479;&#20390;&#23519;&#30340;&#24037;&#20855;&#65292;&#25903;&#25345;&#33258;&#21160;&#21270;&#21644;&#21152;&#36895;&#25195;&#25551;&#65306;   <a href="https://github.com/trimstray/sandmap" rel="nofollow">https://github.com/trimstray/sandmap</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  re_lab - &#36870;&#21521;&#24037;&#31243;&#29615;&#22659;&#30340; Docker &#38236;&#20687;&#65306;   <a href="https://github.com/cboin/re_lab" rel="nofollow">https://github.com/cboin/re_lab</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  &#23458;&#25143;&#31471; CSRF &#28431;&#27934;&#23454;&#20363;&#65306;   <a href="https://www.facebook.com/notes/facebook-bug-bounty/client-side-csrf/2056804174333798/" rel="nofollow">https://www.facebook.com/notes/facebook-bug-bounty/client-side-csrf/2056804174333798/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  &#21033;&#29992; POP SS &#28431;&#27934;&#20197;&#20869;&#26680;&#26435;&#38480;&#25191;&#34892;&#20219;&#24847;&#20195;&#30721;&#30340; Exp&#65288;CVE-2018-8897&#65289;&#65306;   <a href="https://github.com/can1357/CVE-2018-8897" rel="nofollow">https://github.com/can1357/CVE-2018-8897</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Challenges ]</span>  DDCTF 2018 writeup(&#19968;) WEB&#31687;&#65306; <a href="https://www.anquanke.com/post/id/144879" rel="nofollow">https://www.anquanke.com/post/id/144879</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#25366;&#30719;&#20725;&#23608;&#32593;&#32476;&#29616;&#24418;&#35760;&#65292;&#24050;&#24863;&#26579;&#33267;&#23569;2&#19975;&#21488;&#26381;&#21153;&#22120;: <a href="http://www.freebuf.com/articles/network/171031.html" rel="nofollow">http://www.freebuf.com/articles/network/171031.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  RCE with spring-security-oauth2 &#20998;&#26512;-&#12304;CVE-2018-1260&#12305;&#65306; <a href="https://xz.aliyun.com/t/2330" rel="nofollow">https://xz.aliyun.com/t/2330</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  real whitelisting attempt using applocker&#65292;&#20316;&#32773;&#23581;&#35797;&#23454;&#29616;&#19968;&#20010;&#26368;&#23433;&#20840;&#30340; AppLocker &#30333;&#21517;&#21333;&#65292;&#24182;&#35760;&#24405;&#20102;&#33258;&#24049;&#27979;&#35797;&#36807;&#31243;: <a href="https://oddvar.moe/2018/05/14/real-whitelisting-attempt-using-applocker/" rel="nofollow">https://oddvar.moe/2018/05/14/real-whitelisting-attempt-using-applocker/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/05/14/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/05/15/index.html">2018/05/15</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/05/16/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/05/15/index.html</guid><pubDate>Tue, 15 May 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-05-10</title><link>http://xuanwulab.github.io/cn/secnews/2018/05/10/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
