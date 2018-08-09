@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 08 Aug 2018 12:49:01 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-06-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/06/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 09 Aug 2018 12:51:43 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-06-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/06/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -10672,7 +10672,268 @@ GitHub: <a href="https://github.com/joxeankoret/membugtool" rel="nofollow">https
 <a href="/cn/secnews/2018/08/09/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/08/08/index.html</guid><pubDate>Wed, 08 Aug 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-08-07</title><link>http://xuanwulab.github.io/cn/secnews/2018/08/07/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/08/08/index.html</guid><pubDate>Wed, 08 Aug 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-08-09</title><link>http://xuanwulab.github.io/cn/secnews/2018/08/09/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/08/08/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/08/09/index.html">2018/08/09</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/08/10/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Backdoor ]</span>  BIOS Boots What? Finding Evil in Boot Code at Scale!,FireEye &#23545; Bios &#21518;&#38376;&#30340;&#20998;&#26512;&#25253;&#21578;:   <a href="https://www.fireeye.com/blog/threat-research/2018/08/bios-boots-what-finding-evil-in-boot-code-at-scale.html" rel="nofollow">https://www.fireeye.com/blog/threat-research/2018/08/bios-boots-what-finding-evil-in-boot-code-at-scale.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Blockchain ]</span>  rattle - &#20197;&#22826;&#22346;&#21512;&#32422;&#20108;&#36827;&#21046;&#25991;&#20214;&#38745;&#24577;&#20998;&#26512;&#26694;&#26550;:   <a href="https://github.com/trailofbits/rattle" rel="nofollow">https://github.com/trailofbits/rattle</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Firmware ]</span>  UEFI &#22266;&#20214;&#26356;&#26032;&#26426;&#21046;&#23384;&#22312;&#28431;&#27934;&#20801;&#35768;&#25915;&#20987;&#32773;&#36828;&#31243;&#25915;&#20987;&#31995;&#32479;:   <a href="https://threatpost.com/update-mechanism-flaws-allow-remote-attacks-on-uefi-firmware/134785/" rel="nofollow">https://threatpost.com/update-mechanism-flaws-allow-remote-attacks-on-uefi-firmware/134785/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Industry News ]</span>   .NET Core 3.0 &#29616;&#24050;&#25903;&#25345; Windows &#31383;&#20307;&#21644; WPF &#24212;&#29992;&#31243;&#24207;:   <a href="https://blogs.msdn.microsoft.com/dotnet/2018/08/08/are-your-windows-forms-and-wpf-applications-ready-for-net-core-3-0/" rel="nofollow">https://blogs.msdn.microsoft.com/dotnet/2018/08/08/are-your-windows-forms-and-wpf-applications-ready-for-net-core-3-0/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  &#31867; Unix &#25805;&#20316;&#31995;&#32479;&#31995;&#32479;&#35843;&#29992;:   <a href="https://john-millikin.com/unix-syscalls#linux-i386-interrupt" rel="nofollow">https://john-millikin.com/unix-syscalls#linux-i386-interrupt</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MachineLearning ]</span>  &#21033;&#29992;&#20027;&#21160;&#23398;&#20064;&#65288;Active Learning&#65289;&#26816;&#27979; Android &#37325;&#25171;&#21253;&#24694;&#24847;&#36719;&#20214;&#65288;Paper&#65289;&#65306;   <a href="https://arxiv.org/pdf/1808.01186.pdf" rel="nofollow">https://arxiv.org/pdf/1808.01186.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  2018 &#24180; MSRC Top 100 security researchers &#27036;&#21333;&#25581;&#26195; &#65306;   <a href="https://blogs.technet.microsoft.com/msrc/2018/08/08/microsofts-top-100-security-researchers-black-hat-2018-edition/" rel="nofollow">https://blogs.technet.microsoft.com/msrc/2018/08/08/microsofts-top-100-security-researchers-black-hat-2018-edition/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  &#28145;&#20837;&#29702;&#35299; .NET Part3 &#65306;&#25968;&#25454;&#30340;&#35013;&#31665;(&#20174;&#26632;&#21040;&#22534;)&#19982;&#25286;&#31665;(&#20174;&#22534;&#21040;&#26632;) &#65306;   <a href="http://www.dsibinski.pl/2018/08/net-internals-03-boxing-and-unboxing/" rel="nofollow">http://www.dsibinski.pl/2018/08/net-internals-03-boxing-and-unboxing/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Check Point &#23433;&#20840;&#22242;&#38431;&#23545; WhatsApp &#21363;&#26102;&#32842;&#22825;&#24212;&#29992;&#30340;&#28431;&#27934;&#25366;&#25496;&#35814;&#24773;&#65306;   <a href="https://research.checkpoint.com/fakesapp-a-vulnerability-in-whatsapp/BurpExtension-WhatsApp-Decryption-CheckPoint" rel="nofollow">https://research.checkpoint.com/fakesapp-a-vulnerability-in-whatsapp/BurpExtension-WhatsApp-Decryption-CheckPoint</a> - BurpSuite WhatsApp &#21327;&#35758;&#35299;&#23494;&#25193;&#23637;:   <a href="https://github.com/romanzaikin/BurpExtension-WhatsApp-Decryption-CheckPoint" rel="nofollow">https://github.com/romanzaikin/BurpExtension-WhatsApp-Decryption-CheckPoint</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityReport ]</span>  Accenture &#21457;&#24067; 2018 &#24180;&#24180;&#20013;&#23041;&#32961;&#25253;&#21578;:   <a href="https://www.accenture.com/t20180803T064557Z__w__/us-en/_acnmedia/PDF-83/Accenture-Cyber-Threatscape-Report-2018.pdf" rel="nofollow">https://www.accenture.com/t20180803T064557Z__w__/us-en/_acnmedia/PDF-83/Accenture-Cyber-Threatscape-Report-2018.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  BurpSuite &#22914;&#20309;&#22312;&#25195;&#25551;&#26399;&#38388;&#33258;&#21160;&#32500;&#25252;&#20250;&#35805;:   <a href="https://portswigger.net/blog/automatically-maintaining-session-during-scans" rel="nofollow">https://portswigger.net/blog/automatically-maintaining-session-during-scans</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  xori - &#20108;&#36827;&#21046;&#21453;&#27719;&#32534;&#21644;&#38745;&#24577;&#20998;&#26512;&#24037;&#20855;&#65292;&#26469;&#33258; BlackHat USA 2018&#65292;&#20171;&#32461;:   <a href="https://sites.google.com/secured.org/malwareunicorn/xoriGitHub%EF%BC%9A" rel="nofollow">https://sites.google.com/secured.org/malwareunicorn/xoriGitHub&#65306;</a> <a href="https://github.com/endgameinc/xori" rel="nofollow">https://github.com/endgameinc/xori</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  vuLnDAP - &#29992; Golang &#32534;&#20889;&#30340;&#26131;&#21463;&#25915;&#20987;&#30340;&#22522;&#20110; LDAP &#30340; Web &#24212;&#29992;&#31243;&#24207;:   <a href="https://digi.ninja/projects/vulndap.php" rel="nofollow">https://digi.ninja/projects/vulndap.php</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   kemon - macOS &#20869;&#26680;&#30417;&#25511;&#22238;&#35843;&#26694;&#26550;:   <a href="https://github.com/didi/kemon" rel="nofollow">https://github.com/didi/kemon</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Discourse &#23376;&#31449;&#28857;&#30340; CloudFlare Web &#32531;&#23384;&#27450;&#39575;&#28431;&#27934;&#35814;&#24773;&#25259;&#38706;:   <a href="https://hackerone.com/reports/260697" rel="nofollow">https://hackerone.com/reports/260697</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Cloud ]</span>  &#26816;&#27979; AWS &#20013;&#30340;&#20973;&#25454;&#27844;&#38706;&#65292;&#26469;&#33258; 
+Netflix Security Tools and Operations team &#65306; <a href="https://medium.com/netflix-techblog/netflix-cloud-security-detecting-credential-compromise-in-aws-9493d6fd373a" rel="nofollow">https://medium.com/netflix-techblog/netflix-cloud-security-detecting-credential-compromise-in-aws-9493d6fd373a</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  &#20351;&#29992;&#38754;&#37096;&#35782;&#21035;&#25216;&#26415;&#20851;&#32852;&#19981;&#21516;&#31038;&#20132;&#23186;&#20307;&#31449;&#28857;&#36134;&#25143;&#65306;&#28183;&#36879;&#27979;&#35797;&#20154;&#21592;&#21644;&#32418;&#38431;&#25104;&#21592;&#30340;&#26032;&#31038;&#24037;&#21033;&#22120;: <a href="https://www.trustwave.com/Resources/SpiderLabs-Blog/Mapping-Social-Media-with-Facial-Recognition--A-New-Tool-for-Penetration-Testers-and-Red-Teamers/" rel="nofollow">https://www.trustwave.com/Resources/SpiderLabs-Blog/Mapping-Social-Media-with-Facial-Recognition--A-New-Tool-for-Penetration-Testers-and-Red-Teamers/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#39118;&#20113;&#20877;&#36215;&#65292;&#31614;&#21517;&#20882;&#29992;&#24341;&#21457;&#20449;&#20219;&#21361;&#26426;&#65306; <a href="http://www.freebuf.com/articles/security-management/179726.html" rel="nofollow">http://www.freebuf.com/articles/security-management/179726.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  cli - X509, OAuth, JWT, OATH OTP &#21327;&#35758;&#22788;&#29702;&#22871;&#20214;: <a href="https://github.com/smallstep/cli" rel="nofollow">https://github.com/smallstep/cli</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/08/08/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/08/09/index.html">2018/08/09</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/08/10/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/08/09/index.html</guid><pubDate>Thu, 09 Aug 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-08-07</title><link>http://xuanwulab.github.io/cn/secnews/2018/08/07/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
