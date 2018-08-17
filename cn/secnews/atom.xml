@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 16 Aug 2018 13:14:54 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-06-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/06/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 17 Aug 2018 12:49:55 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-06-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/06/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -10600,7 +10600,309 @@ GitHub: <a href="https://github.com/joxeankoret/membugtool" rel="nofollow">https
 <a href="/cn/secnews/2018/08/07/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/08/06/index.html</guid><pubDate>Mon, 06 Aug 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-08-15</title><link>http://xuanwulab.github.io/cn/secnews/2018/08/15/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/08/06/index.html</guid><pubDate>Mon, 06 Aug 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-08-17</title><link>http://xuanwulab.github.io/cn/secnews/2018/08/17/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/08/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/08/17/index.html">2018/08/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/08/18/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  Android P &#20013;&#30340;&#32593;&#32476;&#23433;&#20840;&#37197;&#32622;&#25351;&#21335;&#65306;   <a href="https://www.nowsecure.com/blog/2018/08/15/a-security-analysts-guide-to-network-security-configuration-in-android-p/" rel="nofollow">https://www.nowsecure.com/blog/2018/08/15/a-security-analysts-guide-to-network-security-configuration-in-android-p/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Google Chrome &#30340; Blink &#24341;&#25806;&#28431;&#27934;&#21487;&#23548;&#33268;&#31169;&#20154; Facebook &#20449;&#24687;&#27844;&#38706;&#65306;   <a href="https://threatpost.com/google-chrome-bug-opens-access-to-private-facebook-information/136573/" rel="nofollow">https://threatpost.com/google-chrome-bug-opens-access-to-private-facebook-information/136573/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Detect ]</span>  &#22914;&#20309;&#26816;&#27979; OpenSSH &#29992;&#25143;&#21517;&#26522;&#20030;&#34892;&#20026;:   <a href="https://blog.rootshell.be/2018/08/16/detecting-ssh-username-enumeration/" rel="nofollow">https://blog.rootshell.be/2018/08/16/detecting-ssh-username-enumeration/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Firmware ]</span>  &#36828;&#31243;&#25915;&#20987; BIOS &#65292;&#26469;&#33258; Blackhat USA 2018 :   <a href="https://github.com/eclypsium/Publications/blob/master/2018/BlackHat_USA_2018/BH2018_REMOTELY_ATACKING_SYSTEM_FIRMWARE_FINAL.pdf%C2%A0" rel="nofollow">https://github.com/eclypsium/Publications/blob/master/2018/BlackHat_USA_2018/BH2018_REMOTELY_ATACKING_SYSTEM_FIRMWARE_FINAL.pdf </a> Additional details &#29256;&#26412;&#65306;   <a href="https://github.com/eclypsium/Publications/blob/master/2018/DEFCON26/DC26_UEFI_EXPLOITATION_MASSES_FINAL.pdf" rel="nofollow">https://github.com/eclypsium/Publications/blob/master/2018/DEFCON26/DC26_UEFI_EXPLOITATION_MASSES_FINAL.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  iptables-essentials - iptables &#38450;&#28779;&#22681;&#36890;&#29992;&#35268;&#21017;&#19982;&#21629;&#20196;&#65306;   <a href="https://github.com/trimstray/iptables-essentials" rel="nofollow">https://github.com/trimstray/iptables-essentials</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  SamSam &#21202;&#32034;&#36719;&#20214;&#27963;&#21160;&#20998;&#26512;&#25253;&#21578;&#65306;   <a href="https://jask.com/wp-content/uploads/TA_00013_3.pdf" rel="nofollow">https://jask.com/wp-content/uploads/TA_00013_3.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#22522;&#20110; DNS &#36890;&#20449;&#30340; Powershell &#24694;&#24847;&#36719;&#20214; DNSMESSENGER &#20998;&#26512;&#65306;   <a href="https://www.sentinelone.com/blog/dnsmessenger-powershell-malware-analysis-2/" rel="nofollow">https://www.sentinelone.com/blog/dnsmessenger-powershell-malware-analysis-2/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Florian Roth &#20998;&#20139;&#30340;&#24694;&#24847;&#27969;&#37327;&#20998;&#26512;&#32451;&#20064;&#21450;&#30456;&#20851;&#26448;&#26009;&#65306;   <a href="https://twitter.com/cyb3rops/status/1030125256902631426" rel="nofollow">https://twitter.com/cyb3rops/status/1030125256902631426</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#26368;&#26032; Trickbot &#21464;&#31181;&#20351;&#29992;&#30340;&#20195;&#30721;&#27880;&#20837;&#25216;&#26415;&#20998;&#26512;&#65306;   <a href="https://www.cyberbit.com/blog/endpoint-security/latest-trickbot-variant-has-new-tricks-up-its-sleeve/" rel="nofollow">https://www.cyberbit.com/blog/endpoint-security/latest-trickbot-variant-has-new-tricks-up-its-sleeve/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Mobile ]</span>  &#23545;&#31227;&#21160;&#31471;&#30417;&#25511;&#36719;&#20214; Stealth Mango &#19982; Tangelo &#30340;&#20998;&#26512;&#65306;   <a href="https://drive.google.com/file/d/1WJCXG2SIkVwPEw5dlAE5U__OfDB88zD0/view" rel="nofollow">https://drive.google.com/file/d/1WJCXG2SIkVwPEw5dlAE5U__OfDB88zD0/view</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>   &#20351;&#29992; Semmle QL &#36827;&#34892;&#28431;&#27934;&#25628;&#32034; Part 1&#65306;   <a href="https://blogs.technet.microsoft.com/srd/2018/08/16/vulnerability-hunting-with-semmle-ql-part-1/" rel="nofollow">https://blogs.technet.microsoft.com/srd/2018/08/16/vulnerability-hunting-with-semmle-ql-part-1/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>   ESI &#27880;&#20837;&#65306;&#28389;&#29992;&#32531;&#23384;&#26381;&#21153;&#36827;&#34892; SSRF &#21644;&#36879;&#26126;&#20250;&#35805;&#21163;&#25345;&#65292;&#26469;&#33258; BlackHat USA 2018&#65306;   <a href="http://i.blackhat.com/us-18/Wed-August-8/us-18-Dion_Marcil-Edge-Side-Include-Injection-Abusing-Caching-Servers-into-SSRF-and-Transparent-Session-Hijacking.pdf" rel="nofollow">http://i.blackhat.com/us-18/Wed-August-8/us-18-Dion_Marcil-Edge-Side-Include-Injection-Abusing-Caching-Servers-into-SSRF-and-Transparent-Session-Hijacking.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  OpenSSH &#29992;&#25143;&#21517;&#26522;&#20030; POC&#65306;   <a href="http://www.openwall.com/lists/oss-security/2018/08/16/1" rel="nofollow">http://www.openwall.com/lists/oss-security/2018/08/16/1</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  &#29992;&#20110;&#27178;&#21521;&#28183;&#36879;&#30340;&#21518;&#28183;&#36879;&#27979;&#35797;&#26694;&#26550; - Invoke-Pbind&#65306;   <a href="https://labs.nettitude.com/blog/extending-c2-lateral-movement-invoke-pbind/" rel="nofollow">https://labs.nettitude.com/blog/extending-c2-lateral-movement-invoke-pbind/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ ReverseEngineering ]</span>  &#19977;&#31687;&#36870;&#21521;&#30456;&#20851;&#25991;&#31456;&#65306;  Part 1 &#36870;&#21521;&#19968;&#20010;&#23494;&#30721;&#20445;&#25252;&#30340;&#21453;&#21521;shell&#20195;&#30721;:   <a href="https://scriptdotsh.com/index.php/2018/07/26/ground-zero-part-1-2-reverse-engineering-password-protected-reverse-shells-linux-x64/%C2%A0" rel="nofollow">https://scriptdotsh.com/index.php/2018/07/26/ground-zero-part-1-2-reverse-engineering-password-protected-reverse-shells-linux-x64/ </a> Part 2 &#36870;&#21521;&#19968;&#20010;windows&#19979;&#30340;crackme &#65306;   <a href="https://scriptdotsh.com/index.php/2018/06/09/ground-zero-part-2-3-reverse-engineering-building-cracked-binaries-windows-x64/%C2%A0" rel="nofollow">https://scriptdotsh.com/index.php/2018/06/09/ground-zero-part-2-3-reverse-engineering-building-cracked-binaries-windows-x64/ </a> Part 3 &#20351;&#29992; r2 &#36827;&#34892; arm64 &#26550;&#26500;&#20108;&#36827;&#21046;&#25991;&#20214;&#30340; patch:   <a href="https://scriptdotsh.com/index.php/2018/08/13/reverse-engineering-patching-binaries-with-radare2-arm-aarch64/" rel="nofollow">https://scriptdotsh.com/index.php/2018/08/13/reverse-engineering-patching-binaries-with-radare2-arm-aarch64/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ ReverseEngineering ]</span>  &#36890;&#36807;&#29366;&#24577;&#36319;&#36394;&#33258;&#21160;&#21024;&#38500;&#22403;&#22334;&#25351;&#20196;&#65306;   <a href="https://usualsuspect.re/article/automatic-removal-of-junk-instructions-through-state-tracking" rel="nofollow">https://usualsuspect.re/article/automatic-removal-of-junk-instructions-through-state-tracking</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  &#30417;&#25511; macOS &#19978;&#24694;&#24847;&#36719;&#20214;&#34892;&#20026;&#30340;&#24212;&#29992; - FortiAppMonitor &#21457;&#24067;&#65292;&#26469;&#33258; BlackHat USA 2018&#65306;   <a href="https://fortiguard.com/events/2270/learn-how-to-build-your-own-utility-to-monitor-malicious-behaviors-of-malware-on-macOS" rel="nofollow">https://fortiguard.com/events/2270/learn-how-to-build-your-own-utility-to-monitor-malicious-behaviors-of-malware-on-macOS</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  blackeye - &#25972;&#21512;&#20102;32&#20010;&#32593;&#31449;&#27169;&#26495;&#30340;&#38035;&#40060;&#24037;&#20855;&#65306;   <a href="https://github.com/thelinuxchoice/blackeye" rel="nofollow">https://github.com/thelinuxchoice/blackeye</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DkuYcj3U0AExtrT.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  awesome-industrial-control-system-security - &#24037;&#25511;&#31995;&#32479;&#23433;&#20840;&#26041;&#21521;&#20248;&#31168;&#36164;&#28304;&#25910;&#38598;&#20179;&#24211;&#65306;   <a href="https://github.com/hslatman/awesome-industrial-control-system-security" rel="nofollow">https://github.com/hslatman/awesome-industrial-control-system-security</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  TP-Link WR840N 0.9.1 3.16 &#25298;&#32477;&#26381;&#21153;&#28431;&#27934; POC (CVE-2018-15172)&#65306;   <a href="https://www.exploit-db.com/exploits/45203/" rel="nofollow">https://www.exploit-db.com/exploits/45203/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  ntp&#65306;decodearr() &#36234;&#30028;&#20869;&#23384;&#20889;&#20837;&#28431;&#27934;&#25259;&#38706;(CVE-2018-7183)&#65306;   <a href="https://bugzilla.redhat.com/show_bug.cgi?id=1550223" rel="nofollow">https://bugzilla.redhat.com/show_bug.cgi?id=1550223</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Blockchain ]</span>  neo&#26234;&#33021;&#21512;&#32422;&#24179;&#21488;Runtime_Serialize&#35843;&#29992;&#25298;&#32477;&#26381;&#21153;&#28431;&#27934;&#65306; <a href="http://blogs.360.cn/blog/neo%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%B9%B3%E5%8F%B0runtime_serialize%E8%B0%83%E7%94%A8%E6%8B%92%E7%BB%9D%E6%9C%8D%E5%8A%A1%E6%BC%8F%E6%B4%9E/" rel="nofollow">http://blogs.360.cn/blog/neo%E6%99%BA%E8%83%BD%E5%90%88%E7%BA%A6%E5%B9%B3%E5%8F%B0runtime_serialize%E8%B0%83%E7%94%A8%E6%8B%92%E7%BB%9D%E6%9C%8D%E5%8A%A1%E6%BC%8F%E6%B4%9E/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Web Security ]</span>  Xdebug &#25915;&#20987;&#38754;&#22312; PhpStorm &#19978;&#30340;&#29616;&#23454;&#21033;&#29992;&#65306; <a href="https://paper.seebug.org/668/" rel="nofollow">https://paper.seebug.org/668/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/08/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/08/17/index.html">2018/08/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/08/18/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/08/17/index.html</guid><pubDate>Fri, 17 Aug 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-08-15</title><link>http://xuanwulab.github.io/cn/secnews/2018/08/15/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
