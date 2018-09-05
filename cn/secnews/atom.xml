@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 04 Sep 2018 14:05:38 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-08-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/08/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 05 Sep 2018 16:52:28 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-08-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/08/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -9124,7 +9124,389 @@ Netflix Security Tools and Operations team &#65306; <a href="https://medium.com/
 <a href="/cn/secnews/2018/09/04/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/09/03/index.html</guid><pubDate>Mon, 03 Sep 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-09-02</title><link>http://xuanwulab.github.io/cn/secnews/2018/09/02/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/09/03/index.html</guid><pubDate>Mon, 03 Sep 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-09-05</title><link>http://xuanwulab.github.io/cn/secnews/2018/09/05/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/09/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/09/05/index.html">2018/09/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/09/06/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  Android JSON&#21453;&#24207;&#21015;&#21270;&#20869;&#23384;&#25439;&#22351;&#28431;&#27934;&#20998;&#26512; Part 1:   <a href="https://versprite.com/blog/json-deserialization-memory-corruption-vulnerabilities/" rel="nofollow">https://versprite.com/blog/json-deserialization-memory-corruption-vulnerabilities/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Attack ]</span>  &#20351;&#29992; VoLTE &#25915;&#20987;&#20195;&#29702;&#21628;&#21483;&#20250;&#35805;&#25511;&#21046;&#21151;&#33021;&#65288;P-CSCF&#65289;:   <a href="https://securityaffairs.co/wordpress/75878/hacking/compromising-proxy-call-session-control-function-p-cscf-using-volte.html" rel="nofollow">https://securityaffairs.co/wordpress/75878/hacking/compromising-proxy-call-session-control-function-p-cscf-using-volte.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Microsoft Edge Chakra OP_NewScObjArray Type Confusion &#36828;&#31243;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#20998;&#26512;&#19982;&#21033;&#29992;&#65306;   <a href="http://blogs.360.cn/post/Microsoft%20Edge%20Chakra%20OP_NewScObjArray%20Type%20Confusion%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8.html" rel="nofollow">http://blogs.360.cn/post/Microsoft%20Edge%20Chakra%20OP_NewScObjArray%20Type%20Confusion%20%E8%BF%9C%E7%A8%8B%E4%BB%A3%E7%A0%81%E6%89%A7%E8%A1%8C%E6%BC%8F%E6%B4%9E%E5%88%86%E6%9E%90%E4%B8%8E%E5%88%A9%E7%94%A8.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  JScriptToDotnet.js - &#20174; - &#20174; DotNetToJScript &#29983;&#25104;&#30340;&#33050;&#26412;&#20013;&#25552;&#21462; Payload &#30340;&#24037;&#20855;:    <a href="https://gist.github.com/caseysmithrc/b752447067b6f099f08baefe00978fad" rel="nofollow">https://gist.github.com/caseysmithrc/b752447067b6f099f08baefe00978fad</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Ps1jacker - &#29983;&#25104; COM &#21163;&#25345; Payload &#30340;&#24037;&#20855;:   <a href="https://github.com/darkw1z/Ps1jacker" rel="nofollow">https://github.com/darkw1z/Ps1jacker</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  ansible-os-hardening - Ansible &#35282;&#33394;&#25552;&#20379;&#20102;&#35768;&#22810;&#19982;&#23433;&#20840;&#30456;&#20851;&#30340;&#37197;&#32622;&#65292;&#21487;&#20197;&#25552;&#20379;&#20102;&#20840;&#38754;&#30340;&#22522;&#26412;&#20445;&#25252;:   <a href="https://github.com/dev-sec/ansible-os-hardening" rel="nofollow">https://github.com/dev-sec/ansible-os-hardening</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  UACMe 3.0.0  &#29256;&#26412;&#21457;&#24067;&#65292;&#27492;&#29256;&#26412;&#36827;&#34892;&#20102;&#31243;&#24207;&#30340;&#37325;&#26500;&#24182;&#28155;&#21152;&#20102;&#26356;&#22810;&#22522;&#20110; AutoElevated &#30340; COM &#25509;&#21475;&#26041;&#27861;&#65306;   <a href="https://github.com/hfiref0x/UACME/" rel="nofollow">https://github.com/hfiref0x/UACME/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Virtualization ]</span>  &#34394;&#25311;&#21270;&#20869;&#37096;&#32467;&#26500; Part 3 - Xen&#21644;&#21322;&#34394;&#25311;&#21270; &#65306;   <a href="https://saferwall.com/blog/virtualization-internals-part-3-xen-and-paravirtualization" rel="nofollow">https://saferwall.com/blog/virtualization-internals-part-3-xen-and-paravirtualization</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  &#28389;&#29992;COM&#27880;&#20876;&#34920;&#32467;&#26500;(Part 2): &#21163;&#25345;&#21152;&#36733;&#25216;&#26415;&#65306;   <a href="https://bohops.com/2018/08/18/abusing-the-com-registry-structure-part-2-loading-techniques-for-evasion-and-persistence/" rel="nofollow">https://bohops.com/2018/08/18/abusing-the-com-registry-structure-part-2-loading-techniques-for-evasion-and-persistence/</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Blockchain ]</span>  &#20197;&#22826;&#22346;&#26234;&#33021;&#21512;&#32422; OPCODE &#36870;&#21521;&#20043;&#35843;&#35797;&#22120;&#31687;: <a href="https://paper.seebug.org/693/" rel="nofollow">https://paper.seebug.org/693/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  &#28145;&#20837;&#29702;&#35299;V8&#24341;&#25806;: &#25506;&#31350;Smis&#31867;&#22411;&#30340;&#25968;&#20540;&#33539;&#22260;&#65306; <a href="https://medium.com/fhinkel/v8-internals-how-small-is-a-small-integer-e0badc18b6da" rel="nofollow">https://medium.com/fhinkel/v8-internals-how-small-is-a-small-integer-e0badc18b6da</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  GOOGLE WANTS TO KILL THE URL &#65306;https://www.wired.com/story/google-wants-to-kill-the-url/</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Cloud ]</span>  &#26368;&#26032;&#30340;CloudSecurity Research: &#20351;&#29992;AWS&#24080;&#25143;ID&#36827;&#34892;IAM&#29992;&#25143;&#26522;&#20030; &#65306; <a href="https://github.com/RhinoSecurityLabs/Security-Research/tree/master/tools/aws-pentest-tools/iam_user_enum" rel="nofollow">https://github.com/RhinoSecurityLabs/Security-Research/tree/master/tools/aws-pentest-tools/iam_user_enum</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Fuzzing ]</span>  Fuzzing Counter-Strike&#65288;&#21453;&#24656;&#31934;&#33521;&#65289;: &#36890;&#36807;AFL&#23545;&#20840;&#29699;&#25915;&#21183;&#22320;&#22270;&#25991;&#20214;&#36827;&#34892;Fuzzing&#12290;RealWorldCTF 2018&#20013;&#30340;&#19968;&#36947;&#27604;&#36187;&#39064;,&#20171;&#32461;&#20316;&#32773;&#26159;&#22914;&#20309;&#26597;&#25214;&#24182;&#21033;&#29992; CS:GO&#26381;&#21153;&#22120;&#25152;&#20351;&#29992;&#30340;&#22320;&#22270;&#25991;&#20214;&#21152;&#36733;&#22120;&#20013;&#30340;&#38169;&#35823; &#65306;  <a href="https://phoenhex.re/2018-08-26/csgo-fuzzing-bsp" rel="nofollow">https://phoenhex.re/2018-08-26/csgo-fuzzing-bsp</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#20351;&#29992; scdbg &#20998;&#26512; shellcode: <a href="https://isc.sans.edu/forums/diary/Another+quickie+Using+scdbg+to+analyze+shellcode/24058/" rel="nofollow">https://isc.sans.edu/forums/diary/Another+quickie+Using+scdbg+to+analyze+shellcode/24058/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  OilRig &#38024;&#23545;&#20013;&#19996;&#25919;&#24220;&#36827;&#34892;&#25915;&#20987;&#24182;&#20026;&#20854; OopsIE &#26408;&#39532;&#22686;&#21152;&#20102;&#36867;&#36991;&#26597;&#26432;&#30340;&#25216;&#26415;&#65306;
+<a href="https://researchcenter.paloaltonetworks.com/2018/09/unit42-oilrig-targets-middle-eastern-government-adds-evasion-techniques-oopsie/" rel="nofollow">https://researchcenter.paloaltonetworks.com/2018/09/unit42-oilrig-targets-middle-eastern-government-adds-evasion-techniques-oopsie/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  WordPress &#25968;&#25454;&#24211;&#26356;&#26032;&#38035;&#40060;&#27963;&#21160;&#35843;&#26597;&#20998;&#26512;: 
+<a href="https://blog.sucuri.net/2018/09/wordpress-database-upgrade-phishing-campaign.html" rel="nofollow">https://blog.sucuri.net/2018/09/wordpress-database-upgrade-phishing-campaign.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  &#36890;&#36807; URL minifiers&#20013;&#23384;&#20648;&#25991;&#20214;&#24182;&#21152;&#23494;&#30340;&#25216;&#26415;&#65306; <a href="https://fulmicoton.com/posts/urlminifier/" rel="nofollow">https://fulmicoton.com/posts/urlminifier/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  &#28183;&#36879;&#27979;&#35797;&#19982;&#32418;&#38431;&#23545;&#27604;&#65306;PCI&#21512;&#35268;&#24615;: 
+<a href="https://medium.com/@malcomvetter/penetration-testing-vs-red-teaming-pci-edition-504e9b8125f9" rel="nofollow">https://medium.com/@malcomvetter/penetration-testing-vs-red-teaming-pci-edition-504e9b8125f9</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Popular Software ]</span>  Word &#25991;&#26723;&#20869;&#23884; SVG &#25991;&#26723; ActiveX &#25511;&#20214; POC
+: <a href="https://twitter.com/harr0ey/status/1036087830752239618" rel="nofollow">https://twitter.com/harr0ey/status/1036087830752239618</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Programming ]</span>  LLVM &#26159;&#22914;&#20309;&#20248;&#21270;&#20989;&#25968;&#30340; &#65306; <a href="https://blog.regehr.org/archives/1603" rel="nofollow">https://blog.regehr.org/archives/1603</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Programming ]</span>  &#25552;&#39640;&#27491;&#21017;&#34920;&#36798;&#24615;&#33021;&#30340;&#25216;&#26415;:  
+<a href="https://www.loggly.com/blog/five-invaluable-techniques-to-improve-regex-performance/" rel="nofollow">https://www.loggly.com/blog/five-invaluable-techniques-to-improve-regex-performance/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  &#29992;&#20110;&#26174;&#31034;Coresight ETM&#36319;&#36394;&#32467;&#26524;&#30340;IDA Pro 7.0&#25554;&#20214;&#65306; <a href="https://github.com/honeybadger1613/etm_displayer" rel="nofollow">https://github.com/honeybadger1613/etm_displayer</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  OSCPRepo - &#20316;&#32773;&#25152;&#25910;&#38598;&#23545; OSCP &#35748;&#35777;&#30340;&#23398;&#20064;&#26448;&#26009;&#65292;&#21253;&#25324;&#21629;&#20196;&#12289;&#33050;&#26412;&#12289;&#36164;&#28304;&#31561; &#65306;https://github.com/rewardone/OSCPRepo</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  python-dotnet-binaryformat - .NET Binaryformatter &#24207;&#21015;&#21270;&#32534;&#30721;&#25968;&#25454;&#35299;&#26512;&#22120;: 
+<a href="https://github.com/williballenthin/python-dotnet-binaryformat" rel="nofollow">https://github.com/williballenthin/python-dotnet-binaryformat</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  &#20195;&#30721;&#33258;&#21160;&#21270;&#25195;&#25551;&#31995;&#32479;&#30340;&#24314;&#35774;: <a href="https://paper.seebug.org/694/" rel="nofollow">https://paper.seebug.org/694/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/09/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/09/05/index.html">2018/09/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/09/06/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/09/05/index.html</guid><pubDate>Wed, 05 Sep 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-09-02</title><link>http://xuanwulab.github.io/cn/secnews/2018/09/02/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
