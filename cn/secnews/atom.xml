@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Mon, 15 Oct 2018 13:16:00 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 16 Oct 2018 13:13:08 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -451,7 +451,365 @@
 <a href="/cn/secnews/2018/10/15/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/10/14/index.html</guid><pubDate>Sun, 14 Oct 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-10-02</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/02/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/10/14/index.html</guid><pubDate>Sun, 14 Oct 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-10-16</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/16/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/10/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/10/16/index.html">2018/10/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/10/17/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>   NCC Group &#23545; Android Pie &#20013;&#30340;&#20113;&#22791;&#20221;/&#36824;&#21407;&#21151;&#33021;&#30340;&#23433;&#20840;&#23457;&#35745;&#25253;&#21578;&#65306;   <a href="https://www.nccgroup.trust/globalassets/our-research/us/public-reports/2018/final_public_report_ncc_group_google_encryptedbackup_2018-10-10_v1.0.pdf" rel="nofollow">https://www.nccgroup.trust/globalassets/our-research/us/public-reports/2018/final_public_report_ncc_group_google_encryptedbackup_2018-10-10_v1.0.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Chrome &#12289;Edge&#12289;Firefox &#27983;&#35272;&#22120;&#21378;&#21830;&#22343;&#23459;&#24067;&#24323;&#29992; TLS 1.0 &#21644; TLS 1.1&#65306;   <a href="https://twitter.com/i/web/status/1051912365447544838" rel="nofollow">https://twitter.com/i/web/status/1051912365447544838</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  V8 &#21457;&#24067; v7.0 &#29256;&#26412;&#30340;&#30456;&#20851;&#20449;&#24687;:   <a href="https://v8.dev/blog/v8-release-70" rel="nofollow">https://v8.dev/blog/v8-release-70</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Chromium Skia &#20013;&#30340;&#26632;&#32531;&#20914;&#21306;&#28322;&#20986;&#28431;&#27934;&#65288;CVE-2018-6153&#65289;&#65306;   <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=850350" rel="nofollow">https://bugs.chromium.org/p/chromium/issues/detail?id=850350</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ iOS ]</span>  &#29616;&#20195; iOS &#28431;&#27934;&#21033;&#29992;&#32531;&#35299;&#25216;&#26415;&#20171;&#32461;&#65292;&#26469;&#33258; MOSEC 2017 Luca Todesco &#28436;&#35762;&#65306;   <a href="https://papers.put.as/papers/ios/2017/A_Look_at_Modern_iOS_Exploit_Mitigation_Techniques.pdf" rel="nofollow">https://papers.put.as/papers/ios/2017/A_Look_at_Modern_iOS_Exploit_Mitigation_Techniques.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#21033;&#29992; RTF &#24694;&#24847;&#25991;&#26723;&#20998;&#38144; Tesla&#12289;Loki &#20197;&#21450; PyREbox &#24694;&#24847;&#36719;&#20214;&#30340;&#25915;&#20987;&#27963;&#21160;&#20998;&#26512;&#65292;&#26469;&#33258; Cisco Talos :   <a href="https://blog.talosintelligence.com/2018/10/old-dog-new-tricks-analysing-new-rtf_15.html" rel="nofollow">https://blog.talosintelligence.com/2018/10/old-dog-new-tricks-analysing-new-rtf_15.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#23545; Predator The Thief &#24694;&#24847;&#36719;&#20214;&#30340;&#28145;&#20837;&#20998;&#26512;  &#65306;   <a href="https://fumik0.com/2018/10/15/predator-the-thief-in-depth-analysis-v2-3-5/" rel="nofollow">https://fumik0.com/2018/10/15/predator-the-thief-in-depth-analysis-v2-3-5/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DpjbV1OVsAEMsT3.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  
+                                
+                                    
+                                
+                            
+                            
+                                
+                                
+
+                                
+                                    Kaspersky &#23545;&#38388;&#35853;&#32452;&#32455; DustSquad &#25152;&#20351;&#29992;&#30340; Octopus &#24694;&#24847;&#36719;&#20214;&#30340;&#25216;&#26415;&#20998;&#26512;&#65306;   <a href="https://securelist.com/octopus-infested-seas-of-central-asia/88200/" rel="nofollow">https://securelist.com/octopus-infested-seas-of-central-asia/88200/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Dpjr9LrXgAElc35.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Mitigation ]</span>  &#29616;&#20195;&#35745;&#31639;&#26426;&#38450;&#24481;&#25216;&#26415;&#30340;&#20171;&#32461;&#65306;   <a href="https://github.com/rrbranco/Presentations/blob/master/Hacktivity_Keynote_October2018.pdf" rel="nofollow">https://github.com/rrbranco/Presentations/blob/master/Hacktivity_Keynote_October2018.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Mobile ]</span>  &#20171;&#32461;&#22914;&#20309;&#22312; iOS &#21644; Android &#30340;&#24212;&#29992;&#31243;&#24207;&#20013;&#20849;&#20139; Kotlin &#20195;&#30721;&#30340;&#21151;&#33021;&#65306;   <a href="http://kotlinlang.org/docs/tutorials/native/mpp-ios-android.html" rel="nofollow">http://kotlinlang.org/docs/tutorials/native/mpp-ios-android.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>   &#20351;&#29992;&#27169;&#31946;&#21517;&#31216;&#35299;&#26512; (ANR) &#25628;&#32034;&#27963;&#21160;&#30446;&#24405;&#20013;&#30340;&#23545;&#35937;&#65306;   <a href="https://adsecurity.org/?p=356" rel="nofollow">https://adsecurity.org/?p=356</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  swap_digger - &#38024;&#23545; Linux swap &#36827;&#34892;&#21462;&#35777;&#20998;&#26512;&#30340;&#24037;&#20855;:   <a href="https://github.com/sevagas/swap_digger" rel="nofollow">https://github.com/sevagas/swap_digger</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  ja3 - &#21019;&#24314; SSL/TLS &#23458;&#25143;&#31471;&#25351;&#32441;&#21327;&#21161;&#23041;&#32961;&#24773;&#25253;&#20998;&#26512;&#30340;&#33050;&#26412;&#65306;   <a href="https://github.com/salesforce/ja3" rel="nofollow">https://github.com/salesforce/ja3</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  llvm-mctoll - &#38745;&#24577;&#23558;&#20108;&#36827;&#21046;&#25991;&#20214;&#36716;&#25442;&#20026; LLVM IR &#30340;&#24037;&#20855;&#65306;   <a href="https://github.com/Microsoft/llvm-mctoll" rel="nofollow">https://github.com/Microsoft/llvm-mctoll</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Vectorized Emulation&#65306;&#22914;&#20309;&#36890;&#36807;&#23558;&#26631;&#20934;&#24212;&#29992;&#31243;&#24207; JIT &#24182;&#36716;&#25442;&#20026; AVX-512 &#24212;&#29992;&#65306;   <a href="https://gamozolabs.github.io/fuzzing/2018/10/14/vectorized_emulation.html" rel="nofollow">https://gamozolabs.github.io/fuzzing/2018/10/14/vectorized_emulation.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Virtualization ]</span>  Intel &#34394;&#25311;&#21270;&#20043; VTx&#12289;KVM &#21644; QEMU &#20043;&#38388;&#22914;&#20309;&#21327;&#21516;&#24037;&#20316;:   <a href="https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/" rel="nofollow">https://binarydebt.wordpress.com/2018/10/14/intel-virtualisation-how-vt-x-kvm-and-qemu-work-together/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DpjcP0PWkAAW-Sb.png" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Apache OFBiz (version&lt; 16.11.04) &#30340;&#20004;&#20010; XXE &#27880;&#20837;&#28431;&#27934;&#21033;&#29992;( CVE-2018-8033&#12289;CVE-2011-3600):   <a href="https://github.com/jamieparfet/Apache-OFBiz-XXE/" rel="nofollow">https://github.com/jamieparfet/Apache-OFBiz-XXE/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ WirelessSecurity ]</span>  &#36890;&#36807;&#20013;&#38388;&#20154;&#25915;&#20987;&#21957;&#25506; SIM &#21345;&#30340;&#27969;&#37327;&#36890;&#20449;:   <a href="https://insinuator.net/2018/02/hacking-101-to-mobile-data/" rel="nofollow">https://insinuator.net/2018/02/hacking-101-to-mobile-data/</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ IoTDevice ]</span>  &#27773;&#36710;&#26080;&#32447;&#35299;&#38145;&#30340;&#19971;&#31181;&#25915;&#20987;&#26041;&#24335; &#65306; <a href="https://www.komando.com/happening-now/495924/7-clever-ways-hackers-are-stealing-keyless-cars" rel="nofollow">https://www.komando.com/happening-now/495924/7-clever-ways-hackers-are-stealing-keyless-cars</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ OpenSourceProject ]</span>  Microsoft &#24320;&#28304; UEFI &#39033;&#30446;&#65288;Project Mu&#65289;&#20171;&#32461;  : <a href="https://microsoft.github.io/mu/faq/" rel="nofollow">https://microsoft.github.io/mu/faq/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  &#28389;&#29992; WSUS &#26381;&#21153;&#22120;&#30340;&#35775;&#38382;&#26435;&#38480;&#33719;&#21462;&#22495;&#31649;&#26435;&#38480;: <a href="https://ijustwannared.team/2018/10/15/leveraging-wsus-part-one/" rel="nofollow">https://ijustwannared.team/2018/10/15/leveraging-wsus-part-one/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  silentbridge - &#32469;&#36807; 802.1x-2010 &#21644; 802.1x-2004  port security &#30340;&#24037;&#20855;&#21253;: <a href="https://github.com/s0lst1c3/silentbridge" rel="nofollow">https://github.com/s0lst1c3/silentbridge</a>
+</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  Auto-Root-Exploit - &#33258;&#21160;&#21270;&#36741;&#21161;&#25552;&#26435;&#33050;&#26412;: <a href="https://github.com/nilotpalbiswas/Auto-Root-Exploit" rel="nofollow">https://github.com/nilotpalbiswas/Auto-Root-Exploit</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  &#36890;&#36807; PowerShell &#33050;&#26412;&#21024;&#38500; Office &#23439;&#20445;&#25252;: <a href="https://chentiangemalc.wordpress.com/2012/01/17/powershell-script-to-remove-office-macro-protection/" rel="nofollow">https://chentiangemalc.wordpress.com/2012/01/17/powershell-script-to-remove-office-macro-protection/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>   &#38024;&#23545; mail.ru &#30340;&#28431;&#27934;&#25366;&#25496;&#35760;&#24405;: <a href="https://medium.com/bugbountywriteup/bug-bounty-mail-ru-234fa6f5a5a" rel="nofollow">https://medium.com/bugbountywriteup/bug-bounty-mail-ru-234fa6f5a5a</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/10/15/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/10/16/index.html">2018/10/16</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/10/17/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/10/16/index.html</guid><pubDate>Tue, 16 Oct 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-10-02</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/02/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
