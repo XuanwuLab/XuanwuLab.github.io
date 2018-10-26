@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 25 Oct 2018 13:22:07 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 26 Oct 2018 13:56:22 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -3006,7 +3006,228 @@ Github: <a href="https://github.com/nnposter/nndefaccts" rel="nofollow">https://
 <a href="/cn/secnews/2018/10/11/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/10/10/index.html</guid><pubDate>Wed, 10 Oct 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-10-12</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/12/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/10/10/index.html</guid><pubDate>Wed, 10 Oct 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-10-26</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/26/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/10/25/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/10/26/index.html">2018/10/26</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/10/27/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Debug ]</span>  &#28304;&#20195;&#30721;&#32423;&#21035;&#35843;&#35797; XUN &#20869;&#26680;&#65306;   <a href="https://shadowfile.inode.link/blog/2018/10/source-level-debugging-the-xnu-kernel/" rel="nofollow">https://shadowfile.inode.link/blog/2018/10/source-level-debugging-the-xnu-kernel/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  &#20171;&#32461;&#22914;&#20309;&#36890;&#36807; Ftrace &#26469; Hook Linux&#20869;&#26680;&#20989;&#25968;&#65306;   <a href="https://movaxbx.ru/2018/10/12/hooking-linux-kernel-functions-how-to-hook-functions-with-ftrace/" rel="nofollow">https://movaxbx.ru/2018/10/12/hooking-linux-kernel-functions-how-to-hook-functions-with-ftrace/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Malwarebytes &#23545; Mac &#24694;&#24847;&#36719;&#20214;&#26159;&#22914;&#20309;&#36890;&#36807;&#25318;&#25130;&#21152;&#23494;&#27969;&#37327;&#36827;&#34892;&#24191;&#21578;&#27880;&#20837;&#30340;&#20998;&#26512;&#65306;   <a href="https://blog.malwarebytes.com/threat-analysis/2018/10/mac-malware-intercepts-encrypted-web-traffic-for-ad-injection/" rel="nofollow">https://blog.malwarebytes.com/threat-analysis/2018/10/mac-malware-intercepts-encrypted-web-traffic-for-ad-injection/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>   Cobalt Gang &#32452;&#32455;&#20351;&#29992;&#30340;&#24694;&#24847;&#25991;&#26723;&#26500;&#24314;&#25216;&#26415;&#21450;&#20854;&#20351;&#29992;&#30340;&#22522;&#30784;&#35774;&#26045;&#20998;&#26512;&#65306;   <a href="https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/" rel="nofollow">https://researchcenter.paloaltonetworks.com/2018/10/unit42-new-techniques-uncover-attribute-cobalt-gang-commodity-builders-infrastructure-revealed/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  &#32469;&#36807; AWL &#30333;&#21517;&#21333;&#20351;&#29992; SVG &#35843;&#29992; ActiveX &#25191;&#34892;&#21629;&#20196;&#65306;   <a href="https://medium.com/@mattharr0ey/whitelisting-awl-bypassing-highest-rules-srp-using-microsofto-webbrowser-dbcc27f2cadc" rel="nofollow">https://medium.com/@mattharr0ey/whitelisting-awl-bypassing-highest-rules-srp-using-microsofto-webbrowser-dbcc27f2cadc</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  Control Register Access Exiting and Crashing VMware&#65306;   <a href="https://howtohypervise.blogspot.com/2018/10/control-register-access-exiting-and.html" rel="nofollow">https://howtohypervise.blogspot.com/2018/10/control-register-access-exiting-and.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>   &#20351;&#29992; DNS over HTTPS (DoH) &#26500;&#24314; C2 &#22522;&#30784;&#26550;&#26500;&#65306;   <a href="https://outflank.nl/blog/2018/10/25/building-resilient-c2-infrastructues-using-dns-over-https/" rel="nofollow">https://outflank.nl/blog/2018/10/25/building-resilient-c2-infrastructues-using-dns-over-https/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  X.Org X server &#21629;&#20196;&#34892;&#21442;&#25968;&#39564;&#35777;&#19981;&#24403;&#21487;&#23548;&#33268;&#26435;&#38480;&#25552;&#21319;&#19982;&#20219;&#24847;&#25991;&#20214;&#35206;&#30422;(CVE-2018-14665) &#65306;   <a href="https://seclists.org/oss-sec/2018/q4/99" rel="nofollow">https://seclists.org/oss-sec/2018/q4/99</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  libtiff &#26410;&#36827;&#34892;&#26377;&#25928;&#39564;&#35777;&#30452;&#25509;&#35299;&#30721;&#20219;&#24847;&#22823;&#23567;&#30340; JBIG &#21040;&#30446;&#26631;&#32531;&#20914;&#21306;&#65288;CVE-2018-18557&#65289;&#65292;&#26469;&#33258; Project Zero&#65306;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1697" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1697</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  systemd-networkd &#30340; dhcpv6 &#23458;&#25143;&#31471;&#36234;&#30028;&#20889;&#20869;&#23384;&#28431;&#27934;&#25259;&#38706;(CVE-2018-15688)&#65306;   <a href="https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1795921" rel="nofollow">https://bugs.launchpad.net/ubuntu/+source/systemd/+bug/1795921</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Sophos HitmanPro.Alert &#20013;&#30340;&#20869;&#23384;&#27844;&#38706;&#21644;&#20195;&#30721;&#25191;&#34892;&#28431;&#27934;&#25259;&#38706; (CVE-2018-3970&#12289;CVE-2018-3971)&#65306;   <a href="https://blog.talosintelligence.com/2018/10/vulnerability-spotlight-talos-2018.html" rel="nofollow">https://blog.talosintelligence.com/2018/10/vulnerability-spotlight-talos-2018.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  OpenBSD Xorg &#26381;&#21153;&#25552;&#26435;&#28431;&#27934;&#21487;&#22312;&#36828;&#31243; SSH &#20250;&#35805;&#20013;&#35302;&#21457;(CVE-2018-14665)&#65306;   <a href="https://twitter.com/i/web/status/1055568290112831490" rel="nofollow">https://twitter.com/i/web/status/1055568290112831490</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  WebEx &#20013;&#30340; WebexUpdateService&#23384;&#22312;&#28431;&#27934;&#65292;&#20801;&#35768;&#25915;&#20987;&#32773;&#36828;&#31243;&#25191;&#34892; SYSTEM &#26435;&#38480;&#30340;&#20195;&#30721; &#65306;  <a href="https://blog.skullsecurity.org/2018/technical-rundown-of-webexec" rel="nofollow">https://blog.skullsecurity.org/2018/technical-rundown-of-webexec</a> &#65307;   <a href="https://www.exploit-db.com/exploits/45696/%EF%BC%9B" rel="nofollow">https://www.exploit-db.com/exploits/45696/&#65307;</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  Windows Notification Facility &#32452;&#20214;&#35814;&#32454;&#20171;&#32461;&#65306;   <a href="https://blog.quarkslab.com/playing-with-the-windows-notification-facility-wnf.html" rel="nofollow">https://blog.quarkslab.com/playing-with-the-windows-notification-facility-wnf.html</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  &#20171;&#32461;&#22914;&#20309;&#20351;&#29992; MySQL &#20301;&#20989;&#25968;&#21644;&#36816;&#31639;&#31526;&#36827;&#34892;&#22522;&#20110;&#26102;&#38388;&#30340;&#39640;&#25928; SQL &#30450;&#27880; &#65306; <a href="https://stealingthe.network/efficient-time-based-blind-sql-injection-using-mysql-bit-functions-and-operators/" rel="nofollow">https://stealingthe.network/efficient-time-based-blind-sql-injection-using-mysql-bit-functions-and-operators/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  Proteus&#65306;&#21487;&#20197;&#20174;&#25351;&#20196;&#32423;&#37197;&#32622;&#25991;&#20214;&#20013;&#26816;&#27979;Android&#27169;&#25311;&#22120;&#65288;Paper&#65289; &#65306; <a href="http://www.bu.edu/peaclab/files/2018/07/sahin_proteus_preprint.pdf" rel="nofollow">http://www.bu.edu/peaclab/files/2018/07/sahin_proteus_preprint.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/10/25/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/10/26/index.html">2018/10/26</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/10/27/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/10/26/index.html</guid><pubDate>Fri, 26 Oct 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-10-12</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/12/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
