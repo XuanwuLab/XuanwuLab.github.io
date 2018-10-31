@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 30 Oct 2018 13:18:46 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 31 Oct 2018 13:15:48 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -4581,7 +4581,300 @@ Github: <a href="https://github.com/nnposter/nndefaccts" rel="nofollow">https://
 <a href="/cn/secnews/2018/10/30/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/10/29/index.html</guid><pubDate>Mon, 29 Oct 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-10-04</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/04/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/10/29/index.html</guid><pubDate>Mon, 29 Oct 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-10-31</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/31/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/10/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/10/31/index.html">2018/10/31</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/11/01/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Android ]</span>  &#24433;&#21709; Android &#22810;&#20010;&#39640;&#26435;&#38480;&#26381;&#21153;&#30340;&#20005;&#37325;&#28431;&#27934;&#35814;&#24773;&#25259;&#38706;(CVE-2018-9411)&#65306;   <a href="https://blog.zimperium.com/cve-2018-9411-new-critical-vulnerability-multiple-high-privileged-android-services/" rel="nofollow">https://blog.zimperium.com/cve-2018-9411-new-critical-vulnerability-multiple-high-privileged-android-services/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Attack ]</span>  &#20171;&#32461;&#36890;&#36807; Microsoft Word &#23884;&#20837;&#22312;&#32447;&#35270;&#39057;&#21151;&#33021;&#26469;&#25191;&#34892;&#24694;&#24847;&#20195;&#30721;&#65306; 1)   <a href="https://github.com/rvrsh3ll/Word-Doc-Video-Embed-EXE-POC%C2%A0" rel="nofollow">https://github.com/rvrsh3ll/Word-Doc-Video-Embed-EXE-POC </a>  2)   <a href="https://blog.cymulate.com/abusing-microsoft-office-online-video" rel="nofollow">https://blog.cymulate.com/abusing-microsoft-office-online-video</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Firefox RCE &#28431;&#27934; POC &#65292;&#35302;&#21457;&#28431;&#27934;&#38656;&#29992;&#25143;&#36739;&#22810;&#30340;&#20132;&#20114;&#25805;&#20316;&#65306;   <a href="https://twitter.com/i/web/status/1057350293686575105" rel="nofollow">https://twitter.com/i/web/status/1057350293686575105</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Firmware ]</span>  Apple T2 &#23433;&#20840;&#33455;&#29255;&#30333;&#30382;&#20070;&#21457;&#24067;&#65306;   <a href="https://www.apple.com/mac/docs/Apple_T2_Security_Chip_Overview.pdf" rel="nofollow">https://www.apple.com/mac/docs/Apple_T2_Security_Chip_Overview.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ iOS ]</span>  &#35814;&#32454;&#20998;&#26512; iOS &#30828;&#20214;&#21152;&#36895;&#35299;&#30721;&#39537;&#21160;&#20013;&#30340;&#28431;&#27934;&#65288;CVE-2018-4109&#65289;&#65306;   <a href="http://phrack.org/papers/viewer_discretion_advised.html" rel="nofollow">http://phrack.org/papers/viewer_discretion_advised.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ iOS ]</span>  iOS 12.1 &#23433;&#20840;&#26356;&#26032;&#35814;&#24773;&#20171;&#32461;&#65306;   <a href="https://support.apple.com/it-it/HT209192" rel="nofollow">https://support.apple.com/it-it/HT209192</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ IoTDevice ]</span>  &#23545; FIMI A3 &#26080;&#20154;&#26426;&#30340;&#31616;&#35201;&#36870;&#21521;&#20998;&#26512;&#65306;   <a href="https://medium.com/@konrad_it/brief-reverse-engineering-work-on-fimi-a3-5422d93db560" rel="nofollow">https://medium.com/@konrad_it/brief-reverse-engineering-work-on-fimi-a3-5422d93db560</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  Linux &#20869;&#26680;&#33258;&#25105;&#20445;&#25252;&#39033;&#30446;&#27010;&#35272;&#65306;   <a href="https://outflux.net/slides/2018/lss-eu/kspp.pdf" rel="nofollow">https://outflux.net/slides/2018/lss-eu/kspp.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>  macOS Mojave 10.14.1 &#23433;&#20840;&#26356;&#26032;&#35814;&#24773;&#20171;&#32461;&#65306;   <a href="https://support.apple.com/en-us/HT209193" rel="nofollow">https://support.apple.com/en-us/HT209193</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>  Semmle &#23433;&#20840;&#30740;&#31350;&#22242;&#38431;&#25259;&#38706;&#20845;&#20010; XNU &#31995;&#32479;&#20869;&#26680;&#39640;&#21361;&#28431;&#27934;&#65292;&#24433;&#21709; Mac&#12289;iPhone &#21644; iPad&#65306;   <a href="https://semmle.com/news/apple-xnu-kernel-icmp-nfs-vulnerabilities" rel="nofollow">https://semmle.com/news/apple-xnu-kernel-icmp-nfs-vulnerabilities</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Operating System ]</span>  Apple ICMP &#25968;&#25454;&#21253;&#22788;&#29702;&#23384;&#22312;&#32531;&#20914;&#21306;&#28322;&#20986;&#28431;&#27934;&#65288;CVE-2018-4407&#65289;&#21487;&#23548;&#33268;&#20869;&#26680; RCE&#65306;   <a href="https://lgtm.com/blog/apple_xnu_icmp_error_CVE-2018-4407" rel="nofollow">https://lgtm.com/blog/apple_xnu_icmp_error_CVE-2018-4407</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  Java &#21453;&#24207;&#21015;&#21270; - &#22914;&#20309;&#22312;&#21463;&#38480;&#29615;&#22659;&#19979;&#19968;&#27493;&#27493;&#33719;&#21462;&#21453;&#21521; Shell&#65306;   <a href="https://medium.com/abn-amro-red-team/java-deserialization-from-discovery-to-reverse-shell-on-limited-environments-2e7b4e14fbef" rel="nofollow">https://medium.com/abn-amro-red-team/java-deserialization-from-discovery-to-reverse-shell-on-limited-environments-2e7b4e14fbef</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  <a href="http://ASP.NET" rel="nofollow">ASP.NET</a> Core 3.0 &#26032;&#21151;&#33021;&#20171;&#32461;&#65306;   <a href="https://blogs.msdn.microsoft.com/webdev/2018/10/29/a-first-look-at-changes-coming-in-asp-net-core-3-0/" rel="nofollow">https://blogs.msdn.microsoft.com/webdev/2018/10/29/a-first-look-at-changes-coming-in-asp-net-core-3-0/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  &#25351;&#20196;&#32423;&#36319;&#36394;&#30340;&#31243;&#24207;&#25191;&#34892;&#20998;&#26512;&#26694;&#26550;&#20171;&#32461;&#65306;   <a href="https://www.usenix.org/legacy/events/vee06/full_papers/p154-bhansali.pdf" rel="nofollow">https://www.usenix.org/legacy/events/vee06/full_papers/p154-bhansali.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  &#26522;&#20030;&#24223;&#24323;&#30340; COM keys &#20197;&#21033;&#29992;&#20854;&#36827;&#34892;&#25345;&#20037;&#21270;&#30340; C# &#20195;&#30721;&#20998;&#20139;&#65306;   <a href="https://twitter.com/i/web/status/1057274637841846272" rel="nofollow">https://twitter.com/i/web/status/1057274637841846272</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  &#38024;&#23545;&#36890;&#29992; IDA &#35843;&#35797;&#22120;&#25554;&#20214; Labeless &#30340;&#31995;&#21015;&#20171;&#32461;&#25991;&#31456; &#65306;   <a href="https://research.checkpoint.com/labeless-an-introduction/" rel="nofollow">https://research.checkpoint.com/labeless-an-introduction/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  Microsoft ADFS &#26381;&#21153;&#20013;&#21487;&#22522;&#20110;&#26102;&#38388;&#26469;&#26522;&#20030;&#29992;&#25143;&#30340;&#28431;&#27934;&#25259;&#38706;&#65306; 1)   <a href="https://github.com/binary1985/VulnerabilityDisclosure/blob/master/ADFS-Timing-Attack%EF%BC%9B" rel="nofollow">https://github.com/binary1985/VulnerabilityDisclosure/blob/master/ADFS-Timing-Attack&#65307;</a> 2)   <a href="https://gist.github.com/binary1985/d778ef59c01fe82026ee2c9660904e3a%EF%BC%9B" rel="nofollow">https://gist.github.com/binary1985/d778ef59c01fe82026ee2c9660904e3a&#65307;</a> </p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  awesome-windows-kernel-security-development - Windows &#20869;&#26680;&#23433;&#20840;&#24320;&#21457;&#30456;&#20851;&#30340;&#25991;&#31456;&#19982;&#39033;&#30446;&#25910;&#38598;&#65306;   <a href="https://github.com/ExpLife0011/awesome-windows-kernel-security-development" rel="nofollow">https://github.com/ExpLife0011/awesome-windows-kernel-security-development</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#32769;&#26641;&#24320;&#26032;&#33457;&#65306;&#21033;&#29992;Excel 4.0&#23439;&#36530;&#36991;&#26432;&#36719;&#26816;&#27979;&#30340;&#25915;&#20987;&#25216;&#26415;&#20998;&#26512;&#65306; <a href="https://www.anquanke.com/post/id/163000" rel="nofollow">https://www.anquanke.com/post/id/163000</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  GhostPack &#23433;&#20840;&#24037;&#20855;&#38598;&#25512;&#33616;&#65306; <a href="https://github.com/GhostPack" rel="nofollow">https://github.com/GhostPack</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  Pigaios  - &#23558;&#28304;&#30721;&#20013;&#30340;&#20449;&#24687;&#65288;&#20989;&#25968;&#21517;&#12289;&#32467;&#26500;&#31561;&#65289;&#21305;&#37197;&#21040;&#20108;&#36827;&#21046;&#25991;&#20214;&#30340;&#24037;&#20855; &#65306; <a href="https://github.com/joxeankoret/pigaios" rel="nofollow">https://github.com/joxeankoret/pigaios</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Virtualization ]</span>  &#20851;&#20110; Hypervisor &#24320;&#21457;&#29615;&#22659;&#25645;&#24314;&#30340;&#20171;&#32461; &#65306; <a href="https://revers.engineering/day-0-virtual-environment-setup-scripts-and-windbg/" rel="nofollow">https://revers.engineering/day-0-virtual-environment-setup-scripts-and-windbg/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/10/30/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/10/31/index.html">2018/10/31</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/11/01/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/10/31/index.html</guid><pubDate>Wed, 31 Oct 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-10-04</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/04/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
