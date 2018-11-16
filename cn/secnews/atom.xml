@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 16 Nov 2018 08:47:22 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 16 Nov 2018 13:12:47 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -8282,7 +8282,7 @@ Github: <a href="https://github.com/nnposter/nndefaccts" rel="nofollow">https://
 <div id="singleweibologo">
 </div>
 <div class="singleweibotext">
-<p><span class="category">[ Challenges ]</span>    <a href="https://www.zerodayinitiative.com/blog/2018/11/14/pwn2own-tokyo-2018-day-two-results-and-master-of-pwn" rel="nofollow">https://www.zerodayinitiative.com/blog/2018/11/14/pwn2own-tokyo-2018-day-two-results-and-master-of-pwn</a></p>
+<p><span class="category">[ Browser ]</span>  V8 OOB &#20889;&#28431;&#27934;&#25259;&#38706; &#65288;CVE-2018-16065&#65289;&#65306;  <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=867776" rel="nofollow">https://bugs.chromium.org/p/chromium/issues/detail?id=867776</a></p>
 </div>
 </div>
 </div>
@@ -8293,7 +8293,7 @@ Github: <a href="https://github.com/nnposter/nndefaccts" rel="nofollow">https://
 <div id="singleweibologo">
 </div>
 <div class="singleweibotext">
-<p><span class="category">[ Others ]</span>    <a href="https://immunityproducts.blogspot.com/2018/11/recent-kernel-memory-disclosure-bugs-in.html" rel="nofollow">https://immunityproducts.blogspot.com/2018/11/recent-kernel-memory-disclosure-bugs-in.html</a></p>
+<p><span class="category">[ Challenges ]</span>  Pwn2Own Tokyo 2018 &#31532;&#20108;&#26085;&#27604;&#36187;&#32467;&#26524;&#21450; Master of Pwn&#65306;   <a href="https://www.zerodayinitiative.com/blog/2018/11/14/pwn2own-tokyo-2018-day-two-results-and-master-of-pwn" rel="nofollow">https://www.zerodayinitiative.com/blog/2018/11/14/pwn2own-tokyo-2018-day-two-results-and-master-of-pwn</a></p>
 </div>
 </div>
 </div>
@@ -8304,7 +8304,7 @@ Github: <a href="https://github.com/nnposter/nndefaccts" rel="nofollow">https://
 <div id="singleweibologo">
 </div>
 <div class="singleweibotext">
-<p><span class="category">[ Others ]</span>    <a href="https://arxiv.org/abs/1811.05441" rel="nofollow">https://arxiv.org/abs/1811.05441</a></p>
+<p><span class="category">[ Cloud ]</span>  &#33258;&#21160;&#21270;&#20998;&#26512; AWS &#20113;&#23433;&#20840;&#24615;&#65306;  <a href="https://speakerdeck.com/andresriancho/automated-security-analysis-aws-clouds" rel="nofollow">https://speakerdeck.com/andresriancho/automated-security-analysis-aws-clouds</a></p>
 </div>
 </div>
 </div>
@@ -8315,7 +8315,7 @@ Github: <a href="https://github.com/nnposter/nndefaccts" rel="nofollow">https://
 <div id="singleweibologo">
 </div>
 <div class="singleweibotext">
-<p><span class="category">[ Others ]</span>    <a href="https://justi.cz/security/2018/11/14/gvisor-lpe.html" rel="nofollow">https://justi.cz/security/2018/11/14/gvisor-lpe.html</a></p>
+<p><span class="category">[ Forensics ]</span>  &#23545; iOS &#21508;&#31181;&#20449;&#24687;&#25968;&#25454;&#24211;&#36827;&#34892;&#25552;&#21462;&#19982;&#35299;&#26512;&#30340;&#24037;&#20855;&#65292;&#26041;&#20415;&#21462;&#35777;&#20998;&#26512;&#65306;   <a href="https://objectivebythesea.com/talks/OBTS_v1_Edwards.pdf" rel="nofollow">https://objectivebythesea.com/talks/OBTS_v1_Edwards.pdf</a></p>
 </div>
 </div>
 </div>
@@ -8326,7 +8326,11 @@ Github: <a href="https://github.com/nnposter/nndefaccts" rel="nofollow">https://
 <div id="singleweibologo">
 </div>
 <div class="singleweibotext">
-<p><span class="category">[ Others ]</span>    <a href="https://twitter.com/m0rv4i/status/1062427557944090624" rel="nofollow">https://twitter.com/m0rv4i/status/1062427557944090624</a></p>
+<p><span class="category">[ MalwareAnalysis ]</span>  Operation JOKAA(RR) &#25915;&#20987;&#27963;&#21160;&#20998;&#26512;&#65306;   <a href="https://mymalwareparty.blogspot.com/2018/11/operation-jokaarr.html" rel="nofollow">https://mymalwareparty.blogspot.com/2018/11/operation-jokaarr.html</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DsA3WndXQAA3Ckt.jpg" target="_blank">
+</a>
 </div>
 </div>
 </div>
@@ -8337,7 +8341,7 @@ Github: <a href="https://github.com/nnposter/nndefaccts" rel="nofollow">https://
 <div id="singleweibologo">
 </div>
 <div class="singleweibotext">
-<p><span class="category">[ Others ]</span>    <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=867776" rel="nofollow">https://bugs.chromium.org/p/chromium/issues/detail?id=867776</a></p>
+<p><span class="category">[ MalwareAnalysis ]</span>  &#21152;&#23494;&#36135;&#24065;&#30719;&#24037;&#38024;&#23545; Docker &#23481;&#22120;&#30340;&#25915;&#20987;&#20998;&#26512;&#65306;   <a href="https://forums.juniper.net/t5/Threat-Research/Container-Malware-Miners-Go-Docker-Hunting-In-The-Cloud/ba-p/400587" rel="nofollow">https://forums.juniper.net/t5/Threat-Research/Container-Malware-Miners-Go-Docker-Hunting-In-The-Cloud/ba-p/400587</a></p>
 </div>
 </div>
 </div>
@@ -8348,7 +8352,7 @@ Github: <a href="https://github.com/nnposter/nndefaccts" rel="nofollow">https://
 <div id="singleweibologo">
 </div>
 <div class="singleweibotext">
-<p><span class="category">[ Others ]</span>    <a href="https://twitter.com/FireEye/status/1062817633911926784" rel="nofollow">https://twitter.com/FireEye/status/1062817633911926784</a></p>
+<p><span class="category">[ Network ]</span>  &#36890;&#36807; PacketCache &#26381;&#21153;&#25235;&#21462;&#36828;&#31243;&#35745;&#31639;&#26426;&#36890;&#20449;&#25253;&#25991;&#65306;   <a href="https://www.netresec.com/?page=Blog&amp;month=2018-11&amp;post=Remote-Packet-Dumps-from-PacketCache" rel="nofollow">https://www.netresec.com/?page=Blog&amp;month=2018-11&amp;post=Remote-Packet-Dumps-from-PacketCache</a></p>
 </div>
 </div>
 </div>
@@ -8359,13 +8363,161 @@ Github: <a href="https://github.com/nnposter/nndefaccts" rel="nofollow">https://
 <div id="singleweibologo">
 </div>
 <div class="singleweibotext">
-<p><span class="category">[ Others ]</span>    <a href="https://cdn.bitwarden.net/misc/Bitwarden%20Security%20Assessment%20Report%20-%20v2.pdf" rel="nofollow">https://cdn.bitwarden.net/misc/Bitwarden%20Security%20Assessment%20Report%20-%20v2.pdf</a></p>
+<p><span class="category">[ Others ]</span>  &#20851;&#20110;&#24212;&#29992;&#25480;&#26435;&#30340;&#22810;&#31181;&#23454;&#29616;&#30740;&#31350;&#65306;   <a href="https://www.slideshare.net/TorinSandall/implementing-authorization" rel="nofollow">https://www.slideshare.net/TorinSandall/implementing-authorization</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  &#22312;&#31649;&#29702;&#21592;&#26435;&#38480;&#19979;&#20351;&#29992; PowerShell &#31105;&#27490; Windows Defender &#30340;&#25216;&#24039;&#65306;   <a href="https://twitter.com/m0rv4i/status/1062427557944090624" rel="nofollow">https://twitter.com/m0rv4i/status/1062427557944090624</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Bitwarden &#23494;&#30721;&#31649;&#29702;&#22120;&#23433;&#20840;&#35780;&#20272;&#25253;&#21578;&#65306;   <a href="https://cdn.bitwarden.net/misc/Bitwarden%20Security%20Assessment%20Report%20-%20v2.pdf" rel="nofollow">https://cdn.bitwarden.net/misc/Bitwarden%20Security%20Assessment%20Report%20-%20v2.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Osmedeus - &#28183;&#36879;&#27979;&#35797;&#20013;&#30340;&#33258;&#21160;&#20390;&#23519;&#21644;&#25195;&#25551;&#24037;&#20855;&#65306;   <a href="https://github.com/j3ssie/Osmedeus" rel="nofollow">https://github.com/j3ssie/Osmedeus</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  FireEye &#23545; FLARE VM &#36827;&#34892;&#20102;&#26356;&#26032;&#65292;&#21487;&#20197;&#24110;&#21161;&#23545;&#24694;&#24847;&#20195;&#30721;&#30340;&#20998;&#26512;&#65306;   <a href="https://twitter.com/FireEye/status/1062817633911926784" rel="nofollow">https://twitter.com/FireEye/status/1062817633911926784</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  syzbot - &#33258;&#21160;&#21270;&#20869;&#26680; Fuzz &#27979;&#35797;&#24037;&#20855;&#65306;   <a href="https://linuxplumbersconf.org/event/2/contributions/237/attachments/61/71/syzbot_automated_kernel_testing.pdf" rel="nofollow">https://linuxplumbersconf.org/event/2/contributions/237/attachments/61/71/syzbot_automated_kernel_testing.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Recent kernel memory disclosure bugs in CANVAS&#65306;   <a href="https://immunityproducts.blogspot.com/2018/11/recent-kernel-memory-disclosure-bugs-in.html" rel="nofollow">https://immunityproducts.blogspot.com/2018/11/recent-kernel-memory-disclosure-bugs-in.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Google &#23481;&#22120;&#27801;&#30418; gVisor &#20013;&#30340;&#26435;&#38480;&#25552;&#21319;&#65306;  <a href="https://justi.cz/security/2018/11/14/gvisor-lpe.html" rel="nofollow">https://justi.cz/security/2018/11/14/gvisor-lpe.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Web Security ]</span>  SSRF &#21033;&#29992;&#26041;&#24335;&#38598;&#21512;&#65306;   <a href="http://blog.safebuff.com/2016/07/03/SSRF-Tips/" rel="nofollow">http://blog.safebuff.com/2016/07/03/SSRF-Tips/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/Dr7OYptUUAANlJN.jpg" target="_blank">
+</a>
 </div>
 </div>
 </div>
 </li>
 </ul>
 <ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Crypto ]</span>  &#20351;&#29992; MSBuild &#23454;&#29616;&#30340; RSA &#21152;&#23494;&#65306; <a href="https://gist.github.com/caseysmithrc/1801b831b388eb3c801c42471cc87c71" rel="nofollow">https://gist.github.com/caseysmithrc/1801b831b388eb3c801c42471cc87c71</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Linux ]</span>  Linux kernel do_get_mempolicy &#20989;&#25968; UAF &#28431;&#27934;&#25259;&#38706;&#65288;CVE-2018-10675&#65289;&#65306;https://tools.cisco.com/security/center/viewAlert.x?alertId=59154</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  Webkit UXSS POC (CVE-2017-7089)&#65306; <a href="https://www.exploit-db.com/exploits/45866/" rel="nofollow">https://www.exploit-db.com/exploits/45866/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  PHP-Proxy 5.1.0 LFI &#28431;&#27934;&#35814;&#24773;&#25259;&#38706;(CVE-2018-19246) &#65306; <a href="https://www.exploit-db.com/exploits/45861/" rel="nofollow">https://www.exploit-db.com/exploits/45861/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
 </ul>
 </div>
 <div id="datenavigate">
