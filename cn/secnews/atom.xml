@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Mon, 10 Dec 2018 13:24:08 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 11 Dec 2018 13:11:05 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2018-10-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/10/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -9142,7 +9142,294 @@ Github: <a href="https://github.com/nnposter/nndefaccts" rel="nofollow">https://
 <a href="/cn/secnews/2018/12/02/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/12/01/index.html</guid><pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-12-08</title><link>http://xuanwulab.github.io/cn/secnews/2018/12/08/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/12/01/index.html</guid><pubDate>Sat, 01 Dec 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-12-11</title><link>http://xuanwulab.github.io/cn/secnews/2018/12/11/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2018/12/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/12/11/index.html">2018/12/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/12/12/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Chrome gpu::gles2::Texture::ClearRenderableLevels Crash&#65288;CVE-2018-17470&#65289;&#65306;   <a href="https://bugs.chromium.org/p/chromium/issues/detail?id=877874" rel="nofollow">https://bugs.chromium.org/p/chromium/issues/detail?id=877874</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  Chrome &#27983;&#35272;&#22120;&#22312;&#24694;&#24847; WPAD &#26381;&#21153;&#22120;&#20195;&#29702;&#19979;&#21487;&#23548;&#33268; localhost &#22495;&#34987; XSS &#25915;&#20987;&#65306;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1707" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1707</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Debug ]</span>  &#20351;&#29992; Winappdbg &#21644; Python &#36827;&#34892;&#33258;&#21160;&#21270;&#36719;&#20214;&#35843;&#35797;&#65306;   <a href="https://mohitdabas.wordpress.com/2017/10/19/automating-simple-buffer-overflow-with-winappdbg-and-python-part-1/" rel="nofollow">https://mohitdabas.wordpress.com/2017/10/19/automating-simple-buffer-overflow-with-winappdbg-and-python-part-1/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Detect ]</span>  &#31227;&#21160;&#35774;&#22791;&#19978;&#30340;&#32593;&#32476;&#38035;&#40060;&#25915;&#20987;&#26816;&#27979;&#65306;   <a href="https://blog.malwarebytes.com/101/2018/12/something-else-phishy-detect-phishing-attempts-mobile/" rel="nofollow">https://blog.malwarebytes.com/101/2018/12/something-else-phishy-detect-phishing-attempts-mobile/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Mitigation ]</span>  &#29992;&#20110;&#26816;&#27979;&#31867;&#22411;&#28151;&#28102;&#31867;&#28431;&#27934;&#30340;&#25216;&#26415;&#65306;   <a href="https://github.com/bin2415/Bitype/blob/master/paper/Bitype.pdf" rel="nofollow">https://github.com/bin2415/Bitype/blob/master/paper/Bitype.pdf</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DuFUAdUU0AA8UC8.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  xnu-4903.221.2 sources released &#65306;   <a href="https://opensource.apple.com/tarballs/xnu/xnu-4903.221.2.tar.gz" rel="nofollow">https://opensource.apple.com/tarballs/xnu/xnu-4903.221.2.tar.gz</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>   &#38024;&#23545; WhatsApp&#12289;Telegram &#20197;&#21450; Signal &#31561;&#23433;&#20840;&#21363;&#26102;&#32842;&#22825;&#24212;&#29992;&#30340;&#20391;&#20449;&#36947;&#25915;&#20987;&#25163;&#27861;&#30740;&#31350; &#65306;   <a href="https://blog.talosintelligence.com/2018/12/secureim.html" rel="nofollow">https://blog.talosintelligence.com/2018/12/secureim.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>   SwampThing - &#20462;&#25913; PEB &#26500;&#24314;&#34394;&#20551;&#21629;&#20196;&#34892;&#21442;&#25968;&#20197;&#32469;&#36807;&#26085;&#24535;&#26816;&#27979;&#30340;&#24037;&#20855;&#65306;   <a href="https://github.com/FuzzySecurity/Sharp-Suite" rel="nofollow">https://github.com/FuzzySecurity/Sharp-Suite</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Hyper-V &#30740;&#31350;&#20837;&#38376; &#65306;   <a href="https://blogs.technet.microsoft.com/srd/2018/12/10/first-steps-in-hyper-v-research/" rel="nofollow">https://blogs.technet.microsoft.com/srd/2018/12/10/first-steps-in-hyper-v-research/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  POSIX &#20849;&#20139;&#20869;&#23384;&#26144;&#23556;&#26102;&#35774;&#32622;&#20102;&#38169;&#35823;&#30340;&#20445;&#25252;&#23646;&#24615;&#65288;CVE-2018-4435&#65289;&#65292;&#26469;&#33258; Project Zero&#65306;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1671" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1671</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  XNU pmap_flush &#22312;&#36229;&#36807; 32 &#20010; CPU &#26680;&#24515;&#25968;&#30340;&#35745;&#31639;&#26426;&#19978;&#24573;&#30053;&#20102; TLB &#21047;&#26032;&#65292;&#26469;&#33258; Project Zero&#65306;   <a href="https://bugs.chromium.org/p/project-zero/issues/detail?id=1716" rel="nofollow">https://bugs.chromium.org/p/project-zero/issues/detail?id=1716</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  &#35814;&#32454;&#20171;&#32461; Windows LAPS &#26426;&#21046; &#65306;   <a href="https://blogs.technet.microsoft.com/secguide/2018/12/10/remote-use-of-local-accounts-laps-changes-everything/" rel="nofollow">https://blogs.technet.microsoft.com/secguide/2018/12/10/remote-use-of-local-accounts-laps-changes-everything/</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ APT ]</span>  APT28 - Fancy Bear &#32452;&#32455;&#20351;&#29992;&#30340;&#25216;&#26415;&#20998;&#26512;&#65306; <a href="https://perception-point.io/2018/12/09/a-look-inside-fancy-bear-2/" rel="nofollow">https://perception-point.io/2018/12/09/a-look-inside-fancy-bear-2/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Data Breach ]</span>  Google+ API &#20013;&#30340;&#28431;&#27934;&#21487;&#23548;&#33268; 5250 &#19975;&#29992;&#25143;&#25968;&#25454;&#27844;&#38706;&#65306; <a href="https://www.wired.com/story/google-plus-bug-52-million-users-data-exposed/" rel="nofollow">https://www.wired.com/story/google-plus-bug-52-million-users-data-exposed/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#22914;&#20309;&#20837;&#38376;&#24694;&#24847;&#36719;&#20214;&#20998;&#26512;&#65306; <a href="https://0ffset.wordpress.com/2018/12/08/getting-started-with-malware-analysis/" rel="nofollow">https://0ffset.wordpress.com/2018/12/08/getting-started-with-malware-analysis/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#28145;&#24230;&#20998;&#26512; EMOTET &#24694;&#24847;&#36719;&#20214;&#30340;&#21152;&#22771;&#25216;&#26415;&#65306; <a href="https://github.com/d00rt/emotet_research/blob/master/doc/EN_emotet_packer_analysis_and_config_extraction_v1.pdf" rel="nofollow">https://github.com/d00rt/emotet_research/blob/master/doc/EN_emotet_packer_analysis_and_config_extraction_v1.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  TrickBot&#38134;&#34892;&#26408;&#39532;&#26368;&#26032;&#29256;&#26412;&#20998;&#26512;&#25253;&#21578;&#65306; <a href="https://www.anquanke.com/post/id/167648" rel="nofollow">https://www.anquanke.com/post/id/167648</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Others ]</span>  &#36890;&#36807;&#30828;&#20214;&#20869;&#23384;&#26631;&#35760;&#21152;&#22266; C/C++ &#20869;&#23384;&#23433;&#20840;&#24615;&#65306; <a href="https://github.com/google/sanitizers/blob/master/hwaddress-sanitizer/Hardware%20Memory%20Tagging%20to%20make%20C_C++%20memory%20safe(r)%20-%20iSecCon%202018.pdf" rel="nofollow">https://github.com/google/sanitizers/blob/master/hwaddress-sanitizer/Hardware%20Memory%20Tagging%20to%20make%20C_C%2B%2B%20memory%20safe(r)%20-%20iSecCon%202018.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Virtualization ]</span>  vmware-exploitation  - &#25972;&#29702;&#20102;&#22810;&#20010; VMware &#23433;&#20840;&#35758;&#39064;&#21450;&#25991;&#31456;&#30340;&#21015;&#34920;&#65306; <a href="https://github.com/xairy/vmware-exploitation" rel="nofollow">https://github.com/xairy/vmware-exploitation</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  CVE-2018-1002105&#65288;k8s&#29305;&#26435;&#25552;&#21319;&#65289;&#21407;&#29702;&#19982;&#21033;&#29992;&#20998;&#26512;&#25253;&#21578;&#65306; <a href="https://xz.aliyun.com/t/3542" rel="nofollow">https://xz.aliyun.com/t/3542</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2018/12/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2018/12/11/index.html">2018/12/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2018/12/12/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2018/12/11/index.html</guid><pubDate>Tue, 11 Dec 2018 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-12-08</title><link>http://xuanwulab.github.io/cn/secnews/2018/12/08/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
