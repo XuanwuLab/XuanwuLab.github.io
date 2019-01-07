@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 04 Jan 2019 13:26:34 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2019-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Mon, 07 Jan 2019 12:59:37 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2019-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -228,7 +228,105 @@
 <a href="/cn/secnews/2019/01/04/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</guid><pubDate>Thu, 03 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-02</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/02/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</guid><pubDate>Thu, 03 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-05</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/05/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/05/index.html">2019/01/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/06/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Detect ]</span>  &#20351;&#29992; RockNSM (Bro &amp; ELK) &#26816;&#27979; DNS &#38567;&#36947;&#36890;&#20449;&#65306;   <a href="https://blog.perched.io/dns-tunneling-other-hunts-w-rocknsm-bro-elk-52a4486e44d0" rel="nofollow">https://blog.perched.io/dns-tunneling-other-hunts-w-rocknsm-bro-elk-52a4486e44d0</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#23545; BokBot &#24694;&#24847;&#36719;&#20214;&#26680;&#24515;&#27169;&#22359;&#30340;&#28145;&#20837;&#20998;&#26512;&#65306;   <a href="https://www.crowdstrike.com/blog/digging-into-bokbots-core-module/" rel="nofollow">https://www.crowdstrike.com/blog/digging-into-bokbots-core-module/</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DwEn6CsWkAEQJ_R.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  WindTail.A &#24694;&#24847;&#36719;&#20214;&#32469;&#36807; macOS Gatekeeper &#38450;&#24481;&#30340;&#26041;&#27861;&#25506;&#31350;&#65306;   <a href="https://www.sentinelone.com/blog/how-malware-bypass-macos-gatekeeper/" rel="nofollow">https://www.sentinelone.com/blog/how-malware-bypass-macos-gatekeeper/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  ptrace-burrito  - &#19968;&#27454;&#22522;&#20110; ptrace &#21487;&#20197;&#36827;&#34892;&#36827;&#31243;&#36319;&#36394;&#30340;&#24037;&#20855;&#65306;   <a href="https://github.com/brainsmoke/ptrace-burrito" rel="nofollow">https://github.com/brainsmoke/ptrace-burrito</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  cyber-chef-recipes - &#21253;&#21547;&#22823;&#37327;&#32534;&#30721;&#35299;&#23494;&#31561;&#24037;&#20855;&#30340;&#39033;&#30446;&#25910;&#38598;&#65306;   <a href="https://github.com/mattnotmax/cyber-chef-recipes" rel="nofollow">https://github.com/mattnotmax/cyber-chef-recipes</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/04/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/05/index.html">2019/01/05</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/06/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/05/index.html</guid><pubDate>Sat, 05 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-02</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/02/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -455,7 +553,90 @@
 <a href="/cn/secnews/2019/01/03/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/02/index.html</guid><pubDate>Wed, 02 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-04</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/04/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/02/index.html</guid><pubDate>Wed, 02 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-06</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/06/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/05/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/06/index.html">2019/01/06</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/07/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Proofpoint &#30740;&#31350;&#21592;&#21457;&#29616;&#39318;&#36215;&#20351;&#29992;&#20551;&#23383;&#20307;&#26469;&#36867;&#36991;&#38035;&#40060;&#26816;&#27979;&#30340;&#32593;&#32476;&#38035;&#40060;&#27963;&#21160;&#65306;   <a href="https://www.proofpoint.com/us/threat-insight/post/phishing-template-uses-fake-fonts-decode-content-and-evade-detection" rel="nofollow">https://www.proofpoint.com/us/threat-insight/post/phishing-template-uses-fake-fonts-decode-content-and-evade-detection</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ ReverseEngineering ]</span>  &#22612;&#38450;&#28216;&#25103; Realm Defense by Babeltime &#30340;&#29233;&#22909;&#32773;&#36870;&#21521;&#28216;&#25103;&#25366;&#25496;&#28431;&#27934;&#30340;&#35814;&#32454;&#35760;&#24405;&#65306;   <a href="https://medium.com/@xplodwild/turning-the-frustration-of-a-mobile-game-into-a-reverse-engineering-training-a9887043efdf" rel="nofollow">https://medium.com/@xplodwild/turning-the-frustration-of-a-mobile-game-into-a-reverse-engineering-training-a9887043efdf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  dsym_obfuscate - &#19968;&#27454;&#21152;&#23494;&#21160;&#24577;&#31526;&#21495;&#34920;&#65292;&#24182;&#22312;&#36816;&#34892;&#26102;&#24674;&#22797;&#30340;&#24037;&#20855; &#65306;   <a href="https://github.com/elfmaster/dsym_obfuscate" rel="nofollow">https://github.com/elfmaster/dsym_obfuscate</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  &#38024;&#23545; Windows &#20869;&#32622;&#21151;&#33021;&#20013;&#21487;&#33021;&#23548;&#33268;&#24694;&#24847;&#20195;&#30721;&#25345;&#20037;&#21270;&#30340;&#20171;&#32461;&#65306;   <a href="http://www.hexacorn.com/blog/2019/01/05/beyond-good-ol-run-key-part-100/" rel="nofollow">http://www.hexacorn.com/blog/2019/01/05/beyond-good-ol-run-key-part-100/</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/05/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/06/index.html">2019/01/06</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/07/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/06/index.html</guid><pubDate>Sun, 06 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-04</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/04/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -733,7 +914,194 @@
 <a href="/cn/secnews/2019/01/02/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/01/index.html</guid><pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-12-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/12/03/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/01/index.html</guid><pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-07</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/07/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/06/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/07/index.html">2019/01/07</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/08/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  2019 &#29256; OSINT &#24320;&#28304;&#24773;&#25253;&#25910;&#38598;&#25351;&#21335;:   <a href="https://www.randhome.io/blog/2019/01/05/2019-osint-guide/" rel="nofollow">https://www.randhome.io/blog/2019/01/05/2019-osint-guide/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Modlishka  - &#19968;&#27454;&#28789;&#27963;&#19988;&#21151;&#33021;&#24378;&#22823;&#30340;&#21453;&#21521;&#20195;&#29702;&#24037;&#20855; &#65306;   <a href="https://github.com/drk1wi/Modlishka" rel="nofollow">https://github.com/drk1wi/Modlishka</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ APT ]</span>  APT &#25915;&#20987;&#20013;&#36890;&#36807;&#20351;&#29992;&#21512;&#27861;&#31243;&#24207;&#30340; DLL &#21163;&#25345;&#28431;&#27934;&#26469;&#21152;&#36733;&#24694;&#24847;&#20195;&#30721;&#30340;&#20363;&#23376;&#65306; <a href="https://www.a12d404.net/security/2019/01/01/side-loading-fun.html" rel="nofollow">https://www.a12d404.net/security/2019/01/01/side-loading-fun.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Forensics ]</span>  &#20174; PowerShell &#36827;&#31243;&#36716;&#20648;&#20013;&#25552;&#21462;&#21382;&#21490;&#25805;&#20316;&#30340;&#21462;&#35777;&#26041;&#27861;: <a href="http://www.leeholmes.com/blog/2019/01/04/extracting-activity-history-from-powershell-process-dumps/" rel="nofollow">http://www.leeholmes.com/blog/2019/01/04/extracting-activity-history-from-powershell-process-dumps/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#20998;&#26512;&#20351;&#29992; Fallout &#28431;&#27934;&#21033;&#29992;&#24037;&#20855;&#21253;&#20998;&#21457; Vidar &#38544;&#31169;&#31363;&#21462;&#36719;&#20214;&#21644; GandCrab &#21202;&#32034;&#36719;&#20214;&#30340;&#23041;&#32961;&#27963;&#21160;: <a href="https://blog.malwarebytes.com/threat-analysis/2019/01/vidar-gandcrab-stealer-and-ransomware-combo-observed-in-the-wild/" rel="nofollow">https://blog.malwarebytes.com/threat-analysis/2019/01/vidar-gandcrab-stealer-and-ransomware-combo-observed-in-the-wild/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Operating System ]</span>  &#38024;&#23545; PC &#30340;&#23454;&#27169;&#24335;&#12289;&#20445;&#25252;&#27169;&#24335;&#21644;&#38271;&#27169;&#24335;&#65292;&#20197;&#21450;&#30456;&#24212;&#27719;&#32534;&#20195;&#30721;&#30340;&#20171;&#32461; &#65306; <a href="https://www.codeproject.com/Articles/45788/The-Real-Protected-Long-mode-assembly-tutorial-for" rel="nofollow">https://www.codeproject.com/Articles/45788/The-Real-Protected-Long-mode-assembly-tutorial-for</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  &#20351;&#29992; ICMP &#38567;&#36947;&#36827;&#34892; C2 &#36890;&#20449;&#30340;&#30740;&#31350;: <a href="https://medium.com/bugbountywriteup/ping-power-icmp-tunnel-31e2abb2aaea" rel="nofollow">https://medium.com/bugbountywriteup/ping-power-icmp-tunnel-31e2abb2aaea</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ ReverseEngineering ]</span>  &#22914;&#20309;&#25104;&#20026;&#19968;&#21517;&#20840;&#26632;&#36870;&#21521;&#24037;&#31243;&#24072; &#65306; <a href="https://www.youtube.com/watch?v=9vKG8-TnawY" rel="nofollow">https://www.youtube.com/watch?v=9vKG8-TnawY</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  SSTI &#28431;&#27934;&#21033;&#29992;&#36164;&#28304;&#21450;&#24037;&#20855;&#25972;&#21512;: <a href="https://twitter.com/i/web/status/1081529018007146496" rel="nofollow">https://twitter.com/i/web/status/1081529018007146496</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  Apache OpenOffice &#30340;&#32531;&#20914;&#21306;&#28322;&#20986;&#28431;&#27934;&#65288;CVE-2018-11790&#65289;&#25259;&#38706;&#65306; <a href="https://blogs.securiteam.com/index.php/archives/3758" rel="nofollow">https://blogs.securiteam.com/index.php/archives/3758</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>   &#20174; Virus Total &#20013;&#23547;&#25214;&#25935;&#24863;&#20449;&#24687;&#27844;&#28431;&#65306; <a href="https://medium.com/@YumiSec/virus-total-the-best-way-to-disclose-your-company-secrets-92988396f36a" rel="nofollow">https://medium.com/@YumiSec/virus-total-the-best-way-to-disclose-your-company-secrets-92988396f36a</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/06/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/07/index.html">2019/01/07</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/08/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/07/index.html</guid><pubDate>Mon, 07 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2018-12-03</title><link>http://xuanwulab.github.io/cn/secnews/2018/12/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
