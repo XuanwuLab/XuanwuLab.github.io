@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Mon, 07 Jan 2019 12:59:37 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2019-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 08 Jan 2019 13:22:01 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2019-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -914,7 +914,262 @@
 <a href="/cn/secnews/2019/01/02/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/01/index.html</guid><pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-07</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/07/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/01/index.html</guid><pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-08</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/08/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/07/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/08/index.html">2019/01/08</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/09/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ iOS ]</span>   iOS &#28183;&#36879;&#27979;&#35797;&#24037;&#20855; Part 4: &#20108;&#36827;&#21046;&#20998;&#26512;&#19982;&#35843;&#35797;&#65306;   <a href="https://www.allysonomalley.com/2019/01/06/ios-pentesting-tools-part-4-binary-analysis-and-debugging/" rel="nofollow">https://www.allysonomalley.com/2019/01/06/ios-pentesting-tools-part-4-binary-analysis-and-debugging/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  Linux Kernel mm/mincore.c mincore &#20989;&#25968;&#20013;&#30340;&#20449;&#24687;&#27844;&#28431;&#28431;&#27934;&#25259;&#38706;&#65288;CVE-2019-5489&#65289;:   <a href="https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5489" rel="nofollow">https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2019-5489</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  &#32467;&#21512; Oauth &#36827;&#34892; XSS &#30340;&#39640;&#32423;&#21033;&#29992;&#20197;&#23454;&#29616;&#23545;&#30446;&#26631;&#30340;&#25345;&#20037;&#21270;&#35775;&#38382;:   <a href="https://github.com/dxa4481/XSSOauthPersistence" rel="nofollow">https://github.com/dxa4481/XSSOauthPersistence</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  The State Of Software Security In 2019&#65292;&#20316;&#32773;&#23545; 2018 &#24180;&#36719;&#20214;&#23433;&#20840;&#21457;&#23637;&#29366;&#20917;&#30340;&#22238;&#39038;&#20197;&#21450;&#23545;&#26469;&#24180;&#30340;&#26399;&#26395;&#65306;   <a href="https://noncombatant.org/2019/01/06/state-of-security-2019/" rel="nofollow">https://noncombatant.org/2019/01/06/state-of-security-2019/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityAdvisory ]</span>  Android 2019 &#24180; 1 &#26376;&#23433;&#20840;&#20844;&#21578;&#21457;&#24067;&#65306;   <a href="https://source.android.com/security/bulletin/2019-01-01" rel="nofollow">https://source.android.com/security/bulletin/2019-01-01</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ SecurityProduct ]</span>  &#32469;&#36807; PaloAlto Traps EDR &#32456;&#31471;&#38450;&#24481;:   <a href="https://www.c0d3xpl0it.com/2019/01/bypassing-paloalto-traps-edr-solution.html" rel="nofollow">https://www.c0d3xpl0it.com/2019/01/bypassing-paloalto-traps-edr-solution.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Kubernetes &#30340;&#23433;&#20840;&#30740;&#31350;&#25216;&#26415;&#36164;&#26009;&#30340;&#38598;&#21512;:   <a href="https://carnal0wnage.attackresearch.com/2019/01/kubernetes-master-post.html" rel="nofollow">https://carnal0wnage.attackresearch.com/2019/01/kubernetes-master-post.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  SME &#26381;&#21153;&#22120;&#26080;&#38656;&#36523;&#20221;&#39564;&#35777;&#30340; XSS &#28431;&#27934;&#65292;&#21487;&#23548;&#33268;&#29305;&#26435;&#36134;&#25143;&#30340;&#36828;&#31243;&#20195;&#30721;&#25191;&#34892;&#65288;CVE-2018-18072&#65289;&#65306;   <a href="https://blogs.securiteam.com/index.php/archives/3769" rel="nofollow">https://blogs.securiteam.com/index.php/archives/3769</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DwT8NAeWwAARUM8.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ WirelessSecurity ]</span>  Touching the Untouchables: Dynamic Security Analysis of the LTE Control Plane&#65288;PDF&#65289;&#65306;   <a href="https://syssec.kaist.ac.kr/pub/2019/kim_sp_2019.pdf" rel="nofollow">https://syssec.kaist.ac.kr/pub/2019/kim_sp_2019.pdf</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Browser ]</span>  Chrome Appcache UaF &#28431;&#27934;&#65288;CVE-2018-17462&#65289;&#21033;&#29992;&#20844;&#24320;: <a href="https://twitter.com/NedWilliamson/status/1082126611380461568" rel="nofollow">https://twitter.com/NedWilliamson/status/1082126611380461568</a>
+<a href="https://bugs.chromium.org/p/chromium/issues/detail?id=888926" rel="nofollow">https://bugs.chromium.org/p/chromium/issues/detail?id=888926</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Exploit ]</span>  35C3 CTF &#30340; Modern Windows Userspace Exploitation &#65306;https://github.com/saaramar/35C3_Modern_Windows_Userspace_Exploitation</p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  &#28389;&#29992; GPO &#25915;&#20987;&#27963;&#21160;&#30446;&#24405; Part 1&#65306; <a href="https://rastamouse.me/2019/01/gpo-abuse-part-1/" rel="nofollow">https://rastamouse.me/2019/01/gpo-abuse-part-1/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  &#24039;&#29992; SMTP &#26085;&#24535;&#23545; LFI &#26412;&#22320;&#25991;&#20214;&#21253;&#21547;&#28431;&#27934;&#36827;&#34892;&#21033;&#29992;&#65306; <a href="https://www.hackingarticles.in/smtp-log-poisioning-through-lfi-to-remote-code-exceution/" rel="nofollow">https://www.hackingarticles.in/smtp-log-poisioning-through-lfi-to-remote-code-exceution/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  &#20351;&#29992; mkcert &#20026; localhost &#20027;&#26426;&#28155;&#21152; HTTPS &#35777;&#20070;: <a href="https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/" rel="nofollow">https://blog.filippo.io/mkcert-valid-https-certificates-for-localhost/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Tools ]</span>  PRETty  - &#19968;&#27454;&#23616;&#22495;&#32593;&#21457;&#29616;&#24182;&#21033;&#29992;&#25171;&#21360;&#26426;&#28431;&#27934;&#30340;&#33258;&#21160;&#21270;&#24037;&#20855;&#65306; <a href="https://github.com/BusesCanFly/PRETty" rel="nofollow">https://github.com/BusesCanFly/PRETty</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  wsIPC - &#36890;&#36807; Working Set &#39029;&#38754;&#32531;&#23384;&#30340;&#38544;&#34109;&#36827;&#31243;&#38388;&#36890;&#20449; PoC &#65306; <a href="https://github.com/depletionmode/wsIPC" rel="nofollow">https://github.com/depletionmode/wsIPC</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Windows ]</span>  [&#19978;&#31687;]&#20174;&#34917;&#19969;diff&#21040;EXP--CVE-2018-8453&#28431;&#27934;&#20998;&#26512;&#19982;&#21033;&#29992;: <a href="https://mp.weixin.qq.com/s/ogKCo-Jp8vc7otXyu6fTig" rel="nofollow">https://mp.weixin.qq.com/s/ogKCo-Jp8vc7otXyu6fTig</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/07/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/08/index.html">2019/01/08</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/09/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/08/index.html</guid><pubDate>Tue, 08 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-07</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/07/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
