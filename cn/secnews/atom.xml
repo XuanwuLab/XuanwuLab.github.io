@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 10 Jan 2019 13:10:49 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2019-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Fri, 11 Jan 2019 13:43:02 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2019-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -1219,7 +1219,217 @@
 <a href="/cn/secnews/2019/01/02/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/01/index.html</guid><pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-08</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/08/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/01/index.html</guid><pubDate>Tue, 01 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-11</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/11/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/11/index.html">2019/01/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/12/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Browser ]</span>  From Zero to Zero Day ,&#20171;&#32461;&#38646;&#22522;&#30784;&#25366;&#25496; Chakra Core &#28431;&#27934;&#30340;&#26041;&#27861;,&#26469;&#33258; 35C3 &#22823;&#20250;:   <a href="https://github.com/j0nathanj/Publications/tree/master/35C3_From_Zero_to_Zero_Day" rel="nofollow">https://github.com/j0nathanj/Publications/tree/master/35C3_From_Zero_to_Zero_Day</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ iOS ]</span>   iOS atm port UAF &#28431;&#27934;&#65288;CVE-2018-4420&#65289;PoC&#65306;    <a href="https://github.com/0x36/CVE-pocs/blob/master/CVE-2018-4420-atm-uaf.c" rel="nofollow">https://github.com/0x36/CVE-pocs/blob/master/CVE-2018-4420-atm-uaf.c</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Language ]</span>  Rust &#35821;&#35328;&#23433;&#20840;&#30740;&#31350;:   <a href="https://snf.github.io/2019/01/10/rust-2019-security/" rel="nofollow">https://snf.github.io/2019/01/10/rust-2019-security/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  &#20998;&#26512; HNS P2 &#20725;&#23608;&#32593;&#32476;:   <a href="https://www.malwaretech.com/2019/01/tracking-the-hide-and-seek-botnet.html" rel="nofollow">https://www.malwaretech.com/2019/01/tracking-the-hide-and-seek-botnet.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  FireEye &#23545;&#36817;&#26399;&#21457;&#29983;&#30340;&#20840;&#29699;&#22823;&#33539;&#22260; DNS &#21163;&#25345;&#27963;&#21160;&#30340;&#20998;&#26512;&#65306;   <a href="https://www.fireeye.com/blog/threat-research/2019/01/global-dns-hijacking-campaign-dns-record-manipulation-at-scale.html" rel="nofollow">https://www.fireeye.com/blog/threat-research/2019/01/global-dns-hijacking-campaign-dns-record-manipulation-at-scale.html</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DwiFEH7X0AAP_kS.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  McAfee &#23545; Ryuk &#21202;&#32034;&#36719;&#20214;&#30340;&#25216;&#26415;&#20998;&#26512;&#65292;&#20998;&#26512;&#35748;&#20026;&#35813;&#25915;&#20987;&#24182;&#19981;&#19968;&#23450;&#30001;&#22269;&#23478;&#25903;&#25345;&#32780;&#26356;&#20687;&#19968;&#22330;&#32593;&#32476;&#29359;&#32618;&#27963;&#21160;:   <a href="https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/ryuk-ransomware-attack-rush-to-attribution-misses-the-point/" rel="nofollow">https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/ryuk-ransomware-attack-rush-to-attribution-misses-the-point/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  SSRF &#28431;&#27934;&#30340;&#22810;&#31181;&#21033;&#29992;&#26041;&#27861;&#65292; Part 1 &#65306;   <a href="https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-1-29d034c27978" rel="nofollow">https://medium.com/@madrobot/ssrf-server-side-request-forgery-types-and-ways-to-exploit-it-part-1-29d034c27978</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Others ]</span>  Microsoft Application Control Solutions Bypass&#65288;CVE-2018-8492&#65289;&#65306;   <a href="https://bohops.com/2019/01/10/com-xsl-transformation-bypassing-microsoft-application-control-solutions-cve-2018-8492/" rel="nofollow">https://bohops.com/2019/01/10/com-xsl-transformation-bypassing-microsoft-application-control-solutions-cve-2018-8492/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  Cisco Talos &#21457;&#24067;&#20102; PyLocky &#21202;&#32034;&#36719;&#20214;&#35299;&#23494;&#24037;&#20855;:   <a href="https://blog.talosintelligence.com/2019/01/pylocky-unlocked-cisco-talos-releases.html" rel="nofollow">https://blog.talosintelligence.com/2019/01/pylocky-unlocked-cisco-talos-releases.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Gradle Plugin Portal: &#32467;&#21512;&#28857;&#20987;&#21163;&#25345;&#21644; CSRF &#28431;&#27934;&#23454;&#29616;&#24080;&#25143;&#25509;&#31649;&#65306;   <a href="https://medium.com/bugbountywriteup/gradle-plugin-portal-clickjacking-cross-site-request-forgery-enabling-account-takeover-d65c2e43082b" rel="nofollow">https://medium.com/bugbountywriteup/gradle-plugin-portal-clickjacking-cross-site-request-forgery-enabling-account-takeover-d65c2e43082b</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Crypto ]</span>  &#22914;&#20309;&#20174; F00D &#20013;&#25552;&#21462;&#23494;&#38053; &#65306; <a href="https://www.lolhax.org/2019/01/02/extracting-keys-f00d-crumbs-raccoon-exploit/" rel="nofollow">https://www.lolhax.org/2019/01/02/extracting-keys-f00d-crumbs-raccoon-exploit/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ macOS ]</span>  OSX Mojave &#23433;&#20840;&#21152;&#22266;&#25351;&#21335;&#65306; <a href="https://github.com/ernw/hardening/blob/master/operating_system/osx/10.14/ERNW_Hardening_OS_X_Mojave.md" rel="nofollow">https://github.com/ernw/hardening/blob/master/operating_system/osx/10.14/ERNW_Hardening_OS_X_Mojave.md</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Android Native&#30149;&#27602;&#8212;&#8212;2018&#24180;&#24230;&#30740;&#31350;&#25253;&#21578;&#65306; <a href="https://www.anquanke.com/post/id/169394" rel="nofollow">https://www.anquanke.com/post/id/169394</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ SecurityProduct ]</span>  Palo Alto Networks OS readSessionVarsFromFile Session Corruption &#28431;&#27934;&#30340;&#21478;&#19968;&#31181;&#21033;&#29992;&#26041;&#27861;&#65288;CVE-2017-15944&#65289; &#65306; <a href="https://tinyhack.com/2019/01/10/alternative-way-to-exploit-cve-2017-15944-on-pan-os-6-1-0/" rel="nofollow">https://tinyhack.com/2019/01/10/alternative-way-to-exploit-cve-2017-15944-on-pan-os-6-1-0/</a>
+<a href="https://xakep.ru/2018/03/16/pan-os-exploit/" rel="nofollow">https://xakep.ru/2018/03/16/pan-os-exploit/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/10/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/11/index.html">2019/01/11</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/12/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/11/index.html</guid><pubDate>Fri, 11 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-08</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/08/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
