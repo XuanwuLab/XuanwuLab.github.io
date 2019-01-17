@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 16 Jan 2019 13:36:44 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2019-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Thu, 17 Jan 2019 13:38:19 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2019-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -1213,7 +1213,313 @@
 <a href="/cn/secnews/2019/01/07/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/06/index.html</guid><pubDate>Sun, 06 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-15</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/15/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/06/index.html</guid><pubDate>Sun, 06 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-17</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/17/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/17/index.html">2019/01/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/18/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Bug Bounty ]</span>  Bug Bounty write up &#25910;&#38598;&#65306;   <a href="http://karankumar.co.uk/2018/01/02/all-about-bug-bounty/" rel="nofollow">http://karankumar.co.uk/2018/01/02/all-about-bug-bounty/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Fuzzing ]</span>  &#32534;&#20889; Hyper-V &#8220;Bridge&#8221; Fuzzing - Part 1 WDF&#65306;   <a href="http://www.alex-ionescu.com/?p=377" rel="nofollow">http://www.alex-ionescu.com/?p=377</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Linux ]</span>  &#22914;&#20309;&#25915;&#30772; Play-with-Docker &#30340;&#23481;&#22120;&#65292;&#24182;&#22312; Host &#20027;&#26426;&#20013;&#23454;&#29616;&#20195;&#30721;&#25191;&#34892;&#65306;   <a href="https://www.cyberark.com/threat-research-blog/how-i-hacked-play-with-docker-and-remotely-ran-code-on-the-host/" rel="nofollow">https://www.cyberark.com/threat-research-blog/how-i-hacked-play-with-docker-and-remotely-ran-code-on-the-host/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>  Magecart &#32452;&#32455;&#36890;&#36807;&#20837;&#20405;&#30005;&#23376;&#21830;&#21153;&#32593;&#31449;&#30340;&#31532;&#19977;&#26041;&#24191;&#21578;&#20379;&#24212;&#21830;&#26469;&#25554;&#20837;&#24694;&#24847;&#20195;&#30721;&#31363;&#21462;&#32593;&#31449;&#29992;&#25143;&#25968;&#25454;&#65306;   <a href="https://blog.trendmicro.com/trendlabs-security-intelligence/new-magecart-attack-delivered-through-compromised-advertising-supply-chain/" rel="nofollow">https://blog.trendmicro.com/trendlabs-security-intelligence/new-magecart-attack-delivered-through-compromised-advertising-supply-chain/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Programming ]</span>  .NET &#20013;&#19981;&#23433;&#20840;&#30340; X509Certificate.Equals &#26041;&#27861;&#25506;&#31350;&#65306;    <a href="https://posts.specterops.io/subverting-x509certificate-equals-in-net-92b97d1ae59b" rel="nofollow">https://posts.specterops.io/subverting-x509certificate-equals-in-net-92b97d1ae59b</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  &#20248;&#31168; DNS &#20449;&#24687;&#25910;&#38598;&#32593;&#31449; <a href="http://dnsdumpster.com" rel="nofollow">dnsdumpster.com</a> &#65306;   <a href="https://twitter.com/i/web/status/1085465178840346624" rel="nofollow">https://twitter.com/i/web/status/1085465178840346624</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  volatility-wnf - &#27983;&#35272;&#24182; Dump Windows Notification Facilities &#30340;&#24037;&#20855;&#65306;   <a href="https://github.com/citronneur/volatility-wnf" rel="nofollow">https://github.com/citronneur/volatility-wnf</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  NetNTLMtoSilverTicket - &#23454;&#29616; SpoolSample -&gt; NetNTLMv1 -&gt; NTLM -&gt; Silver Ticket &#25915;&#20987;&#38142;&#30340;&#24037;&#20855;&#65306;   <a href="https://github.com/NotMedic/NetNTLMtoSilverTicket" rel="nofollow">https://github.com/NotMedic/NetNTLMtoSilverTicket</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>   rssh &#20013;&#36890;&#36807; allowcp &#21442;&#25968;&#32469;&#36807;&#21463;&#38480;&#29615;&#22659;&#25191;&#34892;&#20219;&#24847;&#30340;&#28431;&#27934;&#25259;&#38706;&#65306;   <a href="https://esnet-security.github.io/vulnerabilities/20190115_rssh" rel="nofollow">https://esnet-security.github.io/vulnerabilities/20190115_rssh</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  Hacking Jenkins Part 1 - &#21160;&#24577;&#36335;&#30001;&#26426;&#21046;&#20013;&#30340;&#28431;&#27934;&#25366;&#25496;&#65306;   <a href="https://devco.re/blog/2019/01/16/hacking-Jenkins-part1-play-with-dynamic-routing/" rel="nofollow">https://devco.re/blog/2019/01/16/hacking-Jenkins-part1-play-with-dynamic-routing/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  ntpsec v1.1.3 &#20013;&#26368;&#26032;&#20462;&#22797;&#30340;&#22235;&#22788;&#28431;&#27934;&#35814;&#24773;&#25259;&#38706;&#65288;CVE-2019-6443&#12289;CVE-2019-6444&#12289;CVE-2019-6445&#12289;CVE-2019-6442&#65289;&#65306;   <a href="https://dumpco.re/blog/ntpsec-bugs" rel="nofollow">https://dumpco.re/blog/ntpsec-bugs</a></p>
+</div>
+<div class="singleweiboimage">
+<a href="http://pbs.twimg.com/media/DxCjYdUX0AIY5Nq.jpg" target="_blank">
+</a>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  ES &#25991;&#20214;&#36164;&#28304;&#31649;&#29702;&#22120; HTTP &#26381;&#21153;&#31471;&#21475;&#25171;&#24320;&#28431;&#27934;&#25259;&#38706;&#65288;CVE-2019-6447&#65289;&#65306;   <a href="https://github.com/fs0c131y/ESFileExplorerOpenPortVuln" rel="nofollow">https://github.com/fs0c131y/ESFileExplorerOpenPortVuln</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  &#25915;&#20987; Epic Games &#28216;&#25103;&#24179;&#21488;&#25509;&#31649;&#20219;&#24847; Fortnite &#29609;&#23478;&#36134;&#25143;&#65306;   <a href="https://research.checkpoint.com/hacking-fortnite/" rel="nofollow">https://research.checkpoint.com/hacking-fortnite/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  &#20174; Windows XP &#21040; Windows 10 &#26410;&#35760;&#24405;&#30340;&#20869;&#26680;&#32467;&#26500;&#65306;    <a href="https://www.vergiliusproject.com/" rel="nofollow">https://www.vergiliusproject.com/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ WirelessSecurity ]</span>  LoRa Reverse Engineering and AES EM Side-Channel Attacks using SDR&#65306;   <a href="https://twitter.com/cn0Xroot/status/1085420361255014400" rel="nofollow">https://twitter.com/cn0Xroot/status/1085420361255014400</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ APT ]</span>  &#30097;&#20284;DarkHydrus APT&#32452;&#32455;&#38024;&#23545;&#20013;&#19996;&#22320;&#21306;&#30340;&#23450;&#21521;&#25915;&#20987;&#27963;&#21160;&#20998;&#26512;&#65306; <a href="https://ti.360.net/blog/articles/latest-target-attack-of-darkhydruns-group-against-middle-east/" rel="nofollow">https://ti.360.net/blog/articles/latest-target-attack-of-darkhydruns-group-against-middle-east/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Cloud ]</span>  Microsoft Azure &#22242;&#38431;&#23459;&#24067;&#25512;&#20986;&#26032;&#30340; Grafana &#19982; Microsoft Azure Monitor &#26085;&#24535;&#38598;&#25104;&#21151;&#33021;&#65306; <a href="https://azure.microsoft.com/zh-cn/blog/azure-monitor-logs-in-grafana-now-in-public-preview/" rel="nofollow">https://azure.microsoft.com/zh-cn/blog/azure-monitor-logs-in-grafana-now-in-public-preview/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Detect ]</span>  &#20351;&#29992; JA3 &#21644; JA3S &#36827;&#34892; TLS &#25351;&#32441;&#35782;&#21035;&#65306; <a href="https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967" rel="nofollow">https://engineering.salesforce.com/tls-fingerprinting-with-ja3-and-ja3s-247362855967</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Industry News ]</span>  Microsoft &#21644; VirusTotal &#21512;&#20316;&#23545;&#24694;&#24847;&#31614;&#21517;&#30340; MSI &#25991;&#20214;&#36827;&#34892;&#26816;&#27979;&#65306; <a href="https://www.bleepingcomputer.com/news/security/microsoft-and-virustotal-team-up-to-detect-malicious-signed-msi-files/" rel="nofollow">https://www.bleepingcomputer.com/news/security/microsoft-and-virustotal-team-up-to-detect-malicious-signed-msi-files/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Mobile ]</span>  &#22914;&#20309;&#35753; Android &#24212;&#29992;&#20026; 64 &#20301; CPU &#20570;&#22909;&#20934;&#22791;&#65292;&#26469;&#33258; Android Developers Blog&#65306; <a href="https://android-developers.googleblog.com/2019/01/get-your-apps-ready-for-64-bit.html" rel="nofollow">https://android-developers.googleblog.com/2019/01/get-your-apps-ready-for-64-bit.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  unauth kublet API 10250 &#26292;&#38706;&#21487;&#33021;&#23548;&#33268;&#20195;&#30721;&#25191;&#34892;&#65306; <a href="https://carnal0wnage.attackresearch.com/2019/01/kubernetes-unauth-kublet-api-10250.html" rel="nofollow">https://carnal0wnage.attackresearch.com/2019/01/kubernetes-unauth-kublet-api-10250.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Vulnerability ]</span>  &#26410;&#35748;&#35777;&#30340; kublet API 10250 &#20196;&#29260;&#31363;&#21462; &amp; kubectl &#35775;&#38382; &amp; &#25191;&#34892;&#65306; <a href="https://carnal0wnage.attackresearch.com/2019/01/kubernetes-unauth-kublet-api-10250_16.html" rel="nofollow">https://carnal0wnage.attackresearch.com/2019/01/kubernetes-unauth-kublet-api-10250_16.html</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/16/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/17/index.html">2019/01/17</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/18/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/17/index.html</guid><pubDate>Thu, 17 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-15</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/15/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
