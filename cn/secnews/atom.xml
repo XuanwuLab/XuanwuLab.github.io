@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="iso-8859-1"?>
-<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Tue, 22 Jan 2019 13:25:33 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2019-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</link><description><![CDATA[
+<rss version="2.0"><channel><title>Tencent XuanwuLab Security Daily News Push</title><link>http://xuanwulab.github.io/cn/secnews/atom.xml</link><description>Tencent XuanwuLab Security Daily News Push</description><lastBuildDate>Wed, 23 Jan 2019 13:13:38 GMT</lastBuildDate><generator>RSS Generator</generator><docs>http://xuanwulab.github.io/cn/about/</docs><item><title>XuanwuLab Security Daily News Push - 2019-01-03</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/03/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
@@ -3303,7 +3303,261 @@
 <a href="/cn/secnews/2019/01/20/index.html">Next</a>
 </div>
 </hr></div>
-]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/19/index.html</guid><pubDate>Sat, 19 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-11</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/11/index.html</link><description><![CDATA[
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/19/index.html</guid><pubDate>Sat, 19 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-23</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/23/index.html</link><description><![CDATA[
+<div id="avatar">
+<div id="avatar_pic">
+
+</div>
+<div id="logo_title">
+<h2>&#33150;&#35759;&#29572;&#27494;&#23454;&#39564;&#23460;&#23433;&#20840;&#21160;&#24577;&#25512;&#36865;</h2>
+<p>Tencent Xuanwu Lab Security Daily News</p>
+</div>
+</div>
+<div id="datenavigate">
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/22/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/23/index.html">2019/01/23</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/24/index.html">Next</a>
+</div>
+</div>
+<div id="weibowrapper">
+<ul class="weibolist">
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Fuzzing ]</span>  &#20351;&#29992; DeepState &#23545; API &#36827;&#34892;&#27169;&#31946;&#27979;&#35797;&#65292;Part 1&#65306;   <a href="https://blog.trailofbits.com/2019/01/22/fuzzing-an-api-with-deepstate-part-1/" rel="nofollow">https://blog.trailofbits.com/2019/01/22/fuzzing-an-api-with-deepstate-part-1/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Hardware ]</span>  Microsoft &#23545; Intel 80386 &#19978; x86 &#25351;&#20196;&#38598;&#30340;&#20171;&#32461;&#65306;   <a href="https://blogs.msdn.microsoft.com/oldnewthing/20190121-00/?p=100745" rel="nofollow">https://blogs.msdn.microsoft.com/oldnewthing/20190121-00/?p=100745</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ iOS ]</span>  iOS 12.1.3 &#23433;&#20840;&#26356;&#26032;&#35814;&#24773;&#65306;   <a href="https://support.apple.com/en-us/HT209443" rel="nofollow">https://support.apple.com/en-us/HT209443</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ macOS ]</span>  macOS Mojave 10.14.3 &#23433;&#20840;&#26356;&#26032;&#20869;&#23481;&#65306;   <a href="https://support.apple.com/en-us/HT209446" rel="nofollow">https://support.apple.com/en-us/HT209446</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ MalwareAnalysis ]</span>   McAfee &#23545; Anatova &#21202;&#32034;&#36719;&#20214;&#30340;&#25216;&#26415;&#20998;&#26512;&#65306;   <a href="https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/happy-new-year-2019-anatova-is-here/" rel="nofollow">https://securingtomorrow.mcafee.com/other-blogs/mcafee-labs/happy-new-year-2019-anatova-is-here/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  &#21453;&#21521;&#20195;&#29702;&#19982; URL &#36335;&#24452;&#35299;&#26512;&#30340;&#19981;&#19968;&#33268;&#24615;&#30740;&#31350;&#65306;   <a href="https://www.slideshare.net/GreenD0g/reverse-proxies-inconsistency" rel="nofollow">https://www.slideshare.net/GreenD0g/reverse-proxies-inconsistency</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  &#20351;&#29992; mshta.exe &#32469;&#36807;&#24212;&#29992;&#31243;&#24207;&#30333;&#21517;&#21333;&#30340;&#22810;&#31181;&#26041;&#27861;&#65306;   <a href="https://www.hackingarticles.in/bypass-application-whitelisting-using-mshta-exe-multiple-methods/" rel="nofollow">https://www.hackingarticles.in/bypass-application-whitelisting-using-mshta-exe-multiple-methods/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Pentest ]</span>  &#28389;&#29992; Office Web Add-ins &#21152;&#36733;&#39033;&#24314;&#31435;&#23545;&#30446;&#26631;&#37038;&#31665;&#30340;&#25345;&#20037;&#21270;&#35775;&#38382;&#65306;   <a href="https://www.mdsec.co.uk/2019/01/abusing-office-web-add-ins-for-fun-and-limited-profit/" rel="nofollow">https://www.mdsec.co.uk/2019/01/abusing-office-web-add-ins-for-fun-and-limited-profit/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  Nagios XI &#21382;&#21490;&#25552;&#26435;&#28431;&#27934;&#20998;&#26512;&#65306;   <a href="https://medium.com/tenable-techblog/rooting-nagios-via-outdated-libraries-bb79427172" rel="nofollow">https://medium.com/tenable-techblog/rooting-nagios-via-outdated-libraries-bb79427172</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Popular Software ]</span>  &#22914;&#20309;&#36890;&#36807; QL &#22312; Ghostscript &#20013;&#23547;&#25214;&#31867;&#22411;&#28151;&#28102;&#28431;&#27934;&#65306;   <a href="https://lgtm.com/blog/ghostscript_typeconfusion" rel="nofollow">https://lgtm.com/blog/ghostscript_typeconfusion</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ ReverseEngineering ]</span>  &#36870;&#21521;&#22522;&#20110; Philips TriMedia CPU &#26550;&#26500;&#30340; IP &#25668;&#20687;&#26426; - Part 1&#65306;   <a href="https://blog.quarkslab.com/reverse-engineering-a-philips-trimedia-cpu-based-ip-camera-part-1.html" rel="nofollow">https://blog.quarkslab.com/reverse-engineering-a-philips-trimedia-cpu-based-ip-camera-part-1.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  &#36890;&#36807; hex-rays microcode IDA &#25554;&#20214;&#22312;&#21453;&#27719;&#32534;&#20013;&#21435;&#38500;&#32534;&#35793;&#22120;&#20248;&#21270;&#65306;   <a href="https://www.msreverseengineering.com/blog/2019/1/22/removing-an-annoying-compiler-optimization-with-a-hex-rays-microcode-plugin" rel="nofollow">https://www.msreverseengineering.com/blog/2019/1/22/removing-an-annoying-compiler-optimization-with-a-hex-rays-microcode-plugin</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  &#38745;&#24577;&#20108;&#36827;&#21046;&#20195;&#30721;&#20998;&#26512;&#24037;&#20855; BinCAT 1.1 &#21457;&#24067;&#65292;&#25903;&#25345; AMD64&#65306;   <a href="https://github.com/airbus-seclab/bincat/releases/tag/v1.1" rel="nofollow">https://github.com/airbus-seclab/bincat/releases/tag/v1.1</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Tools ]</span>  WinAFL &#22686;&#21152;&#20102;&#22522;&#30784; Intel PT &#36319;&#36394;&#27169;&#24335;&#65306;   <a href="https://github.com/googleprojectzero/winafl/blob/master/readme_pt.md" rel="nofollow">https://github.com/googleprojectzero/winafl/blob/master/readme_pt.md</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  apt/apt-get &#36828;&#31243;&#21629;&#20196;&#25191;&#34892;&#28431;&#27934;&#25259;&#38706;&#65288;CVE-2019-3462&#65289;&#65306;   <a href="https://justi.cz/security/2019/01/22/apt-rce.html" rel="nofollow">https://justi.cz/security/2019/01/22/apt-rce.html</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Vulnerability ]</span>  MySQL &#23458;&#25143;&#31471;&#20801;&#35768; MySQL &#26381;&#21153;&#22120;&#35831;&#27714;&#20219;&#20309;&#26412;&#22320;&#25991;&#20214;&#65292;&#21487;&#23548;&#33268;&#23458;&#25143;&#31471;&#34987;&#20837;&#20405;&#65306;   <a href="https://gwillem.gitlab.io/2019/01/20/sites-hacked-via-mysql-protocal-flaw/" rel="nofollow">https://gwillem.gitlab.io/2019/01/20/sites-hacked-via-mysql-protocal-flaw/</a></p>
+</div>
+</div>
+</div>
+</li>
+<li>
+<div id="singleweibo">
+<div id="singleweibobody">
+<div id="singleweibologo">
+</div>
+<div class="singleweibotext">
+<p><span class="category">[ Windows ]</span>  &#36817;&#26399; Windows &#19978;&#34987;&#20844;&#24320;&#30340;&#19977;&#20010; 0day &#28431;&#27934;&#20998;&#26512;&#65306;   <a href="https://blog.0patch.com/2019/01/one-two-three-micropatches-for-three.html" rel="nofollow">https://blog.0patch.com/2019/01/one-two-three-micropatches-for-three.html</a></p>
+</div>
+</div>
+</div>
+</li>
+</ul>
+<ul id="manualfeedlist">
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Pentest ]</span>  &#20351;&#29992; AndrewSpecial &#32469;&#36807; EDR &#38450;&#24481;&#36716;&#20648; lsass.exe &#20869;&#23384;&#65306; <a href="https://astr0baby.wordpress.com/2019/01/21/andrewspecial-stealthy-lsass-exe-memory-dumping/" rel="nofollow">https://astr0baby.wordpress.com/2019/01/21/andrewspecial-stealthy-lsass-exe-memory-dumping/</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+<li>
+<div class="singlemanualfeed">
+<div class="singlefeedbody">
+<div class="singlefeedlogo">
+</div>
+<div class="singlefeedtext">
+<p><span class="category">[ Symbolic Execution ]</span>  Symbolic Implementation of the Best Transformer (Paper)&#65306; <a href="https://www.cs.cornell.edu/courses/cs711/2005fa/papers/rsy-vmcai04.pdf" rel="nofollow">https://www.cs.cornell.edu/courses/cs711/2005fa/papers/rsy-vmcai04.pdf</a></p>
+</div>
+<div class="singlefeedimage">
+</div>
+</div>
+<br/>
+</div>
+</li>
+</ul>
+</div>
+<div id="datenavigate">
+<hr>
+<div id="prevpage">
+<a href="/cn/secnews/2019/01/22/index.html">Previous</a>
+</div>
+<div id="currentpage">
+<a href="/cn/secnews/2019/01/23/index.html">2019/01/23</a>
+</div>
+<div id="nextpage">
+<a href="/cn/secnews/2019/01/24/index.html">Next</a>
+</div>
+</hr></div>
+]]></description><guid isPermaLink="true">http://xuanwulab.github.io/cn/secnews/2019/01/23/index.html</guid><pubDate>Wed, 23 Jan 2019 00:00:00 GMT</pubDate></item><item><title>XuanwuLab Security Daily News Push - 2019-01-11</title><link>http://xuanwulab.github.io/cn/secnews/2019/01/11/index.html</link><description><![CDATA[
 <div id="avatar">
 <div id="avatar_pic">
 
